@@ -16,6 +16,7 @@ titles:
   ko      : &KO       소개
   ko-KR   : *KO
 key: page-about
+permalink: /about/
 ---
 
 Just say something about yourself. :+1:
