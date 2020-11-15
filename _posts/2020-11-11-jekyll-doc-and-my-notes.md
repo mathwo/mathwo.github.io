@@ -259,7 +259,7 @@ Follow [this link](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start) to
 
 ### Home page article list font too large
 
-Change h2 to h3 in includes/artical-list.html:
+Change h2 to h4 in includes/artical-list.html:
 
 ```
 <header><a href="{{ _article_url }}"><h3 itemprop="headline" class="item__header">{{ _article.title }}</h3></a></header>
