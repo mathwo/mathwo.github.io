@@ -152,6 +152,8 @@ I use [InkScape](https://inkscape.org/) to draw simple icon and save as SVG, the
 
 ### Upload large PDF files
 
+Note: LFS is not supported for public fork repo of GitHub. Solution: [duplicate the repo](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) can solve this issue.
+
 [Git Large File Storage](https://git-lfs.github.com/) has to be used if file size is larger than 100MB for GitHub. The trick is, after installing git-lfs program, all git lfs commands needs to be run at repo root directory:
 
 ```
