@@ -6,13 +6,13 @@ tags: []
 
 ### 11/09/2020
 
-![problem image](/assets/images/image-20201109101018448.png){:class="img-responsive"}
+![problem image](/assets/images/image-20201109101018448.png){:class="image--x2l"}
 
 The distance from a point D inside equilateral triangle $\triangle{ABC}$ to the vertices are a, b and c respectively. Solve the area for $S_{\triangle{ABC}}$
 
 #### Solution 1
 
-![solution 1 image](/assets/images/image-20201109101623268.png){:class="img-responsive"}
+![solution 1 image](/assets/images/image-20201109101623268.png){:class="image--x2l"}
 
 Rotate $\triangle{BDC}$ by $60^{\circ}$ to $\triangle{AEC}$ so we have $AE=b$.
 
@@ -40,7 +40,7 @@ $=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a+b+c)(a+b-c)(b+c-a
 
 #### Solution 2
 
-![Solution 2 image](/assets/images/image-20201112142202515.png)
+![Solution 2 image](/assets/images/image-20201112142202515.png){:class="image--x2l"}
 
 Rotate $\triangle{BDC}$ by $60^{\circ}$ to $\triangle{AEC}$ , $\triangle{CDA}$ by $60^{\circ}$ to $\triangle{BFA}$, $\triangle{ADB}$ by $60^{\circ}$ to $\triangle{CGB}$.
 
@@ -68,7 +68,7 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 ####  Solution 1
 
-![image-20201113071324978](/assets/images/image-20201113071324978.png)
+![image-20201113071324978](/assets/images/image-20201113071324978.png){:class="image--x6l"}
 
 #### Solution 2
 
@@ -80,7 +80,7 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 
 ### 11/13/2020
 
-![image-20201113073810590](/assets/images/image-20201113073810590.png)
+![image-20201113073810590](/assets/images/image-20201113073810590.png){:class="image--x2l"}
 
 Point D is outside of circle O with diameter MN. From D make two lines DM and DB with points D, A and B on the circle O.
 

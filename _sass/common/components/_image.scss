@@ -5,6 +5,30 @@
 .image--md {
   width: map-get($image, width);
 }
+.image--x9l {
+  width: map-get($image, width-x9l);
+}
+.image--x8l {
+  width: map-get($image, width-x8l);
+}
+.image--x7l {
+  width: map-get($image, width-x7l);
+}
+.image--x6l {
+  width: map-get($image, width-x6l);
+}
+.image--x5l {
+  width: map-get($image, width-x5l);
+}
+.image--x4l {
+  width: map-get($image, width-x4l);
+}
+.image--x3l {
+  width: map-get($image, width-x3l);
+}
+.image--x2l {
+  width: map-get($image, width-x2l);
+}
 .image--xl {
   width: map-get($image, width-xl);
 }
