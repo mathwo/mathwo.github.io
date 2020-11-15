@@ -220,3 +220,32 @@ articles:
 ### Home page style tweaking
 
 Comment out padding-top line and padding_bottom line for .items--divided class in _item.scss
+
+---
+
+### Tweak horizontal line
+
+Follow [this link](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start) to revise _sass/common/classes/_horizontal-rules.scss file:
+
+```scss
+@mixin horizontal-rules() {
+  // border-bottom: 1px dashed #8c8b8b;
+  border-bottom: 1px dashed $text-color-l;
+  &::after {
+    content: '\002702';
+    display: inline-block;
+    position: relative;
+    top: 21px;
+    left: 40px;
+    padding: 0 3px;
+    background: #ffffff;
+    color: $text-color-l;
+    font-size: map-get($base, font-size-h3);
+  }
+}
+
+.horizontal-rules {
+  @include horizontal-rules();
+}
+```
+
