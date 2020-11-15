@@ -146,7 +146,7 @@ https://blog.briandrupieski.com/generate-anchors-in-jekyll-blog-post
 
 ### favicon creation
 
-I use [InkScape](https://inkscape.org/) to draw simple icon and save as SVG, then use [some online converter website](https://cloudconvert.com/svg-to-ico) to convert it to ico file.
+Follow instruction in [this link](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon) to update logo and favicon.ico.
 
 ---
 
