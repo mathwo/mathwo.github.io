@@ -45,6 +45,12 @@ git remote add origin https://github.com/kingvagabond/kingvagabond.github.io.git
 jekyll serve --livereload --drafts --port 4001
 ```
 
+and after installing jekyll-TeXt theme:
+
+```
+bundle exec jekyll serve --incremental
+```
+
 ---
 
 ### Following error reported from command line when running "jekyll serve --livereload --trace"
@@ -249,3 +255,14 @@ Follow [this link](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start) to
 }
 ```
 
+---
+
+### Home page article list font too large
+
+Change h2 to h3 in includes/artical-list.html:
+
+```
+<header><a href="{{ _article_url }}"><h3 itemprop="headline" class="item__header">{{ _article.title }}</h3></a></header>
+```
+
+---
