@@ -7,7 +7,8 @@ tags: []
 ### AMC 12 Problems and Solutions
 
 * [AMC-12-Problems-1950-1999](/assets/files/AMC-12-Problems-1950-1999.pdf)
-* [AMC-12-Solutions-1950-1999](/assets/files/AMC-12-Solutions-1950-1999.pdf)
+* [AMC-12-Solutions-1950-1980](/assets/files/AMC-12-Solutions-1950-1980.pdf)
+* [AMC-12-Solutions-1981-1999](/assets/files/AMC-12-Solutions-1981-1999.pdf)
 * [AMC-12-Problems-2000-2011](/assets/files/AMC-12-Problems-2000-2011.pdf)
 * [AMC-12-Solutions-2000-2011](/assets/files/AMC-12-Solutions-2000-2011.pdf)
 * [AMC-12-Problems-2012-2018](/assets/files/AMC-12-Problems-2012-2018.pdf)
