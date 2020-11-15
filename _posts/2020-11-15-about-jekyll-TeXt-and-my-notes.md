@@ -200,3 +200,19 @@ permalink=/about/
 and update the link to /about/ in navigation.yml. Similar to archive.
 
 ---
+
+### Remove post introduction in cover page
+
+This feature is good but I don't need it for my cover page. This can be easily done in _layouts\home.html
+
+```
+articles:
+  data_source: paginator.posts
+  article_type: BlogPosting
+  show_cover: false
+  show_excerpt: false
+  show_readmore: false
+  show_info: false
+```
+
+---
