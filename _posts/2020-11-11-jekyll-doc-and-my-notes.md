@@ -162,6 +162,16 @@ git lfs track "*.pdf"
 git add .gitattibutes
 ```
 
+Note: lfs uploading always breaks PDF files. I split PDF files to be smaller than 100MB so LFS can be bypassed. LFS is buggy and do not use it if possible. Use following commands to remove cached files and uninstall lfs.
+
+```
+git lfs uninstall
+git lfs ls-files
+git rm --cached each_file_name_listed
+rm .gitattribute
+git commit -m "restore files from lfs"
+```
+
 ---
 
 ### Add GitLab repo mirror to be GitLab page site
