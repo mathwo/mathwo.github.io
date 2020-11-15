@@ -216,3 +216,7 @@ articles:
 ```
 
 ---
+
+### Home page style tweaking
+
+Comment out padding-top line and padding_bottom line for .items--divided class in _item.scss.
