@@ -132,21 +132,9 @@ Then create a folder named _layouts and copy all html files from minima subfolde
 
 ---
 
-### Install jekyll-text theme
+### Install jekyll-TeXt theme
 
-Add following line to Gemfile:
-
-```
-gem "jekyll-text-theme"
-```
-
-And change theme in _config.yml file:
-
-```
-theme: jekyll-text-theme
-```
-
-STOP HERE: this is not easy. Quite a lot changes need to be done. Seems Gem add theme is not simple. I will leave this for futural action.
+I fork the jekyll-TeXt repo and move contents into it to rebuild this blog. I feel it worths as it's much better with quite some features I really like.
 
 ---
 

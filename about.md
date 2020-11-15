@@ -39,7 +39,7 @@ I need easy image-pasting so [typora](https://typora.io/) is used for typing the
 
 I tried to host this blog on GitLab with Hugo SSG but there was some path issue for CSS. I also tried on Wordpress.com. Wordpress is a good match with local [boostnote](https://boostnote.io/) editor but I have to purchase business plan to install Latex plugin on wordpress.com. I had to give it up.
 
-Jekyll is old and huge with ruby installation but it is clear and easy to start with. Changing theme is not an easy task for Jekyll. I plan to switch to [jekyll-TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) in the future.
+Jekyll is old and huge with ruby installation but it is clear and easy to start with. Changing theme is not an easy task for Jekyll. Theme [jekyll-TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) is cool.
 
 I follow the approach to append posts and keep home page fixed, and add anchors to all headers. It's a special way to make it some like Single-Page.
 
