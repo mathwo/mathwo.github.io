@@ -261,8 +261,14 @@ Follow [this link](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start) to
 
 Change h2 to h4 in includes/artical-list.html:
 
+```html
+<header><a href="{{ _article_url }}"><h4 itemprop="headline" class="item__header">{{ _article.title }}</h4></a></header>
 ```
-<header><a href="{{ _article_url }}"><h3 itemprop="headline" class="item__header">{{ _article.title }}</h3></a></header>
+
+Similarly，change h1 to h2 in _includes/article_header.html:
+
+```html
+<header><h2>{{ _article_title }}</h2></header>
 ```
 
 ---
