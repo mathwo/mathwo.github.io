@@ -116,6 +116,9 @@ Then create a folder named _layouts and copy all html files from minima subfolde
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         TeX: { equationNumbers: { autoNumber: "AMS" },
             extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        fonts: ["Latin-Modern"]
       }
     });
 
@@ -269,6 +272,32 @@ Similarly，change h1 to h2 in _includes/article_header.html:
 
 ```html
 <header><h2>{{ _article_title }}</h2></header>
+```
+
+---
+
+### Change to Computer Modern font family
+
+Mainly take the font-face code from: https://www.jamiddleton.com/jekyll/update/2019/03/31/jekyll-mathjax-cmuserif-mlblog.html, and add to _sass/common/_variables.scss. Search and download missing files in the code from google.
+
+```scss
+@font-face {
+    font-family: "Computer Modern";
+    src:
+        url('/assets/css/cmunrm.otf') format("opentype"),
+        url('/assets/css/cmunrm-webfont.eot'),
+        url('/assets/css/cmunrm-webfont.eot?#iefix') format("embedded-opentype"),
+        url('/assets/css/cmunrm-webfont.svg') format("svg"),
+        url('/assets/css/cmunrm-webfont.woff') format("woff"),
+        url('/assets/css/cmunrm-webfont.ttf') format("truetype");
+}
+```
+
+Then add "Computer Modern" in font-family:
+
+```scss
+$base: (
+  font-family:            ("Computer Modern", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
 ```
 
 ---

@@ -1,12 +1,12 @@
 ---
-title: AMC 12 Problems
+title: AMC Problems
 date: 2020-11-12 15:52
 tags: []
 ---
 
 ### 11/12/2020
 
-#### Distinct planes $p_1, p_2, ... p_k$ intersect the interior of a cube $Q$, let $S$ be the union of the faces of $Q$ and let $P=\bigcup_{j=1}^{k}{p_j}$. The intersection of $P$ and $S$ consists of the union of all segments joining the midpoints of every pair of edges belonging to the same face of $Q$. What is the difference between the maximum and minimum possible values of $k$? (2012-AMC-12-A-22)
+#### Distinct planes $p_1, p_2, ... p_k$ intersect the interior of a cube $Q$, let $S$ be the union of the faces of $Q$ and let $P=\bigcup_{j=1}^{k}{p_j}$. The intersection of $P$ and $S$ consists of the union of all segments joining the midpoints of every pair of edges belonging to the same face of $Q$. What is the difference between the maximum and minimum possible values of $k$? *(2012-AMC-12-A-22)*
 
 ![image-20201116115503868](/assets/images/image-20201116115503868.png){:class="image--xl"}
 
@@ -24,6 +24,6 @@ So the difference of the maximum and minimum possible values of $k$ is $\boxed{2
 
 ### 11/13/2020
 
-#### Let $S$ be the square one of whose diagonals has endpoints $(0.1, 0.7)$ amd $(-0.1, -0.7)$. A point $v=(x, y)$ is chosen uniformly at random over all pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$. Let $T(v)$ be a translated copy of $S$ centered at $v$. What is the probability that the square region determined by $T(v)$ contains exactly two points with integer coordinates in its interior? (2012-AMC-12-A-23)
+#### Let $S$ be the square one of whose diagonals has endpoints $(0.1, 0.7)$ amd $(-0.1, -0.7)$. A point $v=(x, y)$ is chosen uniformly at random over all pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$. Let $T(v)$ be a translated copy of $S$ centered at $v$. What is the probability that the square region determined by $T(v)$ contains exactly two points with integer coordinates in its interior? *(2012-AMC-12-A-23)*
 
 

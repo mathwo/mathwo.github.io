@@ -78,9 +78,32 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 
 ---
 
+### 11/15/2020
+
+#### Let $\triangle{ABC}$ be an acute triangle with circumcircle $\omega$, and let $H$ be the intersection of the altitudes of $\triangle{ABC}$. Suppose the tangent to the circumcircle of $\triangle{HBC}$ at $H$ intersects $\omega$ at points $X$ and $Y$ with $HA=3$, $HX=2$, and $HY=6$. the area of $\triangle{ABC}$ can be written in the form $m\sqrt{n}$, where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$.
+
+![image-20201116164550124](/assets/images/image-20201116164550124.png){:class="image--x2l"}
+
+---
+
 ### 11/13/2020
 
 ![image-20201113073810590](/assets/images/image-20201113073810590.png){:class="image--x2l"}
 
 **Point D is outside of circle O with diameter MN. From D make two lines DM and DB with points D, A and B on the circle O. Extend OD and NA to intersect at point C. Prove that $CD \perp DB$.**
 
+---
+
+### 11/09/2020
+
+![image-20201116165041554](/assets/images/image-20201116165041554.png){:class="image--x2l"}
+
+#### $\triangle{ABC}$ is equilateral. Point $D$ is outside $\triangle{ABC}$ and $\angle{DAC}=10^{\circ}$, $\angle{DCA}=20^{\circ}$. Prove $BC=BD$.
+
+Make circumcircle of $\triangle{ACD}$, suppose the center of the circle is $B'$. Then we know
+
+1. Point $D$ and $B'$ cannot be on the same side of line $AC$, so $B'$ and $B$ are on the same side of line $AC$.
+2. $AB'=DB'=CB'$, $\angle{AB'C}=\angle{AB'D} + \angle{DB'C} = 2 \cdot \angle{ACD} + 2 \cdot \angle{DAC} = 40^{\circ} + 20^{\circ} = 60^{\circ}$
+So $\triangle{AB'C}$ is also equilateral.
+
+From 1 and 2 we know $B$ is the same as $B'$, then $BC=BD$. $\blacksquare$
