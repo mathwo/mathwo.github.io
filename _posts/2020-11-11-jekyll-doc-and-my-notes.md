@@ -301,3 +301,7 @@ $base: (
 ```
 
 ---
+
+### Add Home link in Navigation
+
+This is to add an item in _data/navigation.yml. Do some translation for Home. I geel the title is not so obvious to be clickable and people may need look for Home link.
