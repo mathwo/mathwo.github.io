@@ -11,7 +11,6 @@ tags: []
 ![image-20201116160912095](/assets/images/image-20201116160912095.png){:class="image--md"}
 
 
-
 Use trigonometry it is easier to get $CG = \dfrac{8}{cos \alpha} + \dfrac{27}{sin \alpha}$, it gets minimum value when
 
  $\dfrac{8 sin \alpha}{cos^2 \alpha}- \dfrac{27 cos \alpha}{sin^2 \alpha}=0 \implies tan \alpha=\dfrac{3}{2} \implies CG_{min}=\boxed{13\sqrt{13}}$
@@ -20,7 +19,16 @@ Note: to avoid trigonometrical approach, it would be a hard work to solve this p
 
 ---
 
+### 11/15/2020
 
+#### Find all primes p to make p^3-2p+4 is a perfect square.
+
+Solution:
+
+If $q=3k+1$ or $3k-1$, then $q^2=1(mod3)$
+But if $p=3k+1$, $p^3-2p+4=0 (mod3)$, if $p=3k-1$, $p^3-2p+4=2 (mod3)$
+only when $p=3k$, $p^3-2p+4=1 (mod3)$
+and $p$ must be prime, so $\boxed{k=1, p=3}$ is the only one.
 
 
 

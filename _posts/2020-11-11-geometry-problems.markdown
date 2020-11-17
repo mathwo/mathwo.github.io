@@ -157,3 +157,24 @@ Therefore, $O, P, C$ are collinear and we find
 $\angle{APC}=\angle{OAP}+\angle{AOP}=80^{\circ}+20^{\circ}=\boxed{100^{\circ}}$
 
 ---
+
+### 11/06/2020
+
+![image-20201117033820379](/assets/images/image-20201117033820379.png){:class="image--x4l"}
+
+Solution:
+
+![image-20201117033950167](/assets/images/image-20201117033950167.png){:class="image--x4l"}
+
+Make equilateral triangle $\triangle{ABE}$ with point $C$ and $E$ on the same side of $AB$. Easy to know :
+
+$EA=AB=EB$, $\angle{CAE}=20^{\circ}$, $\triangle{CBE}=40^{\circ}$.
+
+$CB=AB=EB, \angle{CBE}=40^{\circ} \implies \angle{CEB}=70^{\circ} \implies \angle{CEA}=10^{\circ}$
+
+$\angle{CAE}=\angle{CBA}=20^{\circ}, EA=AB, AC=BD \implies \triangle{CAE} \cong \triangle{DBC}$
+
+$ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} + \angle{CBD}=10^{\circ}+20^{\circ}=\boxed{30^{\circ}}$
+
+---
+
