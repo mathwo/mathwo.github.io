@@ -24,6 +24,28 @@ So the difference of the maximum and minimum possible values of $k$ is $\boxed{2
 
 ### 11/13/2020
 
-#### Let $S$ be the square one of whose diagonals has endpoints $(0.1, 0.7)$ amd $(-0.1, -0.7)$. A point $v=(x, y)$ is chosen uniformly at random over all pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$. Let $T(v)$ be a translated copy of $S$ centered at $v$. What is the probability that the square region determined by $T(v)$ contains exactly two points with integer coordinates in its interior? *(2012-AMC-12-A-23)*
+#### Let $S$ be the square one of whose diagonals has endpoints $(0.1, 0.7)$ and $(-0.1, -0.7)$. A point $v=(x, y)$ is chosen uniformly at random over all pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$. Let $T(v)$ be a translated copy of $S$ centered at $v$. What is the probability that the square region determined by $T(v)$ contains exactly two points with integer coordinates in its interior? *(2012-AMC-12-A-23)*
 
+Solution:
 
+![image-20201117121642941](/assets/images/image-20201117121642941.png)
+
+First, we need improve and revise the modeling.
+
+The original model is, move the square uniformly to over all pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$ and check when there are two grid points with integer coordinates are inside the square. The approach is hard to calculate.
+
+Instead, the square copies are placed **at each grid point** with integer coordinates for all the pairs of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$. These squares divide all the points with the pair of real numbers $x$ and $y$ such that $0 \le x \le 2012$ and $0 \le y \le 2012$ into three groups:
+
+1. Points covered by none of the squares - when the center of the square is any of these points, there are no grid point in the square
+2. Points covered by one of the squares - when the center of the square is any of these points, there is one grid point in the square
+3. Points covered by two squares - when the center of the square is any of these points, there are two grid points in the square
+
+The goal is to calculate how many points in group (3) for a unit grid zone cornered by four points $(0, 0), (1, 0), (1, -1), (0, -1)$. That is to get the area of the **green** part in above figure.
+
+To do that, we need first check the distance between the squares.
+
+![image-20201117123359151](/assets/images/image-20201117123359151.png)
+
+We need rotate the coordinate axes to be parallel to square edges, and check the vertical and horizontal distance between the centers of adjacent squares. Comparing the red triangles $PS_{01}S_{02}$ and $AOQ$ we can see that, the horizontal and vertical distances between two centers of adjacent squares are $0.8$ and $0.6$. So the dimension of each overlapping rectangle is $(1-0.8)$ by $(1-0.6)$, i.e., $0.2$ by $0.4$. The green part of area is exactly half of the rectangle: $0.2 * 0.4 / 2 = 0.04$. There are four of them inside unit grid zone $OABC$, so the green part area is $0.16$, thus the requested probability is $\boxed{16\%}$.
+
+---
