@@ -1,1 +1,1 @@
-# Math Work Blog
+# Math Workout Blog
