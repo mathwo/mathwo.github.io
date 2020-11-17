@@ -65,12 +65,14 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 ### 11/12/2020
 
 ![image-20201116221941530](/assets/images/image-20201116221941530.png){:class="image--x4l"}
+![image-20201116221941530](/assets/images/image-20201116221941530.png)
 
 #### A semicircle is constructed on line segment $AB$. Another  semicircle is constructed on chord $CD$, intersecting $AB$ at $P$ and $Q$. If $AP = 3$,$PQ = 7$, and $QB = 2$, then  find the length $CD$.
 
 ####  Solution 1
 
 ![image-20201116221408123](/assets/images/image-20201116221408123.png){:class="image--x4l"}
+![image-20201116221408123](/assets/images/image-20201116221408123.png)
 
 $ \triangle{POK} \sim \triangle{DOQ}, PO=3, DO=6, OQ=4 \implies KO = 2 \implies CD= \sqrt{6^2+8^2-2^2}=\boxed{\sqrt{96}} $
 
