@@ -1,7 +1,7 @@
 ---
 title: Geometry Problems
 date: 2020-11-11 20:58
-tags: []
+tags: Geometry
 ---
 
 ### 11/09/2020
@@ -68,7 +68,7 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 #### A semicircle is constructed on line segment $AB$. Another  semicircle is constructed on chord $CD$, intersecting $AB$ at $P$ and $Q$. If $AP = 3$,$PQ = 7$, and $QB = 2$, then  find the length $CD$.
 
-####  Solution 1
+#### Solution 1
 
 ![image-20201116221408123](/assets/images/image-20201116221408123.png){:class="image--x4l"}
 
@@ -111,3 +111,49 @@ Make circumcircle of $\triangle{ACD}$, suppose the center of the circle is $B'$.
 2. $$AB'=DB'=CB', \angle{AB'C}=\angle{AB'D} + \angle{DB'C}\\ = 2 \cdot \angle{ACD} + 2 \cdot \angle{DAC} = 40^{\circ} + 20^{\circ} = 60^{\circ}$$ So $\triangle{AB'C}$ is also equilateral.
 
 From 1 and 2 we know $B$ is the same as $B'$, then $BC=BD$. $\blacksquare$
+
+---
+
+### 11/08/2020
+
+![image-20201117003236412](/assets/images/image-20201117003236412.png){:class="image--x2l"}
+
+Solution:
+
+![image-20201117003450428](/assets/images/image-20201117003450428.png){:class="image--x2l"}
+
+---
+
+![image-20201117003321013](/assets/images/image-20201117003321013.png){:class="image--x2l"}
+
+Solution:
+
+$DE^2+BE^2=\dfrac{1}{4}$, $DE+BC=1$
+
+$\dfrac{DE}{AC}=\dfrac{BE}{BC} \implies DE(1-DE)=BE^2$
+
+$\implies DE=DE^2+BE^2=\dfrac{1}{4} \implies \angle{ABC}=\boxed{30^{\circ}}$
+
+---
+
+### 11/07/2020
+
+![image-20201117005107051](/assets/images/image-20201117005107051.png){:class="image--x6l"}
+
+Solution:
+
+![image-20201117010801435](/assets/images/image-20201117010801435.png){:class="image--x6l"}
+
+Let $O$ be the circumcenter of $ABP$. Then $\angle{AOP}=2 \angle{ABP}=20^{\circ}$ and
+
+$\angle{BOP}=2 \angle{BAP}=40^{\circ} \implies \angle{AOB}=60^{\circ}$. This and $AO=BO$ shows that $\triangle{AOB}$ is equilateral.
+
+So $\angle{OAB}=60^{\circ}$ and $AO=AB$. By assumption $AB=AC$, so $AO=AC$ and
+
+$\angle{AOC}=90^{\circ}-\dfrac{1}{2} \angle{OAC}=90^{\circ}-\dfrac{1}{2} \cdot 140^{\circ}=20^{\circ}=\angle{AOP}$
+
+Therefore, $O, P, C$ are collinear and we find
+
+$\angle{APC}=\angle{OAP}+\angle{AOP}=80^{\circ}+20^{\circ}=\boxed{100^{\circ}}$
+
+---

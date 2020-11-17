@@ -1,7 +1,7 @@
 ---
 title: AMC Problems
 date: 2020-11-12 15:52
-tags: []
+tags: AMC
 ---
 
 ### 11/12/2020
