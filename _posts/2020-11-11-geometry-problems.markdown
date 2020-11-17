@@ -103,6 +103,7 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 Make circumcircle of $\triangle{ACD}$, suppose the center of the circle is $B'$. Then we know
 
 1. Point $D$ and $B'$ cannot be on the same side of line $AC$, so $B'$ and $B$ are on the same side of line $AC$.
-2. $$AB'=DB'=CB', \angle{AB'C}=\angle{AB'D} + \angle{DB'C}\\ = 2 \cdot \angle{ACD} + 2 \cdot \angle{DAC} = 40^{\circ} + 20^{\circ} = 60^{\circ}$$. So $\triangle{AB'C}$ is also equilateral.
+
+2. $$AB'=DB'=CB', \angle{AB'C}=\angle{AB'D} + \angle{DB'C}\\ = 2 \cdot \angle{ACD} + 2 \cdot \angle{DAC} = 40^{\circ} + 20^{\circ} = 60^{\circ}$$ So $\triangle{AB'C}$ is also equilateral.
 
 From 1 and 2 we know $B$ is the same as $B'$, then $BC=BD$. $\blacksquare$
