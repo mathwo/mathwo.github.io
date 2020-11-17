@@ -293,11 +293,19 @@ Mainly take the font-face code from: https://www.jamiddleton.com/jekyll/update/2
 }
 ```
 
-Then add "Computer Modern" in font-family:
+Then add "Computer Modern" in font-family, and change font-size from 1rem to 1.1rem:
 
 ```scss
 $base: (
   font-family:            ("Computer Modern", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif),
+  font-family-code:       (Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace),
+
+  font-size-root:         16px,
+  font-size-root-sm:      14px,
+
+  font-size-xl:           1.5rem,
+  font-size-lg:           1.25rem,
+  font-size:              1.1rem,
 ```
 
 ---
