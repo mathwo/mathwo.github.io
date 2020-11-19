@@ -31,4 +31,4 @@ tags: []
 
 * [Godel's 1st Incompleteness Theorem - Proof by Diagonalization](https://www.youtube.com/watch?v=PpSxqde0af4)
 * [Kolmogorov Complexity and Gödel’s Incompleteness Theorems](https://www.youtube.com/watch?v=So9pOD2tu5A)
-* [An Intro series with Chinese subtitles] - [1](https://www.youtube.com/watch?v=vvCqhg9lsAA) - [2](https://www.youtube.com/watch?v=NtRyzvKdD6k)
+* An Intro series with Chinese subtitles - [1](https://www.youtube.com/watch?v=vvCqhg9lsAA) - [2](https://www.youtube.com/watch?v=NtRyzvKdD6k)
