@@ -329,9 +329,10 @@ Then create a new file named commentjs.html (because there is existing comments.
 <footer class="article__footer">
 ```
 
-To clear the format in mobile view, hide <p> inside div with class zp-inputs:
+To clear the format in mobile view, add styles to zp-main, and hide <p> inside div with class zp-inputs as following:
 
 ```html
+<div id="comments" class="zp-main" style="border:0em; margin-top: 0px; padding-top: 0px">
   <div class="zp-inputs">
       <p style="display:none">
 ```
