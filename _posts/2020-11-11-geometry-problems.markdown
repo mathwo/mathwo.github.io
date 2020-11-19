@@ -139,7 +139,7 @@ $\implies DE=DE^2+BE^2=\dfrac{1}{4} \implies \angle{ABC}=\boxed{30^{\circ}}$
 
 ### 11/07/2020
 
-![image-20201117005107051](/assets/images/image-20201117005107051.png){:class="image--x4l"}
+![image-20201117005107051](/assets/images/image-20201117005107051.png){:class="image--x3l"}
 
 Solution:
 
