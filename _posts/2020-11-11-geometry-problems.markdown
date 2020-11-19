@@ -185,7 +185,7 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 #### Prove $\dfrac{1}{x}=\dfrac{1}{a} + \dfrac{1}{b}-\dfrac{1}{a+b}$
 
-##### Solution
+##### Proof
 
 ![image-20201119073808749](/assets/images/image-20201119073808749.png){:class="image--x4l"}
 
@@ -225,7 +225,7 @@ $\implies \dfrac{a+b}{r}=\dfrac{(a+b)^2}{ab}-1 \implies \dfrac{1}{r}=\dfrac{a+b}
 
 $\implies \dfrac{1}{r}=\dfrac{1}{a}+\dfrac{1}{b}-\dfrac{1}{a+b} \blacksquare$
 
-#### Solution 2
+#### Proof 2
 
 Use [Stewart's Theorem](https://en.wikipedia.org/wiki/Cevian)
 
