@@ -8,6 +8,11 @@ tags: []
 
 #### Godel's Incompleteness Theorems
 
+##### Interesting Quotes
+
+> Arithmetical truth cannot be defined in arithmetic -- Alfred Tarski
+> Incompleteness theorem only applies to axiomatic systems, and English language is not an axiomatic system.
+
 * [What Godel Discovered](https://stopa.io/post/269)
 * [What Godel Discovered - Chinese](https://yuki.systems/essay/2020/11/08/godel.html)
 
@@ -15,6 +20,7 @@ tags: []
 
 * [Godel's paper and English translation](https://www.jamesrmeyer.com/ffgit/godel-original-english.html)
 * [Godel's Incompleteness Theorems on Stanford](https://plato.stanford.edu/entries/goedel-incompleteness/index.html)
+* [A Simple Proof of Godel's Incompleteness Theorems](https://mat.iitm.ac.in/home/asingh/public_html/papers/goedel.pdf)
 
 ##### Wiki
 
