@@ -329,4 +329,6 @@ Then create a new file named commentjs.html (because there is existing comments.
 <footer class="article__footer">
 ```
 
+And comments can be managed -- check the comment.js documents for details.
+
 ---
