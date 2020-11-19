@@ -329,12 +329,13 @@ Then create a new file named commentjs.html (because there is existing comments.
 <footer class="article__footer">
 ```
 
-To clear the format in mobile view, hide this div:
+To clear the format in mobile view, hide <p> inside div with class zp-inputs:
 
 ```html
-<div class="zp-inputs" style="display:none">
+  <div class="zp-inputs">
+      <p style="display:none">
 ```
 
-And comments can be managed -- check the comment.js documents for details.
+And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
 
 ---
