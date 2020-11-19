@@ -313,3 +313,20 @@ $base: (
 ### Add Home link in Navigation
 
 This is to add an item in _data/navigation.yml. Do some translation for Home. I geel the title is not so obvious to be clickable and people may need look for Home link.
+
+---
+
+### Add comments to Posts
+
+Some search and shows [comments.js](https://zetabase.io/comments-js) is a good tool and some [tutorial](https://zetabase.io/blog-post/setting-up-comments-on-jekyll-github-pages).
+
+Just follow the instruction to [sign up zetabase](https://zetabase.io/new-user?ref=commentsjs), then follow the steps to login zetabase and get automatically downloaded copy of comments.html and zetabase-identity-key.json.
+
+Then create a new file named commentjs.html (because there is existing comments.html) in _includes folder. Copy the content of comments.html file that is just downloaded into this new file. Add a line in article-footer.html:
+
+```html
+{% include commentjs.html %}
+<footer class="article__footer">
+```
+
+---

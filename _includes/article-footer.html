@@ -13,6 +13,8 @@
   source0=layout.license source1=page.license -%}
 {%- assign _license = __return -%}
 
+{% include commentjs.html %}
+
 <footer class="article__footer">
   {%- if page.modify_date -%}
     {%- include snippets/get-locale-string.html key='ARTICLE_DATE_FORMAT' -%}
