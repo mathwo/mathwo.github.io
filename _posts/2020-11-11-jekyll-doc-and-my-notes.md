@@ -336,6 +336,11 @@ To clear the format in mobile view, add styles to zp-main, and hide <p> inside d
   <div class="zp-inputs">
       <p style="display:none">
 ```
+Add a border on top:
+
+```html
+<div style="max-width: 1024px; margin: auto; border-top: 1px solid #cccccc;">
+```
 
 And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
 
