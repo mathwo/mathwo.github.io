@@ -1,5 +1,5 @@
 ---
-title: Blog Documentation and My Notes
+title: Blog Tech Notes
 tags: Jekyll, TeXt
 ---
 
