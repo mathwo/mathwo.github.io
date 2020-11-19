@@ -1,5 +1,5 @@
 ---
-title: Jekyll-TeXt theme and my notes
+title: Jekyll-TeXt Theme and My Notes
 tags: Jekyll, TeXt
 ---
 

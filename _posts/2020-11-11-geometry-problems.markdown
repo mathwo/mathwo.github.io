@@ -180,3 +180,6 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 ### 11/05/20
 
+![image-20201117165628598](E:\workspace\math-workout\assets\images\image-20201117165628598.png)
+
+#### Prove $\dfrac{1}{x}=\dfrac{1}{a} + \dfrac{1}{b}-\dfrac{1}{a+b}$
