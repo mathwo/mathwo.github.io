@@ -72,7 +72,8 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 ![image-20201116221408123](/assets/images/image-20201116221408123.png){:class="image--x4l"}
 
-$$ \triangle{POK} \sim \triangle{DOQ}, PO=3, DO=6, OQ=4 \implies KO = 2 \\ \implies CD= \sqrt{6^2+8^2-2^2}=\boxed{\sqrt{96}} $$
+$ \triangle{POK} \sim \triangle{DOQ}, PO=3, DO=6, OQ=4 \implies KO = 2$
+$ \implies CD= \sqrt{6^2+8^2-2^2}=\boxed{\sqrt{96}} $
 
 #### Solution 2
 
