@@ -28,5 +28,3 @@ If $q=3k+1$ or $3k-1$, then $q^2=1(mod3)$
 But if $p=3k+1$, $p^3-2p+4=0 (mod3)$, if $p=3k-1$, $p^3-2p+4=2 (mod3)$
 only when $p=3k$, $p^3-2p+4=1 (mod3)$
 and $p$ must be prime, so $\boxed{k=1, p=3}$ is the only one.
-
----

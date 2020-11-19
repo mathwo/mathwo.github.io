@@ -343,5 +343,3 @@ Add a border on top:
 ```
 
 And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
-
----

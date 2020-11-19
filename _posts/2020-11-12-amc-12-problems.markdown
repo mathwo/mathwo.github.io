@@ -47,5 +47,3 @@ To do that, we need first check the distance between the squares.
 ![image-20201117123359151](/assets/images/image-20201117123359151.png)
 
 We need rotate the coordinate axes to be parallel to square edges, and check the vertical and horizontal distance between the centers of adjacent squares. Comparing the red triangles $PS_{01}S_{02}$ and $AOQ$ we can see that, the horizontal and vertical distances between two centers of adjacent squares are $0.8$ and $0.6$. So the dimension of each overlapping rectangle is $(1-0.8)$ by $(1-0.6)$, i.e., $0.2$ by $0.4$. The green part of area is exactly half of the rectangle: $0.2 * 0.4 / 2 = 0.04$. There are four of them inside unit grid zone $OABC$, so the green part area is $0.16$, thus the requested probability is $\boxed{16\%}$.
-
----
