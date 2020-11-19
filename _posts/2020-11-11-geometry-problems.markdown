@@ -178,7 +178,7 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 ---
 
-### 11/05/20
+### 11/05/2020
 
 ![image-20201117165628598](/assets/images/image-20201117165628598.png)
 
