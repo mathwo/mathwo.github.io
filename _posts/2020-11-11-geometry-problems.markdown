@@ -181,6 +181,60 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 ### 11/05/2020
 
-![image-20201117165628598](/assets/images/image-20201117165628598.png)
+![image-20201117165628598](/assets/images/image-20201117165628598.png){:class="image--x4l"}
 
 #### Prove $\dfrac{1}{x}=\dfrac{1}{a} + \dfrac{1}{b}-\dfrac{1}{a+b}$
+
+##### Solution
+
+![image-20201119073808749](/assets/images/image-20201119073808749.png){:class="image--x4l"}
+
+Take the three centers of the circles:
+
+![image-20201119081713180](/assets/images/image-20201119081713180.png)
+
+From **the Law of Cosines**:
+
+$cos \alpha = \dfrac{(a+r)^2+b^2-(a+b-r)^2}{2b(a+r)}=\dfrac{1ar+br-ab}{b(a+r)}$
+
+$cos \beta=\dfrac{(b+r)^2=a^2-(a+b-r)^2}{2a(b+r)}=\dfrac{2br+ar-ab}{a(b+r)}$
+
+From **the Law of Sines**:
+
+$\dfrac{b+r}{sin \alpha}=\dfrac{a+r}{sin \beta} \implies (a+r)^2(1-cos^2 \alpha)=(b+r)^2(1-cos^2 \beta)$
+
+$\implies (a+r)^2-\dfrac{(2ar+br-ab)^2}{b^2}=(b+r)^2-\dfrac{(2br+ar-ab)}{a^2}$
+
+$\implies (a+r)^2-(b+r)^2=\dfrac{a^2(2ar+br-ab)^2-b^2(2br+ar-ab)^2}{a^2b^2}$
+
+$\implies a^2b^2(a+b+2r)(a-b)=(2a^2r+abr-a^2b+2b^2r+abr-ab^2)(2a^2r+abr-a^2b-2b^2r-abr+ab^2)$
+
+$\implies a^2b^2(a+b+2r)(a-b)=[2(a^2+b^2+ab)r-ab(a+b)][2r(a+b)(a-b)-ab(a-b)]$
+
+$\implies a^2b^2(a+b+2r)=[2(a^2+b^2+ab)r-ab(a+b)][2(a+b)r-ab]$
+
+$\implies 2a^2b^2r+a^2b^2(a+b)=4(a+b)(a^2+b^2+ab)r^2-[2ab(a^2+b^2+ab)+2ab(a+b)^2]r+a^2b^2(a+b)$
+
+$\implies a^2b^2=2(a+b)(a^2+b^2+ab)r-ab(2a^2+2b^2+3ab)$
+
+$\implies (a+b)(a^2+b^2+ab)r=ab(a+b)^2 \implies r=\dfrac{ab(a+b)}{a^2+b^2+ab}$
+
+$\implies r=\dfrac{ab(a+b)}{a^2+b^2+ab} \implies \dfrac{a+b}{r}=\dfrac{a^2+b^2+ab}{ab}$
+
+$\implies \dfrac{a+b}{r}=\dfrac{(a+b)^2}{ab}-1 \implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b}$
+
+$\implies \dfrac{1}{r}=\dfrac{1}{a}+\dfrac{1}{b}-\dfrac{1}{a+b} \blacksquare$
+
+#### Solution 2
+
+Use [Stewart's Theorem](https://en.wikipedia.org/wiki/Cevian)
+
+$(a+r)^2a+(b+r)^2b=(a+b)[(a+b-r)^2+ab]$
+
+$\implies a^3+2a^2r+ar^2+b^3+2b^2r+br^2=(a+b)[a^2+b^2+3ab-2(a+b)r+r^2]$
+
+$\implies 2(a^2+b^2)r+2(a+b)^2r=ab(b+3a)+ab(a+3b)=4ab(a+b)$
+
+$\implies r=\dfrac{ab(a+b)}{a^2 + ab + b^2} \implies \dfrac{a+b}{r}=\dfrac{a^2 + ab + b^2}{ab} \implies \dfrac{a+b}{r}=\dfrac{(a+b)^2}{ab}-1$
+
+$\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfrac{1}{a} + \dfrac{1}{b} - \dfrac{1}{a+b} \blacksquare$

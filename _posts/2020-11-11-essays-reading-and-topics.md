@@ -8,6 +8,8 @@ tags: []
 
 #### Godel's Incompleteness Theorems
 
+I found this is a favorite topic to Indians, not sure why.
+
 ##### Interesting Quotes
 
 > Arithmetical truth cannot be defined in arithmetic -- Alfred Tarski
