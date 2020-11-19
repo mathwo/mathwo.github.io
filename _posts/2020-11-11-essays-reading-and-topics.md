@@ -20,7 +20,7 @@ tags: []
 
 * [Godel Numbering](https://en.wikipedia.org/wiki/G%C3%B6del_numbering)
 * [Godel's Incompleteness Theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) - [Audio](https://www.youtube.com/watch?v=KfGtFQS_9Zk)
-* [Kolmogorov complexity]https://en.wikipedia.org/wiki/Kolmogorov_complexity
+* [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)
 
 ##### Books
 
