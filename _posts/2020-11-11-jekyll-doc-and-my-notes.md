@@ -1,5 +1,5 @@
 ---
-title: Jekyll-TeXt Theme and My Notes
+title: Blog Documentation and My Notes
 tags: Jekyll, TeXt
 ---
 
