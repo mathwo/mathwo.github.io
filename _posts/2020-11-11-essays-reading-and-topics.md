@@ -12,8 +12,8 @@ I found this is a favorite topic to Indians, not sure why.
 
 ##### Interesting Quotes
 
-> Arithmetical truth cannot be defined in arithmetic -- Alfred Tarski
-> Incompleteness theorem only applies to axiomatic systems, and English language is not an axiomatic system.
+> - Arithmetical truth cannot be defined in arithmetic -- Alfred Tarski
+> - Incompleteness theorem only applies to axiomatic systems, and English language is not an axiomatic system.
 
 * [What Godel Discovered](https://stopa.io/post/269)
 * [What Godel Discovered - Chinese](https://yuki.systems/essay/2020/11/08/godel.html)
