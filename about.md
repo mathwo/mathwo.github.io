@@ -27,7 +27,7 @@ key: page-about
 permalink: /about/
 ---
 
-This is my workout page for math, in almost daily updating.
+We need physical and math workouts, and we need take down the problems we have done. This is my workout page for math, in almost daily updating.
 
 It used to be a section of my OneNote notes but I would like to share with the people when necessary, especially with Brady and Justina.
 
