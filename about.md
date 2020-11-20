@@ -31,17 +31,13 @@ We need physical and math workouts, and we need take down the problems we have d
 
 It used to be a section of my OneNote notes but I need share it easily with the people when necessary, especially with Brady and Justina.
 
-It took me some time to find a good platform to settle it down.
+Github pages is a good platform to settle down with. [Typora](https://typora.io/) is used for typing the math contents for its great image pasting, and vscode is used for general editing. It's pity that vscode cannot preview all Latex contents sometimes.
 
-I need easy image-pasting so [typora](https://typora.io/) is used for typing the math contents and vscode is used for general editor. It's pity that vscode cannot preview all Latex contents.
+[Geogebra](https://www.geogebra.org/classic?lang=en) is used for all graph editing. Desktop version of Geogebra is also used since it has more keyboard shortcuts that web version in browser.
 
-[geogebra](https://www.geogebra.org/classic?lang=en) is used for all graph editing. Desktop version of Geogebra is also used since it has more keyboard shortcuts that web version in browser.
+GitLab with Hugo SSG was given a try but there was some path issue for CSS. Wordpress is a good match with local [Boostnote](https://boostnote.io/) editor but it needs business plan to install Latex plugin on wordpress.com. Both of them were given up.
 
-I tried to host this blog on GitLab with Hugo SSG but there was some path issue for CSS. I also tried on Wordpress.com. Wordpress is a good match with local [boostnote](https://boostnote.io/) editor but I have to purchase business plan to install Latex plugin on wordpress.com. I had to give it up.
-
-Jekyll is old and huge with ruby installation but it is clear and easy to start with. Changing theme is not an easy task for Jekyll. Theme [jekyll-TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) is cool.
-
-I follow the approach to append posts and keep home page fixed, and add anchors to all headers. It's a special way to make it some like Single-Page.
+Jekyll is old and huge with ruby installation but it is clear and easy to start with, and [Jekyll-TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) is cool.
 
 More technical details are accumulated in [About Jekyll Doc and My Notes]({% post_url 2020-11-11-jekyll-doc-and-my-notes %}).
 
