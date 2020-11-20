@@ -34,6 +34,11 @@ Subject Book Size
 * Number Theory Number Theory for Mathematical Contests - Santos 0.7 MB
 * Advanced Problems Problems in Elementary Mathematics - Lidsky 7.3 MB
 
+### HMMT Problems and Solutions
+
+* [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-problems.pdf)
+* [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-solutions.pdf)
+
 ### AIME Problems and Solutions
 
 * [AIME-Problems-1983-2011](/assets/files/AIME-Problems-1983-2011.pdf)
