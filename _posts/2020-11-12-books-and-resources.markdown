@@ -38,7 +38,7 @@ Subject Book Size
 
 * [HMMT site](https://www.hmmt.org/)
 * [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-problems.pdf)
-* [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-solutions.pdf)
+* [HMMT-Solutions-1998-2020](/assets/files/HMMT-1998-2020-solutions.pdf)
 
 ### AIME Problems and Solutions
 
