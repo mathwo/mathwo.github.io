@@ -47,6 +47,6 @@ I found this is a favorite topic to Indians, not sure why.
 
 [Testing divisibility by 7, 11, and 13](https://www.johndcook.com/blog/2020/11/10/test-for-divisibility-by-13/)
 
-$10^3 \equiv \text{ -1 mod 1001 } \implies \displaystyle \sum_{i=0}^{n}{a_i \cdot 10^{3i}} \equiv \displaystyle \sum_{-1}^{i}{a_i} \text{ mod 1001}$
+$10^3 \equiv \text{ -1 mod 1001 } \implies \displaystyle \sum_{i=0}^{n}{a_i \cdot 10^{3i}} \equiv \displaystyle \sum_{i=0}^{n}{(-1)^{i}a_i} \text{ mod 1001}$
 
 > The heart of the method is that $7 \times 11 \times 13 = 1001$. If I subtract a multiple of 1001 from a number, I don’t change its divisibility by 7, 11, or 13. More than that, I don’t change its remainder by 7, 11, or 13.
