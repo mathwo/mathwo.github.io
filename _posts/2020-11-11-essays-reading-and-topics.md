@@ -49,4 +49,4 @@ I found this is a favorite topic to Indians, not sure why.
 
 $10^3 \equiv \text{ -1 mod 1001 } \implies \sum_{i=0}^{n}{a_i \cdot 10^{3i}} \equiv \sum_{-1}^{i}{a_i} \text{ mod 1001}$
 
-> The heart of the method is that $7*11*13 = 1001$. If I subtract a multiple of 1001 from a number, I don’t change its divisibility by 7, 11, or 13. More than that, I don’t change its remainder by 7, 11, or 13.
+> The heart of the method is that $7 \times 11 \times 13 = 1001$. If I subtract a multiple of 1001 from a number, I don’t change its divisibility by 7, 11, or 13. More than that, I don’t change its remainder by 7, 11, or 13.
