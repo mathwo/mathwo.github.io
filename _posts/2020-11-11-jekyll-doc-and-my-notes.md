@@ -345,3 +345,15 @@ Add a border on top:
 ```
 
 And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
+
+---
+
+### Increase blockquote font size
+
+In _sass/common/.article__content.scss:
+
+```scss
+  blockquote {
+    padding-left: map-get($spacers, 3);
+    font-size: map-get($base, font-size);
+```
