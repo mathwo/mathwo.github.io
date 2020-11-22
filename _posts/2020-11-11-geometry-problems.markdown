@@ -238,3 +238,13 @@ $\implies 2(a^2+b^2)r+2(a+b)^2r=ab(b+3a)+ab(a+3b)=4ab(a+b)$
 $\implies r=\dfrac{ab(a+b)}{a^2 + ab + b^2} \implies \dfrac{a+b}{r}=\dfrac{a^2 + ab + b^2}{ab} \implies \dfrac{a+b}{r}=\dfrac{(a+b)^2}{ab}-1$
 
 $\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfrac{1}{a} + \dfrac{1}{b} - \dfrac{1}{a+b} \blacksquare$
+
+---
+
+### 11/22/2020
+
+![image-20201122163753898](/assets/images/image-20201122163753898.png)
+
+#### Point $I$ is the incenter of $\triangle{ABC}$ and point $M$ bisects side $BC$. Extend line IM and intersects circumcircle of $\triangle{ABC}$ at point $D$. Point $E$ and $F$ bisects the arc $\overset{\large\frown}{AB}$ and $\overset{\large\frown}{BC}$. Line $DE$ intersects $AB$ at point $U$, Line $DF$ intersects $BC$ at point $V$. Prove: $BU=CV$
+
+#### Proof
