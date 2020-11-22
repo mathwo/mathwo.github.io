@@ -73,3 +73,4 @@ Subject Book Size
 * [SMT - Stanford Math Tournament]( http://sumo.stanford.edu/smt/index.html)
 * [Math League](http://mathleague.com/)
 * [WWTBAM - Who wants to be a Mathematician](http://ams.org/programs/students/wwtbam/about)
+* [JHMT - Johns Hopkins Math Tournament](http://math.jhu.edu/~mathclub/jhmt.html)
