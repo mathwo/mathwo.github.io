@@ -1,5 +1,5 @@
 ---
-title: Tournaments and Resources
+title: Contests and Resources
 date: 2020-11-10 06:51
 tags: []
 ---
