@@ -1,5 +1,5 @@
 ---
-title: Books and Resources
+title: Tournaments and Resources
 date: 2020-11-10 06:51
 tags: []
 ---
@@ -34,12 +34,6 @@ Subject Book Size
 * Number Theory Number Theory for Mathematical Contests - Santos 0.7 MB
 * Advanced Problems Problems in Elementary Mathematics - Lidsky 7.3 MB
 
-### HMMT Problems and Solutions
-
-* [HMMT site](https://www.hmmt.org/)
-* [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-problems.pdf)
-* [HMMT-Solutions-1998-2020](/assets/files/HMMT-1998-2020-solutions.pdf)
-
 ### AIME Problems and Solutions
 
 * [AIME-Problems-1983-2011](/assets/files/AIME-Problems-1983-2011.pdf)
@@ -54,3 +48,27 @@ Subject Book Size
 ### USAMO Books
 
 [https://www.isinj.com/mt-usamo/](https://www.isinj.com/mt-usamo/)
+
+### HMMT Problems and Solutions
+
+* [HMMT site](https://www.hmmt.org/)
+* [HMMT-Problems-1998-2020](/assets/files/HMMT-1998-2020-problems.pdf)
+* [HMMT-Solutions-1998-2020](/assets/files/HMMT-1998-2020-solutions.pdf)
+
+### PUMaC Problems and Solutions
+
+* [PUMaC Site](https://pumac.princeton.edu/)
+
+### List of Math Tournaments
+
+* [PUMaC - Princeton University Mathematics Competition](http://pumac.princeton.edu/)
+* [USAMTS - USA Mathematical Talent Search](http://usamts.org/)
+* [NIMO & OMO](http://internetolympiad.org/)
+* [CMIMC - Carnegie Mellon Informatics and Mathematics Competition](http://cmimc.org/)
+* [DMM - Duke Math Meet](https://sites.duke.edu/mathmeet/)
+* [BMT - Berkeley Math Tournament](http://bmt.berkeley.edu/)
+* [TAMU](http://math.tamu.edu/outreach/highschoolcontest/)
+* [CHMMC - Caltech Harvey Mudd Math Competition](http://chmmc.caltech.edu/)
+* [SMT - Stanford Math Tournament]( http://sumo.stanford.edu/smt/index.html)
+* [Math League](http://mathleague.com/)
+* [WWTBAM - Who wants to be a Mathematician](http://ams.org/programs/students/wwtbam/about)
