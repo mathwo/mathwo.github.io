@@ -68,7 +68,7 @@ Subject Book Size
 * [CMIMC - Carnegie Mellon Informatics and Mathematics Competition](http://cmimc.org/)
 * [DMM - Duke Math Meet](https://sites.duke.edu/mathmeet/)
 * [BMT - Berkeley Math Tournament](http://bmt.berkeley.edu/)
-* [TAMU](http://math.tamu.edu/outreach/highschoolcontest/)
+* [TAMU - Texas A&M High School Mathematics Contest](http://math.tamu.edu/outreach/highschoolcontest/)
 * [CHMMC - Caltech Harvey Mudd Math Competition](http://chmmc.caltech.edu/)
 * [SMT - Stanford Math Tournament]( http://sumo.stanford.edu/smt/index.html)
 * [Math League](http://mathleague.com/)
