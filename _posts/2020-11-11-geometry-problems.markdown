@@ -243,7 +243,7 @@ $\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfr
 
 ### 11/22/2020
 
-![image-20201122163753898](/assets/images/image-20201122163753898.png)
+![image-20201122163753898](/assets/images/image-20201122163753898.png){:class="image--x2l"}
 
 #### Point $I$ is the incenter of $\triangle{ABC}$ and point $M$ bisects side $BC$. Extend line IM and intersects circumcircle of $\triangle{ABC}$ at point $D$. Point $E$ and $F$ bisects the arc $\overset{\large\frown}{AB}$ and $\overset{\large\frown}{BC}$. Line $DE$ intersects $AB$ at point $U$, Line $DF$ intersects $BC$ at point $V$. Prove: $BU=CV$
 
