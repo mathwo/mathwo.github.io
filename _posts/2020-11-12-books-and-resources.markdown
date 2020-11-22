@@ -61,6 +61,7 @@ Subject Book Size
 
 ### List of Math Tournaments
 
+* [ARML - American Regions Mathematics League](https://www.arml.com/)
 * [PUMaC - Princeton University Mathematics Competition](http://pumac.princeton.edu/)
 * [USAMTS - USA Mathematical Talent Search](http://usamts.org/)
 * [NIMO & OMO](http://internetolympiad.org/)
