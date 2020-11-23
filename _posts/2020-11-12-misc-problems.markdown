@@ -28,3 +28,12 @@ If $q=3k+1$ or $3k-1$, then $q^2=1(mod3)$
 But if $p=3k+1$, $p^3-2p+4=0 (mod3)$, if $p=3k-1$, $p^3-2p+4=2 (mod3)$
 only when $p=3k$, $p^3-2p+4=1 (mod3)$
 and $p$ must be prime, so $\boxed{k=1, p=3}$ is the only one.
+
+---
+
+### 11/23/2020
+
+#### In a single-elimination tournament consisting of $2^9=512$ teams, there is a strict ordering on the skill levels of the teams, but Joy does not know that ordering. The teams are randomly put into a bracket and they play out the tournament, where the better team always beats the worse team. Joy is then given the results of all $511$ matches and must write a list of teams such that she can guarantee that the third-best team is on the list. What is the minimum possible length of Joy's list$\text{?}$
+
+#### Solution
+
