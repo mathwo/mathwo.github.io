@@ -66,4 +66,4 @@ $10^3 \equiv \text{ -1 mod 1001 } \implies \displaystyle \sum_{i=0}^{n}{a_i \cdo
 
 > Double the last digit and add the next-to-last. Double that and add the next digit over. Repeat until you've added the leftmost digit. The result will be a smaller number which has the same mod-19 residue.
 
-Actually [this page](https://brilliant.org/wiki/divisibility-rules/) mentions these rules.
+Actually [this page](https://brilliant.org/wiki/divisibility-rules/) and [wiki](https://en.wikipedia.org/wiki/Divisibility_rule#Divisibility_rules_for_numbers_1%E2%80%9330) mentions these rules.
