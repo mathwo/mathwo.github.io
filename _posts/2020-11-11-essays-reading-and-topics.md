@@ -57,3 +57,13 @@ $10^3 \equiv \text{ -1 mod 1001 } \implies \displaystyle \sum_{i=0}^{n}{a_i \cdo
 
 * [New Math](https://en.wikipedia.org/wiki/New_Math) from Wiki
 * [A Mathematician's Lament](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf)
+
+---
+
+### 11/23/2020
+
+#### [Testing for divisibility by 19](https://blog.plover.com/math/divisibility-by-19.html)
+
+> Double the last digit and add the next-to-last. Double that and add the next digit over. Repeat until you've added the leftmost digit. The result will be a smaller number which has the same mod-19 residue.
+
+Actually [this page](https://brilliant.org/wiki/divisibility-rules/) mentions these rules.
