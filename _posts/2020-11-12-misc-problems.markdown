@@ -36,3 +36,24 @@ and $p$ must be prime, so $\boxed{k=1, p=3}$ is the only one.
 #### In a single-elimination tournament consisting of $2^9=512$ teams, there is a strict ordering on the skill levels of the teams, but Joy does not know that ordering. The teams are randomly put into a bracket and they play out the tournament, where the better team always beats the worse team. Joy is then given the results of all $511$ matches and must write a list of teams such that she can guarantee that the third-best team is on the list. What is the minimum possible length of Joy's list$\text{?}$ (Shared by Brady from HMMT Guts Test November 2020)
 
 Solution
+
+After understanding the model, easy to know that, checking the result of all $511$ matches, the only team who won 9 matches is the first team in the skill level list.
+
+The second best team must be one of those teams who lost to the first team - because only the best team can win it. There are 9 teams in this set.
+
+The third best team has two situations:
+
+* It could be one of the teams who lost to the first team - it could be in the 9-team-set.
+* Or, it could be one of the teams who lost to any team from the 9-team-set.
+
+Check the teams in the 9-team-set:
+
+* There is a team lost in the 1st round, and 0 team lost to it.
+* There is a team lost in the 2nd round, and 1 team lost to it.
+* There is a team lost in the 3rd round, and 2 teams lost to it.
+* ...
+* There is a team lost in the 9th round, and 8 teams lost to it.
+
+So totally there are $1+2+...+8=36$ teams lost to any team from the 9-team-set.
+
+To include two situations for the third best team, we need the list length no shorter than $9 + 36 = \boxed{45}$ to guarantee that the third best team in it.
