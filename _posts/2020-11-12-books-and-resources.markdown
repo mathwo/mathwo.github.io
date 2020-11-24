@@ -14,40 +14,10 @@ tags: []
 * [AMC-12-Problems-2012-2018](/assets/files/AMC-12-Problems-2012-2018.pdf)
 * [AMC-12-Solutions-2012-2018](/assets/files/AMC-12-Solutions-2012-2018.pdf)
 
-### AMC 12 books - From [https://www.isinj.com/mt-amc12/](https://www.isinj.com/mt-amc12/)
-
-The primary recommendations for study for the AMC 12 are past AMC 12 contests and the Art of Problem Solving Series Books.
-I recommend they be studied in the following order:
-
-* Intermediate Algebra (AMC 12)
-* Intermediate Counting and Probability (AMC 12)
-* Precalculus (AMC 12)
-* Art of Problem Solving Volume 2 (AMC 12)
-
-Additional Recommended Problem and Review Books
-
-Subject Book Size
-
-* Algebra and Trigonometry A Problem Book in Algebra - Krechmar 9.2 MB
-* Trigonometry Review Trigonometry - Corral 1.6 MB
-* Combinatorics Principles and Techniques in Combinatorics - Chen, Koh 13.3 MB
-* Number Theory Number Theory for Mathematical Contests - Santos 0.7 MB
-* Advanced Problems Problems in Elementary Mathematics - Lidsky 7.3 MB
-
 ### AIME Problems and Solutions
 
 * [AIME-Problems-1983-2011](/assets/files/AIME-Problems-1983-2011.pdf)
 * [AIME-Solutions-1983-2011](/assets/files/AIME-Solutions-1983-2011.pdf)
-
-### AIME Books and Resources
-
-* [https://www.isinj.com/mt-aime/](https://www.isinj.com/mt-aime/)
-* [https://www.andrew.cmu.edu/user/daltizio/mathstuff.html](https://www.andrew.cmu.edu/user/daltizio/mathstuff.html)
-* [https://webpages.uncc.edu/~hbreiter/Exotic/](https://webpages.uncc.edu/~hbreiter/Exotic/)
-
-### USAMO Books
-
-[https://www.isinj.com/mt-usamo/](https://www.isinj.com/mt-usamo/)
 
 ### HMMT Problems and Solutions
 
@@ -74,3 +44,33 @@ Subject Book Size
 * [Math League](http://mathleague.com/)
 * [WWTBAM - Who wants to be a Mathematician](http://ams.org/programs/students/wwtbam/about)
 * [JHMT - Johns Hopkins Math Tournament](http://math.jhu.edu/~mathclub/jhmt.html)
+
+### AMC 12 books - From [https://www.isinj.com/mt-amc12/](https://www.isinj.com/mt-amc12/)
+
+The primary recommendations for study for the AMC 12 are past AMC 12 contests and the Art of Problem Solving Series Books.
+I recommend they be studied in the following order:
+
+* Intermediate Algebra (AMC 12)
+* Intermediate Counting and Probability (AMC 12)
+* Precalculus (AMC 12)
+* Art of Problem Solving Volume 2 (AMC 12)
+
+Additional Recommended Problem and Review Books
+
+Subject Book Size
+
+* Algebra and Trigonometry A Problem Book in Algebra - Krechmar 9.2 MB
+* Trigonometry Review Trigonometry - Corral 1.6 MB
+* Combinatorics Principles and Techniques in Combinatorics - Chen, Koh 13.3 MB
+* Number Theory Number Theory for Mathematical Contests - Santos 0.7 MB
+* Advanced Problems Problems in Elementary Mathematics - Lidsky 7.3 MB
+
+### AIME Books and Resources
+
+* [https://www.isinj.com/mt-aime/](https://www.isinj.com/mt-aime/)
+* [https://www.andrew.cmu.edu/user/daltizio/mathstuff.html](https://www.andrew.cmu.edu/user/daltizio/mathstuff.html)
+* [https://webpages.uncc.edu/~hbreiter/Exotic/](https://webpages.uncc.edu/~hbreiter/Exotic/)
+
+### USAMO Books
+
+[https://www.isinj.com/mt-usamo/](https://www.isinj.com/mt-usamo/)
