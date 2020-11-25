@@ -248,3 +248,26 @@ $\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfr
 #### Point $I$ is the incenter of $\triangle{ABC}$ and point $M$ bisects side $BC$. Extend line IM and intersects circumcircle of $\triangle{ABC}$ at point $D$. Point $E$ and $F$ bisects the arc $\overset{\large\frown}{AB}$ and $\overset{\large\frown}{BC}$. Line $DE$ intersects $AB$ at point $U$, Line $DF$ intersects $BC$ at point $V$. Prove: $BU=CV$
 
 #### Proof
+
+---
+
+### 11/24/2020
+
+![image-20201124223551777](/assets/images/image-20201124223551777.png)
+
+#### Point $D$ bisects side $BC$ in $\triangle{ABC}$ and $DE \perp  AB, DF \perp AC, BF=CE$ , prove: $AB=AC$
+
+Proof:
+
+![image-20201125032132835](/assets/images/image-20201125032132835.png)
+
+Let point $M$ and $N$ bisects $BD$ and $DC$ respectively.
+
+$BD=DC=2ME=2NF \implies ME=NF, CM=BN$
+
+and we already know $BF=CE$, so
+
+$\triangle{BNF} \cong \triangle{CME} \implies \angle{ECB}=\angle{FBC}$
+
+so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacksquare$
+
