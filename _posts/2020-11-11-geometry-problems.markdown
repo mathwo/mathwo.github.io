@@ -302,7 +302,7 @@ so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacks
 
 ### 11/25/2020
 
-![image-20201125113526475](/assets/images/image-20201125113526475.png){:class="image--xl"}
+![image-20201125113526475](/assets/images/image-20201125113526475.png){:class="image--lg"}
 
 #### $CD$ and $BE$ are angle bisectors of $\triangle{ABC}$ and $CD=BE$. Prove $AB=AC.$
 
