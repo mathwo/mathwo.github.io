@@ -259,7 +259,11 @@ Point $F$ bisects the arc  $\overset{\large\frown}{BC}$
 
 $\implies \dfrac{CV}{CF}=\dfrac{CD}{DF} \implies CV=\dfrac{CD \cdot CF}{DF}$
 
-$\dfrac{BD \cdot BE \cdot DF}{CD \cdot DE \cdot CF} = \dfrac{BD \cdot DF \cdot BE \cdot BC}{CD \cdot DE \cdot CF \cdot BC} = \dfrac{S_{\triangle{BDF}}}{S_{\triangle{CDE}}}\dfrac{S_{\triangle{BCE}}}{S_{\triangle{BCF}}}$
+$sin \angle{BDF} = sin \angle{BCF}, \cdot sin \angle{CBE} = sin \angle{CDE}$
+
+$  \implies \dfrac{BD \cdot BE \cdot DF}{CD \cdot DE \cdot CF} = \dfrac{BD \cdot DF \cdot sin \angle{BDF} \cdot BE \cdot BC \cdot sin \angle{CBE}}{CD \cdot DE \cdot sin \angle{CDE} \cdot CF \cdot BC \cdot sin \angle{BCF}}$
+
+$ = \dfrac{S_{\triangle{BDF}}}{S_{\triangle{CDE}}}\dfrac{S_{\triangle{BCE}}}{S_{\triangle{BCF}}}$
 
 $S_{\triangle{BCE}}=2S_{\triangle{CEM}}=2\dfrac{IM}{ID}S_{\triangle{CDE}}$
 
