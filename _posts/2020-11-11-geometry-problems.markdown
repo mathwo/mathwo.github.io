@@ -336,7 +336,7 @@ $\implies (3z_0-8)^2+(\dfrac{3z_0-5}{2})^2+(z_0-4)^2=r^2$
 
 $\implies 49z_0^2-270z_0+425=4r^2$
 
-If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{270}{98}$ , $4r^2$ get minimum value.
+If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{270}{98}$, $4r^2$ get minimum value.
 
 The closest odd integer to $\dfrac{270}{98}$ is
 
