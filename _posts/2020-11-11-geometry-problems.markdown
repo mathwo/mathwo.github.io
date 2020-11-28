@@ -312,3 +312,41 @@ so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacks
 
 Proof:
 
+---
+
+### 11/27/2020
+
+#### A sphere is centered at a point with integer coordinates and passes through the three points $(2,0,0), (0,4,0), (0,0,6)$, but not the origin $(0,0,0)$. If $r$ is the smallest possible radius of the sphere, compute $r^2$. (HMMT General, November 2020)
+
+Solution:
+
+Suppose the center of the sphere is $(x_0, y_0, z_0)$
+
+$(x_0-2)^2+y_0^2+z_0^2=r^2$
+
+$x_0^2+(y_0-4)^2+z_0^2=r^2$
+
+$x_0^2+y_0^2+(z_0-6)^2=r^2$
+
+$x_0^2-4x_0+4+y_0^2+z_0^2=x_0^2+y_0^2-8y_0+16+z_0^2=x_0^2+y_0^2+z_0^2-12z_0+36$
+
+$\implies x_0=2y_0-3=3z_0-8 \implies x_0=3z_0-8, y_0=\dfrac{3z_0-5}{2}, z_0 \equiv 1 \text{ mod 2}.$
+
+$\implies (3z_0-8)^2+(\dfrac{3z_0-5}{2})^2+(z_0-4)^2=r^2$
+
+$\implies 39z_0^2-270z_0+425=4r^2$
+
+If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{45}{13}$ $4r^2$ get minimum value.
+
+The closest odd integer to $\dfrac{45}{13}$ is $z_0=3 \implies x_0=1, y_0=2 \implies r^2=14$ 
+
+but $x_0^2+y_0^2+z_0^2=14=r^2$ so this is not solution.
+
+The second closest odd integer to $\dfrac{45}{13}$ is $z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$ 
+
+and $z_0^2+y_0^2+z_0^2=27 \ne r^2$
+
+So the solution is $r^2=\boxed{51}$.
+
+
+
