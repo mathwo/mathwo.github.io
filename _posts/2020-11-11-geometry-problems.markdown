@@ -338,15 +338,15 @@ $\implies 49z_0^2-270z_0+425=4r^2$
 
 If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{270}{98}$ , $4r^2$ get minimum value.
 
-The closest odd integer to $\dfrac{270}{98}$ is 
+The closest odd integer to $\dfrac{270}{98}$ is
 
-$z_0=3 \implies x_0=1, y_0=2 \implies r^2=14$ 
+$z_0=3 \implies x_0=1, y_0=2 \implies r^2=14$
 
 but $x_0^2+y_0^2+z_0^2=14=r^2$ so this is not solution.
 
-The second closest odd integer to $\dfrac{270}{98}$ is 
+The second closest odd integer to $\dfrac{270}{98}$ is
 
-$z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$ 
+$z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$
 
 and $z_0^2+y_0^2+z_0^2=27 \ne r^2$
 
