@@ -334,15 +334,15 @@ $\implies x_0=2y_0-3=3z_0-8 \implies x_0=3z_0-8, y_0=\dfrac{3z_0-5}{2}, z_0 \equ
 
 $\implies (3z_0-8)^2+(\dfrac{3z_0-5}{2})^2+(z_0-4)^2=r^2$
 
-$\implies 39z_0^2-270z_0+425=4r^2$
+$\implies 49z_0^2-270z_0+425=4r^2$
 
-If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{45}{13}$ $4r^2$ get minimum value.
+If $z_0 \in \mathbb{R}$, when $z_0=\dfrac{270}{98}$ , $4r^2$ get minimum value.
 
-The closest odd integer to $\dfrac{45}{13}$ is $z_0=3 \implies x_0=1, y_0=2 \implies r^2=14$ 
+The closest odd integer to $\dfrac{270}{98}$ is $z_0=3 \implies x_0=1, y_0=2 \implies r^2=14$ 
 
 but $x_0^2+y_0^2+z_0^2=14=r^2$ so this is not solution.
 
-The second closest odd integer to $\dfrac{45}{13}$ is $z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$ 
+The second closest odd integer to $\dfrac{270}{98}$ is $z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$ 
 
 and $z_0^2+y_0^2+z_0^2=27 \ne r^2$
 
