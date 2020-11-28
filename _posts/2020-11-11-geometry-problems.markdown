@@ -310,7 +310,33 @@ so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacks
 
 #### $CD$ and $BE$ are angle bisectors of $\triangle{ABC}$ and $CD=BE$. Prove $AB=AC.$
 
-Proof:
+#### Proof 1:
+
+Let $AC=b, AB=c, BC=a, CD=e, BE=f$
+
+From [Length of Angle Bisector](https://proofwiki.org/wiki/Length_of_Angle_Bisector):
+
+$e^2=\dfrac{ab}{(a+b)^2}((a+b)^2-c^2)$
+
+$f^2=\dfrac{ac}{(a+c)^2}((a+c)^2-b^2)$
+
+$e=f \implies b-\dfrac{bc^2}{(a+b)^2}=c-\dfrac{b^2c}{(a+c)^2}$
+
+$\implies (b-c)+bc\dfrac{b(a+b)^2-c(a+c)^2}{(a+b)^2(a+c)^2}=0$
+
+$\implies (b-c)+bc\dfrac{a^2(b-c)+2a(b^2-c^2)+(b^3-c^3)}{(a+b)^2(a+c)^2}=0$
+
+$\implies (b-c)(1+bc\dfrac{a^2+2ab+2ac+a^2+ab+c^2}{(a+b)^2(a+c)^2})=0$
+
+$\implies (b-c)\dfrac{(a+b)^2(a+c)^2+bc[(a+b+c)^2-ab]}{(a+b)^2(a+c)^2}=0$
+
+$a+b+c>a, a+b+c>b \implies (a+b+c)^2-ab>0$
+
+$\implies b-c=0 \implies AB=AC \blacksquare$
+
+#### Proof 2:
+
+
 
 ---
 
