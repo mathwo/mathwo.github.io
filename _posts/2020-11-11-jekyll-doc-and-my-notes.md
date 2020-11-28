@@ -1,6 +1,6 @@
 ---
 title: Blog Tech Notes
-tags: Jekyll, TeXt
+tags: CoverPage
 ---
 
 ### Jekyll Documentation
@@ -338,6 +338,7 @@ To clear the format in mobile view, add styles to zp-main, and hide <p> inside d
   <div class="zp-inputs">
       <p style="display:none">
 ```
+
 Add a border on top:
 
 ```html
@@ -357,3 +358,22 @@ In _sass/common/.article__content.scss:
     padding-left: map-get($spacers, 3);
     font-size: map-get($base, font-size);
 ```
+---
+
+### Filter on Tag for Cover Title Pages
+
+Considering each cover title page get longer and longer, I plan to use calendar to show posts but that's still not a good way.
+
+I decide that each cover title page links to a simple index page. Posts are linked to index page by months.
+
+Then I need to filter on cover title pages so it will not show all posts. I use a tag "CoverPage". Then revised _includes/article-list.html:
+
+after loop begins:
+
+![image-20201128172628758](/assets/images/image-20201128172628758.png)
+
+and before loop ends:
+
+![image-20201128172711034](/assets/images/image-20201128172711034.png)
+
+---

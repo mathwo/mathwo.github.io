@@ -1,7 +1,7 @@
 ---
 title: Geometry Problems
 date: 2020-11-11 20:58
-tags: Geometry
+tags: CoverPage
 ---
 
 ### 11/09/2020
@@ -270,15 +270,6 @@ $S_{\triangle{BCE}}=2S_{\triangle{CEM}}=2\dfrac{IM}{ID}S_{\triangle{CDE}}$
 $S_{\triangle{BCF}}=2S_{\triangle{BFM}}=2\dfrac{IM}{ID} S_{\triangle{BDF}}$
 
 $\implies \dfrac{BD \cdot BE \cdot DF}{BD \cdot DF \cdot BE \cdot BC}=1 \implies BU=CV \blacksquare$
-
-
-
-
-
-
-
-
-
 
 ---
 
