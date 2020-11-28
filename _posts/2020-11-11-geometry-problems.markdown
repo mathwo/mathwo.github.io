@@ -336,7 +336,47 @@ $\implies b-c=0 \implies AB=AC \blacksquare$
 
 #### Proof 2:
 
+![image-20201128151708916](/assets/images/image-20201128151708916.png){:class="image--xl"}
 
+Draw $\angle{DCF}=\angle{8}=\angle{BFC}=\angle{7}$ and make $CE=CF$. Then connect $D$ and $F$.
+
+$CD=BE, CE=CF, \angle{7}=\angle{8} \implies \triangle{BCE} \cong \triangle{DFC}$
+
+$\implies BC=DF, \angle{1}=\angle{4}$
+
+$\angle{x}=\angle{2}+\angle{3}=\angle{1}+\angle{3}=\angle{4}+\angle{3}=\angle{6}+\angle{7}=\angle{5}+\angle{7}=\angle{5}+\angle{8}$
+
+$\implies \angle{4}+\angle{3}=\angle{5}+\angle{8} \implies \angle{y}=\angle{z}$
+
+Draw $FG \perp AB, BH \perp CF$, $BC=DF,\angle{y}=\angle{z} \implies \triangle{DFG} \cong \triangle{BCH}$
+
+$\implies DG=CH, FG=BH \implies \triangle{BFG} \cong \triangle{BFH}$
+
+$\implies BHFG \text{ is a parallelogram } \implies \angle{m}=\angle{n}$
+
+$\implies \angle{DBC}=\angle{DFC}=\angle{ECB}\blacksquare$
+
+#### Proof 3:
+
+![image-20201128160143152](/assets/images/image-20201128160143152.png){:class="image--xl"}
+
+Assume $\triangle{ABC}$ is not isosceles. Let $\angle{ABC} > \angle{ACB}$.
+
+$CD=BE, BC=BC, CE>BD$ (if two triangles have two pairs of corresponding sides congruent and their included angles are not congruent, then the greater third side is opposite the greater included angle).
+
+Through point $E$, construct $EG \parallel AB, DG \parallel BE$, so $BDGE$ is a parallelogram
+
+$\implies BE=DG, CD=BE \implies CD=DG$
+
+$ \implies \angle{(g+g')}=\angle{(c+c')}, \angle{g}=\angle{b}$
+
+$\implies \angle{b+g'}=\angle{c+c'}$
+
+$\angle{b}>\angle{c} \implies \angle{g'}<\angle{c'} \implies CE < EG \implies CE < BD$
+
+The assumption of the inequality of $\angle{ABC}$ and $\angle{ACB}$ leads to two contradictory results: $CE>BD$ and $CE<BD$.
+
+Therefore, $\triangle{ABC}$ is isosceles.$\blacksquare$
 
 ---
 
