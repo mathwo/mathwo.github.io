@@ -416,6 +416,9 @@ articles:
   show_info: false
 ```
 
-I will configure to remove comment part from index page.
+Unsolved questions:
+
+- What is the URL link to collection page
+- How to remove comment part from index page
 
 ---
