@@ -37,7 +37,7 @@ I mainly follow the steps in https://www.kiltandcode.com/2020/04/30/how-to-creat
 The only thing that post missed is:
 
 ```
-git remote add origin https://github.com/kingvagabond/kingvagabond.github.io.git
+git remote add origin https://github.com/mathwo/mathwo.github.io.git
 ```
 
 ---
