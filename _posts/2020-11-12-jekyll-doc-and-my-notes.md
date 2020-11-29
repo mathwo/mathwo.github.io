@@ -418,7 +418,44 @@ articles:
 
 Unsolved questions:
 
-- How to remove comment part from index page
 - What is the URL link to collection page
 
 ---
+
+### Remove comment from index page
+
+_config.yml:
+
+```yml
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+      show-comment: true
+  - scope:
+      path: ""
+      type: coverpages
+    values:
+      layout: article
+      sharing: false
+      license: false
+      aside:
+        toc: false
+      show_edit_on_github: false
+      show_subscribe: false
+      pageview: false
+      show-comment: false
+```
+
+and in _includes/article-footer.html:
+
+![image-20201129113702707](/assets/images/image-20201129113702707.png)

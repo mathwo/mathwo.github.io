@@ -218,6 +218,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      show-comment: true
   - scope:
       path: ""
       type: coverpages
@@ -230,6 +231,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: false
       pageview: false
+      show-comment: false
 
 ## => Plugins
 ##############################

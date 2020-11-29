@@ -13,7 +13,14 @@
   source0=layout.license source1=page.license -%}
 {%- assign _license = __return -%}
 
+{%- include snippets/assign.html
+  target=site.data.variables.default.page.show-comment
+  source0=layout.show-comment source1=page.show-comment -%}
+{%- assign _show-comment= __return -%}
+
+{%- if _show-comment -%}
 {% include commentjs.html %}
+{%- endif -%}
 
 <footer class="article__footer">
   {%- if page.modify_date -%}
