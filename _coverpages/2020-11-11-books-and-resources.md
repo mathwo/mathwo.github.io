@@ -1,7 +1,7 @@
 ---
 title: Contests and Resources
 date: 2020-11-11 06:51
-tags: CoverPage
+tags: []
 ---
 
 ### AMC 12 Problems and Solutions

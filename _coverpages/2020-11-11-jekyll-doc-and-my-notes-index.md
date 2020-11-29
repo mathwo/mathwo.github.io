@@ -1,7 +1,7 @@
 ---
 title: Blog Tech Notes
 date: 2020-11-11 07:47
-tags: CoverPage
+tags: []
 ---
 
 2020

@@ -1,7 +1,7 @@
 ---
 title: Readings and Topics
 date: 2020-11-11 05:30
-tags: CoverPage
+tags: []
 ---
 
 2020

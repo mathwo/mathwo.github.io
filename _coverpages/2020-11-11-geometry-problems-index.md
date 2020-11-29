@@ -1,7 +1,7 @@
 ---
 title: Geometry Problems
 date: 2020-11-11 03:58
-tags: CoverPage
+tags: []
 ---
 
 2020
