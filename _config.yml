@@ -24,7 +24,6 @@ title   : Math Workout
 description: > # this means to ignore newlines until "Language & timezone"
   We need physical and math workouts, and we need take down the problems we have done.
 
-
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
@@ -66,6 +65,11 @@ paths:
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
+
+collections:
+  coverpages:
+    output: true
+    permalink: /:collection/:name
 
 
 ## => Post
@@ -214,7 +218,18 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-
+  - scope:
+      path: ""
+      type: coverpages
+    values:
+      layout: article
+      sharing: false
+      license: false
+      aside:
+        toc: false
+      show_edit_on_github: false
+      show_subscribe: false
+      pageview: false
 
 ## => Plugins
 ##############################

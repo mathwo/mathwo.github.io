@@ -28,9 +28,6 @@
 
 {%- for _article in _sorted_list -%}
 
-  <!-- Add filter to posts by tags 'CoverPage' -->
-  {%- if _article.tags contains 'CoverPage' -%}
-
   {%- include snippets/prepend-baseurl.html path=_article.url -%}
   {%- assign _article_url = __return -%}
 
@@ -162,9 +159,6 @@
     </div>
 
     {%- endif -%}
-  {%- endif -%}
-
-  <!-- end of if tag filter -->
   {%- endif -%}
 
 {%- endfor -%}

@@ -1,6 +1,7 @@
 ---
 title: Blog Tech Notes
-tags: CoverPage
+date: 2020-11-11 07:47
+tags: []
 ---
 
 ### Jekyll Documentation
@@ -362,18 +363,59 @@ In _sass/common/.article__content.scss:
 
 ### Filter on Tag for Cover Title Pages
 
-Considering each cover title page get longer and longer, I plan to use calendar to show posts but that's still not a good way.
+Considering each cover title page get longer and longer, I decide to show only a specified collection of cover pages, and each cover page links to a simple index page. Posts are linked to index page by months.
 
-I decide that each cover title page links to a simple index page. Posts are linked to index page by months.
+This solution is done by using [collection in Jekyll](https://jekyllrb.com/docs/collections/). And it is configured in _config.yml.
 
-Then I need to filter on cover title pages so it will not show all posts. I use a tag "CoverPage". Then revised _includes/article-list.html:
+```yml
+collections:
+  coverpages:
+    output: true
+    permalink: /:collection/:name
+```
 
-after loop begins:
+and its layout is specified by following code:
 
-![image-20201128172628758](/assets/images/image-20201128172628758.png)
+```yml
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+  - scope:
+      path: ""
+      type: coverpages
+    values:
+      layout: article
+      sharing: false
+      license: false
+      aside:
+        toc: false
+      show_edit_on_github: false
+      show_subscribe: false
+      pageview: false
+```
 
-and before loop ends:
+and change _layouts/home.html to use the collection as data_source:
 
-![image-20201128172711034](/assets/images/image-20201128172711034.png)
+```html
+articles:
+  data_source: coverpages
+  article_type: BlogPosting
+  show_cover: false
+  show_excerpt: false
+  show_readmore: false
+  show_info: false
+```
+
+I will configure to remove comment part from index page.
 
 ---
