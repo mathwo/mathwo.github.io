@@ -418,7 +418,7 @@ articles:
 
 Unsolved questions:
 
-- What is the URL link to collection page
 - How to remove comment part from index page
+- What is the URL link to collection page
 
 ---
