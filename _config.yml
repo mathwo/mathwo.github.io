@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Math WorkOut
+title   : M&#8704;TH WorkOut
 description: > # this means to ignore newlines until "Language & timezone"
   We need physical and math workouts, and we need take down the problems we have done.
 
