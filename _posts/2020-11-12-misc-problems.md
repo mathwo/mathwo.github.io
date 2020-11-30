@@ -16,6 +16,26 @@ Use trigonometry it is easier to get $CG = \dfrac{8}{cos \alpha} + \dfrac{27}{si
 
 Note: to avoid trigonometrical approach, it would be a hard work to solve this problem, seems.
 
+Solution 2:
+
+Get another solution based on another problem on 11/30/2020:
+
+Suppose $AF=a, AD=b, FG=x, CD=y, CG=l$
+
+$\dfrac{y}{a}=\dfrac{b}{x} \implies xy=ab$
+
+$l^2=(a+x)^2+(b+y)^2=(a+x)^2+(b+\dfrac{ab}{x})^2$
+
+$l^2$ gets minimum value when
+
+$2(a+x)+2(b+\dfrac{ab}{x})(-\dfrac{ab}{x^2})=0$
+
+$\implies (x^3-ab^2)(x+a)=0$
+
+$\implies x=\sqrt[3]{ab^2}, y=\sqrt[3]{a^2b}$
+
+$\implies l_{min}=\boxed{\sqrt{a^2+3a\sqrt[3]{ab^2}+3b\sqrt[3]{a^2b}+b^2}}$
+
 ---
 
 ### 11/15/2020
@@ -57,3 +77,32 @@ Check the teams in the 9-team-set:
 So totally there are $1+2+...+8=36$ teams lost to any team from the 9-team-set.
 
 To include two situations for the third best team, we need the list length no shorter than $9 + 36 = \boxed{45}$ to guarantee that the third best team in it.
+
+---
+
+### 11/30/2020
+
+![image-20201130023450021](/assets/images/image-20201130023450021.png){:class="image--md"}
+
+$l$ and $c$ are known. Find $x$ and $y$. This problem seems similar to a previous one.
+
+Solution:
+
+![image-20201130024443003](/assets/images/image-20201130024443003.png){:class="image--xl"}
+
+$\dfrac{y}{c}=\dfrac{c}{x} \implies xy=c^2$
+
+$\implies l=\sqrt{xy+x^2}+\sqrt{xy+y^2}$
+
+$w=x+y \implies l=\sqrt{xw}+\sqrt{yw}=\sqrt{w}(\sqrt{x}+\sqrt{y})$
+
+$\implies l^2=w(x+y+2\sqrt{xy})=w(w+2c)$
+
+$w^2+2cw-l^2=0 \implies w=\dfrac{-2c+\sqrt{4c^2+4l^2}}{2}=\sqrt{c^2+l^2}-c$
+
+So $x$,$y$ are roots of $t^2-(\sqrt{c^2+l^2}-c)t+c^2=0$:
+
+$\implies x,y=\dfrac{\sqrt{c^2+l^2}-c \pm \sqrt{l^2-2c^2-2c\sqrt{c^2+l^2}}}{2}$
+
+$\implies y=\boxed{\dfrac{\sqrt{c^2+l^2}-c+\sqrt{l^2-2c^2-2c\sqrt{c^2+l^2}}}{2}}$
+
