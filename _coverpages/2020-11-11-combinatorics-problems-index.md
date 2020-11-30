@@ -4,11 +4,8 @@ date: 2020-11-11 02:43
 tags: []
 ---
 
-2020
-| JAN | FEB | MAR | APR | MAY | JUN |
-| JUL | AUG | SEP | OCT | [NOV]({% post_url 2020-11-12-combinatorics-problems %}) | DEC |
+| 2020 | Jan | Feb | Mar | Apr | May | Jun |
+| | Jul | Aug | Sep | Oct | [NOV]({% post_url 2020-11-12-combinatorics-problems %})| Dec |
 
-2021
-
-| JAN | FEB | MAR | APR | MAY | JUN |
-| JUL | AUG | SEP | OCT | NOV | DEC |
+| 2021 | Jan | Feb | Mar | Apr | May | Jun |
+| | Jul | Aug | Sep | Oct | Nov | Dec |
