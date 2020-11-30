@@ -5,7 +5,7 @@ tags: []
 ---
 
 | 2020 | Jan | Feb | Mar | Apr | May | Jun |
-| | Jul | Aug | Sep | Oct | [NOV]({% post_url 2020-11-12-geometry-problems %})| Dec |
+| | Jul | Aug | Sep | Oct | [Nov]({% post_url 2020-11-12-geometry-problems %})| Dec |
 
 | 2021 | Jan | Feb | Mar | Apr | May | Jun |
 | | Jul | Aug | Sep | Oct | Nov | Dec |
