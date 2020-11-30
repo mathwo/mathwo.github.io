@@ -10,6 +10,8 @@ tags: []
 
 ![image-20201116160912095](/assets/images/image-20201116160912095.png){:class="image--md"}
 
+Solution 1:
+
 Use trigonometry it is easier to get $CG = \dfrac{8}{cos \alpha} + \dfrac{27}{sin \alpha}$, it gets minimum value when
 
  $\dfrac{8 sin \alpha}{cos^2 \alpha}- \dfrac{27 cos \alpha}{sin^2 \alpha}=0 \implies tan \alpha=\dfrac{3}{2} \implies CG_{min}=\boxed{13\sqrt{13}}$
