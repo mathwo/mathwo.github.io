@@ -9,6 +9,7 @@ tags: []
 
 | <a name="2020">2020</a> | Jan | Feb | Mar | Apr | May | Jun |
 | | Jul | Aug | Sep | Oct | [Nov]({% post_url 2020-11-12-misc-problems %})| Dec |
+
 <!--
 | <a name="2021">2021</a> | Jan | Feb | Mar | Apr | May | Jun |
 | | Jul | Aug | Sep | Oct | Nov | Dec |
