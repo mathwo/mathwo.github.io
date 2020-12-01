@@ -459,3 +459,12 @@ defaults:
 and in _includes/article-footer.html:
 
 ![image-20201129113702707](/assets/images/image-20201129113702707.png)
+
+---
+
+### Liquid Learning Resources
+
+- [Liquid Overview](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
+- [Liquid Language Reference](https://shopify.dev/docs/themes/liquid/reference)
+- [Liquid Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+- [Another Shopify Cheat Sheet](http://cheat.markdunkley.com/)
