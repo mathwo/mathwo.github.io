@@ -42,7 +42,7 @@ $$
 \begin{equation*}
 \begin{bmatrix}
 \text{<corner neighbors to corner>} & \text{<side neighbors to corner>} & \text{<center neighbors to corner>} \\
-\text{<corner neighbors to side>} & \text{<side neighbors to side>} & \text{<center to side>} \\
+\text{<corner neighbors to side>} & \text{<side neighbors to side>} & \text{<center neighbors to side>} \\
 \text{<corner neighbors to center>} & \text{<side neighbors to center>} & \text{<center neighbors to center>}
 \end{bmatrix}
 \end{equation*}
