@@ -10,7 +10,7 @@ tags: []
 
 #### There are 10 stones in the pond as blue points in the figure. Frogs can jump from a stone to one of the adjacent stones only. Starting from a stone, how many different ways can a frog go for 4 jumps?
 
-Solution 1:
+**Solution 1:**
 
 Mark all stones with point 1 as initial, then replace point on each stone by the sum of points of its adjacent points. Repeat this process for 4 steps:
 
@@ -22,7 +22,7 @@ Mark all stones with point 1 as initial, then replace point on each stone by the
 
 So the answer is $3 \times 128 + 6 \times 256 + 384=\boxed{2304}$
 
-Solution 2:
+**Solution 2:**
 
 There are three types of stones in the figure: corner, side, center. 
 
