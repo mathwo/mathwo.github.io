@@ -33,6 +33,7 @@ $$
 3 & 6 & 1
 \end{bmatrix}
 \end{equation*}
+\text{.}
 $$
 
 
