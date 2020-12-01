@@ -18,4 +18,4 @@ Take [Vanilla BTT](https://github.com/vfeskov/vanilla-back-to-top). Save js to a
 })</script>
 ```
 
-It's not perfect - needs two clicks and cannot scroll to top-left.
+It's not perfect - needs two clicks on mobile screen, and cannot scroll to top-left.
