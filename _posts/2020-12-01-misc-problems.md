@@ -57,6 +57,7 @@ A=
 0 & 6 & 0
 \end{bmatrix}
 \end{equation*}
+\text{.}
 $$
 
 The number of different ways for a frog can go for $n$ jumps is:
@@ -67,7 +68,10 @@ $$
 \end{bmatrix}
 A^n
 \end{equation*}
+\text{.}
 $$
+
+
 This will get a vector of dimension $1 \times 3$ for three types, and we need sum them up by multipling vector
 $$
 \begin{equation*}
@@ -77,6 +81,7 @@ $$
 1
 \end{bmatrix}
 \end{equation*}
+\text{.}
 $$
 So the expression is
 $$
@@ -91,6 +96,7 @@ A^n
 1
 \end{bmatrix}
 \end{equation*}
+\text{.}
 $$
 When $n=4$, the answer is
 $$
@@ -106,7 +112,10 @@ A^4
 \end{bmatrix}
 \end{equation*}
 =\boxed{2304}
+\text{.}
 $$
+
+
 The calculation is given [here](https://www.wolframalpha.com/input/?i=%7B3%2C+6%2C+1%7D+.+MatrixPower%5B%7B%7B0%2C+2%2C+0%7D%2C+%7B1%2C+2%2C+1%7D%2C+%7B0%2C+6%2C+0%7D%7D%2C+4%5D+.+%7B%7B1%7D%2C+%7B1%7D%2C+%7B1%7D%7D).
 
 
