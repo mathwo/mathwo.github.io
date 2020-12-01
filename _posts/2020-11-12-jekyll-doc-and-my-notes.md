@@ -464,7 +464,9 @@ and in _includes/article-footer.html:
 
 ### Liquid Learning Resources
 
+- [Liquid Doc](https://shopify.github.io/liquid/)
 - [Liquid Overview](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
 - [Liquid Language Reference](https://shopify.dev/docs/themes/liquid/reference)
 - [Liquid Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
 - [Another Shopify Cheat Sheet](http://cheat.markdunkley.com/)
+- [Star Rating](https://blog.keirwhitaker.com/blog/create-a-star-rating-system-in-liquid/)
