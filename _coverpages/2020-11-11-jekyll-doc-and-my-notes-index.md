@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Blog Tech Notes
 date: 2020-11-11 07:47
 tags: []
