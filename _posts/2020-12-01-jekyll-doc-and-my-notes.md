@@ -17,3 +17,5 @@ Take [Vanilla BTT](https://github.com/vfeskov/vanilla-back-to-top). Save js to a
   textColor: '#fff'
 })</script>
 ```
+
+It's not perfect - needs two clicks and cannot scroll to top-left.
