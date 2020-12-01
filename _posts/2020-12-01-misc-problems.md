@@ -12,7 +12,7 @@ tags: []
 
 **Solution 1:**
 
-Mark all stones with number 1 initially, then in each step, replace the number on each stone by the sum of numbers of its adjacent points. Repeat this process for 4 steps as 4 jumps:
+Mark all stones with number 1 initially, then in each step, replace the number on each stone by the sum of numbers of its neighbors. Repeat this process for 4 steps as 4 jumps:
 
 - Initial: 3 corners: 1; 6 sides: 1; 1 center: 1
 - Step 1: 3 corners: 2; 6 sides: 4; 1 center: 6
