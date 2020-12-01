@@ -24,7 +24,7 @@ So the answer is $3 \times 128 + 6 \times 256 + 384=\boxed{2304}$
 
 **Solution 2:**
 
-There are three types of stones in the figure: corner, side, center. 
+There are three types of stones in the figure: corner, side, center.
 
 And there are 3 corners, 6 sides, 1 center. We mark this by a vector
 $$
@@ -118,8 +118,3 @@ $$
 
 
 The calculation is given [here](https://www.wolframalpha.com/input/?i=%7B3%2C+6%2C+1%7D+.+MatrixPower%5B%7B%7B0%2C+2%2C+0%7D%2C+%7B1%2C+2%2C+1%7D%2C+%7B0%2C+6%2C+0%7D%7D%2C+4%5D+.+%7B%7B1%7D%2C+%7B1%7D%2C+%7B1%7D%7D).
-
-
-
-
-
