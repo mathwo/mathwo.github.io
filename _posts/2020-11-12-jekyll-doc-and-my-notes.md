@@ -458,7 +458,7 @@ defaults:
 
 and in _includes/article-footer.html:
 
-![image-20201129113702707](/assets/images/image-20201129113702707.png)
+![image-20201129113702707](/assets/images/2020-11/image-20201129113702707.png)
 
 ---
 

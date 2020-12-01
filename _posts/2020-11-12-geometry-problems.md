@@ -6,13 +6,13 @@ tags: []
 
 ### 11/09/2020
 
-![problem image](/assets/images/image-20201109101018448.png){:class="image--x2l"}
+![problem image](/assets/images/2020-11/image-20201109101018448.png){:class="image--x2l"}
 
 **The distance from a point D inside equilateral triangle $\triangle{ABC}$ to the vertices are a, b and c respectively. Solve the area for $S_{\triangle{ABC}}$**
 
 #### Solution 1
 
-![solution 1 image](/assets/images/image-20201109101623268.png){:class="image--x2l"}
+![solution 1 image](/assets/images/2020-11/image-20201109101623268.png){:class="image--x2l"}
 
 Rotate $\triangle{BDC}$ by $60^{\circ}$ to $\triangle{AEC}$ so we have $AE=b$.
 
@@ -40,7 +40,7 @@ $=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a+b+c)(a+b-c)(b+c-a
 
 #### Solution 2
 
-![Solution 2 image](/assets/images/image-20201112142202515.png){:class="image--x2l"}
+![Solution 2 image](/assets/images/2020-11/image-20201112142202515.png){:class="image--x2l"}
 
 Rotate $\triangle{BDC}$ by $60^{\circ}$ to $\triangle{AEC}$ , $\triangle{CDA}$ by $60^{\circ}$ to $\triangle{BFA}$, $\triangle{ADB}$ by $60^{\circ}$ to $\triangle{CGB}$.
 
@@ -64,13 +64,13 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 ### 11/12/2020
 
-![image-20201116221941530](/assets/images/image-20201116221941530.png){:class="image--x4l"}
+![image-20201116221941530](/assets/images/2020-11/image-20201116221941530.png){:class="image--x4l"}
 
 #### A semicircle is constructed on line segment $AB$. Another  semicircle is constructed on chord $CD$, intersecting $AB$ at $P$ and $Q$. If $AP = 3$,$PQ = 7$, and $QB = 2$, then  find the length $CD$.
 
 #### Solution 1
 
-![image-20201116221408123](/assets/images/image-20201116221408123.png){:class="image--x4l"}
+![image-20201116221408123](/assets/images/2020-11/image-20201116221408123.png){:class="image--x4l"}
 
 $ \triangle{POK} \sim \triangle{DOQ}, PO=3, DO=6, OQ=4$
 $ \implies KO = 2 \implies CD= \sqrt{6^2+8^2-2^2}=\boxed{\sqrt{96}} $
@@ -87,13 +87,13 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 
 #### Let $\triangle{ABC}$ be an acute triangle with circumcircle $\omega$, and let $H$ be the intersection of the altitudes of $\triangle{ABC}$. Suppose the tangent to the circumcircle of $\triangle{HBC}$ at $H$ intersects $\omega$ at points $X$ and $Y$ with $HA=3$, $HX=2$, and $HY=6$. the area of $\triangle{ABC}$ can be written in the form $m\sqrt{n}$, where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$.
 
-![image-20201116164550124](/assets/images/image-20201116164550124.png){:class="image--x2l"}
+![image-20201116164550124](/assets/images/2020-11/image-20201116164550124.png){:class="image--x2l"}
 
 ---
 
 ### 11/13/2020
 
-![image-20201113073810590](/assets/images/image-20201113073810590.png){:class="image--x2l"}
+![image-20201113073810590](/assets/images/2020-11/image-20201113073810590.png){:class="image--x2l"}
 
 **Point D is outside of circle O with diameter MN. From D make two lines DM and DB with points D, A and B on the circle O. Extend OD and NA to intersect at point C. Prove that $CD \perp DB$.**
 
@@ -101,7 +101,7 @@ $OO_1^2 + CO_1^2 = CO^2 = 6^2 \implies CO_1^2 = 24 \implies CD = \boxed{2\sqrt{2
 
 ### 11/09/2020
 
-![image-20201116165041554](/assets/images/image-20201116165041554.png){:class="image--x2l"}
+![image-20201116165041554](/assets/images/2020-11/image-20201116165041554.png){:class="image--x2l"}
 
 #### $\triangle{ABC}$ is equilateral. Point $D$ is outside $\triangle{ABC}$ and $\angle{DAC}=10^{\circ}$, $\angle{DCA}=20^{\circ}$. Prove $BC=BD$
 
@@ -117,15 +117,15 @@ From 1 and 2 we know $B$ is the same as $B'$, then $BC=BD$. $\blacksquare$
 
 ### 11/08/2020
 
-![image-20201117003236412](/assets/images/image-20201117003236412.png){:class="image--x2l"}
+![image-20201117003236412](/assets/images/2020-11/image-20201117003236412.png){:class="image--x2l"}
 
 Solution:
 
-![image-20201117003450428](/assets/images/image-20201117003450428.png){:class="image--x2l"}
+![image-20201117003450428](/assets/images/2020-11/image-20201117003450428.png){:class="image--x2l"}
 
 ---
 
-![image-20201117003321013](/assets/images/image-20201117003321013.png){:class="image--x2l"}
+![image-20201117003321013](/assets/images/2020-11/image-20201117003321013.png){:class="image--x2l"}
 
 Solution:
 
@@ -139,11 +139,11 @@ $\implies DE=DE^2+BE^2=\dfrac{1}{4} \implies \angle{ABC}=\boxed{30^{\circ}}$
 
 ### 11/07/2020
 
-![image-20201117005107051](/assets/images/image-20201117005107051.png){:class="image--x3l"}
+![image-20201117005107051](/assets/images/2020-11/image-20201117005107051.png){:class="image--x3l"}
 
 Solution:
 
-![image-20201117010801435](/assets/images/image-20201117010801435.png){:class="image--x4l"}
+![image-20201117010801435](/assets/images/2020-11/image-20201117010801435.png){:class="image--x4l"}
 
 Let $O$ be the circumcenter of $ABP$. Then $\angle{AOP}=2 \angle{ABP}=20^{\circ}$ and
 
@@ -161,11 +161,11 @@ $\angle{APC}=\angle{OAP}+\angle{AOP}=80^{\circ}+20^{\circ}=\boxed{100^{\circ}}$
 
 ### 11/06/2020
 
-![image-20201117033820379](/assets/images/image-20201117033820379.png){:class="image--x4l"}
+![image-20201117033820379](/assets/images/2020-11/image-20201117033820379.png){:class="image--x4l"}
 
 Solution:
 
-![image-20201117033950167](/assets/images/image-20201117033950167.png){:class="image--x4l"}
+![image-20201117033950167](/assets/images/2020-11/image-20201117033950167.png){:class="image--x4l"}
 
 Make equilateral triangle $\triangle{ABE}$ with point $C$ and $E$ on the same side of $AB$. Easy to know :
 
@@ -181,17 +181,17 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 ### 11/05/2020
 
-![image-20201117165628598](/assets/images/image-20201117165628598.png){:class="image--x4l"}
+![image-20201117165628598](/assets/images/2020-11/image-20201117165628598.png){:class="image--x4l"}
 
 #### Prove $\dfrac{1}{x}=\dfrac{1}{a} + \dfrac{1}{b}-\dfrac{1}{a+b}$
 
 ##### Proof
 
-![image-20201119073808749](/assets/images/image-20201119073808749.png){:class="image--x4l"}
+![image-20201119073808749](/assets/images/2020-11/image-20201119073808749.png){:class="image--x4l"}
 
 Take the three centers of the circles:
 
-![image-20201119081713180](/assets/images/image-20201119081713180.png)
+![image-20201119081713180](/assets/images/2020-11/image-20201119081713180.png)
 
 From **the Law of Cosines**:
 
@@ -243,7 +243,7 @@ $\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfr
 
 ### 11/22/2020
 
-![image-20201122163753898](/assets/images/image-20201122163753898.png){:class="image--x2l"}
+![image-20201122163753898](/assets/images/2020-11/image-20201122163753898.png){:class="image--x2l"}
 
 #### Point $I$ is the incenter of $\triangle{ABC}$ and point $M$ bisects side $BC$. Extend line IM and intersects circumcircle of $\triangle{ABC}$ at point $D$. Point $E$ and $F$ bisects the arc $\overset{\large\frown}{AB}$ and $\overset{\large\frown}{BC}$. Line $DE$ intersects $AB$ at point $U$, Line $DF$ intersects $BC$ at point $V$. Prove: $BU=CV$
 
@@ -275,13 +275,13 @@ $\implies \dfrac{BD \cdot BE \cdot DF}{BD \cdot DF \cdot BE \cdot BC}=1 \implies
 
 ### 11/24/2020
 
-![image-20201124223551777](/assets/images/image-20201124223551777.png){:class="image--x2l"}
+![image-20201124223551777](/assets/images/2020-11/image-20201124223551777.png){:class="image--x2l"}
 
 #### Point $D$ bisects side $BC$ in $\triangle{ABC}$ and $DE \perp  AB, DF \perp AC, BF=CE$ , prove: $AB=AC$
 
 Proof:
 
-![image-20201125032132835](/assets/images/image-20201125032132835.png){:class="image--x2l"}
+![image-20201125032132835](/assets/images/2020-11/image-20201125032132835.png){:class="image--x2l"}
 
 Let point $M$ and $N$ bisects $BD$ and $DC$ respectively.
 
@@ -297,7 +297,7 @@ so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacks
 
 ### 11/25/2020
 
-![image-20201125113526475](/assets/images/image-20201125113526475.png){:class="image--lg"}
+![image-20201125113526475](/assets/images/2020-11/image-20201125113526475.png){:class="image--lg"}
 
 #### $CD$ and $BE$ are angle bisectors of $\triangle{ABC}$ and $CD=BE$. Prove $AB=AC.$
 
@@ -327,7 +327,7 @@ $\implies b-c=0 \implies AB=AC \blacksquare$
 
 #### Proof 2:
 
-![image-20201128151708916](/assets/images/image-20201128151708916.png){:class="image--xl"}
+![image-20201128151708916](/assets/images/2020-11/image-20201128151708916.png){:class="image--xl"}
 
 Draw $\angle{DCF}=\angle{8}=\angle{BFC}=\angle{7}$ and make $CE=CF$. Then connect $D$ and $F$.
 
@@ -349,7 +349,7 @@ $\implies \angle{DBC}=\angle{DFC}=\angle{ECB}\blacksquare$
 
 #### Proof 3:
 
-![image-20201128160143152](/assets/images/image-20201128160143152.png){:class="image--xl"}
+![image-20201128160143152](/assets/images/2020-11/image-20201128160143152.png){:class="image--xl"}
 
 Assume $\triangle{ABC}$ is not isosceles. Let $\angle{ABC} > \angle{ACB}$.
 

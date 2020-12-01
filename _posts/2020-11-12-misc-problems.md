@@ -8,7 +8,7 @@ tags: []
 
 #### A scale model of a building is 8 inches wide and 27 inches tall. It is placed against a wall. What is the length of the shortest pole that will reach the wall above it from the level ground?
 
-![image-20201116160912095](/assets/images/image-20201116160912095.png){:class="image--md"}
+![image-20201116160912095](/assets/images/2020-11/image-20201116160912095.png){:class="image--md"}
 
 Solution 1:
 
@@ -84,13 +84,13 @@ To include two situations for the third best team, we need the list length no sh
 
 ### 11/30/2020
 
-![image-20201130023450021](/assets/images/image-20201130023450021.png){:class="image--md"}
+![image-20201130023450021](/assets/images/2020-11/image-20201130023450021.png){:class="image--md"}
 
 $l$ and $c$ are known. Find $x$ and $y$. This problem seems similar to a previous one.
 
 Solution:
 
-![image-20201130024443003](/assets/images/image-20201130024443003.png){:class="image--xl"}
+![image-20201130024443003](/assets/images/2020-11/image-20201130024443003.png){:class="image--xl"}
 
 $\dfrac{y}{c}=\dfrac{c}{x} \implies xy=c^2$
 
@@ -107,4 +107,3 @@ So $x$,$y$ are roots of $t^2-(\sqrt{c^2+l^2}-c)t+c^2=0$:
 $\implies x,y=\dfrac{\sqrt{c^2+l^2}-c \pm \sqrt{l^2-2c^2-2c\sqrt{c^2+l^2}}}{2}$
 
 $\implies y=\boxed{\dfrac{\sqrt{c^2+l^2}-c+\sqrt{l^2-2c^2-2c\sqrt{c^2+l^2}}}{2}}$
-

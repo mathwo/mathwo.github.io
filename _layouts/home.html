@@ -32,9 +32,17 @@ articles:
   show_readmore: false
   show_info: false
 ---
+
+<!--
+  Somehow I have to remove following paginator from home page. It's not counting coverpages collection but still posts.
+  Looks like paginator is independent to data_source; it always takes posts for pagination.
+-->
+<!--
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>
+-->
+
 <script>
   {%- include scripts/home.js -%}
 </script>

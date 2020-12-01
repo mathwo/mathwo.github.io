@@ -8,7 +8,7 @@ tags: []
 [2025](#2025) [2026](#2026) [2027](#2027) [2028](#2028) [2029](#2029)
 
 | <a name="2020">2020</a> | Jan | Feb | Mar | Apr | May | Jun |
-| | Jul | Aug | Sep | Oct | [Nov]({% post_url 2020-11-12-jekyll-doc-and-my-notes %}) | Dec |
+| | Jul | Aug | Sep | Oct | [Nov]({% post_url 2020-11-12-jekyll-doc-and-my-notes %}) | [Dec]({% post_url 2020-12-01-jekyll-doc-and-my-notes %}) |
 
 <!--
 | <a name="2021">2021</a> | Jan | Feb | Mar | Apr | May | Jun |
