@@ -25,6 +25,8 @@ titles:
   # @end locale config
 key: page-about
 permalink: /about/
+show_subscribe: true
+license: true
 ---
 
 We need physical and math workouts, and we need take down the problems we have done. This is my workout blog for math, in almost daily updating. It used to be a section of my OneNote notes but I need share it easily with people when necessary, especially Brady and Justina.
