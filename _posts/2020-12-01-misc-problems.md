@@ -116,5 +116,14 @@ A^4
 \text{.}
 $$
 
-
 The calculation is given [here](https://www.wolframalpha.com/input/?i=%7B3%2C+6%2C+1%7D+.+MatrixPower%5B%7B%7B0%2C+2%2C+0%7D%2C+%7B1%2C+2%2C+1%7D%2C+%7B0%2C+6%2C+0%7D%7D%2C+4%5D+.+%7B%7B1%7D%2C+%7B1%7D%2C+%7B1%7D%7D).
+
+---
+
+### 12/02/2020
+
+#### A 4-digit number divides each of its 4 digits will get 4 integers. And the sum of these 4 digits equals to the 4-digit number itself. How many numbers satisfy this requirement?
+
+**Solution:**
+
+Apparently there is no zero and one in digits.
