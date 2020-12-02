@@ -10,16 +10,38 @@ tags: []
 
 **Solution:**
 
-1. When $n=1, m=1$
+1. When $n=1, m_1=1$
 
-2. When $n=2, (\sqrt{2}-1)^2=3-2\sqrt{2}=\sqrt{9}-\sqrt{8}, m=8$
+2. When $n=2, (\sqrt{2}-1)^2=3-2\sqrt{2}=\sqrt{9}-\sqrt{8}, m_2=8$
 
-3. Suppose $n=k, (\sqrt{2}-1)^k=\sqrt{m+1}-\sqrt{m}, m \in \mathbb{Z^{+}}$, then
-  $(\sqrt{2}-1)^{k+1}=(\sqrt{m+1}-\sqrt{m})(\sqrt{2}-1)$
-  $=\sqrt{2m+2}+\sqrt{m}-\sqrt{m+1}-\sqrt{2m}$
+3. Suppose $n=k, (\sqrt{2}-1)^k=\sqrt{m_k+1}-\sqrt{m_k}, m_k \in \mathbb{Z^{+}}$, then
+  $(\sqrt{2}-1)^{k+1}=(\sqrt{m_k+1}-\sqrt{m_k})(\sqrt{2}-1)$
+  $=\sqrt{2m_k+2}+\sqrt{m_k}-\sqrt{m_k+1}-\sqrt{2m_k}$
 
-  Let $\sqrt{2m+2}+\sqrt{m}=\sqrt{n+1}$, then
-  $n=(\sqrt{2m+2}+\sqrt{m})^2-1=3m+1+2\sqrt{2m^2+2m}$
-  $=(\sqrt{2m})^2+(\sqrt{m+1})^2+2\sqrt{2m(m+1)}=(\sqrt{2m}+\sqrt{m+1})^2$
-  $\sqrt{n}=\sqrt{2m}+\sqrt{m+1} \implies (\sqrt{2}-1)^{k+1}=\sqrt{n+1}-\sqrt{n}$
-  where $ n=3m+1+2 \sqrt{2m^2+2m} $
+Let $\sqrt{2m_k+2}+\sqrt{m_k}=\sqrt{m_{k+1}+1}$, then
+$m_{k+1}=(\sqrt{2m_k+2}+\sqrt{m_k})^2-1=3m_k+1+2\sqrt{2m_k^2+2m_k}$
+$=(\sqrt{2m_k})^2+(\sqrt{m_k+1})^2+2\sqrt{2m_k(m_k+1)}=(\sqrt{2m_k}+\sqrt{m_k+1})^2$
+$\sqrt{m_{k+1}}=\sqrt{2m_k}+\sqrt{m_k+1} \implies (\sqrt{2}-1)^{k+1}=\sqrt{m_{k+1}+1}-\sqrt{m_{k+1}}$
+where $ m_{k+1}=3m_k+1+2 \sqrt{2m_k^2+2m_k} $
+
+Now we need prove that $m_{k+1} \in \mathbb{Z^{+}}$.
+
+1. When $n=1$, $m_1=1$
+
+2. When $n=2$, $m_2=3m_1+1+2\sqrt{2m_1^2+2m_1}=8$, and $\sqrt{2m_1^2+2m_1}=2 \in \mathbb{Z^{+}}$
+
+3. Suppose $n=k$, $m_k=3m_{k-1}+1+2\sqrt{2m_{k-1}^2+2m_{k-1}}$, and $\sqrt{2m_{k-1}^2+2m_{k-1}}=p \in \mathbb{Z^{+}}$
+
+   So $m_k=3m_{k-1}+1+2p$, $p^2=2m_{k-1}^2+2m_{k-1}$
+
+   Then when $n=k+1$, $m_{k+1}=2m_k+1+2\sqrt{2m_k^2+2m_k}$, where
+
+   $2m_k^2+2m_k=2(3m_{k-1}+1+2p)(3m_{k-1}+2+2p)$
+
+   $=18m_{k-1}^2+18m_{k-1}+24pm_{k-1}+12p+4+8p^2$
+
+   $=34m_{k-1}^2+34m_{k-1}+24pm_{k-1}+12p+4$
+
+   $=(4m_{k-1}+3p+2)^2 \implies m_{k+1} \in \mathbb{Z^{+}}$
+
+So we have approved the statement. $\blacksquare$
