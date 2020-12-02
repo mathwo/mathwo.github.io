@@ -212,11 +212,11 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: false
+      license: true
       aside:
         toc: true
       show_edit_on_github: true
-      show_subscribe: false
+      show_subscribe: true
       pageview: true
       show-comment: true
   - scope:
