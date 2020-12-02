@@ -127,3 +127,27 @@ The calculation is given [here](https://www.wolframalpha.com/input/?i=%7B3%2C+6%
 **Solution:**
 
 Apparently there is no zero and one in digits.
+
+---
+
+### 12/02/2020
+
+#### If $a,b \in \mathbb{N}$ such that $\dfrac{2019}{2020}<\dfrac{a}{b} < \dfrac{2020}{2021}$, what is the smallest possible value of $a+b?$
+
+**Solution:**
+
+$\dfrac{2019}{2020}<\dfrac{a}{b} < \dfrac{2020}{2021}$
+
+$\implies a<b \implies b \ge a + 1 \implies b-a \ge 1$ and
+
+$\implies \dfrac{2020}{2019} > \dfrac{b}{a} > \dfrac{2021}{2020}$
+
+$\implies \dfrac{1}{2019} > \dfrac{b-a}{a} > \dfrac{1}{2020}$
+
+$\implies 2019 < \dfrac{a}{b-a} < 2020$
+
+When $(b-a)_{min} = 1$, $2019 < a < 2020 \implies a \not\in \mathbb{N} $
+
+When $(b-a)_{min} = 2$, $4038 < a < 4040 \implies a=4039$
+
+$\implies b=a+2=4041 \implies (a+b)_{min}=\boxed{8080}$

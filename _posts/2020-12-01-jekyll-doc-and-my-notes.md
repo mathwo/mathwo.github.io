@@ -19,3 +19,9 @@ Take [Vanilla BTT](https://github.com/vfeskov/vanilla-back-to-top). Save js to a
 ```
 
 It's not perfect - needs two clicks on mobile screen, and cannot scroll to top-left.
+
+---
+
+### Star Rating System
+
+It may use [zetabase](https://zetabase.io/) to create a star rating system, like comment system does.
