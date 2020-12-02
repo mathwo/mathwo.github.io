@@ -49,4 +49,4 @@ Now we need prove that $m_{k+1} \in \mathbb{Z^{+}}$.
 
    $=(4m_{k-1}+3p+2)^2 \implies m_{k+1} \in \mathbb{Z^{+}}$
 
-So we have proved the statement. $\blacksquare$
+The original statement has been proved. $\blacksquare$
