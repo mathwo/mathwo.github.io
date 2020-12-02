@@ -10,18 +10,23 @@ tags: []
 
 **Solution:**
 
-1. When $n=1, m_1=1$
+1. When $n=1$, $m_1=1$
 
-2. When $n=2, (\sqrt{2}-1)^2=3-2\sqrt{2}=\sqrt{9}-\sqrt{8}, m_2=8$
+2. When $n=2$, $(\sqrt{2}-1)^2=3-2\sqrt{2}=\sqrt{9}-\sqrt{8}, m_2=8$
 
-3. Suppose $n=k, (\sqrt{2}-1)^k=\sqrt{m_k+1}-\sqrt{m_k}, m_k \in \mathbb{Z^{+}}$, then
-  $(\sqrt{2}-1)^{k+1}=(\sqrt{m_k+1}-\sqrt{m_k})(\sqrt{2}-1)$
-  $=\sqrt{2m_k+2}+\sqrt{m_k}-\sqrt{m_k+1}-\sqrt{2m_k}$
+3. Suppose $n=k$, $(\sqrt{2}-1)^k=\sqrt{m_k+1}-\sqrt{m_k}$, $m_k \in \mathbb{Z^{+}}$, then
+
+$(\sqrt{2}-1)^{k+1}=(\sqrt{m_k+1}-\sqrt{m_k})(\sqrt{2}-1)$
+$=\sqrt{2m_k+2}+\sqrt{m_k}-\sqrt{m_k+1}-\sqrt{2m_k}$
 
 Let $\sqrt{2m_k+2}+\sqrt{m_k}=\sqrt{m_{k+1}+1}$, then
-$m_{k+1}=(\sqrt{2m_k+2}+\sqrt{m_k})^2-1=3m_k+1+2\sqrt{2m_k^2+2m_k}$
-$=(\sqrt{2m_k})^2+(\sqrt{m_k+1})^2+2\sqrt{2m_k(m_k+1)}=(\sqrt{2m_k}+\sqrt{m_k+1})^2$
-$\sqrt{m_{k+1}}=\sqrt{2m_k}+\sqrt{m_k+1} \implies (\sqrt{2}-1)^{k+1}=\sqrt{m_{k+1}+1}-\sqrt{m_{k+1}}$
+
+$m_{k+1}=(\sqrt{2m_k+2}+\sqrt{m_k})^2-1$
+$=3m_k+1+2\sqrt{2m_k^2+2m_k}$
+$=(\sqrt{2m_k})^2+(\sqrt{m_k+1})^2+2\sqrt{2m_k(m_k+1)}$
+$=(\sqrt{2m_k}+\sqrt{m_k+1})^2$
+$\sqrt{m_{k+1}}=\sqrt{2m_k}+\sqrt{m_k+1}$
+$\implies (\sqrt{2}-1)^{k+1}=\sqrt{m_{k+1}+1}-\sqrt{m_{k+1}}$
 where $ m_{k+1}=3m_k+1+2 \sqrt{2m_k^2+2m_k} $
 
 Now we need prove that $m_{k+1} \in \mathbb{Z^{+}}$.
