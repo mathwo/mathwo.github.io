@@ -10,7 +10,7 @@ tags: []
 
 **The distance from a point D inside equilateral triangle $\triangle{ABC}$ to the vertices are a, b and c respectively. Solve the area for $S_{\triangle{ABC}}$**
 
-#### Solution 1
+**Solution 1:**
 
 ![solution 1 image](/assets/images/2020-11/image-20201109101623268.png){:class="image--x2l"}
 
@@ -38,7 +38,7 @@ $ \implies S_{\triangle{ABC}}=\dfrac{\sqrt{3}}{4}AC^2 $
 
 $=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a+b+c)(a+b-c)(b+c-a)(c+a-b)}}$
 
-#### Solution 2
+**Solution 2:**
 
 ![Solution 2 image](/assets/images/2020-11/image-20201112142202515.png){:class="image--x2l"}
 
@@ -68,14 +68,14 @@ $S_{\triangle{ABC}}=\boxed{\dfrac{\sqrt{3}}{8}(a^2+b^2+c^2)+\dfrac{3}{8}\sqrt{(a
 
 #### A semicircle is constructed on line segment $AB$. Another  semicircle is constructed on chord $CD$, intersecting $AB$ at $P$ and $Q$. If $AP = 3$,$PQ = 7$, and $QB = 2$, then  find the length $CD$.
 
-#### Solution 1
+**Solution 1:**
 
 ![image-20201116221408123](/assets/images/2020-11/image-20201116221408123.png){:class="image--x4l"}
 
 $ \triangle{POK} \sim \triangle{DOQ}, PO=3, DO=6, OQ=4$
 $ \implies KO = 2 \implies CD= \sqrt{6^2+8^2-2^2}=\boxed{\sqrt{96}} $
 
-#### Solution 2
+**Solution 2:**
 
 $OE=\dfrac{1}{2}, PE=\dfrac{7}{2},O_1E^2+OE^2=OO_1^2$, $O_1E^2 + PE^2 = PO_1^2 = CO_1^2=OO_1^2-\dfrac{1}{4}+\dfrac{49}{4}=OO_1^2 + 12$
 
@@ -119,7 +119,7 @@ From 1 and 2 we know $B$ is the same as $B'$, then $BC=BD$. $\blacksquare$
 
 ![image-20201117003236412](/assets/images/2020-11/image-20201117003236412.png){:class="image--x2l"}
 
-Solution:
+**Solution:**
 
 ![image-20201117003450428](/assets/images/2020-11/image-20201117003450428.png){:class="image--x2l"}
 
@@ -127,7 +127,7 @@ Solution:
 
 ![image-20201117003321013](/assets/images/2020-11/image-20201117003321013.png){:class="image--x2l"}
 
-Solution:
+**Solution:**
 
 $DE^2+BE^2=\dfrac{1}{4}$, $DE+BC=1$
 
@@ -141,7 +141,7 @@ $\implies DE=DE^2+BE^2=\dfrac{1}{4} \implies \angle{ABC}=\boxed{30^{\circ}}$
 
 ![image-20201117005107051](/assets/images/2020-11/image-20201117005107051.png){:class="image--x3l"}
 
-Solution:
+**Solution:**
 
 ![image-20201117010801435](/assets/images/2020-11/image-20201117010801435.png){:class="image--x4l"}
 
@@ -163,7 +163,7 @@ $\angle{APC}=\angle{OAP}+\angle{AOP}=80^{\circ}+20^{\circ}=\boxed{100^{\circ}}$
 
 ![image-20201117033820379](/assets/images/2020-11/image-20201117033820379.png){:class="image--x4l"}
 
-Solution:
+**Solution:**
 
 ![image-20201117033950167](/assets/images/2020-11/image-20201117033950167.png){:class="image--x4l"}
 
@@ -185,7 +185,7 @@ $ \implies \angle{DCB}=\angle{CEA}=10^{\circ} \implies \angle{CDA}=\angle{DCB} +
 
 #### Prove $\dfrac{1}{x}=\dfrac{1}{a} + \dfrac{1}{b}-\dfrac{1}{a+b}$
 
-##### Proof
+**Proof:**
 
 ![image-20201119073808749](/assets/images/2020-11/image-20201119073808749.png){:class="image--x4l"}
 
@@ -225,7 +225,7 @@ $\implies \dfrac{a+b}{r}=\dfrac{(a+b)^2}{ab}-1 \implies \dfrac{1}{r}=\dfrac{a+b}
 
 $\implies \dfrac{1}{r}=\dfrac{1}{a}+\dfrac{1}{b}-\dfrac{1}{a+b} \blacksquare$
 
-#### Proof 2
+**Proof 2**
 
 Use [Stewart's Theorem](https://en.wikipedia.org/wiki/Cevian)
 
@@ -247,7 +247,7 @@ $\implies \dfrac{1}{r}=\dfrac{a+b}{ab}-\dfrac{1}{a+b} \implies \dfrac{1}{r}=\dfr
 
 #### Point $I$ is the incenter of $\triangle{ABC}$ and point $M$ bisects side $BC$. Extend line IM and intersects circumcircle of $\triangle{ABC}$ at point $D$. Point $E$ and $F$ bisects the arc $\overset{\large\frown}{AB}$ and $\overset{\large\frown}{BC}$. Line $DE$ intersects $AB$ at point $U$, Line $DF$ intersects $BC$ at point $V$. Prove: $BU=CV$
 
-Proof:
+**Proof:**
 
 Point $E$ bisects the arc $\overset{\large\frown}{AB}$
 
@@ -279,7 +279,7 @@ $\implies \dfrac{BD \cdot BE \cdot DF}{BD \cdot DF \cdot BE \cdot BC}=1 \implies
 
 #### Point $D$ bisects side $BC$ in $\triangle{ABC}$ and $DE \perp  AB, DF \perp AC, BF=CE$ , prove: $AB=AC$
 
-Proof:
+**Proof:**
 
 ![image-20201125032132835](/assets/images/2020-11/image-20201125032132835.png){:class="image--x2l"}
 
@@ -301,7 +301,7 @@ so $\triangle{ECB} \cong \triangle{FBC} \implies \angle{EBC}=\angle{FCB} \blacks
 
 #### $CD$ and $BE$ are angle bisectors of $\triangle{ABC}$ and $CD=BE$. Prove $AB=AC.$
 
-#### Proof 1:
+**Proof 1:**
 
 Let $AC=b, AB=c, BC=a, CD=e, BE=f$
 
@@ -325,7 +325,7 @@ $a+b+c>a, a+b+c>b \implies (a+b+c)^2-ab>0$
 
 $\implies b-c=0 \implies AB=AC \blacksquare$
 
-#### Proof 2:
+**Proof 2:**
 
 ![image-20201128151708916](/assets/images/2020-11/image-20201128151708916.png){:class="image--xl"}
 
@@ -347,7 +347,7 @@ $\implies BHFG \text{ is a parallelogram } \implies \angle{m}=\angle{n}$
 
 $\implies \angle{DBC}=\angle{DFC}=\angle{ECB}\blacksquare$
 
-#### Proof 3:
+**Proof 3:**
 
 ![image-20201128160143152](/assets/images/2020-11/image-20201128160143152.png){:class="image--xl"}
 
@@ -375,7 +375,7 @@ Therefore, $\triangle{ABC}$ is isosceles.$\blacksquare$
 
 #### A sphere is centered at a point with integer coordinates and passes through the three points $(2,0,0), (0,4,0), (0,0,6)$, but not the origin $(0,0,0)$. If $r$ is the smallest possible radius of the sphere, compute $r^2$. (HMMT General, November 2020)
 
-Solution:
+**Solution:**
 
 Suppose the center of the sphere is $(x_0, y_0, z_0)$
 
@@ -408,6 +408,3 @@ $z_0=1 \implies x_0=-5, y_0=-1 \implies r^2=51$
 and $z_0^2+y_0^2+z_0^2=27 \ne r^2$
 
 So the solution is $r^2=\boxed{51}$.
-
-
-

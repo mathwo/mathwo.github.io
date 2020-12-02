@@ -62,7 +62,7 @@ bundle exec jekyll serve --incremental
 Unable to load the EventMachine C extension; To use the pure-ruby reactor, require 'em/pure_ruby'
 ```
 
-Solution:
+**Solution:**
 
 https://github.com/oneclick/rubyinstaller2/issues/96
 
