@@ -151,3 +151,19 @@ When $(b-a)_{min} = 1$, $2019 < a < 2020 \implies a \not\in \mathbb{N} $
 When $(b-a)_{min} = 2$, $4038 < a < 4040 \implies a=4039$
 
 $\implies b=a+2=4041 \implies (a+b)_{min}=\boxed{8080}$
+
+---
+
+### 12/02/2020
+
+#### If $\dfrac{1}{6}=\dfrac{1}{a_1}+\dfrac{1}{a_2}+\dfrac{1}{a_3}+\dfrac{1}{a_4}+\dfrac{1}{a_5}+\dfrac{1}{a_6}$ and $a_i \in \mathbb{N}$, $\forall i \ne j, a_i \ne a_j$. What is the smallest possible value of $\displaystyle \sum_{i=1}^{6}a_i.$
+
+**Solution:**
+
+---
+
+### 12-03-2020
+
+#### Solve for real values of $x$: $2\sqrt[3]{2x+1}=x^3-1$
+
+**Solution:**
