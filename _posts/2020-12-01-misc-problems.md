@@ -167,3 +167,20 @@ $\implies b=a+2=4041 \implies (a+b)_{min}=\boxed{8080}$
 #### Solve for real values of $x$: $2\sqrt[3]{2x+1}=x^3-1$
 
 **Solution:**
+
+Let $y=\sqrt[3]{2x+1} \implies x=\dfrac{y^3-1}{2}$
+
+$\implies 2y=x^3-1 \implies y=\dfrac{x^3-1}{2}$
+
+Let $f(w)=\dfrac{w^3-1}{2}$, $f(w)$ is a restrictly increasing function, $x=f(y)$, $y=f(x)$.
+
+Assume $x<y$, since $f(w)$ is restrictly increasing, $f(x)<f(y) \implies y < x$
+
+Similarly assume $x>y$ will get contradictory result, so we have $x=y$
+
+$x=\dfrac{x^3-1}{2} \implies (x^2-x-1)(x+1)=0$
+
+$x=\boxed{-1, \dfrac{1\pm \sqrt{5}}{2}}$
+
+
+
