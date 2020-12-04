@@ -182,5 +182,37 @@ $x=\dfrac{x^3-1}{2} \implies (x^2-x-1)(x+1)=0$
 
 $x=\boxed{-1, \dfrac{1\pm \sqrt{5}}{2}}$
 
+---
 
+### 12/03/2020
+
+#### For what $x \in \mathbb{N}$ are $8x^3-20$ and $2x^5-2$ both perfect squares $?$
+
+**Solution:**
+
+Let $8x^3-20=m^2$, $2x^5-2=n^2$, for $m,n \in \mathbb{N}$
+
+Then $m^2 \cdot n^2=(8x^3-20)(2x^5-2)=16x^8-40x^5-16x^3+40=(mn)^2$
+
+$16x^8-40x^5-16x^3+40=(4x^4-5x)^2-(16x^3+25x^2-40)$
+
+$=(4x^4-5x-1)^2+(8x^4-16x^3-25x^2-10x+39)$
+
+Let $f(x)=16x^3+25x^2-40$, $g(x)=8x^4-16x^3-25x^2-10x+39$
+
+When $x\ge 4$, $f(4)>0, f'(4)>0 \implies (mn)^2<(4x^4-5x)^2$
+
+$g(x)>8x^4-16x^3-32x^2-16x+39$, Let $h(x)=8x^4-16x^3-32x^2-16x+39$
+
+When $x\ge 4$, $h(4)>0, f'(4)>0 \implies (mn)^2>(4x^4-5x-1)^2$
+
+This is contraductory, so we know $x<4, x \in \mathbb{N}$
+
+When $x=1, m^2=-16 < 0$, not a solution
+
+When $x=2, m^2=44$, not a solution
+
+When $x=3, m^2=196 \implies m=13, n^2=484 \implies n=22$
+
+So the solution is $x=\boxed{3}$
 
