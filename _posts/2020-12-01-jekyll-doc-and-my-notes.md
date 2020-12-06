@@ -24,3 +24,9 @@ It's not perfect - needs two clicks on mobile screen, and cannot scroll to top-l
 ### Star Rating System
 
 It may use [zetabase](https://zetabase.io/) to create a star rating system, like comment system does.
+
+---
+
+### Add google search to site
+
+Followed this [link](https://medium.com/@YossiEliaz/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19), added meta in _includes/head.html.
