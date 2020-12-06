@@ -1,7 +1,7 @@
 ---
 title: Algebra Problems
 date: 2020-12-01 11:08
-tags: []
+tags: [Algebra]
 ---
 
 ### 12/01/2020
@@ -50,3 +50,9 @@ Now we need prove that $m_{k+1} \in \mathbb{N}$.
    $=(4m_{k-1}+3p+2)^2 \implies m_{k+1} \in \mathbb{N}$
 
 The original statement has been proved. $\blacksquare$
+
+---
+
+### 12/04/2020
+
+#### Given $a_1,a_2,...,a_n \in \mathbb{N}, n>4$, prove: there exist $x_1,x_2,...,x_n \in \mathbb{R}$ such that $\displaystyle\prod_{i=1}^{n}{x_i} \ne 0$, $x_2=0$ or $1$, satisfying $\displaystyle\sum_{i=1}^{n}{a_ix_i} \equiv 0$ mod $n^2.$

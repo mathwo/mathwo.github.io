@@ -1,7 +1,7 @@
 ---
 title: Blog Tech Notes
 date: 2020-11-12 07:47
-tags: []
+tags: [tech-note]
 ---
 
 ### Jekyll Documentation

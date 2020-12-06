@@ -1,7 +1,7 @@
 ---
 title: Misc Problems
 date: 2020-12-01 10:08
-tags: []
+tags: [Misc]
 ---
 
 ### 12/01/2020
@@ -216,3 +216,56 @@ When $x=3, m^2=196 \implies m=13, n^2=484 \implies n=22$
 
 So the solution is $x=\boxed{3}$
 
+---
+
+### 12/04/2020
+
+#### Tessa has a unit cube, on which each vertex is labeled by a distinct integer between 1 and 8 inclusive. She also has a deck of 8 cards, 4 of which are black and 4 of which are white. At each step she draws a card from the deck, and
+- #### if the card is black, she simultaneously replaces the number of each vertex by the sum of the three numbers on vertices that are distance 1 away from this vertex;
+- #### if the card is white, she simultaneously replaces the number of each vertex by the sum of the three numbers on vertices that are distance $$\sqrt{2}$$ away from this vertex.
+
+#### When Tessa finishes drawing all cards of the deck, what is the maximum possible value of a number that is on the cube?
+
+**Solution:**
+
+---
+
+### 12/05/2020
+
+#### In a barn, 100 chicks sit peacefully in  a circle. Suddenly, each chick randomly pecks the chick immediately to its left or right **with equal chance**. What is the expected number of unpecked chicks$?$
+
+**Solution:**
+
+Let
+$$
+\begin{align*}
+X_i=
+\begin{cases}
+\text{ 0 if the chick is pecked}\\
+\text{ 1 if the chick is unpecked}
+\end{cases}
+\end{align*}\\
+$$
+
+Let $P_r(\text{check pecks left})=p$ and $P_r(\text{chick pecks right})=1-p$
+$$
+\begin{align*}
+E(X_i) &= 0 \times Pr(\text{pecked}) + 1 \times Pr(\text{unpecked})\\
+&= P_r(\text{unpecked})\\
+&=Pr(\text{chick on left pecks left}) \times P_r(\text{chick on right pecks right})\\
+&=p(1-p)
+\end{align*}\\
+$$
+
+Based on Linearity of expectation $E(X+Y)=E(X)+E(Y)$:
+$$
+\begin{align*}
+E(X_1+X_2+...+X_{100})&=E(X_1)+E(X_2)+...+E(X_{100})\\
+&=p(1-p)+p(1-p)+...+p(1-p)\\
+&=100p(1-p)\\
+\end{align*}
+$$
+
+![image-20201205180051792](/assets/images/2020-12/image-20201205180051792.png)
+
+When $p=0.5$, the answer is $\boxed{25}$.

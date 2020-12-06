@@ -1,7 +1,7 @@
 ---
 title: Algebra Problems
 date: 2020-11-12 15:47
-tags: []
+tags: [Algebra]
 ---
 
 ### 11/17/2020

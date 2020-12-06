@@ -1,8 +1,7 @@
 ---
-layout: article
 title: Blog Tech Notes
 date: 2020-12-01 10:10
-tags: []
+tags: [tech-note]
 ---
 
 ### Add float "Back to Top" Button

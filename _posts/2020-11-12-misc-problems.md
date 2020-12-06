@@ -1,7 +1,7 @@
 ---
 title: Misc Problems
 date: 2020-11-12 12:40
-tags: []
+tags: [Misc]
 ---
 
 ### 11/16/2020

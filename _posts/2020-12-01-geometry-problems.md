@@ -1,7 +1,37 @@
 ---
 title: Geometry Problems
 date: 2020-12-01 10:11
-tags: []
+tags: [Geometry]
 ---
 
-### 12/01/2020
+### 12/04/2020
+
+![image-20201204210659033](E:\workspace\mwo\assets\images\2020-12\image-20201204210659033.png)
+
+#### $\angle{BAD}=\angle{DAC}=60^{\circ}, \dfrac{AB}{AC}=2, AD=100$, solve $BC.$
+
+Solution:
+
+![image-20201204211344554](E:\workspace\mwo\assets\images\2020-12\image-20201204211344554.png)
+
+$AD$ bisects $\angle{BAC} \implies \dfrac{AB}{AC}=\dfrac{BD}{CD}=2$
+
+Extend $AD$ to $E$ so that $\angle{AEB}=60^{\circ}$. Easy to know $\triangle{ABE}$ is equilateral and $\triangle{DBE} \sim \triangle{DAC}$
+
+$\implies \dfrac{DE}{AD}=\dfrac{BE}{AC}=\dfrac{BD}{CD}=2$
+
+$\implies DE=200 \implies AB=BE=AE=300 \implies AC=150$
+
+$\implies BC^2=AB^2+AC^2-2AB \cdot AC \cdot cos\angle{BAC}$
+
+$\implies BC^2=300^2+150^2+2\times 300 \times 150 \times \dfrac{1}{2}$
+
+$ \implies BC=\boxed{150\sqrt{7}}$
+
+---
+
+### 12/04/2020
+
+#### Points $O$ and $H$ are the circumcentre and orthocentre of acute triangle $ABC$, respectively. The perpendicular bisector of segment $AH$ meets sides $AB$ and $AC$ at $D$ and $E$, respectively. Prove that $\angle{DOA}=\angle{EOA}.$
+
+![image-20201204223718064](E:\workspace\mwo\assets\images\2020-12\image-20201204223718064.png)
