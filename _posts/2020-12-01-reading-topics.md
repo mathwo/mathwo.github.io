@@ -13,3 +13,11 @@ tags: [Reading]
 ### 12/04/2020
 
 [MathPages](https://www.mathpages.com/) is a good problem site. Got to know [Bank and Bridge Problem](https://www.mathpages.com/home/kmath303.htm) from it.
+
+---
+
+### 12/07/2020
+
+*Principles of Mathematical Analysis* is called "Baby Rudin", *Real and Complex Analysis* is called "Papa Rudin" and *Functional Analysis* is called "Grandpa Rudin". Second hand book market value rose to high but status usually very poor, no good new prints. Both not good for beginners.
+
+---

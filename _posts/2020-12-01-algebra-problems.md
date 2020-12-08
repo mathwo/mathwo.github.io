@@ -56,3 +56,14 @@ The original statement has been proved. $\blacksquare$
 ### 12/04/2020
 
 #### Given $a_1,a_2,...,a_n \in \mathbb{N}, n>4$, prove: there exist $x_1,x_2,...,x_n \in \mathbb{R}$ such that $\displaystyle\prod_{i=1}^{n}{x_i} \ne 0$, $x_2=0$ or $1$, satisfying $\displaystyle\sum_{i=1}^{n}{a_ix_i} \equiv 0$ mod $n^2.$
+
+**Solution:**
+
+---
+
+### 12/06/2020
+
+#### Let $a$ be the greatest root of $x^3-3x^2+1=0$. Show $\lfloor {a^{1988}} \rfloor$ is divisible by $17.$
+
+**Solution:**
+
