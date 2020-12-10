@@ -36,6 +36,24 @@ $ \implies BC=\boxed{150\sqrt{7}}$
 
 ![image-20201204223718064](/assets/images/2020-12/image-20201204223718064.png){:class="image--xl"}
 
+**Proof:**
+
+Since points $O$ and $H$ are the circumcentre and orthocentre of acute triangle $ABC$, they are isogonal conjugates.
+
+That means, $\angle{BAO} = \angle{HAC} \implies \angle{BAH} = \angle{OAC}$
+
+$AD=DH, AO=OC, \angle{BAH} = \angle{OAC} \implies \triangle{DAH} \sim \triangle{OAC}$
+
+$\implies \dfrac{AD}{AH}=\dfrac{AO}{AC}$, and we know $\angle{BAO} = \angle{HAC}$
+
+$\implies \triangle{ADO} \sim \triangle{AHC} \implies \angle{DOA}=\angle{HCA}$
+
+$\implies \angle{HCA}=\angle{OCB}=\angle{OBC}=\angle{ABH}$
+
+Similarly, $\triangle{AEO} \sim \triangle{AHB} \implies \angle{AOE}=\angle{ABH}$
+
+So we know $\angle{DOA}=\angle{AOE} \blacksquare$
+
 ---
 
 ### 12/08/2020
