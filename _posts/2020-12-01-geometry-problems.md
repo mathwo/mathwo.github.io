@@ -38,6 +38,8 @@ $ \implies BC=\boxed{150\sqrt{7}}$
 
 **Proof:**
 
+![image-20201210050859889](/assets/images/2020-12/image-20201210050859889.png){:class="image--xl"}
+
 Since points $O$ and $H$ are the circumcentre and orthocentre of acute triangle $ABC$, they are isogonal conjugates.
 
 That means, $\angle{BAO} = \angle{HAC} \implies \angle{BAH} = \angle{OAC}$
@@ -63,3 +65,56 @@ So we know $\angle{DOA}=\angle{AOE} \blacksquare$
 ![image-20201208023009734](/assets/images/2020-12/image-20201208023009734.png){:class="image--x3l"}
 
 ---
+
+### 12/10/2020
+
+#### Let $A, B, C, D$ be points chosen on a circle, in that order. Line $BD$ is reflected over lines $AB$ and $DA$ to obtain lines $l_1$ and $l_2$ respectively. If lines $l_1, l_2$ and $AC$ meet at a common point and if $AB=4$, $BC=3$, $CD=2$, compute the length $DA.$
+
+
+
+**Solution:**
+
+![image-20201214172118662](/assets/images/2020-12/image-20201214172118662.png){:class="image--xl"}
+
+Line $BD$ is reflected over lines $AB$ and $DA$ to obtain line $BD'$ and $DB'$, then we know $AB$ bisects $\angle{DBD'}$ and $AD$ bisects $\angle{BDB'}$. That means point $A$ is an excenter of $\triangle{BDE}$, then we know $AE$ bisects $\angle{BED}$ and since point $C$ is on line $AE$ and also on the excircle ${ABCD}$, $C$ is the incenter of $\triangle{BDE}$, and $AC$ is actually the diameter of the excircle. That is,
+
+$AC^2=AB^2+BC^2=CD^2+AD^2$
+
+$ \implies AD=\sqrt{AB^2+BC^2-CD^2}=\boxed{\sqrt{21}}$
+
+To prove $C$ is the incenter of $\triangle{BDE}$ and $AC$ is the diameter of the excircle $ABCD$ of $\triangle{BDE}$, there are two references:
+
+* [All About ExCircles!](https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2014-06/excircles.pdf)
+* [A Beautiful Journey Through Olympiad Geometry](https://www.olympiadgeometry.com/the-book.html)
+
+First, by the trigonometric form of Ceva's theorem, the internal angle bisector of $\angle{BED}$ must be concurrent with the external angle bisectors of $\angle{DBE}$ and $\angle{BDE}$. Thus we know AE bisects $\angle{BED}$.
+
+Second, by angle chasing, we know
+
+$\angle{D'BA}=\angle{ABD}=\angle{BEA}+\angle{BAE}$
+
+$\angle{B'DA}=\angle{ADB}=\angle{AED}+\angle{EAD}$
+
+Add above two we get
+
+$180^{\circ}-\angle{BAD}=2\angle{BEA}+\angle{BAD}$
+
+$\implies \angle{BEA}+\angle{BAD}=90^{\circ}$
+
+$\angle{BEA}+\angle{BAE}+\angle{EAD}=90^{\circ}$
+
+$\implies \angle{D'BA}=\angle{ABD}=\angle{ACD}=90^{\circ}-\angle{CAD}$
+
+$\implies \angle{ADC}=\angle{ADB}+\angle{BDC}=90^{\circ}=\dfrac{2\angle{ADB}+\angle{BDE}}{2}=\angle{ADB}+\dfrac{\angle{BDE}}{2}$
+
+$\implies \angle{BDC}=\dfrac{\angle{BDE}}{2}$
+
+And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\triangle{BDE}$ and $AC$ is the diameter of circle $ABCD\blacksquare$.
+
+---
+
+### 12/17/2020
+
+#### Tangents of the circumcircle of Acute $\triangle{ABC}$ at point $B$ and $C$ intersect at point $P$. Point $X$ and $Y$ are on extension of line $AB$ and $AC$ respectively, and $\angle{XPY}=2\angle{A}$. Reflect $A$ about line $XY$ and get $A'$. Prove: the circumcircle of $\triangle{A'XY}$ passes through a fixed point.
+
+![image-20201217171036029](/assets/images/2020-12/image-20201217171036029.png)

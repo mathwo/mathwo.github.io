@@ -4,6 +4,13 @@ date: 2020-11-11 06:51
 tags: []
 ---
 
+### AMC 10 Problems and Solutions
+
+* [AMC-10-Problems-2000-2011](/assets/files/AMC-10-Problems-2000-2011.pdf)
+* [AMC-10-Solutions-2000-2011](/assets/files/AMC-10-Solutions-2000-2011.pdf)
+* [AMC-10-Problems-2012-2019](/assets/files/AMC-10-Problems-2012-2019.pdf)
+* [AMC-10-Solutions-2012-2019](/assets/files/AMC-10-Solutions-2012-2019.pdf)
+
 ### AMC 12 Problems and Solutions
 
 * [AMC-12-Problems-1950-1999](/assets/files/AMC-12-Problems-1950-1999.pdf)
