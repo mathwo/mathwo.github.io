@@ -67,3 +67,51 @@ The original statement has been proved. $\blacksquare$
 
 **Solution:**
 
+---
+
+### 12/20/2020
+
+#### Let $a$, $b$ and $c$ be positive integers with $a \ge b \ge c$ such that
+$$
+\begin{align}
+a^2-b^2-c^2+ab &= 2011 \tag{1}\\
+a^2+3b^2+3c^2-3ab-2ac-3bc &= -1997 \tag{2}
+\end{align}
+$$
+#### What is $a?$ (AMC 10 2011-A Problem 24)
+
+**Solution:**
+
+$(1) + (2) \implies$
+$ a^2+b^2+c^2-ab-bc-ca=7 $
+$\implies (a-b)^2+(b-c)^2+(c-a)^2=14 $
+
+Since $a$, $b$ and $c$ be positive integers with $a \ge b \ge c$
+
+$\implies a-c=3, a-b=1, b-c=2$ or $a-c=3, a-b=2, b-c=1$
+
+* if $a-b=2$, $(1) \implies 7a=2021$, no solution
+* if $a-b=1$, $(1) \implies 8a=2024 \implies a=\boxed{253}$
+
+---
+
+### 12/20/2020
+
+#### The sum of the first $m$ positive odd integers is 212 more than the sum of the first $n$ positive even integers. What is the sum of all possible values of $n?$ (AMC 10 2011-A Problem 24)
+
+**Solution:**
+
+The sum of the first $m$ positive odd integers is $1+3+...+(2m-1)=m+0+2+...+(2m-2)=m+m(m-1)=m^2$.
+
+The sum of the first $n$ positive even integers is $2+4+...+2n=n(n+1)$.
+
+So we have $n^2+n+212-m^2=0$, the discriminant is $1-4(212-m^2)=4m^2-847$ must be a square of an odd integer. Let $p^2=4m^2-847 \implies (2m+p)(2m-p)=847$. $847=7*11*11$, so we know there could be three situations:
+
+* $2m+p=847, 2m-p=1 \implies m=212, p=423 \implies n=211$
+* $2m+p=121, 2m-p=7 \implies m=32, p=57 \implies n=28$
+* $2m+p=77, 2m-p=11 \implies m=22, p=33 \implies n=16$
+
+So the sum of all possible values of $n$ is $\boxed{255}$.
+
+---
+

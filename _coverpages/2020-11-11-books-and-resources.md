@@ -35,6 +35,10 @@ tags: []
 * [AIME-Problems-1983-2011](/assets/files/AIME-Problems-1983-2011.pdf)
 * [AIME-Solutions-1983-2011](/assets/files/AIME-Solutions-1983-2011.pdf)
 
+### IMO Problems and Solutions
+
+* [Evan Chen's Page and Sets](https://web.evanchen.cc/problems.html)
+
 ### HMMT Problems and Solutions
 
 * [HMMT site](https://www.hmmt.org/)
@@ -56,7 +60,7 @@ tags: []
 * [BMT - Berkeley Math Tournament](http://bmt.berkeley.edu/)
 * [TAMU - Texas A&M High School Mathematics Contest](http://math.tamu.edu/outreach/highschoolcontest/)
 * [CHMMC - Caltech Harvey Mudd Math Competition](http://chmmc.caltech.edu/)
-* [SMT - Stanford Math Tournament]( http://sumo.stanford.edu/smt/index.html)
+* [SMT - Stanford Math Tournament](http://sumo.stanford.edu/smt/index.html)
 * [Math League](http://mathleague.com/)
 * [WWTBAM - Who wants to be a Mathematician](http://ams.org/programs/students/wwtbam/about)
 * [JHMT - Johns Hopkins Math Tournament](http://math.jhu.edu/~mathclub/jhmt.html)
@@ -68,7 +72,7 @@ I recommend they be studied in the following order:
 
 * Intermediate Algebra (AMC 12)
 * Intermediate Counting and Probability (AMC 12)
-* Precalculus (AMC 12)
+* PreCalculus (AMC 12)
 * Art of Problem Solving Volume 2 (AMC 12)
 
 Additional Recommended Problem and Review Books

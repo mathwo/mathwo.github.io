@@ -117,4 +117,23 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 #### Tangents of the circumcircle of Acute $\triangle{ABC}$ at point $B$ and $C$ intersect at point $P$. Point $X$ and $Y$ are on extension of line $AB$ and $AC$ respectively, and $\angle{XPY}=2\angle{A}$. Reflect $A$ about line $XY$ and get $A'$. Prove: the circumcircle of $\triangle{A'XY}$ passes through a fixed point.
 
-![image-20201217171036029](/assets/images/2020-12/image-20201217171036029.png)
+![image-20201217171036029](/assets/images/2020-12/image-20201217171036029.png){:class="image--xl"}
+
+---
+
+### 12/20/2020
+
+#### $ABCD$ is a trapezoid. $AD \parallel BC$, $\triangle{ACE}=\triangle{BDE}=120$,  $\triangle{BFG}=60$. What is the area of $ABCD?$
+
+![image-20201220175643449](/assets/images/2020-12/image-20201220175643449.png){:class="image--xl"}
+
+**Solution:**
+
+---
+
+### 12/23/2020
+
+#### Jesse cuts a circular paper disk of radius $12$ along two radii to form two sectors, the smaller having a central angle of $120$ degrees. He makes two circular cones, using each sector to form the lateral surface of a cone. What is the ratio of the volume of the smaller cone to that of the larger? (AMC 10 2011-B Problem 17)
+
+**Solution:**
+

@@ -30,3 +30,11 @@ It may use [zetabase](https://zetabase.io/) to create a star rating system, like
 ### Add google search to site
 
 Followed this [link](https://medium.com/@YossiEliaz/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19), added meta in _includes/head.html.
+
+---
+
+### Use \tag{number} to number equations
+
+No need to set auto numbering since each post would start with  specified number.
+
+---
