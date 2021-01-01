@@ -115,3 +115,6 @@ So the sum of all possible values of $n$ is $\boxed{255}$.
 
 ---
 
+### 12/29/2020
+
+#### Prove that when $p>3$ is a prime, $p!+p$ cannot be a perfect square.

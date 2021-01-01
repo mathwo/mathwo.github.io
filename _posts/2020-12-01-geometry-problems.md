@@ -137,3 +137,31 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 **Solution:**
 
+---
+
+### 12/31/2020
+
+#### Find $r$:
+
+![image-20210101034356389](E:\workspace\mwo\assets\images\2020-12\image-20210101034356389.png)
+
+**Solution:**
+
+![image-20210101035138881](E:\workspace\mwo\assets\images\2020-12\image-20210101035138881.png)
+
+Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d$, then
+
+$x_0^2=2x_0^2+d \implies d=-x_0^2 \implies y=2x_0x-x_0^2$
+
+So we get $D(0, -x_0^2) \implies OD=x_0^2, OM=\dfrac{x_0}{2}, QD^2=x_0^2+4x_0^4$
+
+$\dfrac{OD}{OM}=\dfrac{PD}{PQ} \implies QD=\dfrac{2020 \cdot x_0^2}{x_0/2}=4040X_0$
+
+$QD^2=x_0^2+4x_0^4=4040^2 \cdot x_0^2 \implies x_0^2=\dfrac{4040^2-1}{4}$
+
+$PD^2=QD^2+PQ^2=4040^2 \cdot \dfrac{4040^2-1}{4}+2020^2 \implies PD=\dfrac{4040^2}{2}$
+
+$\dfrac{P_1Q_1}{PQ}=\dfrac{PD+PP_1}{PD} \implies \dfrac{r}{2020}=\dfrac{PD+2020+r}{PD}$
+
+$\implies r=\dfrac{2020 \cdot PD + 2020^2}{PD-2020}=\boxed{\dfrac{4041 \times 2020}{4039}}$
+
