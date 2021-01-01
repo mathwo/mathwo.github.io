@@ -143,11 +143,11 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 #### Find $r$:
 
-![image-20210101034356389](E:\workspace\mwo\assets\images\2020-12\image-20210101034356389.png)
+![image-20210101034356389](/assets/images/2020-12/image-20210101034356389.png){:class="image--xl"}
 
 **Solution:**
 
-![image-20210101035138881](E:\workspace\mwo\assets\images\2020-12\image-20210101035138881.png)
+![image-20210101035138881](/assets/images/2020-12/image-20210101035138881.png){:class="image--md"}
 
 Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d$, then
 
