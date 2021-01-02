@@ -147,11 +147,11 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 **Solution:**
 
-![image-20210101035138881](/assets/images/2020-12/image-20210101035138881.png){:class="image--md"}
+![image-20210101085707085](/assets/images/2020-12/image-20210101085707085.png){:class="image--xl"}
 
-Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d$, then
+Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d_0$, then
 
-$x_0^2=2x_0^2+d \implies d=-x_0^2 \implies y=2x_0x-x_0^2$
+$x_0^2=2x_0^2+d_0 \implies d_0=-x_0^2 \implies y=2x_0x-x_0^2$
 
 So we get $D(0, -x_0^2) \implies OD=x_0^2, OM=\dfrac{x_0}{2}, QD^2=x_0^2+4x_0^4$
 
@@ -159,9 +159,13 @@ $\dfrac{OD}{OM}=\dfrac{PD}{PQ} \implies QD=\dfrac{2020 \cdot x_0^2}{x_0/2}=4040X
 
 $QD^2=x_0^2+4x_0^4=4040^2 \cdot x_0^2 \implies x_0^2=\dfrac{4040^2-1}{4}$
 
-$PD^2=QD^2+PQ^2=4040^2 \cdot \dfrac{4040^2-1}{4}+2020^2 \implies PD=\dfrac{4040^2}{2}$
+$PD^2=QD^2+PQ^2=4040^2 \cdot \dfrac{4040^2-1}{4}+2020^2 \implies PD=\dfrac{4040^2}{2}=2 \times 2020^2$
 
-$\dfrac{P_1Q_1}{PQ}=\dfrac{PD+PP_1}{PD} \implies \dfrac{r}{2020}=\dfrac{PD+2020+r}{PD}$
+Similarly, suppose the tangent line at $Q_1(x_1,x_1^2)$ is $y=2x_1x+d_1$, then
 
-$\implies r=\dfrac{2020 \cdot PD + 2020^2}{PD-2020}=\boxed{\dfrac{4041 \times 2020}{4039}}$
+$y=2x_1x-x_1^2$, $x_1^2=\dfrac{4r^2-1}{4}$, $Q_1D_1^2=4r^4-r^2$, $P_1D_1=2r^2$
+
+$P_1D_1=PD+2020+r+(x_1^2-x_0^2)=2r^2 \implies 2r^2-r - \dfrac{4r^2-1}{4} - 4041 \times 2020 + \dfrac{4040^2-1}{4} =0$
+
+$\implies r^2-r-(2020+2020^2)=0 \implies r=\boxed{2021}$
 
