@@ -141,7 +141,7 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 ### 12/31/2020
 
-#### Find $r$:
+#### **New Year Problem**: Find $r$ in following diagram:
 
 ![image-20210101034356389](/assets/images/2020-12/image-20210101034356389.png){:class="image--xl"}
 
