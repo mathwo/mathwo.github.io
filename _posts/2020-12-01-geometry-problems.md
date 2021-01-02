@@ -147,7 +147,9 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 **Solution:**
 
-![image-20210101085707085](/assets/images/2020-12/image-20210101085707085.png){:class="image--xl"}
+Let's use $r$ and $r_1$ to work on general result and then replace $r=2020$ to get the answer.
+
+![image-20210102133922715](E:\workspace\mwo\assets\images\2020-12\image-20210102133922715.png){:class="image--xl"}
 
 Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d_0$, then
 
@@ -155,20 +157,24 @@ $x_0^2=2x_0^2+d_0 \implies d_0=-x_0^2 \implies y=2x_0x-x_0^2$
 
 So we get $D(0, -x_0^2) \implies OD=x_0^2, OM=\dfrac{x_0}{2}, QD^2=x_0^2+4x_0^4$
 
-$\dfrac{OD}{OM}=\dfrac{PD}{PQ} \implies QD=\dfrac{2020 \cdot x_0^2}{x_0/2}=4040X_0$
+$\dfrac{OD}{OM}=\dfrac{PD}{PQ} \implies QD=\dfrac{rx_0^2}{x_0/2}=2rX_0$
 
-$QD^2=x_0^2+4x_0^4=4040^2 \cdot x_0^2 \implies x_0^2=\dfrac{4040^2-1}{4}$
+$QD^2=x_0^2+4x_0^4=4r^2 \cdot x_0^2 \implies x_0^2=\dfrac{4r^2-1}{4}$
 
-$PD^2=QD^2+PQ^2=4040^2 \cdot \dfrac{4040^2-1}{4}+2020^2 $
+$PD^2=QD^2+PQ^2=4r^2 \cdot \dfrac{4r^2-1}{4}+r^2 $
 
-$\implies PD=\dfrac{4040^2}{2}=2 \times 2020^2$
+$\implies PD=\dfrac{4r^2}{2}=2r^2$
 
 Similarly, suppose the tangent line at $Q_1(x_1,x_1^2)$ is $y=2x_1x+d_1$, then
 
-$y=2x_1x-x_1^2$, $x_1^2=\dfrac{4r^2-1}{4}$, $Q_1D_1^2=4r^4-r^2$, $P_1D_1=2r^2$
+$y=2x_1x-x_1^2$, $x_1^2=\dfrac{4r_1^2-1}{4}$, $Q_1D_1^2=4r_1^4-r^2$, $P_1D_1=2r_1^2$
 
-$P_1D_1=PD+2020+r+(x_1^2-x_0^2)=2r^2$
+$P_1D_1=PD+r+r_1+(x_1^2-x_0^2)=2r_1^2$
 
-$\implies 2r^2-r - \dfrac{4r^2-1}{4} - 4041 \times 2020 + \dfrac{4040^2-1}{4} =0$
+$\implies 2r_1^2 = 2r^2 + r + r_1 + \dfrac{4r_1^2-1}{4} - \dfrac{4r^2-1}{4}$
 
-$\implies r^2-r-(2020+2020^2)=0 \implies r=\boxed{2021}$
+$\implies r_1^2-r_1=r^2+r \implies r_1(r_1-1)=r(r+1)$
+
+$\implies r_1=r+1$
+
+ $r=2020 \implies r_1=\boxed{2021}$
