@@ -149,7 +149,7 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 Let's use $r$ and $r_1$ to work on general result and then replace $r=2020$ to get the answer.
 
-![image-20210102133922715](E:\workspace\mwo\assets\images\2020-12\image-20210102133922715.png){:class="image--xl"}
+![image-20210102133922715](/assets/images/2020-12/image-20210102133922715.png){:class="image--xl"}
 
 Suppose the tangent line at point $Q(x_0, x_0^2)$ is $y=2x_0x+d_0$, then
 
