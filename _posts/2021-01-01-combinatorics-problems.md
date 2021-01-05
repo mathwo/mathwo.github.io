@@ -12,10 +12,33 @@ summary:
 
 **Solution:**
 
-<!--$P(H) = \dfrac{1}{8} + P(T) * \dfrac{7}{8}$
+Conway's algorithm can be used for sequences of dissimilar length.
 
-$P(T) = \dfrac{3}{4} * P(H)$
--->
+Here is a general description of Conway's algorithm:
+
+(1) Given two sequences $A$ and $B$, the leading numbers give us a way of working out the odds of sequence $B$.
+
+(2) Here is the process to calculate the leading number with $A$ as the upper sequence and $B$ as the lower sequence:
+
+  (I) Put two sequences with upper sequence on top of lower sequence
+
+  (II) Compare two sequences, put 1 above the first digit of the upper sequence of equal, 0 otherwise
+
+  (III) Remove the leading digit from the upper sequence and shift it to the left. Then repeat step (II) to get next digit, and so on.
+
+(3) Write $AA$ for the binary format of leading number we get using sequence $A$ as the upper and lower sequence. $AB$ for the binary format of leading number we get using sequence $A$ has the upper sequence and sequence $B$ as the lower sequence, and so on.
+
+The odds of sequence $B$ winning are given by the equation $\dfrac{AA-AB}{BB-BA}$.
+
+Apply Conway's algorithm to this problem:
+
+$A=HHHH, B=TTT$
+
+The binary leading number of $AA$ is 1111, the binary leading number of $AB$ is 0000, the binary leading number of $BB$ is 111, and the binary leading number of $BA$ is 000.
+
+So the odds of $B$ winning is given by $\dfrac{1111-0000}{111-000}=\dfrac{15}{7}$
+
+This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{22}}$.
 
 ---
 
@@ -27,9 +50,15 @@ $P(T) = \dfrac{3}{4} * P(H)$
 
   * [Time Travel and Other Mathematical Bewilderments](/assets/files/Time_Travel_and_Other_Mathematical_Bewilderments.pdf) P. 64-66 tells some results but did not give reason.
 
+  * [How are the odds got?](http://catlin.casinocitytimes.com/article/penneys-game-57864)
+
   * [Gamma Exploring Euler's Constant](/assets/files/Gamma_Exploring_Eulers_Constant.pdf)
 
 * [Penney's Game](https://en.wikipedia.org/wiki/Penney%27s_game)
+
+  * [The coin flip conundrum - Po-Shen Loh](https://www.youtube.com/watch?v=IAiNqQi30-Y)
+
+  * [Penney's Game - When Fair isn't](https://www.youtube.com/watch?v=rfzG7Iomfrg)
 
 * [Gambler's Ruin](https://en.wikipedia.org/wiki/Gambler%27s_ruin)
 
