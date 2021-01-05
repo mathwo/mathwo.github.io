@@ -52,6 +52,12 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 
   * [Winning odds](https://plus.maths.org/content/os/issue55/features/nishiyama/index)
 
+* Reading about Conway's Algorithm
+
+  * [Penney's Game Odds from No-Arbitrage](/assets/files/penneys_game_odds_from_no-arbitrage.pdf)
+
+  * [Scientific American, Oct. 1974](/assets/files/1974-10-01_Scientific_American.pdf)
+
 * [Coin Tossing on Wolfram MathWorld and reference](https://mathworld.wolfram.com/CoinTossing.html)
 
   * [Winning Ways for Your Mathematical Plays, Vol. 1: Adding Games](/assets/files/Winning_Ways_for_Your_Mathematical_Plays_V1.pdf)
