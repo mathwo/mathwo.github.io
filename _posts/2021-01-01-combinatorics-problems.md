@@ -12,9 +12,10 @@ summary:
 
 **Solution:**
 
-$P(H) = \dfrac{1}{8} + P(T) * \dfrac{7}{8}$
+<!--$P(H) = \dfrac{1}{8} + P(T) * \dfrac{7}{8}$
 
 $P(T) = \dfrac{3}{4} * P(H)$
+-->
 
 ---
 
