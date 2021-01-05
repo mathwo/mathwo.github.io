@@ -14,21 +14,21 @@ summary:
 
 Conway's algorithm can be used for sequences of dissimilar length.
 
-Here is a general description of Conway's algorithm:
-
-(1) Given two sequences $A$ and $B$, the leading numbers give us a way of working out the odds of sequence $B$.
-
-(2) Here is the process to calculate the leading number with $A$ as the upper sequence and $B$ as the lower sequence:
-
-  (I) Put two sequences with upper sequence on top of lower sequence
-
-  (II) Compare two sequences, put 1 above the first digit of the upper sequence of equal, 0 otherwise
-
-  (III) Remove the leading digit from the upper sequence and shift it to the left. Then repeat step (II) to get next digit, and so on.
-
-(3) Write $AA$ for the binary format of leading number we get using sequence $A$ as the upper and lower sequence. $AB$ for the binary format of leading number we get using sequence $A$ has the upper sequence and sequence $B$ as the lower sequence, and so on.
-
-The odds of sequence $B$ winning are given by the equation $\dfrac{AA-AB}{BB-BA}$.
+> Here is a general description of Conway's algorithm:
+>
+> (1) Given two sequences $A$ and $B$, the leading numbers give us a way of working out the odds of sequence $B$.
+>
+> (2) Here is the process to calculate the leading number with $A$ as the upper sequence and $B$ as the lower sequence:
+>
+> (2.1) Put two sequences with upper sequence on top of lower sequence
+>
+> (2.2) Compare two sequences, put 1 above the first digit of the upper sequence of equal, 0 otherwise
+>
+> (2.3) Remove the leading digit from the upper sequence and shift it to the left. Then repeat step (II) to get next digit, and so on.
+>
+> (3) Write $AA$ for the binary format of leading number we get using sequence $A$ as the upper and lower sequence. $AB$ for the binary format of leading number we get using sequence $A$ has the upper sequence and sequence $B$ as the lower sequence, and so on.
+>
+> The odds of sequence $B$ winning are given by the equation $\dfrac{AA-AB}{BB-BA}$.
 
 Apply Conway's algorithm to this problem:
 
