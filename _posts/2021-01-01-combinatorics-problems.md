@@ -44,6 +44,16 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 
 ### 01/04/2021
 
+* [Penney's Game](https://en.wikipedia.org/wiki/Penney%27s_game)
+
+  * [The coin flip conundrum - Po-Shen Loh](https://www.youtube.com/watch?v=IAiNqQi30-Y)
+
+  * [Penney's Game - When Fair isn't](https://www.youtube.com/watch?v=rfzG7Iomfrg)
+
+  * [Conway's Algorithm](https://penneyante.weebly.com/conways-algorithm.html)
+
+  * [Winning odds](https://plus.maths.org/content/os/issue55/features/nishiyama/index)
+
 * [Coin Tossing on Wolfram MathWorld and reference](https://mathworld.wolfram.com/CoinTossing.html)
 
   * [Winning Ways for Your Mathematical Plays, Vol. 1: Adding Games](/assets/files/Winning_Ways_for_Your_Mathematical_Plays_V1.pdf)
@@ -53,12 +63,6 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
   * [How are the odds got?](http://catlin.casinocitytimes.com/article/penneys-game-57864)
 
   * [Gamma Exploring Euler's Constant](/assets/files/Gamma_Exploring_Eulers_Constant.pdf)
-
-* [Penney's Game](https://en.wikipedia.org/wiki/Penney%27s_game)
-
-  * [The coin flip conundrum - Po-Shen Loh](https://www.youtube.com/watch?v=IAiNqQi30-Y)
-
-  * [Penney's Game - When Fair isn't](https://www.youtube.com/watch?v=rfzG7Iomfrg)
 
 * [Gambler's Ruin](https://en.wikipedia.org/wiki/Gambler%27s_ruin)
 
@@ -73,8 +77,6 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 * [From Unequal Chance to a Coin Game Dance: Variants of Penney's Game](/assets/files/from_unequal_chance_to_a_coin_game_dance_variants_of_penneys_game.pdf)
 
 * [Pattern Matching Probabilities and Paradoxes as a new Variation on Penney's Coin Game](/assets/files/pattern_matching_probabilities_and_paradoxes_as_a_new_variation_on_penney_coin_game.pdf)
-
-* [Winning odds](https://plus.maths.org/content/os/issue55/features/nishiyama/index)
 
 * [Humble-Nishiyama Randomness Game - A New Variation on Penney’s Coin Game](humble-nishiyama_randomness_game-a_new_variation_on_penneys_coin_game.pdf)
 
