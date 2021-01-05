@@ -12,7 +12,7 @@ summary:
 
 **Solution:**
 
-John Horton Conway's algorithm can be used for sequences of dissimilar length.
+This problem is a more general format of Penney's Game, with different lengths of sequences that two players choose. John Horton Conway's algorithm can be used for this type of problems, with sequences of dissimilar length.
 
 > Here is a general description of Conway's algorithm:
 >
