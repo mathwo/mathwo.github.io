@@ -12,7 +12,7 @@ summary:
 
 **Solution:**
 
-Conway's algorithm can be used for sequences of dissimilar length.
+John Horton Conway's algorithm can be used for sequences of dissimilar length.
 
 > Here is a general description of Conway's algorithm:
 >
