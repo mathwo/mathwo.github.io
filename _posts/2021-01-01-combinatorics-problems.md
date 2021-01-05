@@ -40,9 +40,7 @@ So the odds of $B$ winning is given by $\dfrac{1111-0000}{111-000}=\dfrac{15}{7}
 
 This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{22}}$.
 
----
-
-### 01/04/2021
+**References:**
 
 * [Penney's Game](https://en.wikipedia.org/wiki/Penney%27s_game)
 
