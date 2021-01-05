@@ -25,7 +25,7 @@ $P(T) = \dfrac{3}{4} * P(H)$
 
   * [Winning Ways for Your Mathematical Plays, Vol. 1: Adding Games](/assets/files/Winning_Ways_for_Your_Mathematical_Plays_V1.pdf)
 
-  * [Time Travel and Other Mathematical Bewilderments](/assets/files/Time_Travel_and_Other_Mathematical_Bewilderments.pdf)
+  * [Time Travel and Other Mathematical Bewilderments](/assets/files/Time_Travel_and_Other_Mathematical_Bewilderments.pdf) P. 64-66 tells some results but did not give reason.
 
   * [Gamma Exploring Euler's Constant](/assets/files/Gamma_Exploring_Eulers_Constant.pdf)
 
@@ -35,7 +35,7 @@ $P(T) = \dfrac{3}{4} * P(H)$
 
   * [Flyer and Exercises](/assets/files/gamblers_ruin.pdf)
 
-  * [Gambler's Ruin: some aspects of coin tossing](/assets/files/gamblers_ruin_some_aspects_of_coin_tossing)
+  * [Gambler's Ruin: some aspects of coin tossing](/assets/files/gamblers_ruin_some_aspects_of_coin_tossing.pdf)
 
   * Related problem:
 
