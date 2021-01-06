@@ -44,49 +44,53 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 
 * [Penney's Game](https://en.wikipedia.org/wiki/Penney%27s_game)
 
+  * [Penney's Game flyer](/assets/files/penney_game/penney_game.pdf)
+
   * [The coin flip conundrum - Po-Shen Loh](https://www.youtube.com/watch?v=IAiNqQi30-Y)
 
-  * [Penney's Game - When Fair isn't](https://www.youtube.com/watch?v=rfzG7Iomfrg)
+  * [Penney's Game in Didactics](/assets/files/penney_game/penney_game_in_didactics.pdf)
 
   * [Conway's Algorithm](https://penneyante.weebly.com/conways-algorithm.html)
 
   * [Winning odds](https://plus.maths.org/content/os/issue55/features/nishiyama/index)
 
+  * [Penney's Game - When Fair isn't](https://www.youtube.com/watch?v=rfzG7Iomfrg)
+
 * Reading about Conway's Algorithm
 
-  * [Penney's Game Odds from No-Arbitrage](/assets/files/penneys_game_odds_from_no-arbitrage.pdf)
+  * [Penney's Game Odds from No-Arbitrage](/assets/files/penney_game/penneys_game_odds_from_no-arbitrage.pdf)
 
-  * [Scientific American, Oct. 1974](/assets/files/1974-10-01_Scientific_American.pdf)
+  * [Scientific American, Oct. 1974](/assets/files/penney_game/1974-10-01_Scientific_American.pdf)
 
 * [Coin Tossing on Wolfram MathWorld and reference](https://mathworld.wolfram.com/CoinTossing.html)
 
-  * [Winning Ways for Your Mathematical Plays, Vol. 1: Adding Games](/assets/files/Winning_Ways_for_Your_Mathematical_Plays_V1.pdf)
+  * [Winning Ways for Your Mathematical Plays, Vol. 1: Adding Games](/assets/files/penney_game/Winning_Ways_for_Your_Mathematical_Plays_V1.pdf)
 
-  * [Time Travel and Other Mathematical Bewilderments](/assets/files/Time_Travel_and_Other_Mathematical_Bewilderments.pdf) P. 64-66 tells some results but did not give reason.
+  * [Time Travel and Other Mathematical Bewilderments](/assets/files/penney_game/Time_Travel_and_Other_Mathematical_Bewilderments.pdf) P. 64-66 tells some results but did not give reason.
 
   * [How are the odds got?](http://catlin.casinocitytimes.com/article/penneys-game-57864)
 
-  * [Gamma Exploring Euler's Constant](/assets/files/Gamma_Exploring_Eulers_Constant.pdf)
+  * [Gamma Exploring Euler's Constant](/assets/files/penney_game/Gamma_Exploring_Eulers_Constant.pdf)
 
 * [Gambler's Ruin](https://en.wikipedia.org/wiki/Gambler%27s_ruin)
 
-  * [Flyer and Exercises](/assets/files/gamblers_ruin.pdf)
+  * [Flyer and Exercises](/assets/files/penney_game/gamblers_ruin.pdf)
 
-  * [Gambler's Ruin: some aspects of coin tossing](/assets/files/gamblers_ruin_some_aspects_of_coin_tossing.pdf)
+  * [Gambler's Ruin: some aspects of coin tossing](/assets/files/penney_game/gamblers_ruin_some_aspects_of_coin_tossing.pdf)
 
   * Related problem:
 
 > A has 6 points and B has 4 points. They flip a coin and if it's a head, then A gets a point. If it's a tail, then B gets a point. What's the probability that A wins with 10 points?
 
-* [From Unequal Chance to a Coin Game Dance: Variants of Penney's Game](/assets/files/from_unequal_chance_to_a_coin_game_dance_variants_of_penneys_game.pdf)
+* [From Unequal Chance to a Coin Game Dance: Variants of Penney's Game](/assets/files/penney_game/from_unequal_chance_to_a_coin_game_dance_variants_of_penneys_game.pdf)
 
-* [Pattern Matching Probabilities and Paradoxes as a new Variation on Penney's Coin Game](/assets/files/pattern_matching_probabilities_and_paradoxes_as_a_new_variation_on_penney_coin_game.pdf)
+* [Pattern Matching Probabilities and Paradoxes as a new Variation on Penney's Coin Game](/assets/files/penney_game/pattern_matching_probabilities_and_paradoxes_as_a_new_variation_on_penney_coin_game.pdf)
 
 * [Humble-Nishiyama Randomness Game - A New Variation on Penney’s Coin Game](humble-nishiyama_randomness_game-a_new_variation_on_penneys_coin_game.pdf)
 
 * [Coin flipping Game](https://laurentlessard.com/bookproofs/a-coin-flipping-game/)
 
-* [Counterintuitive Probabilities](/assets/files/counterintuitive_probabilities.pdf)
+* [Counterintuitive Probabilities](/assets/files/penney_game/counterintuitive_probabilities.pdf)
 
 * [The St. Petersburg Paradox](https://plato.stanford.edu/entries/paradox-stpetersburg/)
 
@@ -94,6 +98,4 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 
 * [The Parrondo Paradox](http://math.oxford.emory.edu/site/home/futurePages/excelProjectParrondoParadox/)
 
-* [A Fresh Look at the "Hot Hand" Paradox](/assets/files/a_fresh_look_at_the_hot_hand_paradox.pdf)
-
-
+* [A Fresh Look at the "Hot Hand" Paradox](/assets/files/penney_game/a_fresh_look_at_the_hot_hand_paradox.pdf)
