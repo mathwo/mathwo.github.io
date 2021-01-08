@@ -99,3 +99,11 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 * [The Parrondo Paradox](http://math.oxford.emory.edu/site/home/futurePages/excelProjectParrondoParadox/)
 
 * [A Fresh Look at the "Hot Hand" Paradox](/assets/files/penney_game/a_fresh_look_at_the_hot_hand_paradox.pdf)
+
+---
+
+### 01/06/2021
+
+#### An ant starts at the point $(1, 0)$. Each minute, it walks from its current position to one of the four adjacent lattice points until it reaches a point $(x, y)$ with $|x| + |y| \ge 2$. What is the probability that the ant ends at the point $(1, 1)?$
+
+**Solutions:**
