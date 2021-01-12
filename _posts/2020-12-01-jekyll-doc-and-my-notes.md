@@ -29,7 +29,10 @@ It may use [zetabase](https://zetabase.io/) to create a star rating system, like
 
 ### Add google search to site
 
-Followed this [link](https://medium.com/@YossiEliaz/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19), added meta in _includes/head.html.
+* Followed this [link](https://medium.com/@YossiEliaz/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19), added meta in _includes/head.html.
+* Follow this [link](https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html) to add gem to Gemfile and run local serve command.
+* Follow this [link](https://yoast.com/help/submit-sitemap-search-engines/) to add sitemap.xml to Google Search Console.
+* Follow this [link](https://betterstudio.com/blog/search-console-fails-to-fetch-sitemap/#:~:text=The%20occurrence%20of%20couldn't,status%20couldn't%20fetch%20error.) if the sitemap cannot be fetched.
 
 ---
 
