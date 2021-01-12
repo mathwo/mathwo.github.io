@@ -39,6 +39,11 @@ tags: []
 
 * [Evan Chen's Page and Sets](https://web.evanchen.cc/problems.html)
 
+### EMCC Problems and Solutions
+
+* [EMCC site](https://exetermathclub.com/)
+* [EMCC 2010-2019](/assets/files/EMCC-2010-2019.pdf)
+
 ### HMMT Problems and Solutions
 
 * [HMMT site](https://www.hmmt.org/)

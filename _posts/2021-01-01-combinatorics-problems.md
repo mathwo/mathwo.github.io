@@ -104,6 +104,12 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 
 ### 01/06/2021
 
-#### An ant starts at the point $(1, 0)$. Each minute, it walks from its current position to one of the four adjacent lattice points until it reaches a point $(x, y)$ with $|x| + |y| \ge 2$. What is the probability that the ant ends at the point $(1, 1)?$
+#### An ant starts at the point $(1, 0)$. Each minute, it walks from its current position to one of the four adjacent lattice points until it reaches a point $(x, y)$ with $|x| + |y| \ge 2$. What is the probability that the ant ends at the point $(1, 1)?$ *HMMT 2010 General Test Problem 4*
 
 **Solutions:**
+
+1. From $(1, 0)$ there are $\dfrac{1}{4}$ of probability that the ant goes to point $(1, 1)$, $\dfrac{1}{4}$ of probability that the ant goes to point $(2, 0)$ and $\dfrac{1}{4}$ of probability that the ant goes to point $(-1, 0)$ such that the ant will not return back, and  $\dfrac{1}{4}$ of probability that the ant goes to point $(0, 0)$, which we let it to be $p$. So the asked probability is $\dfrac{1}{4} + \dfrac{1}{4}p$.
+
+2. Now we calculate the probability of the ant from $(0, 0)$ to point $(1, 1)$. There are eight border points at which the ant will stop, and they are divided into two groups: $(2, 0), (0, 2), (-2, 0), (0, -2)$ (they have the same probability to be reached by the ant starting from $(0, 0)$, and let this probability to be $p_1$), and $(1, 1), (-1, 1), (1, -1), (-1, -1)$ (they have the same probability to be reached by the ant starting from $(0, 0)$, and let this probability to be $p_2$). Easy to see that the ant has only one path of distance 2 to get to the points in the first group, while it has two paths of distance 2 to get to the points in the second group. That means $p_2=2p_1$. And we know the sum of probabilities of all the points in both group is $1$, so $4p_1+4p_2=1, p_2=2p_1 \implies p_2=\dfrac{1}{6}, p_1=\dfrac{1}{12}$.
+
+3. So the asked probability is $\dfrac{1}{4}(\dfrac{1}{6}+1)=\boxed{\dfrac{7}{24}}$.
