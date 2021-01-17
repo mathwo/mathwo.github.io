@@ -28,14 +28,14 @@ From Bob's statement, since he thinks $A + B = 12$, and $A$ could be $5, 6, 8, 9
 
 Now we make all possible combinations that $A + B$ must be an even number:
 
-| A | B   | C  |
-| :-| :-: | -: |
-| 5 | 3   | 4  |
-| 5 | 7   | 6  |
-| 6 | 4   | 5  |
-| 8 | 4   | 6  |
-| 9 | 3   | 6  |
-| 9 | 7   | 8  |
+|   A   |    B   |   C   |
+| :---- |    :-: | ----: |
+|   5   |    3   |   4   |
+|   5   |    7   |   6   |
+|   6   |    4   |   5   |
+|   8   |    4   |   6   |
+|   9   |    3   |   6   |
+|   9   |    7   |   8   |
 
 These are the information that all three persons know. Then from Charlie's statement, since he knows all the numbers, $C$ must be a unique number is all situations, so $C \ne 6$. And similarly, $A$ is also a unique number in all situations, so $A$ must be 6 or 8. $A$ cannot be 8 since it will make $C = 6$. So the answer is $\boxed{A=6, B=4, C=5}$. To verify Charlie's statement, before he said he and Adam have known the answer, Bob was still guessing. He was right, Bob has number 4 and it appears in two situations, so Bob was still guessing before Charlie finished his statement.
 
