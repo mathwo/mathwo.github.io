@@ -39,3 +39,24 @@ Now we make all possible combinations that $A + B$ must be an even number:
 
 These are the information that all three persons know. Then from Charlie's statement, since he knows all the numbers, $C$ must be a unique number is all situations, so $C \ne 6$. And similarly, $A$ is also a unique number in all situations, so $A$ must be 6 or 8. $A$ cannot be 8 since it will make $C = 6$. So the answer is $\boxed{A=6, B=4, C=5}$. To verify Charlie's statement, before he said he and Adam have known the answer, Bob was still guessing. He was right, Bob has number 4 and it appears in two situations, so Bob was still guessing before Charlie finished his statement.
 
+---
+
+### 01/18/2021
+
+![image-20210118011414616](/assets/images/2021-01/image-20210118011414616.png)
+
+**Solution:**
+
+![image-20210118012253760](/assets/images/2021-01/image-20210118012253760.png)
+
+Easy to see that
+
+$AB=FG, CD=2AB, EF=3AB \implies EF=4AB$
+
+$\implies S_{\triangle{EFK}}=\dfrac{3}{4}S_{\triangle{EKG}}=\dfrac{9}{2}$
+
+$\implies S_{\triangle{ABM}}=\dfrac{1}{9}S_{\triangle{ABM}}=\dfrac{1}{2}$
+
+$\implies S_{\triangle{CDN}}=4S_{\triangle{ABM}}=2$
+
+$\implies S_{\triangle{ABM}} + S_{\triangle{CDN}} + S_{\triangle{EFK}} = \dfrac{1}{2} + 2 + \dfrac{9}{2} = \boxed{7}$
