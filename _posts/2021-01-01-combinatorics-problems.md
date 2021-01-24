@@ -113,3 +113,11 @@ This means the probability that Aaron wins is $\dfrac{7}{15+7}=\boxed{\dfrac{7}{
 2. Now we calculate the probability of the ant from $(0, 0)$ to point $(1, 1)$. There are eight border points at which the ant will stop, and they are divided into two groups: $(2, 0), (0, 2), (-2, 0), (0, -2)$ (they have the same probability to be reached by the ant starting from $(0, 0)$, and let this probability to be $p_1$), and $(1, 1), (-1, 1), (1, -1), (-1, -1)$ (they have the same probability to be reached by the ant starting from $(0, 0)$, and let this probability to be $p_2$). Easy to see that the ant has only one path of distance 2 to get to the points in the first group, while it has two paths of distance 2 to get to the points in the second group. That means $p_2=2p_1$. And we know the sum of probabilities of all the points in both group is $1$, so $4p_1+4p_2=1, p_2=2p_1 \implies p_2=\dfrac{1}{6}, p_1=\dfrac{1}{12}$.
 
 3. So the asked probability is $\dfrac{1}{4}(\dfrac{1}{6}+1)=\boxed{\dfrac{7}{24}}$.
+
+---
+
+### 01/18/2021
+
+#### Let $S_{n,k}=\displaystyle\sum_{a=0}^{n}{ {a \choose k}{n-a \choose k} }$. Find the remainder when $\displaystyle\sum_{n=0}^{200}{\sum_{k=0}^{200}{S_{n,k}}}$ is divided by 1000.
+
+**Solution:**
