@@ -8,7 +8,7 @@ summary:
 
 ### 01/24/2021
 
-#### Point $I$ is the incenter of $\triangle{ABC}$. $DE \perp AI$. $DE$ and $AB$ intersect at $D$. $DE$ and $AC$ intersect at $E$. $FG$ is a tangent line of $\odot{I}$. $FG$ and $AB$ intersect at $F$. $FG$ and $AC$ intersect at $G$. Prove: $BD \cdot CE = DF \cdot EG$.
+#### Point $I$ is the incenter of $\triangle{ABC}$. $DE \perp AI$. $DE$ and $AB$ intersect at $D$. $DE$ and $AC$ intersect at $E$. $FG$ is a tangent line of $\odot{I}$. $FG$ and $AB$ intersect at $F$. $FG$ and $AC$ intersect at $G$. Prove: $BD \cdot CE = DF \cdot EG.$
 
 ![image-20210124145825374](/assets/images/2021-01/image-20210124145825374.png){:class="image--x2l"}
 
@@ -76,7 +76,7 @@ So we know $BD \cdot CE=DF \cdot EG \blacksquare$
 
 ### 01/25/2021
 
-#### Inscribed quadrilateral $ABCD$ of $\odot{O}$ has $AB=AD$. Now extend $CD$ to  $F$, extend $CB$ to $E$ so that $DF=EF+BE$. Prove $\angle{BAD} = 2\angle{EAF}$.
+#### Inscribed quadrilateral $ABCD$ of $\odot{O}$ has $AB=AD$. Now extend $CD$ to  $F$, extend $CB$ to $E$ so that $DF=EF+BE$. Prove $\angle{BAD} = 2\angle{EAF}.$
 
 ![image-20210125031355059](/assets/images/2021-01/image-20210125031355059.png){:class="image--lg"}
 
