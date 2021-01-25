@@ -12,7 +12,7 @@ summary:
 
 ![image-20210124145825374](/assets/images/2021-01/image-20210124145825374.png){:class="image--x2l"}
 
-**Prove:**
+**Prove 1:**
 
 ![image-20210124151546631](/assets/images/2021-01/image-20210124151546631.png){:class="image--x2l"}
 
@@ -45,3 +45,30 @@ $\implies \dfrac{(c+e)(c+d)}{\dfrac{b+c}{c}g+b+2c+d+e}=\dfrac{bg}{\dfrac{b+c}{c}
 $\implies (c+e)(c+d)=(b+c)g+bc+2c^2+cd+ce$
 
 $\implies de=(b+c)(c+g) \implies BD \cdot CE=DF \cdot EG \blacksquare$
+
+**Prove 2:**
+
+![image-20210124192210287](/assets/images/2021-01/image-20210124192210287.png){:class="image--x2l"}
+
+$\angle{BAI}=\angle{IAC}=\dfrac{A}{2}, \angle{ABI}=\dfrac{B}{2}, AI \perp DE \implies DI=EI$
+
+$ \implies \angle{ADI} = \angle{AEI} = 90^{\circ}-\dfrac{A}{2}$
+
+$\implies \angle{DIB} = \angle{ADI} - \angle{ABI} = 90^{\circ}-\dfrac{A}{2}-\dfrac{B}{2}=\dfrac{C}{2}, \angle{EIC}=\dfrac{B}{2}$
+
+$\implies \triangle{BDI}\sim\triangle{IEC} \implies \dfrac{BD}{DI}=\dfrac{EI}{CE} \implies BD \cdot CE=DI^2$
+
+Let $\angle{AFG}=\beta \implies \angle{DFI}=\angle{GFI}=\dfrac{180^{\circ}-\beta}{2}=90^{\circ}-\dfrac{\beta}{2}$
+
+Let $\angle{AGF}=\gamma \implies \angle{EGI}=90^{\circ}-\dfrac{\gamma}{2}$
+
+So $A+\beta+\gamma = 180^{\circ}$
+
+So $\angle{DIF}=180^{\circ}-(90^{\circ}-\dfrac{A}{2})-(90^{\circ}-\dfrac{\beta}{2})=90^{\circ}-\dfrac{\gamma}{2}$
+
+and $\angle{GIE}=90^{\circ}-\dfrac{\beta}{2}$
+
+So $\triangle{FDI}\sim \triangle{GEI} \implies \dfrac{DF}{DI}=\dfrac{EI}{EG} \implies DF \cdot EG=DI^2$
+
+So we know $BD \cdot CE=DF \cdot EG \blacksquare$
+
