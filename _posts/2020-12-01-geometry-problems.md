@@ -123,7 +123,7 @@ And similarly $\angle{DBC}=\dfrac{\angle{DBE}}{2}$, so $C$ is the incenter of $\
 
 ### 12/20/2020
 
-#### $ABCD$ is a trapezoid. $AD \parallel BC$, $\triangle{ACE}=\triangle{BDE}=120$,  $\triangle{BFG}=60$. What is the area of $ABCD?$
+#### $ABCD$ is a trapezoid. $AD \parallel BC$, $S_{\triangle{ACE}}=S_{\triangle{BDE}}=120$,  S_{$\triangle{BFG}}=60$. What is the area of $ABCD?$
 
 ![image-20201220175643449](/assets/images/2020-12/image-20201220175643449.png){:class="image--xl"}
 
