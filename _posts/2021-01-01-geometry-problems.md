@@ -78,11 +78,11 @@ So we know $BD \cdot CE=DF \cdot EG \blacksquare$
 
 #### Inscribed quadrilateral $ABCD$ of $\odot{O}$ has $AB=AD$. Now extend $CD$ to  $F$, extend $CB$ to $E$ so that $DF=EF+BE$. Prove $\angle{BAD} = 2\angle{EAF}$.
 
-![image-20210125031355059](/assets/images/2021-01/image-20210125031355059.png){:class="image--x2l"}
+![image-20210125031355059](/assets/images/2021-01/image-20210125031355059.png){:class="image--lg"}
 
 **Prove:**
 
-![image-20210125032312370](/assets/images/2021-01/image-20210125032312370.png){:class="image--x2l"}
+![image-20210125032312370](/assets/images/2021-01/image-20210125032312370.png){:class="image--lg"}
 
 Make $G$ on $DF$ so that $GD=EB$
 
