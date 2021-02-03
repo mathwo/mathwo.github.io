@@ -95,3 +95,49 @@ $\implies EA=GA, \angle{EAB}=\angle{GAD} \implies \triangle{FEA} \cong \triangle
 $\implies \angle{BAD}=\angle{BAF}+\angle{FAG}+\angle{GAD}=\angle{EAF}-\angle{EAB}+\angle{FAD}+\angle{EAB}$
 
 $\implies \angle{BAD}=2\angle{EAF}\blacksquare$
+
+---
+
+### 01/30/2021
+
+#### Acute $\triangle{ABC}$, point $D$ is on side $AC$ so that $AD=BC$, $CF$ bisects $\angle{ACB}$. Point $E$ on side $AB$ so that $DE \parallel CF$ and $AE=CD$. Prove: $\angle{ADB}=3\angle{BAC}$
+
+![image-20210201041518780](E:\workspace\mwo\assets\images\2021-01\image-20210201041518780.png)
+
+**Prove:**
+
+![image-20210201045048538](E:\workspace\mwo\assets\images\2021-01\image-20210201045048538.png)
+
+Let $AD=BC=m^2$, $CD=AE=mn$, easy to know that $EF=n^2$.
+
+$EF$ bisects $\angle{ACB} \implies \dfrac{AC}{AF}=\dfrac{BC}{BF} \implies BF=mn$.
+
+Let $DE=x, CG=p, GF=q$
+
+In $\triangle{AED}$ we have $\dfrac{mn}{sin\beta}=\dfrac{x}{sin\alpha}$, $cos\beta = \dfrac{x^2+m^4-m^2n^2}{2m^2x}$
+
+In $\triangle{ABC}$ we have $\dfrac{m^2}{sin\alpha}=\dfrac{2mn+n^2}{sin2\beta}$
+
+$\implies \dfrac{x}{m^2}=\dfrac{mnsin2\beta}{(2mn+n^2)sin\beta} \implies \dfrac{x}{m^2}=\dfrac{2mcos\beta}{2m+n} \implies cos\beta=\dfrac{(2m+n)x}{2m^3}$
+
+$\implies \dfrac{(2m+n)x}{2m^3}=\dfrac{x^2+m^4-m^2n^2}{2m^2x} \implies (2m+n)x^2=mx^2+m^3(m^2-n^2)$
+
+$\implies x^2=m^3(m-n) \implies x=m\sqrt{m(m-n)}$
+
+East to see $\dfrac{x}{p+q}=\dfrac{m^2}{m^2+mn} \implies p+q=(m+n)\sqrt{m(m-n)}$
+
+And $\dfrac{q}{x}=\dfrac{mn}{mn+n^2} \implies q=\dfrac{mx}{m+n}=\dfrac{m^2\sqrt{m(m-n)}}{m+n}$
+
+$\implies p=\dfrac{n(2m+n)\sqrt{m(m-n)}}{m+n}$
+
+So in $\triangle{AED}$ we have $cos\alpha=\dfrac{m^2n^2+m^4-m^3(m-n)}{2m^3n}=\dfrac{m+n}{2m} \implies  cos2\alpha=2cos^2\alpha-1= \dfrac{m^2+2mn+n^2-2m^2}{2m^2}=\dfrac{n^2+2mn-m^2}{2m^2}$
+
+In $\triangle{ABC}$ we have $cos\angle{ABC}=\dfrac{(2mn+n^2)^2+m^4-(m^2+mn)^2}{2m^2(2mn+n^2)}=\dfrac{n^3+3m^2n+4mn^2-2m^3}{2m^2(2m+n)}=\dfrac{(2m+n)(n^2+2mn-m^2)}{2m^2(2m+n)}=\dfrac{n^2+2mn-m^2}{2m^2}=cos2\alpha$
+
+so we know $\angle{ABC}=2\angle\alpha=2\angle{BAC}$
+
+That's as far as this problem can get. When $\angle{\alpha} = \angle{\beta}, AB=AC$, the target statement is correct, otherwise it is not correct. Any counter example with $\angle{BAC} \ne 36^{\circ}$ can satisfy the known facts:
+
+![image-20210202075353846](E:\workspace\mwo\assets\images\2021-01\image-20210202075353846.png)
+
+Discussion of this problem can be seen [here](https://math.stackexchange.com/questions/4004908/find-the-condition-in-which-angle-adb-3-angle-bac).
