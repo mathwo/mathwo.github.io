@@ -126,3 +126,10 @@ $$
 \end{vmatrix}=\dfrac{13 \times 5}{2 \times 16 \times 42} + \dfrac{99}{6 \times 224}-\dfrac{5 \times 5}{2 \times 14 \times 16}-\dfrac{55}{2 \times 3 \times 224}\\&=\dfrac{34}{6 \times 224} \implies S_{\triangle{HIM}}=84 \times \dfrac{34}{6 \times 224}=\boxed{\dfrac{17}{8}}
 \end{align*}
 $$
+
+References:
+
+* [Barycentric Coordinates in Olympiad Geometry - Evan Chen](/assets/files/barycentric/barycentric_coordinates_in_olympiad_geometry.pdf)
+* [Barycentric Coordinates for the impatient - Evan Chen](/assets/files/barycentric/barycentric_coordinates_for_the_impatient.pdf)
+* [Barycentric Coordinates](/assets/files/barycentric/barycentric_coordinates.pdf)
+* [Introduction to the Geometry of the Triangle](/assets/files/barycentric/introduction_to_the_geometry_of_the_triangle.pdf)
