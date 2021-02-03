@@ -107,7 +107,7 @@ I &=
        15 \\
        13
 \end{bmatrix}=\begin{bmatrix}
-       \dfrac{14}{13+14+!5} \\
+       \dfrac{14}{13+14+15} \\
        \dfrac{15}{13+14+15} \\
        \dfrac{13}{13+14+15}
 \end{bmatrix}=\begin{bmatrix}
