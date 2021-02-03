@@ -30,9 +30,7 @@ $S_{\triangle{ABC}}=\dfrac{1}{2}bcsinA=\dfrac{1}{2}acsinB=\dfrac{1}{2}absinC$
 
 Then get $tanA, tanB, tanC$ from $sinA, sinB, sinC$. Alternatively, we can use following approach:
 
-$a^2+b^2-c^2=14^2+15^2-13^2=252 \\
-b^2+c^2-a^2=15^2+13^2-14^2=198 \\
-c^2+a^2-b^2=13^2+14^2-15^2=140$
+$a^2+b^2-c^2=14^2+15^2-13^2=252 \\ b^2+c^2-a^2=15^2+13^2-14^2=198 \\ c^2+a^2-b^2=13^2+14^2-15^2=140$
 $$
 \begin{align*}
 \begin{bmatrix}
