@@ -14,7 +14,7 @@ summary:
 
 ![image-20210203104841231](/assets/images/2021-02/image-20210203104841231.png){:class="image--x2l"}
 
-In Barycentic Coordinate system, we have the coordinates for points $H, I$ and $M$ as:
+In Barycentric Coordinate system, we have the coordinates for points $H, I$ and $M$ as:
 
 $M=(0, \dfrac{1}{2}, \dfrac{1}{2}), I=(a,b,c), H=(tanA, tanB, tanC)$
 
@@ -35,32 +35,6 @@ $a^2+b^2-c^2=14^2+15^2-13^2=252$
 $b^2+c^2-a^2=15^2+13^2-14^2=198$
 
 $c^2+a^2-b^2=13^2+14^2-15^2=140$
-$$
-\begin{align*}
-\begin{bmatrix}
-       tan(A) \\
-       tan(B) \\
-       tan(C)
-\end{bmatrix}&=\begin{bmatrix}
-       (c^2+a^2-b^2)(a^2+b^2-c^2)\\
-       (a^2+b^2-c^2)(b^2+c^2-a^2) \\
-       (b^2+c^2-a^2)(c^2+a^2-b^2)
-\end{bmatrix}=\begin{bmatrix}
-       (13^2+14^2-15^2)(14^2+15^2-13^2)\\
-       (14^2+15^2-13^2)(15^2+13^2-14^2) \\
-       (15^2+13^2-14^2)(13^2+14^2-15^2)
-\end{bmatrix}\\
-&=\begin{bmatrix}
-       \dfrac{140 \times 252}{140 \times 252+252 \times 198+198 \times 140}\\
-       \dfrac{252 \times 198}{140 \times 252+252 \times 198+198 \times 140}\\
-       \dfrac{140 \times 198}{140 \times 252+252 \times 198+198 \times 140}
-\end{bmatrix}=\begin{bmatrix}
-       \dfrac{5}{16}\\
-       \dfrac{99}{224}\\
-       \dfrac{55}{224}
-\end{bmatrix}\\
-\end{align*}
-$$
 $$
 \begin{align*}
 \begin{bmatrix}
