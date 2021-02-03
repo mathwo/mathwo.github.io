@@ -141,6 +141,7 @@ S = sqrt(s/2 * (s/2 - a) * (s/2 - b) * (s/2 - c));
 SValue = subs(S);
 A = [0 1/2 1/2; a/s b/s c/s; fb*fc/f fa*fc/f fa*fb/f];
 B = det(A, 'Algorithm', 'minor-expansion');
+pretty(B)
 a = 14; b = 15; c = 13;
 subs(B)
 subs(B * SValue)
@@ -149,6 +150,11 @@ subs(B * SValue)
 **Result:**
 ```
 B = -(- a^3*b + a^3*c - a^2*b^2 + a^2*c^2 + a*b^3 + a*b^2*c - a*b*c^2 - a*c^3 + b^4 - 2*b^3*c + 2*b*c^3 - c^4)/(2*(a^4 - 2*a^2*b^2 - 2*a^2*c^2 + b^4 - 2*b^2*c^2 + c^4))
+     3      3      2  2    2  2      3      2          2      3    4      3          3    4
+  - a  b + a  c - a  b  + a  c  + a b  + a b  c - a b c  - a c  + b  - 2 b  c + 2 b c  - c
+- -----------------------------------------------------------------------------------------
+                          4      2  2      2  2    4      2  2    4
+                        (a  - 2 a  b  - 2 a  c  + b  - 2 b  c  + c ) 2
 ans =
 17/672
 ans =
