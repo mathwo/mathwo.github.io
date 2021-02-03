@@ -116,6 +116,7 @@ I &=
        \dfrac{13}{42}
 \end{bmatrix}
 \end{align*}$$
+
 Then we know (three points in counter-clock wise order)
 $$
 \begin{align*}
@@ -127,7 +128,34 @@ $$
 \end{align*}
 $$
 
-References:
+**MATLAB code**
+
+```matlab
+syms a b c
+fc = a^2 + b^2 - c^2;
+fb = a^2 + c^2 - b^2;
+fa = b^2 + c^2 - a^2;
+f = fa*fb + fb*fc + fc*fa;
+s = a + b + c;
+S = sqrt(s/2 * (s/2 - a) * (s/2 - b) * (s/2 - c));
+SValue = subs(S);
+A = [0 1/2 1/2; a/s b/s c/s; fb*fc/f fa*fc/f fa*fb/f];
+B = det(A, 'Algorithm', 'minor-expansion');
+a = 14; b = 15; c = 13;
+subs(B)
+subs(B * SValue)
+```
+
+**Result:**
+```
+B = -(- a^3*b + a^3*c - a^2*b^2 + a^2*c^2 + a*b^3 + a*b^2*c - a*b*c^2 - a*c^3 + b^4 - 2*b^3*c + 2*b*c^3 - c^4)/(2*(a^4 - 2*a^2*b^2 - 2*a^2*c^2 + b^4 - 2*b^2*c^2 + c^4))
+ans =
+17/672
+ans =
+17/8
+```
+
+**References:**
 
 * [Barycentric Coordinates in Olympiad Geometry - Evan Chen](/assets/files/barycentric/barycentric_coordinates_in_olympiad_geometry.pdf)
 * [Barycentric Coordinates for the impatient - Evan Chen](/assets/files/barycentric/barycentric_coordinates_for_the_impatient.pdf)
