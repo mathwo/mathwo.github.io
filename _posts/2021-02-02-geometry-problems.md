@@ -20,9 +20,7 @@ $M=(0, \dfrac{1}{2}, \dfrac{1}{2}), I=(a,b,c), H=(tanA, tanB, tanC)$
 
 Now we calculate and normalize them:
 
-$a=14, b=15, c=13 \implies$
-
-$s=\dfrac{a+b+c}{2}=21$
+$a=14, b=15, c=13 \implies s=\dfrac{a+b+c}{2}=21$
 
 $S_{\triangle{AVC}}=\sqrt{s(s-a)(s-b)(s-c)}=\sqrt{21 \times 8 \times 7 \times 6}=84$
 
