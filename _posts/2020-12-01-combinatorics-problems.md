@@ -29,7 +29,7 @@ So there are totally $15+70+70+15=\boxed{170}$ different ways.
 * The 4 corners will be all black if they are BBBB, BBBW, BWBW, WBWB, BBWB, BWBB, WBBB, so it's $\dfrac{7}{16}$ chance to be all black.
 * Similarly the 4 squares not on corner nor in center will be all black if they are BBBB, BBBW, BWBW, WBWB, BBWB, BWBB, WBBB, and it's also $\dfrac{7}{16}$ chance to be all black.
 
-Thus totally the probability that the grid is entirely black: $\dfrac{1}{2} \times \dfrac{7}{16} \times \dfrac{7}{16} = \boxed{49}{512}$
+Thus totally the probability that the grid is entirely black: $\dfrac{1}{2} \times \dfrac{7}{16} \times \dfrac{7}{16} = \boxed{\dfrac{49}{512}}$
 
 ---
 
