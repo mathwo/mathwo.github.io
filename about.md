@@ -29,7 +29,7 @@ show_subscribe: true
 license: true
 ---
 
-We need physical and math workouts, and it's better to take down the solved problems. This used to be part of my OneNote but now easy sharing with people is necessary, especially with Brady and Justina.
+We need physical and math workouts, and it's better to take down the solved problems. This used to be part of my OneNote but now easy sharing with people is necessary, especially with B🏀 and J🐶.
 
 Github pages is a good platform to settle down with. GitLab with Hugo SSG was given a try but there was some path issue for CSS. Wordpress is a good match with local [Boostnote](https://boostnote.io/) editor but business plan is needed to install Latex plugin on wordpress.com. So both GitLab and Wordpress were given up.
 
