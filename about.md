@@ -37,4 +37,4 @@ Jekyll is old and huge with ruby installation but it is clear and easy to start 
 
 [Typora](https://typora.io/) is used for typing the math contents with its great image pasting, and vscode is used for general editing. Desktop version of [GeoGebra](https://www.geogebra.org/classic?lang=en) is used for static graphs for more keyboard shortcuts that web version in browser (but printing only works in web). Plan to add animation gifs with [Mathematica](https://www.wolfram.com/mathematica/).
 
-More technical details are accumulated in the Blog Tech Notes.
+More technical details are accumulated in the blog tech notes.
