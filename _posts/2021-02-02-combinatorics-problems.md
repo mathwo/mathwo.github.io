@@ -12,7 +12,7 @@ summary:
 
 **Solution:**
 
-![image-20210208035900116](/assets/images/2021-02/image-20210208035900116.png)
+![image-20210208042306977](/assets/images/2021-02/image-20210208042306977.png)
 
 So we know that the probability that she reaches a corner square on one of the four hops is:
 
