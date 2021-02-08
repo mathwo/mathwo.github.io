@@ -16,7 +16,7 @@ summary:
 
 So we know that the probability that she reaches a corner square on one of the four hops is:
 
-$\dfrac{1}{4} \cdot \dfrac{1}{4} \cdot 2 \cdot 4 + \dfrac{1}{32} \cdot 4 + \dfrac{5}{64} \cdot \dfrac{1}{4} \cdot 2 \cdot 4 = \boxed{\dfrac{5}{32}}$
+$\dfrac{1}{4} \cdot \dfrac{1}{4} \cdot 2 \cdot 4 + \dfrac{1}{32} \cdot 4 + \dfrac{5}{64} \cdot \dfrac{1}{4} \cdot 2 \cdot 4 = \boxed{\dfrac{25}{32}}$
 
 ---
 
