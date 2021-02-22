@@ -141,3 +141,48 @@ ans =
 * [Barycentric Coordinates for the impatient - Evan Chen](/assets/files/barycentric/barycentric_coordinates_for_the_impatient.pdf)
 * [Barycentric Coordinates](/assets/files/barycentric/barycentric_coordinates.pdf)
 * [Introduction to the Geometry of the Triangle](/assets/files/barycentric/introduction_to_the_geometry_of_the_triangle.pdf)
+
+---
+
+### 02/21/2021
+
+#### Two distinct regular tetrahedra have all their vertices among the vertices of the same unit cube. What is the volume of the region formed by the intersection of the tetrahedra? **(AMC 10 2011 A problem 24)**
+
+**Solve:**
+
+![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png)
+
+The tetrahedron $A'C'DB$ has faces $A'BC'$, $A'BD$, $BC'D$ and $A'C'D$
+
+The tetrahedron $AB'CD'$ has faces $AB'D'$,$ACD'$, $B'CD'$ and $AB'C$
+
+and here are their insect segments:
+
+* $A'BC'$ intersects $B'CD'$ at $FG'$, intersects $AB'D'$ at $EG'$, intersects $AB'C$ at $EF$, and does not intersect $ACD'$
+
+![image-20210222002937783](/assets/images/2021-02/image-20210222002937783.png)
+
+* $A'BD$ intersects $ACD'$ at $F'G$, intersects $AB'D'$ at $EF'$, intersects $AB'C$ at $EG$, and does not intersect $B'CD'$
+
+  ![image-20210222003548320](/assets/images/2021-02/image-20210222003548320.png)
+
+* $BC'D$ intersects $ACD'$ at $E'G$, intersects $B'CD'$ at $E'F$, intersects $AB'C$ at $FG$, and does not intersect $AB'D'$
+
+  ![image-20210222004318557](/assets/images/2021-02/image-20210222004318557.png)
+
+* $A'C'D$ intersects $ACD'$ at $E'F'$, intersects $B'CD'$ at $E'G'$, intersects $AB'D'$ at $F'G'$, and does not intersect $AB'C$:
+
+  ![image-20210222005246588](/assets/images/2021-02/image-20210222005246588.png)
+
+|         | $ACD'$ | $B'CD'$ | $AB'D'$ | $AB'C$ |
+| :-----: | :-----: | :-----: | :----: | :----: |
+| $A'BC'$ |  N/A    |  $FG'$  |  $EG'$  | $EF$  |
+| $A'BD$  |   $F'G$   |   N/A   |   $EF'$   | $EG$ |
+| $BC'D$  |   $E'G$   |   $E'F$   |   N/A  | $FG$ |
+| $A'C'D$ |   $E'F'$   |   $E'G'$   |   $F'G'$   |  N/A   |
+
+![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png)
+
+So the intersection part is $EFE'F'GG'$, and all the edges are equal in length which equals to $\dfrac{1}{\sqrt{2}}$, $EFFE'$ is a square, and $GG'=1$
+
+So the volume of $EFE'F'GG'$ is $2 \times \dfrac{GG'}{2} \times \dfrac{1}{3} \times S_{EFE'F'}=\dfrac{1}{2} \times \dfrac{1}{3}=\boxed{\dfrac{1}{6}}$.
