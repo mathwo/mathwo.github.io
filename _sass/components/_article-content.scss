@@ -205,6 +205,8 @@
   table {
     display: block;
     width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden !important;
     border-collapse: collapse;
     @include overflow(auto);
     thead, tfoot {

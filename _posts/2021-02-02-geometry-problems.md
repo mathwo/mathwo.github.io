@@ -174,12 +174,14 @@ and here are their insect segments:
 
   ![image-20210222005246588](/assets/images/2021-02/image-20210222005246588.png){:class="image--lg"}
 
+
 |         | $ACD'$  | $B'CD'$ | $AB'D'$ | $AB'C$ |
 | :-----: | :-----: | :-----: | :-----: | :----: |
 | $A'BC'$ | N/A     | $FG'$   | $EG'$   | $EF$   |
 | $A'BD$  | $F'G$   | N/A     | $EF'$   | $EG$   |
 | $BC'D$  | $E'G$   | $E'F$   | N/A     | $FG$   |
 | $A'C'D$ | $E'F'$  | $E'G'$  | $F'G'$  | N/A    |
+
 
 ![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png){:class="image--x2l"}
 
