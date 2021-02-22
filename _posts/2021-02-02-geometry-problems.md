@@ -150,7 +150,7 @@ ans =
 
 **Solve:**
 
-![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png)
+![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png){:class="image--lg"}
 
 The tetrahedron $A'C'DB$ has faces $A'BC'$, $A'BD$, $BC'D$ and $A'C'D$
 
@@ -160,28 +160,28 @@ and here are their insect segments:
 
 * $A'BC'$ intersects $B'CD'$ at $FG'$, intersects $AB'D'$ at $EG'$, intersects $AB'C$ at $EF$, and does not intersect $ACD'$
 
-![image-20210222002937783](/assets/images/2021-02/image-20210222002937783.png)
+![image-20210222002937783](/assets/images/2021-02/image-20210222002937783.png){:class="image--lg"}
 
 * $A'BD$ intersects $ACD'$ at $F'G$, intersects $AB'D'$ at $EF'$, intersects $AB'C$ at $EG$, and does not intersect $B'CD'$
 
-  ![image-20210222003548320](/assets/images/2021-02/image-20210222003548320.png)
+  ![image-20210222003548320](/assets/images/2021-02/image-20210222003548320.png){:class="image--lg"}
 
 * $BC'D$ intersects $ACD'$ at $E'G$, intersects $B'CD'$ at $E'F$, intersects $AB'C$ at $FG$, and does not intersect $AB'D'$
 
-  ![image-20210222004318557](/assets/images/2021-02/image-20210222004318557.png)
+  ![image-20210222004318557](/assets/images/2021-02/image-20210222004318557.png){:class="image--lg"}
 
 * $A'C'D$ intersects $ACD'$ at $E'F'$, intersects $B'CD'$ at $E'G'$, intersects $AB'D'$ at $F'G'$, and does not intersect $AB'C$:
 
-  ![image-20210222005246588](/assets/images/2021-02/image-20210222005246588.png)
+  ![image-20210222005246588](/assets/images/2021-02/image-20210222005246588.png){:class="image--lg"}
 
-|         | $ACD'$ | $B'CD'$ | $AB'D'$ | $AB'C$ |
-| :-----: | :-----: | :-----: | :----: | :----: |
-| $A'BC'$ |  N/A    |  $FG'$  |  $EG'$  | $EF$  |
-| $A'BD$  |   $F'G$   |   N/A   |   $EF'$   | $EG$ |
-| $BC'D$  |   $E'G$   |   $E'F$   |   N/A  | $FG$ |
-| $A'C'D$ |   $E'F'$   |   $E'G'$   |   $F'G'$   |  N/A   |
+|         | $ACD'$  | $B'CD'$ | $AB'D'$ | $AB'C$ |
+| :-----: | :-----: | :-----: | :-----: | :----: |
+| $A'BC'$ | N/A     | $FG'$   | $EG'$   | $EF$   |
+| $A'BD$  | $F'G$   | N/A     | $EF'$   | $EG$   |
+| $BC'D$  | $E'G$   | $E'F$   | N/A     | $FG$   |
+| $A'C'D$ | $E'F'$  | $E'G'$  | $F'G'$  | N/A    |
 
-![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png)
+![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png){:class="image--lg"}
 
 So the intersection part is $EFE'F'GG'$, and all the edges are equal in length which equals to $\dfrac{1}{\sqrt{2}}$, $EFFE'$ is a square, and $GG'=1$
 
