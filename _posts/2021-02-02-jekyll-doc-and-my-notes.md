@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 
 #### Remove vertical scrollbar for table:
 
-Add two lines on overflow-x and overflow-y from _article-content.scss line 205:
+Add two lines on overflow-x and overflow-y from _sass\components\_article-content.scss line 205:
 
 ```css
   table {
