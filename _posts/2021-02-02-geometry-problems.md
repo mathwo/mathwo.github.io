@@ -183,7 +183,7 @@ and here are their insect segments:
 | $A'C'D$ | $E'F'$  | $E'G'$  | $F'G'$  | N/A    |
 
 
-![image-20210221234051710](/assets/images/2021-02/image-20210221234051710.png){:class="image--x2l"}
+![image-20210222142528946](/assets/images/2021-02/image-20210222142528946.png){:class="image--x2l"}
 
 So the intersection part is $EFE'F'GG'$, and all the edges are equal in length which equals to $\dfrac{1}{\sqrt{2}}$, $EFFE'$ is a square, and $GG'=1$
 
