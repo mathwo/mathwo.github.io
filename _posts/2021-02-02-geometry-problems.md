@@ -199,7 +199,7 @@ So the volume of $EFE'F'GG'$ is $2 \times \dfrac{GG'}{2} \times \dfrac{1}{3} \ti
 
 Using Barycentric coordinates, and try to normalize to the same common base:
 
-$G=(a+b+c : a+b+c : a+b+c)$
+$G=((a+b+c) : (a+b+c) : (a+b+c))$
 
 $I = (3a : 3b : 3c)$
 
@@ -207,9 +207,9 @@ $C = (0 : 0 : 3(a+b+c))$
 
 So
 
-$GI=(2a-b-c : 2b-a-c : 2c-a-b)$
+$GI=((2a-b-c) : (2b-a-c) : (2c-a-b))$
 
-$CI = (3a : 3b : -3a-3b)$
+$CI = (3a : 3b : (-3a-3b))$
 
 According to EFFT(Evan's Favorite Forgotten Trick), vector $MN=(x_1 : y_1 : z_1), PQ=(x_2 : y_2 : z_2), MN \perp PQ$ iff $0=a^2(y_2z_1 + y_1z_2) + b^2(x_1z_2+x_2z_1) + c^2(x_1y_2 + z_2y_1)$. So
 
