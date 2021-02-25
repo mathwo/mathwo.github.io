@@ -16,7 +16,7 @@ summary:
 
 In Barycentric Coordinate system, we have the coordinates for points $H, I$ and $M$ as:
 
-$M=(0, \dfrac{1}{2}, \dfrac{1}{2}), I=(a,b,c), H=(tanA, tanB, tanC)$
+$M=(0 : \dfrac{1}{2} : \dfrac{1}{2}), I=(a : b : c), H=(tanA : tanB : tanC)$
 
 Now we calculate and normalize them:
 
@@ -199,19 +199,19 @@ So the volume of $EFE'F'GG'$ is $2 \times \dfrac{GG'}{2} \times \dfrac{1}{3} \ti
 
 Using Barycentric coordinates, and try to normalize to the same common base:
 
-$G=(a+b+c, a+b+c, a+b+c)$
+$G=(a+b+c : a+b+c : a+b+c)$
 
-$I = (3a, 3b, 3c)$
+$I = (3a : 3b : 3c)$
 
-$C = (0, 0, 3(a+b+c))$
+$C = (0 : 0 : 3(a+b+c))$
 
 So
 
-$GI=(2a-b-c, 2b-a-c, 2c-a-b)$
+$GI=(2a-b-c : 2b-a-c : 2c-a-b)$
 
-$CI = (3a, 3b, -3a-3b)$
+$CI = (3a : 3b : -3a-3b)$
 
-According to EFFT(Evan's Favorite Forgotten Trick), vector $MN=(x_1, y_1, z_1), PQ=(x_2, y_2, z_2), MN \perp PQ$ iff $0=a^2(y_2z_1 + y_1z_2) + b^2(x_1z_2+x_2z_1) + c^2(x_1y_2 + z_2y_1)$. So
+According to EFFT(Evan's Favorite Forgotten Trick), vector $MN=(x_1 : y_1 : z_1), PQ=(x_2 : y_2 : z_2), MN \perp PQ$ iff $0=a^2(y_2z_1 + y_1z_2) + b^2(x_1z_2+x_2z_1) + c^2(x_1y_2 + z_2y_1)$. So
 
 $0=a^2(3b(2c-a-b)-3(a+b)(2b-a-c)) + b^2(3a(2c-a-b)-3(a+b)(2a-b-c)) + c^2(3a(2b-a-c)+3b(2a-b-c))$
 
@@ -260,7 +260,7 @@ $GI \perp CI \implies CD=CE$
 
 Using Trilinear coordinates:
 
-$I=(1:1:1)$
+$I=(1 : 1 : 1)$
 
 $G=(\dfrac{1}{a} : \dfrac{1}{b} : \dfrac{1}{c})$
 
@@ -274,13 +274,13 @@ $$
 \end{vmatrix}=0 \implies (\dfrac{1}{c}-\dfrac{1}{b})x+(\dfrac{1}{a}-\dfrac{1}{c})y+(\dfrac{1}{b}-\dfrac{1}{a})z=0
 \end{align*}
 $$
-and $A=(1:0:0), C=(0:0:1)$, the equation of $AC$ is $y=0$, thus intersection $D$ is determined by
+and $A=(1 : 0 : 0), C=(0 : 0 : 1)$, the equation of $AC$ is $y=0$, thus intersection $D$ is determined by
 
 $(\dfrac{1}{c}-\dfrac{1}{b})x+(\dfrac{1}{b}-\dfrac{1}{a})z=0 \implies a(b-c)x + c(a-b)z=0$
 
 $\implies D=(c(b-a) : 0 : a(b-c))$
 
-Similarly, $B=(0:1:0)$, the equation of $BC$ is $x=0$, thus intersection $E$ is determined by
+Similarly, $B=(0 : 1 : 0)$, the equation of $BC$ is $x=0$, thus intersection $E$ is determined by
 
 $(\dfrac{1}{a}-\dfrac{1}{c})y+(\dfrac{1}{b}-\dfrac{1}{a})z=0 \implies b(c-a)y + c(a-b)z=0$
 
