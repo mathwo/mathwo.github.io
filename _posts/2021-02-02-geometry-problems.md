@@ -242,23 +242,15 @@ $\implies a+b+c=\dfrac{12mn}{m+n} \in \mathbb{Z^+}, gcf(m,n)=1 \implies (m+n) \m
 
 $\implies m+n=2, 3, 4, 6, 12 \text{, and } \lvert a-b \lvert \lt c=\dfrac{6ab}{a+b}-a-b \lt a+b $
 
-$m+n=2 \implies m=n=1 \implies a=b=2 \implies c=2 \implies GI \not\perp CI$
-
-$m+n=3 \implies m=1, n=2 \text{ or } m=2, n=1 \implies a+b=6, ab=8 \implies c=2= \lvert b-a \lvert $
-
-$m+n=4 \implies m=1, n=3 \text{ or } m=2, n=2 \text{ or } m=3, n=1 \implies a+b=8, ab=12 \text{ or } 16$
-
-$\implies c=1 \text{ or } 4 \implies GI \not\perp CI \text{ or } c= \lvert b-a \lvert $
-
-$m+n=6 \implies a+b=12, ab=20 \text{ or } 32 \text{ or } 36 \implies c=4 \text{ or } 6$
-
-$\implies GI \not\perp CI \text{ or } c= \lvert b-a \lvert $
-
-$m + n = 12 \implies a+b=24, ab=44 \text{ or } 80 \text{ or } 108 \text{ or } 128 \text{ or } 140$
-
-$\implies c=3 \text{ or } 8 \text{ or } 11 \implies c=11, a=14, b=10 \text{ or } c=11, a=10, b=14$
-
-$\implies a+b+c=\boxed{35}$
+* $m+n=2 \implies m=n=1 \implies a=b=2 \implies c=2 \implies GI \not\perp CI$
+* $m+n=3 \implies m=1, n=2 \text{ or } m=2, n=1 \implies a+b=6, ab=8 \implies c=2= \lvert b-a \lvert $
+* $m+n=4 \implies m=1, n=3 \text{ or } m=2, n=2 \text{ or } m=3, n=1 \implies a+b=8, ab=12 \text{ or } 16$
+  $\implies c=1 \text{ or } 4 \implies GI \not\perp CI \text{ or } c= \lvert b-a \lvert $
+* $m+n=6 \implies a+b=12, ab=20 \text{ or } 32 \text{ or } 36 \implies c=4 \text{ or } 6$
+  $\implies GI \not\perp CI \text{ or } c= \lvert b-a \lvert $
+* $m + n = 12 \implies a+b=24, ab=44 \text{ or } 80 \text{ or } 108 \text{ or } 128 \text{ or } 140$
+  $\implies c=3 \text{ or } 8 \text{ or } 11 \implies c=11, a=14, b=10 \text{ or } c=11, a=10, b=14$
+  $\implies a+b+c=\boxed{35}$
 
 **Solve 2:**
 
