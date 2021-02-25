@@ -302,6 +302,8 @@ $d(D, BC)=d(E, AC) \implies ac(a+c-2b)=bc(2a-b-c) \implies (a+b)(a+b+c)=6ab$
 
 Let $D$ and $E$ be the intersections of $GI$ with $CA$ and $BC$ respectively. Suppose the distances from $G$ to $AC$ and $BC$ are $h_1$ and $h_2$ respectively.
 
+![image-20210225041149446](/assets/images/2021-02/image-20210225041149446.png){:class="image--x2l"}
+
 $GI \perp CI \implies CD=CE$
 
 $S_{\triangle{CDE}}=CQ \times r_{incenter}=\dfrac{1}{2}CQ(h_1+h_2)$
