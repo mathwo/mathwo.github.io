@@ -193,8 +193,7 @@ So the volume of $EFE'F'GG'$ is $2 \times \dfrac{GG'}{2} \times \dfrac{1}{3} \ti
 
 ### 02/24/2021
 
-####
-As shown in the figure, in $\triangle{ABC}$, $BC=a, CA=b, AB=c$ and $a, b, c$ are all positive integers. The greatest common factor of $a$ and $b$ is $2$. $G$ and $I$ are the centroid and incenter of $\triangle{ABC}$, respectively. With $GI \perp CI$, find the perimeter of $\triangle{ABC}$.
+#### As shown in the figure, in $\triangle{ABC}$, $BC=a, CA=b, AB=c$ and $a, b, c$ are all positive integers. The greatest common factor of $a$ and $b$ is $2$. $G$ and $I$ are the centroid and incenter of $\triangle{ABC}$, respectively. With $GI \perp CI$, find the perimeter of $\triangle{ABC}$.
 
 **Solve 1:**
 
