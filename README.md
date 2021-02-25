@@ -1,3 +1,3 @@
-# Math Workout Blog
+# M&#8704;TH Workout
 
-[MATH WO](https://mathwo.github.io/)
+[M&#8704;TH WO](https://mathwo.github.io/)
