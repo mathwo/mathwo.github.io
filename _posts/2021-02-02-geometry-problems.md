@@ -252,7 +252,7 @@ $\implies m+n=2, 3, 4, 6, 12 \text{, and } \lvert a-b \lvert \lt c=\dfrac{6ab}{a
   $\implies c=3 \text{ or } 8 \text{ or } 11 \implies c=11, a=14, b=10 \text{ or } c=11, a=10, b=14$
   $\implies a+b+c=\boxed{35}$
 
-**Solve 2:**
+**Solve 2:** ([Ref](https://math.stackexchange.com/questions/1593075/how-to-prove-that-6ab-ababc-for-triangle))
 
 Let $D$ and $E$ be the intersections of $GI$ with $CA$ and $BC$ respectively.
 
