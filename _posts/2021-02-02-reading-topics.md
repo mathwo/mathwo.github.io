@@ -16,7 +16,7 @@ This is a [great proof](https://medium.com/cantors-paradise/monotonicity-will-pr
 
 #### Trilinear coordinates and Barycentric coordinates
 
-![image-20210226030930850](/assets/images/2021-02/image-20210226030930850.png)
+![image-20210226030930850](/assets/images/2021-02/image-20210226030930850.png){:class="image--lg"}
 
 $a : b : c = sinA : sinB : sinC$
 

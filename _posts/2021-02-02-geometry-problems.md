@@ -320,3 +320,19 @@ $\implies (a+b)(a+b+c)=6ab$
 
 * [Trilinear Coordinates - Wiki](/assets/files/trilinear_coordinates/trilinear_coordinates-wiki.pdf)
 * [Trilinear Coordinates from a book](/assets/files/trilinear_coordinates/22_Trilinear_Coordinates.pdf)
+
+---
+
+### 02/26/2021
+
+#### $D$ is a point on $BC$ In $\triangle{ABC}$, $\angle{ABC}=42^{\circ}, \angle{BAD}=27^{\circ}, AB=CD$, prove that $AB=AC.$
+
+![image-20210226123231830](/assets/images/2021-02/image-20210226123231830.png){:class="image--x2l"}
+
+**Proof:**
+
+![image-20210226123514606](/assets/images/2021-02/image-20210226123514606.png){:class="image--x8l"}
+
+* Step 1: make $CE \parallel AB, CE=AB \implies AB=CD=CE \implies \angle{BCE}=\angle{ABC}=42^{\circ}, \angle{CED}=\angle{CDE}=69^{\circ}$
+* Step 2: make $EF \parallel AD \implies \angle{DFE}=\angle{ADF}=69^{\circ} \implies DE=DF$ and $\angle{DEF}=42^{\circ} \implies \angle{CEF}=27^{\circ} \implies \triangle{ABD} \cong \triangle{CEF} \implies AD=EF$
+* Step 3: $AD\parallel EF, AD=EF \implies AF \parallel DE, DE=AF=AD=EF \implies \triangle{ACD} \cong \triangle{CDE} \implies CE=AC=AB \blacksquare$
