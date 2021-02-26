@@ -58,4 +58,4 @@ spec.add_development_dependency "rake", ">= 12.3.3"
 Always verify the validity and compatibility of suggestions with your codebase.
 ```
 
-Revised to update rake version and run "bundle install".
+Revised to update rake version on both dev and master branches. This version update reminds me that, a blog should cut down dependencies to minimum to survive decades.
