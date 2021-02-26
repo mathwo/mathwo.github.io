@@ -33,3 +33,29 @@ Add two lines on overflow-x and overflow-y from _sass\components\_article-conten
     border-collapse: collapse;
   }
 ```
+
+---
+
+### 02/25/2021
+
+#### Resolve rake version due to security risk
+
+```
+Dependabot can't update vulnerable dependencies without a lockfile
+The currently installed version can't be determined.
+
+To resolve the issue add a supported lockfile (Gemfile.lock or gems.locked).
+
+View logs or learn more about troubleshooting Dependabot errors.
+
+1 rake vulnerability found in jekyll-text-theme.gemspec 10 hours ago
+Remediation
+Upgrade rake to version 12.3.3 or later. For example:
+
+spec.add_dependency "rake", ">= 12.3.3"
+or…
+spec.add_development_dependency "rake", ">= 12.3.3"
+Always verify the validity and compatibility of suggestions with your codebase.
+```
+
+Revised to update rake version and run "bundle install".
