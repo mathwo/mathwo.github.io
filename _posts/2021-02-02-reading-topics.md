@@ -33,7 +33,7 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
 | $Centroid(G)$          | $\dfrac{1}{a} : \dfrac{1}{b} : \dfrac{1}{c}=bc : ac : ab=cscA : cscB : cscC$ | $1 : 1 : 1$         |
 | $Circumcenter(O)$      | $cosA : cosB : cosC$                                         | $sin2A : sin2B : sin2C$ |
 | $Orthocenter(H)$       | $secA : secB : secC$                                         | $tanA : tanB : tanC$    |
-| $Nine-Point Center(N)$ | $cos(B-C) : cos(C-A) : cos(A-B)$                             |                         |
+| $\text{Nine-Point} Center(N)$ | $cos(B-C) : cos(C-A) : cos(A-B)$                             |                         |
 | $Symmedian Point(S)$   | $a : b : c = sinA : sinB : sinC$                             | $a^2 : b^2 : c^2$       |
 | $A-Excenter(J_A)$      | $-1 : 1 : 1$                                                 | $-a : b : c$            |
 | $B-Excenter(J_B)$      | $1 : -1 : 1$                                                 | $a : -b : c$            |
