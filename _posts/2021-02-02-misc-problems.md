@@ -40,3 +40,24 @@ We have $f(n+1)=f(n)+f(1)+n \implies f(n+1)-f(n)=n+f(1) $
 
 $\implies f(2001)-f(0)=\displaystyle\sum_{i=0}^{2000}{i} + 2001f(1) \implies f(2001)=\dfrac{2000 \times 2001}{2} + 2001 = \dfrac{2001 \times 2002}{2}=\boxed{2003001}$
 
+---
+
+### 02/25/2021
+
+#### Suppose $n=2^{499}$. There are $2n$ points on a circle and they are numbered as $1, 2, ... 2n$. Prove: there exists 100 secants connecting these points but no intersection to each other, so that the endpoints of these secants can be
+
+--
+
+### 02/26/2021
+
+#### As shown in figure. find the area of quadrilateral $GHIJ:$
+
+![image-20210225230830360](/assets/images/2021-02/image-20210225230830360.png){:class="image--lg"}
+
+**Solve:**
+
+$GJ=\dfrac{EA}{2}=\dfrac{1}{2}$
+
+$\dfrac{HK}{HL}=\dfrac{DE}{BC}=\dfrac{5}{6}, HK+HL=6 \implies HK=\dfrac{30}{11}, HL=\dfrac{36}{11} \implies HI=\dfrac{6}{11}$
+
+$S_{GIHJ}=GJ \times HI \times \dfrac{1}{2}=\dfrac{1}{2} \times \dfrac{6}{11} \times \dfrac{1}{2}=\boxed{\dfrac{3}{22}}$
