@@ -12,7 +12,7 @@ summary:
 
 **Solve:**
 
-![image-20210203104841231](/assets/images/2021-02/image-20210203104841231.png){:class="image--x2l"}
+![image-20210226010306809](/assets/images/2021-02/image-20210226010306809.png){:class="image--x2l"}
 
 In Barycentric Coordinate system, we have the coordinates for points $H, I$ and $M$ as:
 
