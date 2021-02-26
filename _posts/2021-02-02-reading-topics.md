@@ -16,11 +16,11 @@ This is a [great proof](https://medium.com/cantors-paradise/monotonicity-will-pr
 
 #### Trilinear coordinates and Barycentric coordinates
 
-![image-20210226030930850](/assets/images/2021-02/image-20210226030930850.png){:class="image--lg"}
+![image-20210226030930850](/assets/images/2021-02/image-20210226030930850.png){:class="image--x4l"}
 
 $a : b : c = sinA : sinB : sinC$
 
-$(X : Y : Z)_{Trilinear}=(aX : bY : cZ)_{barycentric}$
+$(X : Y : Z)_T = (aX : bY : cZ)_B$
 
 $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y+Z}:\dfrac{Y}{X+Y+Z}:\dfrac{Z}{X+Y+Z}\right)$
 
