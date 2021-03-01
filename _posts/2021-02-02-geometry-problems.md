@@ -336,3 +336,42 @@ $\implies (a+b)(a+b+c)=6ab$
 * Step 1: make $CE \parallel AB, CE=AB \implies AB=CD=CE \implies \angle{BCE}=\angle{ABC}=42^{\circ}, \angle{CED}=\angle{CDE}=69^{\circ}$
 * Step 2: make $EF \parallel AD \implies \angle{DFE}=\angle{ADF}=69^{\circ} \implies DE=DF$ and $\angle{DEF}=42^{\circ} \implies \angle{CEF}=27^{\circ} \implies \triangle{ABD} \cong \triangle{CEF} \implies AD=EF$
 * Step 3: $AD\parallel EF, AD=EF \implies AF \parallel DE, DE=AF=AD=EF \implies \triangle{ACD} \cong \triangle{CDE} \implies CE=AC=AB \blacksquare$
+
+---
+
+### 02/27/2021
+
+#### In the following figure, $S_{ABCD}=16, AB=BC, BE \perp CD$, find $BE.$
+
+![image-20210226214802942](/assets/images/2021-02/image-20210226214519525.png)
+
+**Solve:**
+
+![image-20210226215041501](/assets/images/2021-02/image-20210226215041501.png)
+
+Let $AB=BC=a, AD=b, CD=c, BE=x$
+
+$S_{ABCD}=16 \implies a^2+bc=32$
+
+$2a^2=b^2+c^2 \implies 64-2bc=b^2+c^2 \implies b+c=8$
+
+Make $F$ on $BE$ so that $AF \perp BE \implies \angle{CBE}=\angle{BAF}$
+
+$AB=BC \implies \triangle{BCE} \cong \triangle{ABF} \implies AF=BE, BF=CE \implies x=b+\sqrt{a^2-x^2}$
+
+$\implies 2x^2-2bx+b^2-a^2=0 \implies x=\dfrac{2b\pm\sqrt{4b^2-8(b^2-a^2)}}{4}=\dfrac{b\pm\sqrt{2a^2-b^2}}{2}=\dfrac{b\pm c}{2}$
+
+$x=\dfrac{b-c}{2} \implies a^2-x^2=a^2-\dfrac{b^2+c^2-2bc}{4}=\dfrac{2a^2-b^2-c^2+2a^2+2bc}{4}=\dfrac{64}{4}=16 \implies BF=CE=4$
+
+$\implies x=c-4 \implies \dfrac{b-c}{2}=c-4 \implies 3c-b=8=b+c \implies b=c=4 \implies x=0$
+
+This does not make sense, since when $b=c=4, x=4$
+
+So the answer is $BE=x=\dfrac{b+c}{2}=\boxed{4}$
+
+---
+
+### 02/28/2021
+
+#### Find value of $\angle{x}$ in the following figure:
+
