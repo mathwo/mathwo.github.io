@@ -59,8 +59,27 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
 * The area of a triangle with vertices $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ is
 $$
 \begin{align*}
-  S_{\triangle{PQR}} = S_{\triangle{ABC}} \times \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3& z_3 \end{vmatrix}
+  S_{\triangle{PQR}} = S_{\triangle{ABC}} \times \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix}
 \end{align*}
 $$
 
-* dsadas
+* First Collinearity Criteria: The points $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ are collinear iff
+$$
+\begin{align*}
+  \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} = 0
+\end{align*}
+$$
+
+* When the coordinates are normalized, points $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ are collinear iff
+$$
+\begin{align*}
+  \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} = 0
+\end{align*}
+$$
+
+* The equation of a line through the points  $P=(x_1 : y_1 : z_1)$ and $Q=(x_2 : y_2 : z_2)$ is
+$$
+\begin{align*}
+  \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x & y & z \end{vmatrix} = 0
+\end{align*}
+$$
