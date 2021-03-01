@@ -351,7 +351,7 @@ $\implies (a+b)(a+b+c)=6ab$
 
 ![image-20210226214802942](/assets/images/2021-02/image-20210226214519525.png){:class="image--lg"}
 
-**Solve:**
+**Solve 1:**
 
 ![image-20210226215041501](/assets/images/2021-02/image-20210226215041501.png){:class="image--lg"}
 
@@ -374,6 +374,12 @@ $\implies x=c-4 \implies \dfrac{b-c}{2}=c-4 \implies 3c-b=8=b+c \implies b=c=4 \
 This does not make sense, since when $b=c=4, x=4$
 
 So the answer is $BE=x=\dfrac{b+c}{2}=\boxed{4}$
+
+**Solve 2:**
+
+![image-20210228203236848](/assets/images/2021-02/image-20210228203236848.png)
+
+Rotate $\triangle{BCE}$ by $90^{\circ}$ anti-clockwise, so the area of $ABCD$ is 16 and it forms a square with side $BE$. So $BE=\boxed{4}$.
 
 ---
 
