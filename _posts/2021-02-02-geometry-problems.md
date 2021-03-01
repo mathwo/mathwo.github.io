@@ -334,8 +334,14 @@ $\implies (a+b)(a+b+c)=6ab$
 ![image-20210226123514606](/assets/images/2021-02/image-20210226123514606.png){:class="image--x8l"}
 
 * Step 1: make $CE \parallel AB, CE=AB \implies AB=CD=CE \implies \angle{BCE}=\angle{ABC}=42^{\circ}, \angle{CED}=\angle{CDE}=69^{\circ}$
+
 * Step 2: make $EF \parallel AD \implies \angle{DFE}=\angle{ADF}=69^{\circ} \implies DE=DF$ and $\angle{DEF}=42^{\circ} \implies \angle{CEF}=27^{\circ} \implies \triangle{ABD} \cong \triangle{CEF} \implies AD=EF$
+
 * Step 3: $AD\parallel EF, AD=EF \implies AF \parallel DE, DE=AF=AD=EF \implies \triangle{ACD} \cong \triangle{CDE} \implies CE=AC=AB \blacksquare$
+
+* Reflection:
+
+  ![image-20210228192358375](/assets/images/2021-02/image-20210228192358375.png)
 
 ---
 
