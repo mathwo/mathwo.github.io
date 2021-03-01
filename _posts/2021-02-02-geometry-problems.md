@@ -377,7 +377,7 @@ So the answer is $BE=x=\dfrac{b+c}{2}=\boxed{4}$
 
 **Solve 2:**
 
-![image-20210228203236848](/assets/images/2021-02/image-20210228203236848.png)
+![image-20210228203236848](/assets/images/2021-02/image-20210228203236848.png){:class="image--lg"}
 
 Rotate $\triangle{BCE}$ by $90^{\circ}$ anti-clockwise, so the area of $ABCD$ is 16 and it forms a square with side $BE$. So $BE=\boxed{4}$.
 
