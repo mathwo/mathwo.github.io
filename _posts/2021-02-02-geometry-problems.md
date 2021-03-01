@@ -306,7 +306,7 @@ Let $D$ and $E$ be the intersections of $GI$ with $CA$ and $BC$ respectively. Su
 
 $GI \perp CI \implies CD=CE$
 
-$S_{\triangle{CDE}}=CQ \times r_{incenter}=\dfrac{1}{2}CQ(h_1+h_2)$
+$S_{\triangle{CDE}}=CD \times r_{incenter}=\dfrac{1}{2}CD(h_1+h_2)$
 
 $S_{\triangle{ABC}}=p\times r_{incenter}=\dfrac{1}{2}a \times 3h_1=\dfrac{1}{2}b \times 3h_2$
 
