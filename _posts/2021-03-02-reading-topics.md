@@ -19,3 +19,14 @@ Reference:
 
 * [AOPS page](https://artofproblemsolving.com/wiki/index.php/Shoelace_Theorem)
 * [Wiki page](https://en.wikipedia.org/wiki/Shoelace_formula)
+
+---
+
+### 03/03/2021
+
+#### Pascal's Theorem
+
+Reference:
+
+* [Wiki page](https://en.wikipedia.org/wiki/Pascal%27s_theorem)
+* [AOPS page](https://artofproblemsolving.com/wiki/index.php/Pascal%27s_Theorem)

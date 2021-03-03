@@ -387,3 +387,10 @@ Rotate $\triangle{BCE}$ by $90^{\circ}$ anti-clockwise, so the area of $ABCD$ is
 
 #### Find value of $\angle{x}$ in the following figure:
 
+![image-20210303123452073](/assets/images/2021-02/image-20210303123452073.png){:class="image--lg"}
+
+**Solute:**
+
+Reference:
+
+* [Math Overflow](https://math.stackexchange.com/questions/4042623/challenge-find-angle-x-in-the-figure-via-logical-approach/4043076?noredirect=1#comment8349662_4043076)
