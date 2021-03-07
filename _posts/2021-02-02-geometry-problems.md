@@ -341,7 +341,7 @@ $\implies (a+b)(a+b+c)=6ab$
 
 * Reflection:
 
-  ![image-20210228192358375](/assets/images/2021-02/image-20210228192358375.png){:class="image--lg"}
+  ![image-20210228192358375](/assets/images/2021-02/image-20210228192358375.png){:class="image--x2l"}
 
 ---
 
