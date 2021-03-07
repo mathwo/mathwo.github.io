@@ -329,7 +329,7 @@ $\implies b-c=0 \implies AB=AC \blacksquare$
 
 ![image-20201128151708916](/assets/images/2020-11/image-20201128151708916.png){:class="image--xl"}
 
-Draw $\angle{DCF}=\angle{8}=\angle{BFC}=\angle{7}$ and make $CE=CF$. Then connect $D$ and $F$.
+Draw $\angle{DCF}=\angle{8}=\angle{BEC}=\angle{7}$ and make $CE=CF$. Then connect $D$ and $F$.
 
 $CD=BE, CE=CF, \angle{7}=\angle{8} \implies \triangle{BCE} \cong \triangle{DFC}$
 
