@@ -391,7 +391,7 @@ Rotate $\triangle{BCE}$ by $90^{\circ}$ anti-clockwise, so the area of $ABCD$ is
 
 **Solute 1:**
 
-![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png){:class="image--x2l"}
+![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png){:class="image--x3l"}
 
 Suppose points $A,B,C,D,E$ are the vertices in the figure.
 
@@ -411,11 +411,11 @@ Suppose points $A,B,C,D,E$ are the vertices in the figure.
 
 3. $IG=IB, \angle{GAC}=\angle{CAI} \implies AC$ is vertical bisector of $IG$, and $\angle{GBC}=30^{\circ}$. We will prove that $\triangle{CGI}$ is equilateral triangle.
 
-   ![image-20210306230053483](/assets/images/2021-02/image-20210306230053483.png)
+   ![image-20210306230053483](/assets/images/2021-02/image-20210306230053483.png){:class="image--x2l"}
 
    From above we know that point $C$ is intersect of $AC$ and $CB$,  where $AC$ is vertical bisector of $IG$ and $\angle{GBC}=30^{\circ}$. Now suppose we make an equilateral triangle $\triangle{GIC'}$, and connect $BC'$, since $C'I=IG=IB$, we know $I$ is the center of the circle passes $G,B,C'$, $\angle{C'IG}=60^{\circ} \implies \angle{C'BG}=30^{\circ}$. That means $C'=C \implies \triangle{CGI}$ is equilateral.
 
-   ![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png)
+   ![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png){:class="image--x3l"}
 
 4. Now we prove points $C,G,H$ is colinear.  This is easy to see that $\angle{CGA}=\angle{CGI}+\angle{IGA}=60^{\circ}+22^{\circ}=82^{\circ}$, and since points $A,G,H,B$ is cyclic, $\angle{AGH}=180^{\circ}-\angle{HBA}=180^{\circ}-(33^{\circ}+49^{\circ})=180^{\circ}-82^{\circ}$, so $\angle{CGA}+\angle{AGH}=82^{\circ}+180^{\circ}-82^{\circ}=180^{\circ}$. This means points $C,G,H$ is colinear.
 
