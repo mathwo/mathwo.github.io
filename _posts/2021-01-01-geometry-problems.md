@@ -102,11 +102,11 @@ $\implies \angle{BAD}=2\angle{EAF}\blacksquare$
 
 #### Acute $\triangle{ABC}$, point $D$ is on side $AC$ so that $AD=BC$, $CF$ bisects $\angle{ACB}$. Point $E$ on side $AB$ so that $DE \parallel CF$ and $AE=CD$. Prove: $\angle{ADB}=3\angle{BAC}$
 
-![image-20210201041518780](E:\workspace\mwo\assets\images\2021-01\image-20210201041518780.png)
+![image-20210201041518780](/assets/images/2021-01/image-20210201041518780.png)
 
 **Prove:**
 
-![image-20210201045048538](E:\workspace\mwo\assets\images\2021-01\image-20210201045048538.png)
+![image-20210201045048538](/assetsimages/2021-01/image-20210201045048538.png)
 
 Let $AD=BC=m^2$, $CD=AE=mn$, easy to know that $EF=n^2$.
 
