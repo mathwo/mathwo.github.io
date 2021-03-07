@@ -138,6 +138,6 @@ so we know $\angle{ABC}=2\angle\alpha=2\angle{BAC}$
 
 That's as far as this problem can get. When $\angle{\alpha} = \angle{\beta}, AB=AC$, the target statement is correct, otherwise it is not correct. Any counter example with $\angle{BAC} \ne 36^{\circ}$ can satisfy the known facts:
 
-![image-20210202075353846](E:\workspace\mwo\assets\images\2021-01\image-20210202075353846.png)
+![image-20210202075353846](/assets/images/2021-01/image-20210202075353846.png)
 
 Discussion of this problem can be seen [here](https://math.stackexchange.com/questions/4004908/find-the-condition-in-which-angle-adb-3-angle-bac).
