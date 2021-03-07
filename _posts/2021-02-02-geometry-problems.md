@@ -401,7 +401,7 @@ Suppose points $A,B,C,D,E$ are the vertices in the figure.
 
    $\angle{GAC}=38^{\circ}+30^{\circ}=68^{\circ} \implies \angle{CAI}=180^{\circ}-\angle{GAC}-\angle{GAB}=180^{\circ}-68^{\circ}-44^{\circ}=68^{\circ}$
 
-   $AI=AG \implies \angle{GIA}=\angle{AGI}=\dfrac{180^{\circ}-\angle{GAC}-\angle{CAI}}{2}=\dfrac{180^{\circ}-68^{\circ}-68^{\circ}}}{2}=22^{\circ}$
+   $AI=AG \implies \angle{GIA}=\angle{AGI}=\dfrac{180^{\circ}-\angle{GAC}-\angle{CAI}}{2}=\dfrac{180^{\circ}-68^{\circ}-68^{\circ}}{2}=22^{\circ}$
 
    $\angle{AFB}=180^{\circ}-\angle{FAB}-\angle{FBA}=180^{\circ}-30^{\circ}-44^{\circ}-49^{\circ}=57^{\circ} \implies \angle{AGB}=57^{\circ}$
 
