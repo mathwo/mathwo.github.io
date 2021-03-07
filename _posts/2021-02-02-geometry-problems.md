@@ -399,13 +399,27 @@ Suppose points $A,B,C,D,E$ are the vertices in the figure.
 
 2. Extend $BA$ to point $I$ so that $AG=AI$, easy to see that
 
-   $\angle{GAC}=38^{\circ}+30^{\circ}=68^{\circ} \implies \angle{CAI}=180^{\circ}-\angle{GAC}-\angle{GAB}=180^{\circ}-68^{\circ}-44^{\circ}=68^{\circ}$
+   $\angle{GAC}=38^{\circ}+30^{\circ}=68^{\circ}$
 
-   $AI=AG \implies \angle{GIA}=\angle{AGI}=\dfrac{180^{\circ}-\angle{GAC}-\angle{CAI}}{2}=\dfrac{180^{\circ}-68^{\circ}-68^{\circ}}{2}=22^{\circ}$
+   $ \implies \angle{CAI}=180^{\circ}-\angle{GAC}-\angle{GAB}$
 
-   $\angle{AFB}=180^{\circ}-\angle{FAB}-\angle{FBA}=180^{\circ}-30^{\circ}-44^{\circ}-49^{\circ}=57^{\circ} \implies \angle{AGB}=57^{\circ}$
+   $=180^{\circ}-68^{\circ}-44^{\circ}=68^{\circ}$
 
-   $\implies \angle{IGB}=22^{\circ}+57^{\circ}=79^{\circ} \implies \angle{GBI}=180^{\circ}-\angle{GIA}-\angle{IGB}=180^{\circ}-22^{\circ}-79^{\circ}=79^{\circ} \implies IG=IB$
+   $AI=AG \implies \angle{GIA}=\angle{AGI}$
+
+   $=\dfrac{180^{\circ}-\angle{GAC}-\angle{CAI}}{2}$
+
+   $=\dfrac{180^{\circ}-68^{\circ}-68^{\circ}}{2}=22^{\circ}$
+
+   $\angle{AFB}=180^{\circ}-\angle{FAB}-\angle{FBA}$
+
+   $=180^{\circ}-30^{\circ}-44^{\circ}-49^{\circ}=57^{\circ} \implies \angle{AGB}=57^{\circ}$
+
+   $\implies \angle{IGB}=22^{\circ}+57^{\circ}=79^{\circ}$
+
+   $ \implies \angle{GBI}=180^{\circ}-\angle{GIA}-\angle{IGB}$
+
+   $=180^{\circ}-22^{\circ}-79^{\circ}=79^{\circ} \implies IG=IB$
 
    $\angle{GBI}=79^{\circ} \implies \angle{GBC}=79^{\circ}-49^{\circ}=30^{\circ}$
 
