@@ -419,7 +419,7 @@ Suppose points $A,B,C,D,E$ are the vertices in the figure.
 
 4. Now we prove points $C,G,H$ is colinear.  This is easy to see that $\angle{CGA}=\angle{CGI}+\angle{IGA}=60^{\circ}+22^{\circ}=82^{\circ}$, and since points $A,G,H,B$ is cyclic, $\angle{AGH}=180^{\circ}-\angle{HBA}=180^{\circ}-(33^{\circ}+49^{\circ})=180^{\circ}-82^{\circ}$, so $\angle{CGA}+\angle{AGH}=82^{\circ}+180^{\circ}-82^{\circ}=180^{\circ}$. This means points $C,G,H$ is colinear.
 
-5. Now we have 5 points $A, F, G, H, B$ on the circle, with $BF$ and $HG$ intersects at point $C$, $AF$ and $BH$ intersects at point D, $AG$ and $BE$ intersects at point $E$, and points $C, D, E$ is colinear. From [Pascal Theorem](https://en.wikipedia.org/wiki/Pascal%27s_theorem) we know that, this is a degeneration situation of 5 points, and point $BE$ is tangent to the circle.
+5. Now we have 5 points $A, F, G, H, B$ on the circle, with $BF$ and $HG$ intersects at point $C$, $AF$ and $BH$ intersects at point D, $AG$ and $BE$ intersects at point $E$, and points $C, D, E$ are colinear. From [Pascal Theorem](https://en.wikipedia.org/wiki/Pascal%27s_theorem) we know that, this is a degeneration situation of 5 points, and point $BE$ is tangent to the circle.
 
 6. Since $BE$ is tangent to the circle, we know that $\angle{FBE}=\angle{FAB}=30^{\circ}+44^{\circ}=74^{\circ} \implies \angle{HBE}=74^{\circ}-33^{\circ}=\boxed{41^{\circ}}$
 
