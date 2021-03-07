@@ -387,10 +387,62 @@ Rotate $\triangle{BCE}$ by $90^{\circ}$ anti-clockwise, so the area of $ABCD$ is
 
 #### Find value of $\angle{x}$ in the following figure:
 
-![image-20210303123452073](/assets/images/2021-02/image-20210303123452073.png){:class="image--lg"}
+![image-20210303123452073](/assets/images/2021-02/image-20210303123452073.png){:class="image--x2l"}
 
-**Solute:**
+**Solute 1:**
 
-Reference:
+![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png){:class="image--x2l"}
+
+Suppose points $A,B,C,D,E$ are the vertices in the figure.
+
+1. Mark $AD$ and $BC$ intersects at point $F$, draw circle {$ABF$} that passes through the three points. The circle and $AE, BD$ intersects at point $G, H$ respectively.
+
+2. Extend $BA$ to point $I$ so that $AG=AI$, easy to see that
+
+   $\angle{GAC}=38^{\circ}+30^{\circ}=68^{\circ} \implies \angle{CAI}=180^{\circ}-\angle{GAC}-\angle{GAB}=180^{\circ}-68^{\circ}-44^{\circ}=68^{\circ}$
+
+   $AI=AG \implies \angle{GIA}=\angle{AGI}=\dfrac{180^{\circ}-\angle{GAC}-\angle{CAI}}{2}=\dfrac{180^{\circ}-68^P\circ{-68^{\circ}}}{2}=22^{\circ}$
+
+   $\angle{AFB}=180^{\circ}-\angle{FAB}-\angle{FBA}=180^{\circ}-30^{\circ}-44^{\circ}-49^{\circ}=57^{\circ} \implies \angle{AGB}=57^{\circ}$
+
+   $\implies \angle{IGB}=22^{\circ}+57^{\circ}=79^{\circ} \implies \angle{GBI}=180^{\circ}-\angle{GIA}-\angle{IGB}=180^{\circ}-22^{\circ}-79^{\circ}=79^{\circ} \implies IG=IB$
+
+   $\angle{GBI}=79^{\circ} \implies \angle{GBC}=79^{\circ}-49^{\circ}=30^{\circ}$
+
+3. $IG=IB, \angle{GAC}=\angle{CAI} \implies AC$ is vertical bisector of $IG$, and $\angle{GBC}=30^{\circ}$. We will prove that $\triangle{CGI}$ is equilateral triangle.
+
+   ![image-20210306230053483](/assets/images/2021-02/image-20210306230053483.png)
+
+   From above we know that point $C$ is intersect of $AC$ and $CB$,  where $AC$ is vertical bisector of $IG$ and $\angle{GBC}=30^{\circ}$. Now suppose we make an equilateral triangle $\triangle{GIC'}$, and connect $BC'$, since $C'I=IG=IB$, we know $I$ is the center of the circle passes $G,B,C'$, $\angle{C'IG}=60^{\circ} \implies \angle{C'BG}=30^{\circ}$. That means $C'=C \implies \triangle{CGI}$ is equilateral.
+
+   ![image-20210306222751714](/assets/images/2021-02/image-20210306222751714.png)
+
+4. Now we prove points $C,G,H$ is colinear.  This is easy to see that $\angle{CGA}=\angle{CGI}+\angle{IGA}=60^{\circ}+22^{\circ}=82^{\circ}$, and since points $A,G,H,B$ is cyclic, $\angle{AGH}=180^{\circ}-\angle{HBA}=180^{\circ}-(33^{\circ}+49^{\circ})=180^{\circ}-82^{\circ}$, so $\angle{CGA}+\angle{AGH}=82^{\circ}+180^{\circ}-82^{\circ}=180^{\circ}$. This means points $C,G,H$ is colinear.
+
+5. Now we have 5 points $A, F, G, H, B$ on the circle, with $BF$ and $HG$ intersects at point $C$, $AF$ and $BH$ intersects at point D, $AG$ and $BE$ intersects at point $E$, and points $C, D, E$ is colinear. From [Pascal Theorem](https://en.wikipedia.org/wiki/Pascal%27s_theorem) we know that, this is a degeneration situation of 5 points, and point $BE$ is tangent to the circle.
+
+6. Since $BE$ is tangent to the circle, we know that $\angle{FBE}=\angle{FAB}=30^{\circ}+44^{\circ}=74^{\circ} \implies \angle{HBE}=74^{\circ}-33^{\circ}=\boxed{41^{\circ}}$
+
+**Solute 2:**
+
+Solve the problem in analytical approach
+
+```matlab
+syms x
+A= [1, -tan(deg2rad(49))/(tan(deg2rad(68))-tan(deg2rad(49))), tan(deg2rad(68))*tan(deg2rad(49))/(tan(deg2rad(68))-tan(deg2rad(49)));...
+    1, tan(deg2rad(82))/(tan(deg2rad(82))+tan(deg2rad(74))), tan(deg2rad(82))*tan(deg2rad(74))/(tan(deg2rad(82))+tan(deg2rad(74)));...
+    1, tan(deg2rad(98-x))/(tan(deg2rad(98-x))-tan(deg2rad(44))),   tan(deg2rad(98-x))*tan(deg2rad(44))/(tan(deg2rad(98-x))-tan(deg2rad(44)))];
+vpasolve(det(A) == 0)
+```
+
+And the output is:
+
+```matlab
+ans =
+
+41.000000000000014760621965150125
+```
+
+**Reference:**
 
 * [Math Overflow](https://math.stackexchange.com/questions/4042623/challenge-find-angle-x-in-the-figure-via-logical-approach/4043076?noredirect=1#comment8349662_4043076)
