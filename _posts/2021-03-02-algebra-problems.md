@@ -22,7 +22,7 @@ So we know the second solution has format $x+2\sqrt{2}y=(3+2\sqrt{2})^2 \implies
 
 So $2n-2k+1=17, k=6 \implies n=14$.
 
-The next larger value of $k$ would make $n>20$. So the answer is $k=6$.
+The next larger value of $k$ would make $n>20$. So the answer is $k=\boxed{6}$.
 
 ---
 
