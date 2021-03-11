@@ -10,7 +10,7 @@ tags: []
 
 **Solve:**
 
-![image-20210311011354760](/assets/images/2021-03/image-20210311011354760.png){:class="image--x2l"}
+![image-20210311011354760](/assets/images/2021-03/image-20210311011354760.png){:class="image--xl"}
 
 Make point $D$ on $AB$ so that $CD=AP=BC$, then
 $\triangle{ADC} \cong \triangle{CPA} \implies \angle{ACD}=\angle{CAP}=30^{\circ}$
