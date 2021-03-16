@@ -25,7 +25,7 @@ $\implies \angle{CBD}=78^{\circ} \implies \angle{BCP}=180^{\circ}-78^{\circ}-18^
 
 **Solve:**
 
-![image-20210314035150540](E:\workspace\mwo\assets\images\2021-03\image-20210314035150540.png)
+![image-20210314035150540](/assets/images/2021-03/image-20210314035150540.png){:class="image--xl"}
 
 Easy to see that $\triangle{ABG} \sim \triangle{CFG} \implies AG=p, BG=q, CG=\dfrac{7p}{3}, FG=\dfrac{7q}{3}$
 
@@ -47,13 +47,13 @@ $\implies \dfrac{4}{3}p=5 \implies p=\dfrac{15}{4} \implies S_{AGCD}=7p=\dfrac{1
 
 #### In quadrilateral $ABCD$, $AB=CD$, and points $E, F$ are midpoints of $BC, AD$ respectively. Extend $EF, CD, BA$ and they intersect at point $M,N$ as shown in following figure. Prove: $AM=DN$
 
-![image-20210315131705199](E:\workspace\mwo\assets\images\2021-03\image-20210315131705199.png)
+![image-20210315131705199](/assets/images/2021-03/image-20210315131705199.png){:class="image--xl"}
 
 **Prove:**
 
 Connect $AC$. Mark $AC$ and $EF$ intersects at point $P$.
 
-![image-20210315131625220](E:\workspace\mwo\assets\images\2021-03\image-20210315131625220.png)
+![image-20210315131625220](/assets/images/2021-03/image-20210315131625220.png)
 
 Apply Menelaus' theorem to $\triangle{ACD}$
 
