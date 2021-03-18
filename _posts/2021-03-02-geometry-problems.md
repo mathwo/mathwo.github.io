@@ -83,4 +83,4 @@ $\implies \angle{BN'M}=\angle{BMN'} \implies BN'=BM \implies D'N'=AM \implies AM
 
 #### Let $\triangle{ABC}$ be an acute triangle with orthocenter $H$ and circumcenter $O$. The tangent to the circumcenter of $\triangle{ABC}$ at $A$ intersects lines $BH$ and $CH$ at $X$ and $Y$. Let line $AO$ intersect $BC$ at $D$. Suppose that $AO=25, BC=49$, and $BY \parallel CY$. Then $AD$ can be written in the form $a-b\sqrt{c}$ for positive integers $a,b,c$, where $c$ is not divisible by the square of any prime. Find $a+b+c.$
 
-![image-20210316214204529](E:\workspace\mwo\assets\images\2021-03\image-20210316214204529.png)
+![image-20210316214204529](/assets/images/2021-03/image-20210316214204529.png)
