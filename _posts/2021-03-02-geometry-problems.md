@@ -49,7 +49,7 @@ $\implies \dfrac{4}{3}p=5 \implies p=\dfrac{15}{4} \implies S_{AGCD}=7p=\dfrac{1
 
 ![image-20210315131705199](/assets/images/2021-03/image-20210315131705199.png){:class="image--xl"}
 
-**Prove:**
+**Prove 1:**
 
 Connect $AC$. Mark $AC$ and $EF$ intersects at point $P$.
 
@@ -67,5 +67,20 @@ So we know
 
 $\dfrac{CN}{DN}=\dfrac{BM}{AM} \implies \dfrac{CD}{DN}=\dfrac{AB}{AM}\implies AM=DN \blacksquare$
 
+**Prove 2:**
+
+![image-20210317232752957](/assets/images/2021-03/image-20210317232752957.png)
+
+Make $BN' \parallel NC$. Extend $NE$ so it and $BN'$ intersect at $N'$. Connect and extend $DE$ so it and $BN'$ intersect at $D'$. Connect $AD'$.
+
+Easy to see that $\begin{cases}\triangle{BD'E} \cong \triangle{CDE} \implies \begin{cases}BD'=CD=AB \implies \angle{BD'A}=\angle{BAD'} \\ D'E=DE \implies EF \parallel AD' \implies \angle{BD'A}=\angle{BN'M}, \angle{BAD'}=\angle{BMN'}\end{cases} \\ \triangle{D'EN'} \cong \triangle{DNE} \implies D'N'=DN\end{cases}$
+
+$\implies \angle{BN'M}=\angle{BMN'} \implies BN'=BM \implies D'N'=AM \implies AM=DN\blacksquare$
+
 ---
 
+### 03/16/2021
+
+#### Let $\triangle{ABC}$ be an acute triangle with orthocenter $H$ and circumcenter $O$. The tangent to the circumcenter of $\triangle{ABC}$ at $A$ intersects lines $BH$ and $CH$ at $X$ and $Y$. Let line $AO$ intersect $BC$ at $D$. Suppose that $AO=25, BC=49$, and $BY \parallel CY$. Then $AD$ can be written in the form $a-b\sqrt{c}$ for positive integers $a,b,c$, where $c$ is not divisible by the square of any prime. Find $a+b+c.$
+
+![image-20210316214204529](E:\workspace\mwo\assets\images\2021-03\image-20210316214204529.png)
