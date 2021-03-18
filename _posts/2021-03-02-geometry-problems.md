@@ -73,7 +73,8 @@ $\dfrac{CN}{DN}=\dfrac{BM}{AM} \implies \dfrac{CD}{DN}=\dfrac{AB}{AM}\implies AM
 
 Make $BN' \parallel NC$. Extend $NE$ so it and $BN'$ intersect at $N'$. Connect and extend $DE$ so it and $BN'$ intersect at $D'$. Connect $AD'$.
 
-Easy to see that$\begin{align*}\begin{cases}\triangle{BD'E} \cong \triangle{CDE} \implies \begin{cases}BD'=CD=AB \implies \angle{BD'A}=\angle{BAD'} \\ D'E=DE \implies EF \parallel AD' \implies \angle{BD'A}=\angle{BN'M}, \angle{BAD'}=\angle{BMN'}\end{cases} \\ \triangle{D'EN'} \cong \triangle{DNE} \implies D'N'=DN\end{cases}\end{align*}$
+Easy to see that
+$$\begin{align*}\begin{cases}\triangle{BD'E} \cong \triangle{CDE} \implies \begin{cases}BD'=CD=AB \implies \angle{BD'A}=\angle{BAD'} \\ D'E=DE \implies EF \parallel AD' \implies \angle{BD'A}=\angle{BN'M}, \angle{BAD'}=\angle{BMN'}\end{cases} \\ \triangle{D'EN'} \cong \triangle{DNE} \implies D'N'=DN\end{cases}\end{align*}$$
 
 $\implies \angle{BN'M}=\angle{BMN'} \implies BN'=BM \implies D'N'=AM \implies AM=DN\blacksquare$
 
