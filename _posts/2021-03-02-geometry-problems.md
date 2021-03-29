@@ -53,7 +53,7 @@ $\implies \dfrac{4}{3}p=5 \implies p=\dfrac{15}{4} \implies S_{AGCD}=7p=\dfrac{1
 
 Connect $AC$. Mark $AC$ and $EF$ intersects at point $P$.
 
-![image-20210315131625220](/assets/images/2021-03/image-20210315131625220.png)
+![image-20210315131625220](/assets/images/2021-03/image-20210315131625220.png){:class="image--xl"}
 
 Apply Menelaus' theorem to $\triangle{ACD}$
 
@@ -69,7 +69,7 @@ $\dfrac{CN}{DN}=\dfrac{BM}{AM} \implies \dfrac{CD}{DN}=\dfrac{AB}{AM}\implies AM
 
 **Prove 2:**
 
-![image-20210317232752957](/assets/images/2021-03/image-20210317232752957.png)
+![image-20210317232752957](/assets/images/2021-03/image-20210317232752957.png){:class="image--xl"}
 
 Make $BN' \parallel NC$. Extend $NE$ so it and $BN'$ intersect at $N'$. Connect and extend $DE$ so it and $BN'$ intersect at $D'$. Connect $AD'$.
 
@@ -84,4 +84,37 @@ $\implies \angle{BN'M}=\angle{BMN'} \implies BN'=BM \implies D'N'=AM \implies AM
 
 #### Let $\triangle{ABC}$ be an acute triangle with orthocenter $H$ and circumcenter $O$. The tangent to the circumcenter of $\triangle{ABC}$ at $A$ intersects lines $BH$ and $CH$ at $X$ and $Y$. Let line $AO$ intersect $BC$ at $D$. Suppose that $AO=25, BC=49$, and $BY \parallel CY$. Then $AD$ can be written in the form $a-b\sqrt{c}$ for positive integers $a,b,c$, where $c$ is not divisible by the square of any prime. Find $a+b+c.$
 
-![image-20210316214204529](/assets/images/2021-03/image-20210316214204529.png)
+![image-20210316214204529](/assets/images/2021-03/image-20210316214204529.png){:class="image--xl"}
+
+---
+
+### 03/29/2021
+
+#### Quadrilateral $ABCD$ has $\angle{ACD}=25^{\circ}, \triangle{ACB}=75^{\circ}, \angle{ABD}=30^{\circ}, BC=CD$. Circumcircle of $\triangle{ACD}$ and Extended $CB$ intersects at $E$. Prove: $BD=CE$
+
+![image-20210329085327196](/assets/images/2021-03/image-20210329085327196.png){:class="image--xl"}
+
+**Prove:**
+
+![image-20210329090214531](/assets/images/2021-03/image-20210329090214531.png){:class="image--xl"}
+
+Make the circle centered at $C$ with radius $CB$. Let circle $C$ and $AB$ intersect at $H$. $BC=CD \implies D$ is on circle $C$.
+
+$\angle{BCD}=25^{\circ}+75^{\circ}, BC=CD \implies \angle{CDB}=\angle{CBD}=40^{\circ}$
+
+$\implies \angle{CBH}=70^{\circ}, CB=CH \implies \angle{BCH}=40^{\circ}$
+
+$\implies \angle{ACH}=75^{\circ}-40^{\circ}=35^{\circ} \implies \angle{DCH}=25^{\circ}+35^{\circ}=60^{\circ}$
+
+$\implies \triangle{DCH}$ is equilateral $\implies DH=CH$
+
+and $\angle{CAB}=180^{\circ}-\angle{ABC}-\angle{ACB}=180^{\circ}-70^{\circ}-75^{\circ}=35^{\circ}=\angle{ACH}$
+
+$\implies CH=AH \implies H$ is the center of circumcircle of $\triangle{ACD} \implies CH=HE$
+
+so in $\triangle{BCD}$ and $\triangle{HCE}$ we have $CB=CD=CH=CE, \angle{CBD}=40^{\circ}=\angle{HCE}$
+
+$\implies \triangle{BCD} \cong \triangle{CHE} \implies BD=CE \blacksquare$
+
+---
+
