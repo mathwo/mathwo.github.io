@@ -118,3 +118,23 @@ $\implies \triangle{BCD} \cong \triangle{CHE} \implies BD=CE \blacksquare$
 
 ---
 
+### 03/30/2021
+
+#### In $\triangle{ABC}, \angle{BAC}=45^{\circ}, AD \perp BC, BD=2, CD=3$, find $AD$.
+
+![image-20210330153354645](/assets/images/2021-03/image-20210330153354645.png){:class="image--xl"}
+
+**Solve:**
+
+Make $DE \perp AB$ at $E$, $CF \perp AB$ at $F$, let $BE=2x, DE=2y$, easy to see that $EF=3x, CF=5y, x^2+y^2=1$
+
+![image-20210330153428125](/assets/images/2021-03/image-20210330153428125.png){:class="image--xl"}
+
+In $\triangle{ABD}$ we have $DE^2=BE \cdot AE \implies (2y)^2=2x(3x+5y)$
+
+$\implies 3x^2+5xy-2y^2=0 \implies (3x-y)(x+2y)=0$
+
+$\implies y=3x \implies x^2+9x^2=1 \implies x=\dfrac{1}{\sqrt{10}} \implies y=\dfrac{3}{\sqrt{10}}$
+
+$\implies AD=\dfrac{AB \cdot CF}{BC}=\dfrac{5y(5x+5y)}{5}=5y(x+y)=\dfrac{15}{\sqrt{10}}\dfrac{4}{\sqrt{10}}=\boxed{6}$
+
