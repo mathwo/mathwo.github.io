@@ -26,4 +26,23 @@ The next larger value of $k$ would make $n>20$. So the answer is $k=\boxed{6}$.
 
 ---
 
+### 03/31/2021
+
+#### Solve for real values of $x$: $2\sqrt[3]{2x+1}=x^3-1$.
+
+**Solve:**
+
+Let $y^3=2x+1 \implies x=\dfrac{y^3-1}{2}$
+$\implies 2y=x^3-1 \implies y=\dfrac{x^3-1}{2}$
+
+This means the solutions of the original equation are the intersects of $y=x$ and $y=\dfrac{x^3-1}{2}$
+
+$\implies x=\dfrac{x^3-1}{2} \implies x^3-2x-1=0$
+
+Easy to see that $x=-1$ is one of the solutions, factorize $x^3-2x-1$ and get:
+
+$(x+1)(x^2-x-1)=0 \implies x=\boxed{-1, \dfrac{1+\sqrt{5}}{2}, \dfrac{1-\sqrt{5}}{2}}$
+
+---
+
 
