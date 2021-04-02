@@ -88,7 +88,7 @@ $\implies 2AC=AC-DI+AB=OI-DI+AB=OD+AB=CD+AB\blacksquare$
 
 ![image-20210402151917804](/assets/images/2021-04/image-20210402151917804.png){:class="image--x2l"}
 
-Let $O$ be the circum-circle of $\triangle{ABD} \implies AO=BO=DO$
+Let $O$ be the center of circum-circle of $\triangle{ABD} \implies AO=BO=DO$
 
 $\angle{ABD}=15^{\circ} \implies \angle{AOD}=30^{\circ}=\angle{ACD} \implies CD=DO $
 
