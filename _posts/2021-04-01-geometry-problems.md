@@ -14,7 +14,7 @@ tags: []
 
 ![image-20210401182009292](/assets/images/2021-04/image-20210401181410006.png){:class="image--x2l"}
 
-Make the circumcircle of $\triangle{ABC}$ and let its center to be $O$.
+Make the circum-circle of $\triangle{ABC}$ and let its center to be $O$.
 
 $\angle{ABC}=30^{\circ} \implies \angle{AOC}=60^{\circ}, AC=OC \implies \angle{OCB}=20^{\circ}$
 
@@ -32,7 +32,7 @@ $\implies O, D, A$ collinear $\implies \angle{DAC}=\angle{OAC}=\boxed{60^{\circ}
 
 ### 04/02/2021
 
-#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the incenter. Prove:
+#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the in-center. Prove:
 
 #### (1) $BI=AC; $  (2) $CD+AD=AC+AE;$  (3) $2AC=CD+AB$
 
@@ -77,4 +77,22 @@ $\implies 2AC=AC-DI+AB=OI-DI+AB=OD+AB=CD+AB\blacksquare$
 ![image-20210402144926276](/assets/images/2021-04/image-20210402144926276.png){:class="image--x2l"}
 
 ---
+
+### 04/02/2021
+
+#### In $\triangle{ABC}, \angle{ABC}=15^{\circ}, ACB=30^{\circ},$ $D$ is midpoint of $BC$. Find $\angle{DAB}$.
+
+![image-20210402151152579](/assets/images/2021-04/image-20210402151152579.png){:class="image--x2l"}
+
+**Solve:**
+
+![image-20210402151917804](/assets/images/2021-04/image-20210402151917804.png){:class="image--x2l"}
+
+Let $O$ be the circum-circle of $\triangle{ABD} \implies AO=BO=DO$
+
+$\angle{ABD}=15^{\circ} \implies \angle{AOD}=30^{\circ}=\angle{ACD} \implies CD=DO $
+
+$\implies CD=DB=DO=BO \implies \triangle{BOD}$ is equilateral
+
+$\implies \angle{BOD}=60^{\circ} \implies \angle{BAD}=\boxed{30^{\circ}}$
 
