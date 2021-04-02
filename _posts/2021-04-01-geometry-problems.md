@@ -32,13 +32,17 @@ $\implies O, D, A$ collinear $\implies \angle{DAC}=\angle{OAC}=\boxed{60^{\circ}
 
 ### 04/02/2021
 
-#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the incenter. Prove: $BI=AC$
+#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the incenter. Prove: 
+
+#### (1) $BI=AC; $  (2) $CD+AD=AC+AE;$  (3) $2AC=CD+AB$
+
+![image-20210402022832510](E:\workspace\mwo\assets\images\2021-04\image-20210402020530225.png)
 
 ![image-20210402020530225](/assets/images/2021-04/image-20210402020530225.png){:class="image--xl"}
 
 **Prove:**
 
-Let $D$ be the center of circumcircle of $\triangle{BIC} \implies DB=DI=DC$
+(1) Let $D$ be the center of circumcircle of $\triangle{BIC} \implies DB=DI=DC$
 
 ![image-20210402020808023](/assets/images/2021-04/image-20210402020808023.png){:class="image--xl"}
 
@@ -51,6 +55,8 @@ $\implies \angle{DCI}=70^{\circ} \implies \angle{CDI}=180^{\circ}-2*\angle{DCI}=
 $\implies \angle{CDI}+\angle{DCB}+\angle{ACB}+\angle{CAI}=40^{\circ}+40^{\circ}+60^{\circ}+40^{\circ}=180^{\circ}$
 
 $\implies A, I, D $ is collinear $\implies \angle{CDA}=\angle{DAC}=40^{\circ} \implies AC=CD=BI \blacksquare$
+
+(2) 
 
 ---
 
