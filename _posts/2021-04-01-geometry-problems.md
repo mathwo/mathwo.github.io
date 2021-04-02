@@ -40,19 +40,19 @@ $\implies O, D, A$ collinear $\implies \angle{DAC}=\angle{OAC}=\boxed{60^{\circ}
 
 **Prove:**
 
-(1) Let $D$ be the center of circumcircle of $\triangle{BIC} \implies DB=DI=DC$
+(1) Let $D$ be the center of circumcircle of $\triangle{BIC} \implies OB=OI=OC$
 
 ![image-20210402020808023](/assets/images/2021-04/image-20210402020808023.png){:class="image--xl"}
 
-$\angle{BCI}=30^{\circ} \implies \angle{BDI}=60^{\circ} \implies \triangle{BDI} $ is equilateral
+$\angle{BCI}=30^{\circ} \implies \angle{BOI}=60^{\circ} \implies \triangle{BOI} $ is equilateral
 
-$\implies \angle{DBI}=60^{\circ} \implies \angle{DBC}=40^{\circ} \implies \angle{DCB}=40^{\circ}$
+$\implies \angle{OBI}=60^{\circ} \implies \angle{OBC}=40^{\circ} \implies \angle{OCB}=40^{\circ}$
 
-$\implies \angle{DCI}=70^{\circ} \implies \angle{CDI}=180^{\circ}-2*\angle{DCI}=40^{\circ}$
+$\implies \angle{OCI}=70^{\circ} \implies \angle{COI}=180^{\circ}-2*\angle{OCI}=40^{\circ}$
 
-$\implies \angle{CDI}+\angle{DCB}+\angle{ACB}+\angle{CAI}=40^{\circ}+40^{\circ}+60^{\circ}+40^{\circ}=180^{\circ}$
+$\implies \angle{COI}+\angle{OCB}+\angle{ACB}+\angle{CAI}=40^{\circ}+40^{\circ}+60^{\circ}+40^{\circ}=180^{\circ}$
 
-$\implies A, I, D $ is collinear $\implies \angle{CDA}=\angle{DAC}=40^{\circ} \implies AC=CD=BI \blacksquare$
+$\implies A, I, O $ is collinear $\implies \angle{COA}=\angle{OAC}=40^{\circ} \implies AC=CO=BI \blacksquare$
 
 (2)
 
