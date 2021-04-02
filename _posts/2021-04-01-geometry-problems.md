@@ -54,7 +54,27 @@ $\implies \angle{COI}+\angle{OCB}+\angle{ACB}+\angle{CAI}=40^{\circ}+40^{\circ}+
 
 $\implies A, I, O $ is collinear $\implies \angle{COA}=\angle{OAC}=40^{\circ} \implies AC=CO=BI \blacksquare$
 
-(2)
+(2) Easy to know from (1) that $\angle{AEI}=\angle{AIE}=70^{\circ} \implies AE=AI$
+
+Also $\angle{AOC}=\angle{BCO}=40^{\circ} \implies CD=OD$
+
+So $AD+DC=AD+DO=AO=AI+OI=AE+AC\blacksquare$
+
+![image-20210402143535372](/assets/images/2021-04/image-20210402143535372.png){:class="image--x2l"}
+
+(3) Let $I$ be on $AE$ so that $\angle{AIH}=40^{\circ} \implies AH=HI$
+
+$\angle{AIE}=70^{\circ} \implies \angle{HIE}=30^{\circ}$
+
+$\implies \angle{AHI}=80^{\circ}=\angle{BIH}=\angle{BIE}+\angle{HIE}=80^{\circ}$
+
+$\implies BH=BI \implies AB=BI+DI $
+
+$\implies AC=AB-DI $
+
+$\implies 2AC=AC-DI+AB=OI-DI+AB=OD+AB=CD+AB\blacksquare$
+
+![image-20210402144926276](/assets/images/2021-04/image-20210402144926276.png){:class="image--x2l"}
 
 ---
 
