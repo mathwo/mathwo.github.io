@@ -32,11 +32,9 @@ $\implies O, D, A$ collinear $\implies \angle{DAC}=\angle{OAC}=\boxed{60^{\circ}
 
 ### 04/02/2021
 
-#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the incenter. Prove: 
+#### In $\triangle{ABC}, \angle{ABC}=40^{\circ}, \angle{BAC}=80^{\circ}, \angle{ACB}=60^{\circ}$, $I$ is the incenter. Prove:
 
 #### (1) $BI=AC; $  (2) $CD+AD=AC+AE;$  (3) $2AC=CD+AB$
-
-![image-20210402022832510](E:\workspace\mwo\assets\images\2021-04\image-20210402020530225.png)
 
 ![image-20210402020530225](/assets/images/2021-04/image-20210402020530225.png){:class="image--xl"}
 
@@ -56,7 +54,7 @@ $\implies \angle{CDI}+\angle{DCB}+\angle{ACB}+\angle{CAI}=40^{\circ}+40^{\circ}+
 
 $\implies A, I, D $ is collinear $\implies \angle{CDA}=\angle{DAC}=40^{\circ} \implies AC=CD=BI \blacksquare$
 
-(2) 
+(2)
 
 ---
 
