@@ -86,13 +86,21 @@ $\implies 2AC=AC-DI+AB=OI-DI+AB=OD+AB=CD+AB\blacksquare$
 
 **Solve:**
 
+![image-20210402191737616](E:\workspace\mwo\assets\images\2021-04\image-20210402151917804.png)
+
 ![image-20210402151917804](/assets/images/2021-04/image-20210402151917804.png){:class="image--x2l"}
 
-Let $O$ be the center of circum-circle of $\triangle{ABD} \implies AO=BO=DO$
+Extend $CA$ to $O$ so that $\angle{AOD}=30^{\circ} \implies CD=OD=DB$
 
-$\angle{ABD}=15^{\circ} \implies \angle{AOD}=30^{\circ}=\angle{ACD} \implies CD=DO $
+And $\angle{ODB}=60^{\circ} \implies \triangle{ODB}$ is equilateral
 
-$\implies CD=DB=DO=BO \implies \triangle{BOD}$ is equilateral
+$\implies \angle{DBO}=\angle{DOB}=60^{\circ} \implies \angle{ABO}=45^{\circ}, \angle{AOB}=90^{\circ}$
 
-$\implies \angle{BOD}=60^{\circ} \implies \angle{BAD}=\boxed{30^{\circ}}$
+$\implies \angle{OAB}=180^{\circ}-90^{\circ}-45^{\circ}=45^{\circ} \implies \angle{OAB}=\angle{ABO}$
+
+$\implies AO=BO=DO \implies \angle{DAO}=75^{\circ}$
+
+$\implies \angle{DAB}=75^{\circ}-45^{\circ}=\boxed{30^{\circ}}$
+
+---
 
