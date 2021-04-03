@@ -86,8 +86,6 @@ $\implies 2AC=AC-DI+AB=OI-DI+AB=OD+AB=CD+AB\blacksquare$
 
 **Solve:**
 
-![image-20210402191737616](E:\workspace\mwo\assets\images\2021-04\image-20210402151917804.png)
-
 ![image-20210402151917804](/assets/images/2021-04/image-20210402151917804.png){:class="image--x2l"}
 
 Extend $CA$ to $O$ so that $\angle{AOD}=30^{\circ} \implies CD=OD=DB$
