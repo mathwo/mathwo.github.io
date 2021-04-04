@@ -37,7 +37,10 @@ tags: []
 
 ### IMO Problems and Solutions
 
-* [Evan Chen's Page and Sets](https://web.evanchen.cc/problems.html)
+* [1959-2020: IMO Problems and Solutions on AOPS](https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions)
+* [1959-2003 - Makeup for missing solutions](/assets/files/IMO-1959-2003-Problems-Solutions.pdf)
+* [From 2000 - Evan Chen's Page and Sets](https://web.evanchen.cc/problems.html)
+* [Problems from IMO Official](https://imo-official.org/problems.aspx)
 
 ### EMCC Problems and Solutions
 
