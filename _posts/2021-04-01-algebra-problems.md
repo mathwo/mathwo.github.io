@@ -23,6 +23,7 @@ From [Trigonometric Form of Ceva's Theorem](https://www.cut-the-knot.org/triangl
 $sin(\angle{XAB}) \cdot sin(\angle{XBC}) \cdot sin(\angle{XCA}) = sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA})$
 $\implies sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA}) > \dfrac{1}{8}$
 where $\angle{XAC} + \angle{XCB} + \angle{XBA} < 90^{\circ}$
+
 $\implies 0 < \angle{XBA} < 90^{\circ} - \angle{XAC} - \angle{XCB}$
 $\implies 0 < sin(\angle{XBA}) < sin(90^{\circ} - \angle{XAC} - \angle{XCB}) $
 $\implies 0 < sin(\angle{XBA}) < cos(\angle{XAC} + \angle{XCB})$
