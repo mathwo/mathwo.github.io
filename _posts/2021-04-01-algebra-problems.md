@@ -46,7 +46,7 @@ $\implies [2cos(\angle{XAC} + \angle{XCB})-1]^2 < 0$
 
 This is impossible. So we know the assumption is not correct. $\blacksquare$
 
-Above analytics means that, for $sin(x)sin(y)cos(x+y), 0<x+y<\dfrac{\pi}{2}$, it gets maximum value when $cos(x-y)=0 \implies x=y$ and $[2cos(x+y)-1]^2=0 \implies cos(x+y)=\dfrac{1}{2} \implies x=y=\dfrac{\pi}{6}$
+Above analytics means that, for $sin(x)sin(y)cos(x+y), 0 < x + y < \dfrac{\pi}{2}$, it gets maximum value when $cos(x-y)=0 \implies x=y$ and $ [2cos(x+y) - 1]^2=0 \implies cos(x+y)=\dfrac{1}{2} \implies x=y=\dfrac{\pi}{6}$
 
 We can verify this by [Wolfram](https://www.wolframalpha.com/input/?i=findmaximum%5Bsin%28x%29*sin%28y%29*cos%28x%2By%29%2C+0%3Cx%2By%3Cpi%2F2%5D):
 
