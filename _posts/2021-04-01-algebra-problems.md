@@ -25,14 +25,23 @@ $\implies sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA}) > \dfra
 where $\angle{XAC} + \angle{XCB} + \angle{XBA} < 90^{\circ}$
 
 $\implies 0 < \angle{XBA} < 90^{\circ} - \angle{XAC} - \angle{XCB}$
+
 $\implies 0 < sin(\angle{XBA}) < sin(90^{\circ} - \angle{XAC} - \angle{XCB}) $
+
 $\implies 0 < sin(\angle{XBA}) < cos(\angle{XAC} + \angle{XCB})$
+
 $\implies sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot cos(\angle{XAC} + \angle{XCB}) > sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA}) > \dfrac{1}{8}$ where $0 < $\angle{XAC} + \angle{XCB} < 90^{\circ}$
+
 $\implies \dfrac{1}{2}[cos(\angle{XAC}-\angle{XCB}) - cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > \dfrac{1}{8}$
+
 $\implies 4[cos(\angle{XAC}-\angle{XCB}) - cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > 1$
+
 Obviously $ 1 \ge cos(\angle{\angle{XAC}}-\angle{\angle{XCB}})$
+
 $\implies 4[1 - cos(\angle{XAC} + \angle{XCB})]cos(\angle{XAC} + \angle{XCB}) \ge 4[cos(\angle{XAC} - \angle{XCB})-cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > 1$
+
 $\implies 4[cos(\angle{XAC} + \angle{XCB}) - 1]cos(\angle{XAC} + \angle{XCB}) +1 < 0$
+
 $\implies [2cos(\angle{XAC} + \angle{XCB})-1]^2 < 0$
 
 This is impossible. So we know the assumption is not correct. $\blacksquare$
