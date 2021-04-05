@@ -24,27 +24,27 @@ $sin(\angle{XAB}) \cdot sin(\angle{XBC}) \cdot sin(\angle{XCA}) = sin(\angle{XAC
 $\implies sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA}) > \dfrac{1}{8}$
 where $\angle{XAC} + \angle{XCB} + \angle{XBA} < 90^{\circ}$
 
-$\implies 0 < \angle{XBA} < 90^{\circ} - \angle{XAC} - \angle{XCB}$
+Let $x=\angle{XAC}, y=\angle{XCB}, z=\angle{XAC}$
 
-$\implies 0 < sin(\angle{XBA}) < sin(90^{\circ} - \angle{XAC} - \angle{XCB}) $
+$\implies 0 < z < 90^{\circ} - x - y$
 
-$\implies 0 < sin(\angle{XBA}) < cos(\angle{XAC} + \angle{XCB})$
+$\implies 0 < sin(z) < sin(90^{\circ} - x - y) = cos(x + y) $
 
-$\implies sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot cos(\angle{XAC} + \angle{XCB}) > sin(\angle{XAC}) \cdot sin(\angle{XCB}) \cdot sin(\angle{XBA}) > \dfrac{1}{8}$
+$\implies sin(x) \cdot sin(y) \cdot cos(x + y) > sin(x) \cdot sin(y) \cdot sin(z) > \dfrac{1}{8}$
 
-where $0 < $\angle{XAC} + \angle{XCB} < 90^{\circ}$
+where $0 < x + y < 90^{\circ}$
 
-$\implies \dfrac{1}{2}[cos(\angle{XAC}-\angle{XCB}) - cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > \dfrac{1}{8}$
+$\implies \dfrac{1}{2}(cos(x-y) - cos(x+y))cos(x + y) > \dfrac{1}{8}$
 
-$\implies 4[cos(\angle{XAC}-\angle{XCB}) - cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > 1$
+$\implies 4(cos(x-y) - cos(x+y))cos(x + y) > 1$
 
-Obviously $ 1 \ge cos(\angle{\angle{XAC}}-\angle{\angle{XCB}})$
+Obviously $ 1 \ge cos(x-y)$
 
-$\implies 4[1 - cos(\angle{XAC} + \angle{XCB})]cos(\angle{XAC} + \angle{XCB}) \ge 4[cos(\angle{XAC} - \angle{XCB})-cos(\angle{XAC}+\angle{XCB})]cos(\angle{XAC} + \angle{XCB}) > 1$
+$\implies 4(1 - cos(x + y))cos(x + y) \ge 4(cos(x - y)-cos(x+y))cos(x + y) > 1$
 
-$\implies 4[cos(\angle{XAC} + \angle{XCB}) - 1]cos(\angle{XAC} + \angle{XCB}) +1 < 0$
+$\implies 4(cos(x + y) - 1)cos(x + y) +1 < 0$
 
-$\implies [2cos(\angle{XAC} + \angle{XCB})-1]^2 < 0$
+$\implies (2cos(x+ y)-1)^2 < 0$
 
 This is impossible. So we know the assumption is not correct. $\blacksquare$
 
@@ -52,6 +52,6 @@ Above analytics means that, for $sin(x)sin(y)cos(x+y), 0 < x + y < \dfrac{\pi}{2
 
 We can verify this by [Wolfram](https://www.wolframalpha.com/input/?i=findmaximum%5Bsin%28x%29*sin%28y%29*cos%28x%2By%29%2C+0%3Cx%2By%3Cpi%2F2%5D):
 
-$ max{ sin(x)sin(y)cos(x+y) | 0< x+y < \dfrac{\pi}{2} } = 0.125 at (x,y) \approx (0.523599, 0.523599) $
+$ max \bigg \\{ sin(x)sin(y)cos(x+y) \bigg \| 0< x+y < \dfrac{\pi}{2} \bigg \\} = 0.125 at (x,y) \approx (0.523599, 0.523599) $
 
 ---
