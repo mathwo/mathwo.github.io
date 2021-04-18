@@ -62,7 +62,7 @@ $ max \bigg \\{ sin(x)sin(y)cos(x+y) \bigg \| 0< x+y < \dfrac{\pi}{2} \bigg \\} 
 
 **Solve:**
 
-$\sqrt{x-\dfrac{1}{x}}-\sqrt{1-\dfrac{1}{x}} = \dfrac{x-\dfrac{1}{x}-1+\dfrac{1}{x}}{$\sqrt{x-\dfrac{1}{x}}+\sqrt{1-\dfrac{1}{x}}} = \dfrac{x-1}{x}$
+$\sqrt{x-\dfrac{1}{x}}-\sqrt{1-\dfrac{1}{x}} = \dfrac{x-\dfrac{1}{x}-1+\dfrac{1}{x}}{\sqrt{x-\dfrac{1}{x}}+\sqrt{1-\dfrac{1}{x}}} = \dfrac{x-1}{x}$
 $\implies 2\sqrt{x-\dfrac{1}{x}}=x-\dfrac{1}{x}+1$
 
 Let $x-\dfrac{1}{x}=y \implies 2y=y^2+1 \implies y=1 \implies x-\dfrac{1}{x}=1$
