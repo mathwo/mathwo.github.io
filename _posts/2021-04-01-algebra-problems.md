@@ -66,6 +66,8 @@ $\sqrt{x-\dfrac{1}{x}}-\sqrt{1-\dfrac{1}{x}} = \dfrac{x-\dfrac{1}{x}-1+\dfrac{1}
 $\implies 2\sqrt{x-\dfrac{1}{x}}=x-\dfrac{1}{x}+1$
 
 Let $x-\dfrac{1}{x}=y \implies 2y=y^2+1 \implies y=1 \implies x-\dfrac{1}{x}=1$
-$\implies x^2-x-1=0 \implies x=\boxed{\dfrac{1\pm\sqrt{5}}{2}}$
+$\implies x^2-x-1=0 \implies x=\dfrac{1\pm\sqrt{5}}{2}$
+
+But $x \le 0 \implies x=\boxed{\dfrac{1+\sqrt{5}}{2}}$
 
 ---
