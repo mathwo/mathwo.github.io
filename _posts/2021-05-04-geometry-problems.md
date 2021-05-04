@@ -40,13 +40,13 @@ $\implies \angle{DAC}=\boxed{30^{\circ}}$
 
 ### 05/05/2021
 
-![image-20210504034751199](/assets/images/2021-05/image-20210504034048738.png){:class="image--x2l"}
+![image-20210504034751199](/assets/images/2021-05/image-20210504034048738.png){:class="image--x3l"}
 
 
 
 **Solve:**
 
-![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x2l"}
+![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x3l"}
 
 Extend $BP$ to meet $AC$ at $D$, extend $CP$ to meet $AB$ at $E$. Easy to see that $CE \perp AB$, $BD=CD$.
 
@@ -61,4 +61,10 @@ $\angle{ABD}=20^{\circ}, \angle{BAC}=80^{\circ} \implies \angle{ADB}=80^{\circ} 
 $\implies \triangle{ABP} \cong \triangle{DBG} \implies \angle{BAP}=\angle{BPF}=90^{\circ}-\angle{DBF}=\boxed{50^{\circ}}$
 
 ---
+
+### 05/06/2021
+
+![image-20210504040852149](E:\workspace\mwo\assets\images\2021-05\image-20210504040852149.png)
+
+**Solve:**
 
