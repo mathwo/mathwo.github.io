@@ -40,7 +40,25 @@ $\implies \angle{DAC}=\boxed{30^{\circ}}$
 
 ### 05/05/2021
 
+![image-20210504034751199](/assets/images/2021-05/image-20210504034048738.png){:class="image--x2l"}
 
 
 
+**Solve:**
+
+![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x2l"}
+
+Extend $BP$ to meet $AC$ at $D$, extend $CP$ to meet $AB$ at $E$. Easy to see that $CE \perp AB$, $BD=CD$.
+
+Make $DF \perp BC$ at $F$. Bisect $\angle{PBC}$ and meet $DF$ at $G$.
+
+Easy to see that $\angle{GBF}=\angle{DBG}=\angle{ABP}=20^{\circ}$, $BF=CF \implies EF=BF$
+
+$\angle{ABC}=60^{\circ} \implies BE=BF \implies \triangle{BEP} \cong \triangle{BFG} \implies BP=BG$
+
+$\angle{ABD}=20^{\circ}, \angle{BAC}=80^{\circ} \implies \angle{ADB}=80^{\circ} \implies AB=BD$
+
+$\implies \triangle{ABP} \cong \triangle{DBG} \implies \angle{BAP}=\angle{BPF}=90^{\circ}-\angle{DBF}=\boxed{50^{\circ}}$
+
+---
 
