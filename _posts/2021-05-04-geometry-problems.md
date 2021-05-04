@@ -64,7 +64,21 @@ $\implies \triangle{ABP} \cong \triangle{DBG} \implies \angle{BAP}=\angle{BPF}=9
 
 ### 05/06/2021
 
-![image-20210504040852149](E:\workspace\mwo\assets\images\2021-05\image-20210504040852149.png)
+![image-20210504040852149](/assets/images/2021-05/image-20210504040852149.png){:class="image--x3l"}
 
 **Solve:**
+
+![image-20210504042354609](/assets/images/2021-05/image-20210504042354609.png){:class="image--x3l"}
+
+Extend $BA$ to $E$ so that $\angle{ECA}=50^{\circ}$. Easy to see that $\angle{EAC}=\angle{ECA}=50^{\circ} \implies EA=EC$
+
+$\angle{ECB}=80^{\circ}=\angle{BEC} \implies BE=BC \implies \triangle{EBD} \cong \triangle{CBD} \implies DE=DC$
+
+$\angle{DCE}=60^{\circ} \implies \triangle{DCE}$ is equilateral $\implies ED=EC=EA, \angle{DEC}=60^{\circ}$
+
+$\implies \angle{AED}=20^{\circ} \implies \angle{EAD}=80^{\circ} \implies \angle{DAC}=80^{\circ}-50^{\circ}=\boxed{30^{\circ}}$
+
+---
+
+### 05/07/2021
 
