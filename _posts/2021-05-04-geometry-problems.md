@@ -82,4 +82,19 @@ $\implies \angle{AED}=20^{\circ} \implies \angle{EAD}=80^{\circ} \implies \angle
 
 ### 05/07/2021
 
-![image-20210504043857162](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210504043857162.png)
+![image-20210504044129030](/assets/images/2021-05/image-20210504044129030.png){:class="image--x4l"}
+
+**Solve:**
+
+![image-20210504045113112](/assets/images/2021-05/image-20210504045113112.png){:class="image--x4l"}
+
+Extend $CA$ to $E$ so that$\angle{EBA}=50^{\circ}$. Easy to see that $\angle{EAB}=50^{\circ} \implies EA=EB, \angle{BEC}=80^{\circ}$
+
+$DB=DC, \angle{BDC}=160^{\circ}=2 \cdot \angle{BEC} \implies D$ is the center of circumcircle of $\triangle{BEC}$
+
+$\implies DE=DB=DC \implies \angle{DEC}=\angle{DCE}=20^{\circ} \implies \angle{EDB}=80^{\circ}-20^{\circ}=60^{\circ}$
+
+$\implies \triangle{BDE}$ is equilateral $\implies DE=BE=EA \implies \angle{EAD}=80^{\circ} \implies \angle{DAC}=\boxed{100^{\circ}}$
+
+
+
