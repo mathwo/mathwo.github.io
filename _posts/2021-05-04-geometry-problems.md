@@ -6,11 +6,11 @@ tags: []
 
 ### 05/04/2021
 
-![image-20210504024839436](/assets/images/2021-05/image-20210504024839436.png){:class="image--xl"}
+![image-20210504024839436](/assets/images/2021-05/image-20210504024839436.png){:class="image--x2l"}
 
 **Solute:**
 
-![image-20210504031704368](/assets/images/2021-05/image-20210504031704368.png){:class="image--xl"}
+![image-20210504031704368](/assets/images/2021-05/image-20210504031704368.png){:class="image--x2l"}
 
 From $A$ and $D$ make line $AG$ perpendicular to $BC$ at $G$, $DF$ perpendicular  to $BC$ at $F$.
 
