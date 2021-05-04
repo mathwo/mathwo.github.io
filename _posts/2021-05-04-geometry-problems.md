@@ -40,13 +40,13 @@ $\implies \angle{DAC}=\boxed{30^{\circ}}$
 
 ### 05/05/2021
 
-![image-20210504034751199](/assets/images/2021-05/image-20210504034048738.png){:class="image--x3l"}
+![image-20210504034751199](/assets/images/2021-05/image-20210504034048738.png){:class="image--x4l"}
 
 
 
 **Solve:**
 
-![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x3l"}
+![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x4l"}
 
 Extend $BP$ to meet $AC$ at $D$, extend $CP$ to meet $AB$ at $E$. Easy to see that $CE \perp AB$, $BD=CD$.
 
@@ -64,11 +64,11 @@ $\implies \triangle{ABP} \cong \triangle{DBG} \implies \angle{BAP}=\angle{BPF}=9
 
 ### 05/06/2021
 
-![image-20210504040852149](/assets/images/2021-05/image-20210504040852149.png){:class="image--x3l"}
+![image-20210504040852149](/assets/images/2021-05/image-20210504040852149.png){:class="image--x4l"}
 
 **Solve:**
 
-![image-20210504042354609](/assets/images/2021-05/image-20210504042354609.png){:class="image--x3l"}
+![image-20210504042354609](/assets/images/2021-05/image-20210504042354609.png){:class="image--x4l"}
 
 Extend $BA$ to $E$ so that $\angle{ECA}=50^{\circ}$. Easy to see that $\angle{EAC}=\angle{ECA}=50^{\circ} \implies EA=EC$
 
@@ -82,3 +82,4 @@ $\implies \angle{AED}=20^{\circ} \implies \angle{EAD}=80^{\circ} \implies \angle
 
 ### 05/07/2021
 
+![image-20210504043857162](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210504043857162.png)
