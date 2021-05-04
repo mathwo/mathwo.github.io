@@ -64,11 +64,11 @@ $\implies \triangle{ABP} \cong \triangle{DBG} \implies \angle{BAP}=\angle{BPF}=9
 
 ### 05/06/2021
 
-![image-20210504040852149](/assets/images/2021-05/image-20210504040852149.png){:class="image--x4l"}
+![image-20210504040852149](/assets/images/2021-05/image-20210504040852149.png){:class="image--x5l"}
 
 **Solve:**
 
-![image-20210504042354609](/assets/images/2021-05/image-20210504042354609.png){:class="image--x4l"}
+![image-20210504042354609](/assets/images/2021-05/image-20210504042354609.png){:class="image--x5l"}
 
 Extend $BA$ to $E$ so that $\angle{ECA}=50^{\circ}$. Easy to see that $\angle{EAC}=\angle{ECA}=50^{\circ} \implies EA=EC$
 
@@ -82,11 +82,11 @@ $\implies \angle{AED}=20^{\circ} \implies \angle{EAD}=80^{\circ} \implies \angle
 
 ### 05/07/2021
 
-![image-20210504044129030](/assets/images/2021-05/image-20210504044129030.png){:class="image--x4l"}
+![image-20210504044129030](/assets/images/2021-05/image-20210504044129030.png){:class="image--x7l"}
 
 **Solve:**
 
-![image-20210504045113112](/assets/images/2021-05/image-20210504045113112.png){:class="image--x4l"}
+![image-20210504045113112](/assets/images/2021-05/image-20210504045113112.png){:class="image--x7l"}
 
 Extend $CA$ to $E$ so that$\angle{EBA}=50^{\circ}$. Easy to see that $\angle{EAB}=50^{\circ} \implies EA=EB, \angle{BEC}=80^{\circ}$
 
