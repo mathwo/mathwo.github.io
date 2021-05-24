@@ -46,7 +46,7 @@ $\implies \angle{DAC}=\boxed{30^{\circ}}$
 
 **Solve:**
 
-![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x5l"}
+![image-20210504035508016](/assets/images/2021-05/image-20210504035508016.png){:class="image--x4l"}
 
 Extend $BP$ to meet $AC$ at $D$, extend $CP$ to meet $AB$ at $E$. Easy to see that $CE \perp AB$, $BD=CD$.
 
@@ -95,6 +95,44 @@ $DB=DC, \angle{BDC}=160^{\circ}=2 \cdot \angle{BEC} \implies D$ is the center of
 $\implies DE=DB=DC \implies \angle{DEC}=\angle{DCE}=20^{\circ} \implies \angle{EDB}=80^{\circ}-20^{\circ}=60^{\circ}$
 
 $\implies \triangle{BDE}$ is equilateral $\implies DE=BE=EA \implies \angle{EAD}=80^{\circ} \implies \angle{DAC}=\boxed{100^{\circ}}$
+
+---
+
+05/08/2021
+
+![image-20210504051824144](/assets/images/2021-05/image-20210504051824144.png)
+
+**Solve:**
+
+![image-20210524090231927](/assets/images/2021-05/image-20210524082346736.png)
+
+Make point $G$ so that $\angle{ABG}=10^{\circ}, \angle{ACG}=20^{\circ} \implies$ $\triangle{GBC}$ is equilateral and $D$ is its incenter.
+
+$\implies \angle{EDG}=\angle{FDG}=60^{\circ}$
+
+$\implies BE=GE \implies \angle{EBG}=\angle{EGB}=10^{\circ}, \angle{EGD}=\angle{EBD}=20^{\circ}$
+
+$\implies CF=GF \implies \angle{FCG}=\angle{FGC}=20^{\circ}, \angle{DGF}=\angle{DCF}=10^{\circ}$
+
+$\implies \angle{EGF}=30^{\circ}$
+
+Connect $DG$, find point $H$ on $DG$ so that $\angle{EHF}=60^{\circ}$
+
+Now we have the sum of opposite angles $\angle{EDF} + \angle{EHF}=180^{\circ}$
+
+$\implies EHFD$ is cyclic
+
+$\implies \angle{EFH}=\angle{EDH}=60^{\circ}, \angle{FEH}=\angle{FDH}=60^{\circ}$
+
+$ \implies \triangle{EFH} $ is equilateral triangle $\implies EH=FH, \angle{EHF}=60^{\circ}$
+
+ $\angle{EGF}=30^{\circ} \implies$ $H$ is the circumcenter of $\triangle{GEF}$
+
+$\implies GH=EH=FH \implies \angle{EFD}=\angle{EHD}=\boxed{40^{\circ}}$
+
+---
+
+
 
 
 
