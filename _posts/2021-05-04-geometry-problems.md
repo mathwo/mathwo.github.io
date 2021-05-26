@@ -98,7 +98,7 @@ $\implies \triangle{BDE}$ is equilateral $\implies DE=BE=EA \implies \angle{EAD}
 
 ---
 
-05/08/2021
+### 05/08/2021
 
 ![image-20210504051824144](/assets/images/2021-05/image-20210504051824144.png)
 
@@ -131,6 +131,30 @@ $ \implies \triangle{EFH} $ is equilateral triangle $\implies EH=FH, \angle{EHF}
 $\implies GH=EH=FH \implies \angle{EFD}=\angle{EHD}=\boxed{40^{\circ}}$
 
 ---
+
+### 05/09/2021
+
+![image-20210525215027219](/assets/images/2021-05/image-20210525214721068.png)
+
+**Solve:**
+
+![image-20210525214818656](/assets/images/2021-05/image-20210525214818656.png)
+
+Let point $F$ on $BC$ so that $\angle{FAB}=60^{\circ}$. $AF$ and $BD$ intersect at $G$. Connect $EG$.
+
+Easy to know that $\triangle{ABG}, \triangle{DFG}$ are equilateral triangles.
+
+And easy to see that $CD=CF=BD=AF$
+
+$\angle{AGB}=60^{\circ}, \angle{AEB}=30^{\circ}, AG=GB \implies G$ is the circumcenter of $\triangle{ABE}$
+
+$\implies AG=GB=GE \implies \angle{GEB}=\angle{EBG}=20^{\circ}=\angle{ACB}$
+
+$\implies EG \parallel AC \implies \dfrac{EF}{CF}=\dfrac{FG}{AF} \implies EF=FG \implies EF=DF$
+
+$\implies \angle{DEF}=\angle{EDF}=\dfrac{180^{\circ}-\angle{EFD}}{2}=50^{\circ} \implies \angle{DEA}=50^{\circ}-30^{\circ}=\boxed{20^{\circ}}$
+
+
 
 
 
