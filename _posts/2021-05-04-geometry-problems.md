@@ -154,9 +154,25 @@ $\implies EG \parallel AC \implies \dfrac{EF}{CF}=\dfrac{FG}{AF} \implies EF=FG 
 
 $\implies \angle{DEF}=\angle{EDF}=\dfrac{180^{\circ}-\angle{EFD}}{2}=50^{\circ} \implies \angle{DEA}=50^{\circ}-30^{\circ}=\boxed{20^{\circ}}$
 
+---
 
+### 05/10/2021
 
+![image-20210525221247311](/assets/images/2021-05/image-20210525221247311.png)
 
+**Solve:**
 
+![image-20210526201236921](/assets/images/2021-05/image-20210526201236921.png)
 
+Make point $F$ on $BC$ so that $\angle{FAB}=20^{\circ} \implies AB=AF$
+
+Since $\angle{ADB}=\angle{ABD}=50^{\circ} \implies AD=AB \implies AD=AF$
+
+$\angle{DAF}=60^{\circ} \implies \triangle{ADF}$ is equilateral triangle $\implies DF=AF$
+
+$\angle{EAF}=40^{\circ}=\angle{AEF} \implies AF=EF \implies DF=EF$
+
+$\angle{DFE}=180^{\circ}-60^{\circ}-80^{\circ}=40^{\circ} \implies \angle{DEF}=70^{\circ}$
+
+$\implies \angle{DEA}=\boxed{30^{\circ}}$
 
