@@ -176,3 +176,29 @@ $\angle{DFE}=180^{\circ}-60^{\circ}-80^{\circ}=40^{\circ} \implies \angle{DEF}=7
 
 $\implies \angle{DEA}=\boxed{30^{\circ}}$
 
+---
+
+### 05/11/2021
+
+![image-20210526205144331](/assets/images/2021-05/image-20210526205144331.png)
+
+**Solve:**
+
+![image-20210526205447038](/assets/images/2021-05/image-20210526205447038.png)
+
+Make point $F$ to be the center of circumcenter of $\triangle{ACD}$
+
+$\implies AF=CF=BF, \angle{CFD}=2 \cdot \angle{DAC}=40^{\circ}, \angle{AFC}=2 \cdot \angle{ADC}=20^{\circ}$
+
+$\implies \angle{FAD}=60^{\circ}, \angle{FCA}=80^{\circ}$
+
+We know that $AF=AD=AB$ in $\triangle{FAB}$
+
+$ \implies \angle{AFB}=\dfrac{180^{\circ}-\angle{FAB}}{2}=\dfrac{180^{\circ}-20^{\circ}-60^{\circ}-60^{\circ}}{2}=20^{\circ}=\angle{AFC}$
+
+$\implies F, C, B$ is collinear $\implies \angle{ACB}=180^{\circ}-80^{\circ}=\boxed{100^{\circ}}$
+
+---
+
+
+
