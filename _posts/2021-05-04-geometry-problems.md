@@ -200,5 +200,23 @@ $\implies F, C, B$ is collinear $\implies \angle{ACB}=180^{\circ}-80^{\circ}=\bo
 
 ---
 
+### 05/12/2021
 
+![image-20210526222255489](/assets/images/2021-05/image-20210526222255489.png)
+
+**Solve:**
+
+![image-20210526223027605](/assets/images/2021-05/image-20210526223027605.png)
+
+Make equilateral $\triangle{EAB}$, each to see that
+
+$\angle{CBE}=40^{\circ}, BE=AB=BC \implies \angle{CEB}=70^{\circ} \implies \angle{CEA}=10^{\circ}$
+
+$\angle{CAE}=\angle{DBC}=20^{\circ}, AC=BD, AE=AB=BC$
+
+$\implies triangle{ACE} \cong \triangle{BDC} \implies \angle{DCB}=\angle{CEA}=10^{\circ}$
+
+$\implies \angle{ADC}=\angle{DCB}+\angle{CBA}=\boxed{30^{\circ}}$
+
+---
 
