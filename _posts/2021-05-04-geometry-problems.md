@@ -300,7 +300,11 @@ $\implies AO=AB=CD=CO, \angle{OAD}=20^{\circ} \implies \angle{OCD}=20^{\circ}$
 
 $\implies \angle{COD}=80^{\circ} \implies \angle{DOA}=180^{\circ}-20^{\circ}-20^{\circ}-80^{\circ}=60^{\circ}=\angle{BOA}$
 
-$\implies BDO$ are collinear, thus we know
+$\implies BDO$ are collinear, thus
 
-$BO=CO \implies \angle{CBD}=\angle{CBO}=\angle{OCB}=\angle{OCD}+\angle{DCB}=\boxed{50^{\circ}}$
+$BO=CO \implies \angle{CBO}=\angle{OCB}=\angle{OCD}+\angle{DCB}=50^{\circ}$
+
+$\implies \angle{CBD}=\angle{CBO}=\boxed{50^{\circ}}$
+
+
 
