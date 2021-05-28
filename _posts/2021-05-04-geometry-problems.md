@@ -262,6 +262,8 @@ $\implies AJ=AC \implies JD=CD \implies \angle{ECD}=\angle{EJD}=\angle{KFM}=\box
 
 ![image-20210528014801441](/assets/images/2021-05/image-20210528014801441.png){:class="image--x9l"}
 
+![image-20210528022607511](/assets/images/2021-05/image-20210528022607511.png)
+
 Let $F$ on CD so that $\angle{FAD}=10^{\circ}$
 
 $\angle{BAF}=80^{\circ} \implies BA=BF \implies AE=AF \implies \angle{EFA}=10^{\circ} \implies \angle{DEF}=20^{\circ}$
