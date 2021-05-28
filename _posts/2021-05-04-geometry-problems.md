@@ -220,3 +220,67 @@ $\implies \angle{ADC}=\angle{DCB}+\angle{CBA}=\boxed{30^{\circ}}$
 
 ---
 
+### 05/13/2021
+
+![image-20210526224522213](/assets/images/2021-05/image-20210526224522213.png)
+
+**Solve 1:**
+
+![image-20210528004548638](/assets/images/2021-05/image-20210528004548638.png)
+
+From $A$ make line $AF$ so that $\angle{BAF}=10^{\circ}$, $AF$ and $BE$ intersect at $K$, $AF$ and $BC$ intersect at $F$.
+
+Extend $AD$ to $G$ and $H$ so that $DG=DE, AE=GH$. Connect $GK$. $GK$ and $BC$ intersect at $J$.
+
+Easy to see that $AD=DH$, and $\angle{FAD}=60^{\circ}, AF=FH \implies \triangle{AFH}$ is equilateral triangle.
+
+$\implies \angle{AFD}=30^{\circ} \implies \angle{FKM}=60^{\circ}$
+
+From $K$ make $KN \perp AB, KM \perp BC$, with perpendicular foot as $N$ and $M$ perspectively.
+
+Easy to see $KN=KM \implies KM=\dfrac{KF}{2}$
+
+$\angle{KBA}=\angle{KAB}=10^{\circ} \implies AK=BK \implies AN=BN$
+
+From $A$ make $\angle{EAP}=20^{\circ}$, extend $BD$ so that $BD$ and $AP$ intersect at $P$
+
+$\angle{EBD}=10^{\circ} \implies \angle{BED}=80^{\circ} \implies \angle{AEP}=80^{\circ}=\angle{APE} \implies AE=AP$
+
+$\implies \angle{PAB}=90^{\circ} \implies NK \parallel AP \implies AP=2NK=FK=AE=GH$
+
+$\implies AK=AG \implies \triangle{AKG}$ is equilateral triangle $\implies \angle{AKG}=60^{\circ}$
+
+$\implies \angle{MKJ}=60^{\circ} \implies KJ=2KM=KF=AE \implies \triangle{AKE} \cong \triangle{AKJ}, AK \parallel EJ$
+
+$\implies \angle{KAJ}=\angle{AKE}=20^{\circ} \implies \angle{JAD}=40^{\circ} \implies \angle{JAD}=\angle{CAD}$
+
+$\implies AJ=AC \implies JD=CD \implies \angle{ECD}=\angle{EJD}=\angle{KFM}=\boxed{30^{\circ}}$
+
+
+
+**Solve 2:**
+
+![image-20210528014801441](/assets/images/2021-05/image-20210528014801441.png)
+
+Let $F$ on CD so that $\angle{FAD}=10^{\circ}$
+
+$\angle{BAF}=80^{\circ} \implies BA=BF \implies AE=AF \implies \angle{EFA}=10^{\circ} \implies \angle{DEF}=20^{\circ}$
+
+Reflect $E$ across $BC$ to get $G$, reflect $E$ and $F$ across $AC$ to get $K$ and $N$.
+
+$\angle{DEF}=20^{\circ} \implies \angle{EFG}=140^{\circ}$
+
+$AF=AN, \angle{FAC}=\angle{CAN}=30^{\circ} \implies \triangle{AFN}$ is equilateral triangle
+
+$AE=EF=FG=AK=KN \implies \triangle{AFK} \cong \triangle{NFK} \implies \angle{AFK}=30^{\circ}$
+
+$\implies \angle{EFG}+\angle{EFA}+\angle{AFK}=140^{\circ}+10^{\circ}+30^{\circ}=180^{\circ} \implies GFK$ are collinear
+
+And we know $CG=CE=CK, \angle{GCK}=2 \cdot \angle{BCA}=100^{\circ}$
+
+$\implies \angle{CGF}=\dfrac{180^{\circ}-100^{\circ}}{2}=40^{\circ} \implies \angle{FEC}=40^{\circ} \implies \angle{ECD}=90^{\circ}-20^{\circ}-40^{\circ}=\boxed{30^{\circ}}$
+
+
+
+
+
