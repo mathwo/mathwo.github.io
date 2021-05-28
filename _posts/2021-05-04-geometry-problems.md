@@ -260,7 +260,7 @@ $\implies AJ=AC \implies JD=CD \implies \angle{ECD}=\angle{EJD}=\angle{KFM}=\box
 
 **Solve 2:**
 
-![image-20210528014801441](/assets/images/2021-05/image-20210528014801441.png){:class="image--x6l"}
+![image-20210528014801441](/assets/images/2021-05/image-20210528014801441.png){:class="image--x9l"}
 
 Let $F$ on CD so that $\angle{FAD}=10^{\circ}$
 
