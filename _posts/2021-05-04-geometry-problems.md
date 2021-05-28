@@ -306,5 +306,27 @@ $BO=CO \implies \angle{CBO}=\angle{OCB}=\angle{OCD}+\angle{DCB}=50^{\circ}$
 
 $\implies \angle{CBD}=\angle{CBO}=\boxed{50^{\circ}}$
 
+---
 
+### 05/15/2021
+
+![image-20210528133355617](/assets/images/2021-05/image-20210528133355617.png)
+
+**Solve:**
+
+![image-20210528132423195](/assets/images/2021-05/image-20210528132423195.png)
+
+Extend $CA$ to $E$ so that $\angle{EBA}=20^{\circ}$.
+
+Easy to see that $\angle{EBC}=\angle{BEC}=80^{\circ} \implies BC=EC$
+
+$\implies \triangle{ECD} \cong \triangle{BCD} \implies \angle{CED}=\angle{CBD}=20^{\circ}, BD=ED$
+
+$\angle{BEC}=80^{\circ} \implies \angle{BEC}=\angle{BAE} \implies BE=BA$
+
+$\angle{EBD=60^{\circ}, BE=BA \implies \triangle{BDE}}$ is equilateral triangle
+
+$\implies BE=BD \implies AB=BD \implies \angle{BAD}=\dfrac{180^{\circ}-40^{\circ}}{2}=\boxed{70^{\circ}}$
+
+---
 
