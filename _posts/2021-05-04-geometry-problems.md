@@ -282,7 +282,25 @@ And we know $CG=CE=CK, \angle{GCK}=2 \cdot \angle{BCA}=100^{\circ}$
 
 $\implies \angle{CGF}=\dfrac{180^{\circ}-100^{\circ}}{2}=40^{\circ} \implies \angle{FEC}=40^{\circ} \implies \angle{ECD}=90^{\circ}-20^{\circ}-40^{\circ}=\boxed{30^{\circ}}$
 
+---
 
+### 05/14/2021
 
+![image-20210528024812088](/assets/images/2021-05/image-20210528024812088.png)
 
+**Solve:**
+
+![image-20210528024935664](/assets/images/2021-05/image-20210528024935664.png)
+
+Let $O$ be the circumcenter of $\triangle{ABC} \implies AO=BO=CO$
+
+$\angle{ACB}=30^{\circ} \implies \angle{AOB}=60^{\circ} \implies \triangle{AOB}$ is equilateral triangle
+
+$\implies AO=AB=CD=CO, \angle{OAD}=20^{\circ} \implies \angle{OCD}=20^{\circ}$
+
+$\implies \angle{COD}=80^{\circ} \implies \angle{DOA}=180^{\circ}-20^{\circ}-20^{\circ}-80^{\circ}=60^{\circ}=\angle{BOA}$
+
+$\implies BDO$ are collinear, thus we know
+
+$BO=CO \implies \angle{CBD}=\angle{CBO}=\angle{OCB}=\angle{OCD}+\angle{DCB}=\boxed{50^{\circ}}$
 
