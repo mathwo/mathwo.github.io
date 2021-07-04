@@ -1,0 +1,26 @@
+{
+    "sourceFile": "_posts/2021-02-02-misc-problems.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1625416707358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1625416735336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,38 +7,10 @@\n ---\n \n \n \n----\n \n-### 02/15/2021\n \n-#### Suppose for all $x, y \\in \\mathbb{R}$ we have $f(x+y)=f(x)+f(y)+xy$ and $f(4)=10$, find $f(2001)$ **(2001 Dutch Math Olympiad)**\n-\n-**Solution 1:**\n-\n-$f(4)=f(2)+f(2)+4=10 \\implies f(2)=3$\n-\n-$f(2)=f(1)+f(1)+1=3 \\implies f(1)=1$\n-\n-$f(8)=f(4)+f(4)+16=36$\n-\n-$f(3)=f(1)+f(2)+2=6$\n-\n-$f(5)=f(2)+f(3)+6=15$\n-\n-Now we can see that $f(n)=\\dfrac{n(n+1)}{2}$ for $n \\in \\mathbb{N}$ and this is easy to be proved since\n-\n-$f(n+1)=f(1)+f(n)+n=\\dfrac{n(n+1)}{2}+n+1=\\dfrac{(n+1)(n+2)}{2}$\n-\n-So it's easy to know that $f(2001)=\\dfrac{2001 \\times 2002}{2}=\\boxed{2003001}$\n-\n-**Solution 2:**\n-\n-We have $f(n+1)=f(n)+f(1)+n \\implies f(n+1)-f(n)=n+f(1) $\n-\n-$\\implies f(2001)-f(0)=\\displaystyle\\sum_{i=0}^{2000}{i} + 2001f(1) \\implies f(2001)=\\dfrac{2000 \\times 2001}{2} + 2001 = \\dfrac{2001 \\times 2002}{2}=\\boxed{2003001}$\n-\n ---\n \n ### 02/25/2021\n \n"
+                },
+                {
+                    "date": 1625416755236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,25 +9,4 @@\n \n \n \n \n----\n-\n-### 02/25/2021\n-\n-#### Suppose $n=2^{499}$. There are $2n$ points on a circle and they are numbered as $1, 2, ... 2n$. Prove: there exists 100 secants connecting these points but no intersection to each other, so that the endpoints of these secants can be\n-\n---\n-\n-### 02/26/2021\n-\n-#### As shown in figure. find the area of quadrilateral $GHIJ:$\n-\n-![image-20210225230830360](/assets/images/2021-02/image-20210225230830360.png){:class=\"image--lg\"}\n-\n-**Solve:**\n-\n-$GJ=\\dfrac{EA}{2}=\\dfrac{1}{2}$\n-\n-$\\dfrac{HK}{HL}=\\dfrac{DE}{BC}=\\dfrac{5}{6}, HK+HL=6 \\implies HK=\\dfrac{30}{11}, HL=\\dfrac{36}{11} \\implies HI=\\dfrac{6}{11}$\n-\n-$S_{GIHJ}=GJ \\times HI \\times \\dfrac{1}{2}=\\dfrac{1}{2} \\times \\dfrac{6}{11} \\times \\dfrac{1}{2}=\\boxed{\\dfrac{3}{22}}$\n"
+                }
+            ],
+            "date": 1625416707358,
+            "name": "Commit-0",
+            "content": "---\ndate: 2021-02-02 07:57\ncategory:\nauthor:\ntags: []\nsummary:\n---\n\n\n\n---\n\n### 02/15/2021\n\n#### Suppose for all $x, y \\in \\mathbb{R}$ we have $f(x+y)=f(x)+f(y)+xy$ and $f(4)=10$, find $f(2001)$ **(2001 Dutch Math Olympiad)**\n\n**Solution 1:**\n\n$f(4)=f(2)+f(2)+4=10 \\implies f(2)=3$\n\n$f(2)=f(1)+f(1)+1=3 \\implies f(1)=1$\n\n$f(8)=f(4)+f(4)+16=36$\n\n$f(3)=f(1)+f(2)+2=6$\n\n$f(5)=f(2)+f(3)+6=15$\n\nNow we can see that $f(n)=\\dfrac{n(n+1)}{2}$ for $n \\in \\mathbb{N}$ and this is easy to be proved since\n\n$f(n+1)=f(1)+f(n)+n=\\dfrac{n(n+1)}{2}+n+1=\\dfrac{(n+1)(n+2)}{2}$\n\nSo it's easy to know that $f(2001)=\\dfrac{2001 \\times 2002}{2}=\\boxed{2003001}$\n\n**Solution 2:**\n\nWe have $f(n+1)=f(n)+f(1)+n \\implies f(n+1)-f(n)=n+f(1) $\n\n$\\implies f(2001)-f(0)=\\displaystyle\\sum_{i=0}^{2000}{i} + 2001f(1) \\implies f(2001)=\\dfrac{2000 \\times 2001}{2} + 2001 = \\dfrac{2001 \\times 2002}{2}=\\boxed{2003001}$\n\n---\n\n### 02/25/2021\n\n#### Suppose $n=2^{499}$. There are $2n$ points on a circle and they are numbered as $1, 2, ... 2n$. Prove: there exists 100 secants connecting these points but no intersection to each other, so that the endpoints of these secants can be\n\n--\n\n### 02/26/2021\n\n#### As shown in figure. find the area of quadrilateral $GHIJ:$\n\n![image-20210225230830360](/assets/images/2021-02/image-20210225230830360.png){:class=\"image--lg\"}\n\n**Solve:**\n\n$GJ=\\dfrac{EA}{2}=\\dfrac{1}{2}$\n\n$\\dfrac{HK}{HL}=\\dfrac{DE}{BC}=\\dfrac{5}{6}, HK+HL=6 \\implies HK=\\dfrac{30}{11}, HL=\\dfrac{36}{11} \\implies HI=\\dfrac{6}{11}$\n\n$S_{GIHJ}=GJ \\times HI \\times \\dfrac{1}{2}=\\dfrac{1}{2} \\times \\dfrac{6}{11} \\times \\dfrac{1}{2}=\\boxed{\\dfrac{3}{22}}$\n"
+        }
+    ]
+}

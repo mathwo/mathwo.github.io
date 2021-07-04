@@ -1,0 +1,18 @@
+{
+    "sourceFile": "_coverpages/2020-11-11-reading-topics-index.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1625414535585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1625414535585,
+            "name": "Commit-0",
+            "content": "---\ntitle: Readings and Topics\ndate: 2020-11-11 05:30\ntags: []\n---\n\n[2020](#2020) [2021](#2021) [2022](#2022) [2023](#2023) [2024](#2024)\n[2025](#2025) [2026](#2026) [2027](#2027) [2028](#2028) [2029](#2029)\n\n| <a name=\"2020\">2020</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | [Nov]({% post_url 2020-11-12-reading-topics %}) | [Dec]({% post_url 2020-12-01-reading-topics %}) |\n\n| <a name=\"2021\">2021</a> | [Jan]({% post_url 2021-01-01-reading-topics %}) | [Feb]({% post_url 2021-02-02-reading-topics %}) | [Mar]({% post_url 2021-03-02-reading-topics %}) | [Apr]({% post_url 2021-04-01-reading-topics %}) | [May]({% post_url 2021-05-04-reading-topics %}) | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n\n<!--\n| <a name=\"2022\">2022</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2023\">2023</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2024\">2024</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2025\">2025</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2026\">2026</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2027\">2027</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2028\">2028</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n| <a name=\"2029\">2029</a> | Jan | Feb | Mar | Apr | May | Jun |\n| | Jul | Aug | Sep | Oct | Nov | Dec |\n-->\n"
+        }
+    ]
+}

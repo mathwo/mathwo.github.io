@@ -1,0 +1,18 @@
+{
+    "sourceFile": "_posts/2020-12-01-jekyll-doc-and-my-notes.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1625415218855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1625415218855,
+            "name": "Commit-0",
+            "content": "---\ntitle: Blog Tech Notes\ndate: 2020-12-01 10:10\ntags: [tech-note]\n---\n\n"
+        }
+    ]
+}

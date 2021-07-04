@@ -1,0 +1,18 @@
+{
+    "sourceFile": "_posts/2020-12-01-algebra-problems.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1625415812687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1625415812687,
+            "name": "Commit-0",
+            "content": "---\ntitle: Algebra Problems\ndate: 2020-12-01 11:08\ntags: [Algebra]\n---\n\n\n"
+        }
+    ]
+}

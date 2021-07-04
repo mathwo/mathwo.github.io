@@ -1,0 +1,22 @@
+{
+    "sourceFile": "_posts/2021-07-04-mar-2021-problems.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1625416504937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1625416827022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,4 +7,44 @@\n tags: []\n summary:\n ---\n \n+### 03/10/2021\n+\n+#### If the sum of the first $n$ positive integers equals to the sum of the next $k$ positive integers, where $n<20$, what is the largest possible value of $k$?\n+\n+**Solve:**\n+\n+$\\dfrac{n(n+1)}{2}=n*k+\\dfrac{k(k+1)}{2}$\n+$\\implies n^2+n=2nk+k^2+k$\n+$\\implies (n-k)^2+(n-k)=2k^2$\n+$\\implies 4(n-k)^2+4(n-k)+1=8k^2+1$\n+$\\implies (2n-2k+1)^2-8k^2=1$\n+\n+Let $m=2n-2k+1$, so Pell's equation $m^2-8k^2=1$ has first solution $m=3, k=1$.\n+\n+So we know the second solution has format $x+2\\sqrt{2}y=(3+2\\sqrt{2})^2 \\implies x=17, y=6$\n+\n+So $2n-2k+1=17, k=6 \\implies n=14$.\n+\n+The next larger value of $k$ would make $n>20$. So the answer is $k=\\boxed{6}$.\n+\n+---\n+\n+### 03/31/2021\n+\n+#### Solve for real values of $x$: $2\\sqrt[3]{2x+1}=x^3-1$.\n+\n+**Solve:**\n+\n+Let $y^3=2x+1 \\implies x=\\dfrac{y^3-1}{2}$\n+$\\implies 2y=x^3-1 \\implies y=\\dfrac{x^3-1}{2}$\n+\n+This means the solutions of the original equation are the intersects of $y=x$ and $y=\\dfrac{x^3-1}{2}$\n+\n+$\\implies x=\\dfrac{x^3-1}{2} \\implies x^3-2x-1=0$\n+\n+Easy to see that $x=-1$ is one of the solutions, factorize $x^3-2x-1$ and get:\n+\n+$(x+1)(x^2-x-1)=0 \\implies x=\\boxed{-1, \\dfrac{1+\\sqrt{5}}{2}, \\dfrac{1-\\sqrt{5}}{2}}$\n+\n+---\n"
+                }
+            ],
+            "date": 1625416504937,
+            "name": "Commit-0",
+            "content": "---\nlayout: post\ntitle:\ndate: 2021-07-04 11:35\ncategory:\nauthor:\ntags: []\nsummary:\n---\n\n"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "_coverpages/2021-07-04-monthly-problems-index.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1625414343412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1625414359408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n ---\n layout: post\n title:\n-date: 2021-07-04 10:59\n+date: 2020-11-11 10:59\n category:\n author:\n tags: []\n summary:\n"
+                }
+            ],
+            "date": 1625414343412,
+            "name": "Commit-0",
+            "content": "---\nlayout: post\ntitle:\ndate: 2021-07-04 10:59\ncategory:\nauthor:\ntags: []\nsummary:\n---\n\n"
+        }
+    ]
+}
