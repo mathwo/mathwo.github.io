@@ -527,3 +527,11 @@ I.M. Gelfand quotes:
 `reading`{:.info}
 
 ---
+
+### 07/25/2021
+
+[Brahmagupta's formula](https://en.wikipedia.org/wiki/Brahmagupta%27s_formula)
+
+The area $K$ of cyclic quadrilateral whose sides have lengths $a,b,c,d$ is
+
+$K=\sqrt{(s-a)(s-b)(s-c)(s-d)}, s=\dfrac{a+b+c+d}{2}$
