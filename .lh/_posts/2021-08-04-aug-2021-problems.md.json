@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1628135414933,
@@ -32,6 +32,10 @@
                 {
                     "date": 1628136038203,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ![image-20210804225700254](/assets/images/2021-08/image-20210804225700254.png)\n \n **Solve:**\n \n-![image-20210804220316987](E:\\workspace\\mwo\\assets\\images\\2021-08\\image-20210804220316987.png)\n+![image-20210804220316987](/assets/images/2021-08/image-20210804220316987.png)\n \n Extend $AD$​ to $E$​ so that $AE=AC$​, connect $CE$​. Easy to know $\\triangle{ACE}$​ is equilateral, so\n \n $\\angle{AEC}=60^{\\circ}, AE=AC=CE. \\angle{DCE}=20^{\\circ} \\implies \\angle{BDE}=80^{\\circ}$​\n"
+                },
+                {
+                    "date": 1628137004201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n ---\n \n ### 08/04/2021\n \n-#### $D$​ is a point on $BC$​ In $\\triangle{ABC}, $$\\angle{DAC}=60^{\\circ}, \\angle{DCA}=40^{\\circ}, BD=AC$​, Solve $\\angle{B}$​​.\n+#### $D$​ is a point on $BC$​ in $\\triangle{ABC}, $$\\angle{DAC}=60^{\\circ}, \\angle{DCA}=40^{\\circ}, BD=AC$​, Solve $\\angle{B}$​​.\n \n ![image-20210804225700254](/assets/images/2021-08/image-20210804225700254.png)\n \n **Solve:**\n"
                 }
             ],
             "date": 1628135414933,
