@@ -1,0 +1,42 @@
+{
+    "sourceFile": "_posts/2021-08-04-aug-2021-problems.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1628135414933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1628135427157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n ---\n-layout: post\n title:\n date: 2021-08-04 22:50\n category:\n author:\n"
+                },
+                {
+                    "date": 1628135432274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,6 @@\n ---\n title:\n date: 2021-08-04 22:50\n-category:\n-author:\n tags: []\n-summary:\n ---\n \n"
+                },
+                {
+                    "date": 1628135694758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,4 +3,20 @@\n date: 2021-08-04 22:50\n tags: []\n ---\n \n+\n+\n+**Solve:**\n+\n+![image-20210804220316987](E:\\workspace\\mwo\\assets\\images\\2021-08\\image-20210804220316987.png)\n+\n+Extend $AD$​ to $E$​ so that $AE=AC$​, connect $CE$​. Easy to know $\\triangle{ACE}$​ is equilateral, so\n+\n+$\\angle{AEC}=60^{\\circ}, AE=AC=CE. \\angle{DCE}=20^{\\circ} \\implies \\angle{BDE}=80^{\\circ}$​\n+\n+Make $F$​ on $BD$​ so that $\\angle{FED}=20^{\\circ}$​, easy to see that $EF=DE, \\angle{EFC}=80^{\\circ}=\\angle{FEC} \\implies CE=CF=BD \\implies BF=CD$\n+\n+$\\angle{BFE}=\\angle{EDC}=100^{\\circ} \\implies \\triangle{BEF}\\cong\\triangle{CED}\\implies BE=CE=AE, \\angle{EBF}=\\angle{ECD}=20^{\\circ},\\angle{BEF}=\\angle{CED}=60^{\\circ}$\n+\n+$\\implies \\angle{BEA}=80^{\\circ}\\implies \\angle{EBA}=50^{\\circ} \\implies \\angle{ABF}=50^{\\circ}-20^{\\circ}=\\boxed{30^{\\circ}}$​​​\n+\n"
+                },
+                {
+                    "date": 1628136020517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,14 @@\n date: 2021-08-04 22:50\n tags: []\n ---\n \n+### 08/04/2021\n \n+#### $D$​ is a point on $BC$​ In $\\triangle{ABC}, $$\\angle{DAC}=60^{\\circ}, \\angle{DCA}=40^{\\circ}, BD=AC$​, Solve $\\angle{B}$​​.\n \n+![image-20210804225700254](/assets\\images\\2021-08\\image-20210804225700254.png)\n+\n **Solve:**\n \n ![image-20210804220316987](E:\\workspace\\mwo\\assets\\images\\2021-08\\image-20210804220316987.png)\n \n"
+                },
+                {
+                    "date": 1628136026672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n ### 08/04/2021\n \n #### $D$​ is a point on $BC$​ In $\\triangle{ABC}, $$\\angle{DAC}=60^{\\circ}, \\angle{DCA}=40^{\\circ}, BD=AC$​, Solve $\\angle{B}$​​.\n \n-![image-20210804225700254](/assets\\images\\2021-08\\image-20210804225700254.png)\n+![image-20210804225700254](/assets/images/2021-08/image-20210804225700254.png)\n \n **Solve:**\n \n ![image-20210804220316987](E:\\workspace\\mwo\\assets\\images\\2021-08\\image-20210804220316987.png)\n"
+                },
+                {
+                    "date": 1628136038203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ![image-20210804225700254](/assets/images/2021-08/image-20210804225700254.png)\n \n **Solve:**\n \n-![image-20210804220316987](E:\\workspace\\mwo\\assets\\images\\2021-08\\image-20210804220316987.png)\n+![image-20210804220316987](/assets/images/2021-08/image-20210804220316987.png)\n \n Extend $AD$​ to $E$​ so that $AE=AC$​, connect $CE$​. Easy to know $\\triangle{ACE}$​ is equilateral, so\n \n $\\angle{AEC}=60^{\\circ}, AE=AC=CE. \\angle{DCE}=20^{\\circ} \\implies \\angle{BDE}=80^{\\circ}$​\n"
+                }
+            ],
+            "date": 1628135414933,
+            "name": "Commit-0",
+            "content": "---\nlayout: post\ntitle:\ndate: 2021-08-04 22:50\ncategory:\nauthor:\ntags: []\nsummary:\n---\n\n"
+        }
+    ]
+}
