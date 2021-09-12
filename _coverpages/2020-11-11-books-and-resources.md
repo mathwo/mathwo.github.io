@@ -103,3 +103,11 @@ Subject Book Size
 ### USAMO Books
 
 [https://www.isinj.com/mt-usamo/](https://www.isinj.com/mt-usamo/)
+
+### Collections of Problems
+
+* [AIME Strategies](/assets/files/AIME-Strategies.pdf)
+* [Homemade Problems](/assets/files/HomemadeProblems-David-Altizio.pdf)
+* [Collection of Geometry Problems](/assets/files/CollectionOfGeometryProblems.pdf)
+* [AIME Practice Set 2015](/assets/files/Compilation_of_AIME_like_problems.pdf)
+* [AIME Solution Set 2015](/assets/files/CollectionOfAIMESolutions.pdf)
