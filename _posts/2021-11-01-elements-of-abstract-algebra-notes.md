@@ -18,8 +18,9 @@ Choose $u,v$ so that $3uv+q=0 \implies uv=-\dfrac{q}{3} \implies v=-\dfrac{q}{3u
 
 $\implies u^6-ru^3-\dfrac{q^3}{27}=0 \implies u^3=\dfrac{r}{2} \pm \sqrt{\dfrac{r^2}{4}+\dfrac{q^3}{27}}$
 
-Let $\omega=e^{i\tfrac{\pi}{3}}=-\dfrac{1}{2}+i\dfrac{\sqrt{3}}{2}, \omega^2=e^{-i\tfrac{\pi}{3}} = -\dfrac{1}{2}-i\dfrac{\sqrt{3}}{2}$, then
+Let $\omega=e^{i\tfrac{\pi}{3}}=-\dfrac{1}{2}+i\dfrac{\sqrt{3}}{2}, \omega^2=e^{-i\tfrac{\pi}{3}} = -\dfrac{1}{2}-i\dfrac{\sqrt{3}}{2}$, then three roots of original equation are:
 
-
+$u+v, \omega u + \omega ^2v, \omega ^2 u + \omega v$
 
 #### Chapter 1 - Set Theory
+
