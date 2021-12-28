@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1625417473769,
@@ -24,6 +24,10 @@
                 {
                     "date": 1632418468775,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -363,8 +363,8 @@\n ---\n \n ### 05/17/2021\n \n-![image-20210529150055416](/assets\\images\\2021-05\\image-20210529145705215.png)\n+![image-20210529150055416](/assets/images\\2021-05\\image-20210529145705215.png)\n \n **Solve:**\n \n"
+                },
+                {
+                    "date": 1640673576676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -245,9 +245,9 @@\n  $\\angle{a} \\rightarrow \\angle{(-a)}, \\angle{f} \\rightarrow \\angle{(-f)}, \\angle{b} \\rightarrow \\angle{(a+b)}$ , so above equation changes to\n \n $tan(f)=\\dfrac{sin(b+c+d)}{\\dfrac{sin(a+b)sin(d)}{sin(a)sin(c)}+cos(b+c+d)}$\n \n-![image-20211227234956253](/assets/images/2021-05\\image-20211227234956253.png)\n+![image-20211227234956253](/assets/images/2021-05/\\image-20211227234956253.png)\n \n So for this problem, $\\angle{a}=20^{\\circ}, \\angle{b}=60^{\\circ}, \\angle{c}=50^{\\circ}, \\angle{d}=30^{\\circ}$\n \n $\\implies tan(f)=\\dfrac{sin(140^{\\circ})}{\\dfrac{sin(80^{\\circ})sin(30^{\\circ})}{sin(20^{\\circ})sin(50^{\\circ})}+cos(140^{\\circ})}=\\dfrac{sin(40^{\\circ})}{\\dfrac{sin(80^{\\circ})}{2sin(20^{\\circ})cos(40^{\\circ})}-cos(40^{\\circ})}=\\dfrac{sin(40^{\\circ})}{\\dfrac{sin(40^{\\circ})}{sin(20^{\\circ})}-cos(40^{\\circ})}$\n"
                 }
             ],
             "date": 1625417473769,
