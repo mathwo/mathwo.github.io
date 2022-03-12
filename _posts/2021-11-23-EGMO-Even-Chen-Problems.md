@@ -1,5 +1,5 @@
 ---
-title:Problems in Euclidean Geometry in Mathematical Olympiads by Evan Chen
+title: Problems in Euclidean Geometry in Mathematical Olympiads by Evan Chen
 date: 2021-11-23 14:25
 tags: []
 ---
