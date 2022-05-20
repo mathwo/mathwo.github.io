@@ -56,5 +56,4 @@ $$
 \end{vmatrix}
 =-4\notag
 \end{align*}
-![image](https://user-images.githubusercontent.com/7368462/169422686-9707f5b8-a849-4d5b-838f-d02b0deeac43.png)
 $$
