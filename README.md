@@ -8,13 +8,6 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 $$
 \begin{align*}
-\det A &=\left. 
-\begin{array}{c}
-\;\;\text{*)} \\ 
--1\text{)} \\ 
--2\text{)} \\ 
--2\text{)}
-\end{array}
-\right.
+\sqrt{2}
 \end{align*}
 $$
