@@ -15,7 +15,7 @@ $$
 -2\text{)} \\ 
 -2\text{)}
 \end{array}
-\right. 
+\right.
 \begin{vmatrix}
 1 & 3 & 2 & -6 \\ 
 1 & 2 & -2 & -5 \\ 
@@ -31,7 +31,7 @@ $$
 \end{vmatrix}
 \\ \notag
 && \\ 
-&=\left. 
+&=\left.
 \begin{array}{c}
 \;\;\text{*)} \\ 
 -2\text{)} \\ 
