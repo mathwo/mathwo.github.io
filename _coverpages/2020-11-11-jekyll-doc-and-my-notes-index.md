@@ -321,6 +321,8 @@ This is to add an item in _data/navigation.yml. Do some translation for Home. I 
 
 ### Add comments to Posts
 
+**Note: This part does not work any more**
+
 Some search and shows [comments.js](https://zetabase.io/comments-js) is a good tool and some [tutorial](https://zetabase.io/blog-post/setting-up-comments-on-jekyll-github-pages).
 
 Just follow the instruction to [sign up zetabase](https://zetabase.io/new-user?ref=commentsjs), then follow the steps to login zetabase and get automatically downloaded copy of comments.html and zetabase-identity-key.json.
@@ -345,6 +347,8 @@ Add a border on top:
 ```html
 <div style="max-width: 1024px; margin: auto; border-top: 1px solid #cccccc; margin-top: 60px">
 ```
+
+**Note: This part does not work any more**
 
 And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
 
@@ -491,6 +495,8 @@ It's not perfect - needs two clicks on mobile screen, and cannot scroll to top-l
 ---
 
 ### Star Rating System
+
+**Note: This part does not work any more**
 
 It may use [zetabase](https://zetabase.io/) to create a star rating system, like comment system does.
 
