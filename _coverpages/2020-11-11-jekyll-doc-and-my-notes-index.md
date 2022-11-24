@@ -109,7 +109,7 @@ Then create a folder named _layouts and copy all html files from minima subfolde
   </style>
 
   <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.4.0/math.js?config=TeX-AMS-MML_HTMLorMML">
     MathJax.Hub.Config({
       tex2jax: {
         inlineMath: [['$','$'], ['\\(','\\)']],
