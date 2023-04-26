@@ -535,3 +535,15 @@ I.M. Gelfand quotes:
 The area $K$ of cyclic quadrilateral whose sides have lengths $a,b,c,d$ is
 
 $K=\sqrt{(s-a)(s-b)(s-c)(s-d)}, s=\dfrac{a+b+c+d}{2}$
+
+---
+
+### 04/26/2023
+
+Here are some of the tips I got when I started teaching primary math using AOPS books:
+
+1. For arithmatic and algebraic calculation, always do simplication like cancel as early as possible, and do multiplication as late as possible. Factorized numbers is better than a single number during calculation.
+
+2. $\dfrac{a}{b} = \dfrac{c}{d} \implies ad=bc$. This trick should be taught as early as possible to save a lot of calculation work.
+
+3. After getting solutions of an equation, always check them. You can easily bring new solutions to an equation like $x^2+x+1=0 \implies x + 1 + \dfrac{1}{x} = 0, 1 + x = -x^2 \implies x^2 = \dfrac{1}{x} \implies  x^3=1 \implies x=1, x=\dfrac{-1 \pm \sqrt{3}i}{2}$. By checking the solutions, we know that $x=1$ should be excluded.
