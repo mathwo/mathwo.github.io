@@ -4,6 +4,16 @@ date: 2020-11-11 07:47
 tags: []
 ---
 
+### Installation
+
+(1) Local run needs [ruby 2.6 installed on PC](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.7-1/rubyinstaller-devkit-2.6.7-1-x64.exe)
+
+(2) Open ruby cmd.exe, and run "gem install bundler:2.1.4"
+
+(3) Run "bundle install"
+
+(4) Run "bundle exec jekyll serve --incremental"
+
 ### Jekyll Documentation
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
