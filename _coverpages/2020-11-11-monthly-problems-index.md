@@ -19,7 +19,7 @@ tags: []
 | <a name="2023">2023</a> | [Jan]({% post_url 2023-01-14-wo %}) | [Feb]({% post_url 2023-02-10-wo %}) | [Mar]({% post_url 2023-03-10-wo %}) | [Apr]({% post_url 2023-04-14-wo %}) | [May]({% post_url 2023-05-12-wo %}) | [Jun]({% post_url 2023-06-02-wo %}) |
 | | [Jul]({% post_url 2023-07-26-wo %}) | [Aug]({% post_url 2023-08-02-wo %}) | [Sep]({% post_url 2023-09-01-wo %}) | [Oct]({% post_url 2023-10-01-wo %}) | [Nov]({% post_url 2023-11-01-wo %}) | [Dec]({% post_url 2023-12-04-wo %}) |
 
-| <a name="2024">2024</a> | [Jan]() | [Feb]() | [Mar]() | [Apr]() | [May]() | [Jun]() |
+| <a name="2024">2024</a> | [Jan]({% post_url 2024-01-02-wo %}) | [Feb]() | [Mar]() | [Apr]() | [May]() | [Jun]() |
 | | [Jul]() | [Aug]() | [Sep]() | [Oct]() | [Nov]() | [Dec]() |
 
 | <a name="2025">2025</a> | [Jan]() | [Feb]() | [Mar]() | [Apr]() | [May]() | [Jun]() |
