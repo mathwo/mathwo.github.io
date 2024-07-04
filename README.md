@@ -6,4 +6,4 @@ A simple blog for math problem solving and take down the workouts.
 
 $\enclose{circle}{\kern.1em\text{1}\kern.1em}$
 
-$\enclose{roundedbox}\text{sad}\\\text{asdas}\newline \text{sadasdasd}$
+$\enclose{roundedbox}\text{sad} \\ \text{asdas} \newline \text{sadasdasd}$
