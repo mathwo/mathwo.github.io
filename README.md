@@ -10,6 +10,6 @@ $\enclose{roundedbox}{\text{sad} \text{asdas} \newline \text{sadasdasd}}$
 
 $$
 \begin{multline}\nonumber
-\shoveleft \text{ Similarly } O_CC \perp O_AO_B, O_AA \perp O_BO_C \implies \\
+\shoveleft \text{Similarly} O_CC \perp O_AO_B, O_AA \perp O_BO_C \implies \\
 \end{multline}
 $$
