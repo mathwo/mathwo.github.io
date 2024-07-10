@@ -37,9 +37,7 @@
 
 #### $1+2+...+(n-1)+n=\dfrac{n(n+1)}{2}$
 
-
-
- ### Chapter 4 - Committees and Combinations
+### Chapter 4 - Committees and Combinations
 
 #### Committee Forming
 

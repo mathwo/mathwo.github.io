@@ -27,33 +27,33 @@ $$
 \end{multline}
 $$
 
-#### Let $M_{BC}$ be midpoint of arc $\overset{\huge\frown}{BAC}$, easy to see that:
+#### Let $$M_{BC}$$ be midpoint of arc $$\overset{\huge\frown}{BAC}$$, easy to see that:
 
 ![image-20240702002022547](H:\workspace\mwo\assets\images\2024\image-20240702001939003.png)
 
-#### (1) $M_A$ is the center of $\odot{BIC}$
+#### (1) $$M_A$$ is the center of $$\odot{BIC}$$
 
-#### (2) $M_{BC}$ is the antipode of $M_A$ in $\odot{ABC}$ $\implies BC \perp M_AM_{BC}$
+#### (2) $$M_{BC}$$ is the antipode of $$M_A$$ in $$\odot{ABC}$$ $$\implies BC \perp M_AM_{BC}$$
 
-#### (3) $M_AM_BC$ is the diameter of $\odot{ABC} \implies \angle{M_{BC}BM_A}=\angle{M_{BC}CM_A}=90^{\circ} \implies BM_{BC}, CM_{BC}$ are tangent to $\odot{BIC}$ at $B, C$
+#### (3) $$M_AM_BC$$ is the diameter of $$\odot{ABC} \implies \angle{M_{BC}BM_A}=\angle{M_{BC}CM_A}=90^{\circ} \implies BM_{BC}, CM_{BC}$$ are tangent to $$\odot{BIC}$$ at $$B, C$$
 
 #### Then we introduce Harmonic Quadrilateral:
 
 ![image-20240702003447325](H:\workspace\mwo\assets\images\2024\image-20240702002845027.png)
 
-#### Let $IM_{BC}\cap \odot{ABC}=T, IM_{BC}\cap \odot{BIC}=J$ 
+#### Let $$IM_{BC}\cap \odot{ABC}=T, IM_{BC}\cap \odot{BIC}=J$$
 
-#### (1) It is a well-known Lemma in the Mixtilinear Configuration that:  $T$ is the $A$-Mixtilinear Point.
+#### (1) It is a well-known Lemma in the Mixtilinear Configuration that: $$T$$ is the $$A$$-Mixtilinear Point.
 
 ####(2) The Antipode fact $\implies \angle{M_{BC}TM_A}=90^{\circ} \implies T$ is the midpoint of $IJ$
 
-#### Let $K$ be the intersection of tangents at $I, J$ to $\odot{BIC}$
+#### Let $$K$$ be the intersection of tangents at $$I, J$$ to $$\odot{BIC}$$
 
-#### (3) La-Hire's Theorem $\implies I, J $ are the polar of $K$ with reference to $\odot{BIC}$
+#### (3) La-Hire's Theorem $$\implies I, J $$ are the polar of $$K$$ with reference to $$\odot{BIC}$$
 
-#### $\implies K $ lies on the polar of $M_{BC}$ with reference to $\odot{BIC}$, i.e., $K \in BC$
+#### $$\implies K $$ lies on the polar of $$M_{BC}$$ with reference to $$\odot{BIC}$$, i.e., $$K \in BC$$
 
-#### (4) $K, T, M_A$ are collinear
+#### (4) $$K, T, M_A$$ are collinear
 
 
 
@@ -61,37 +61,37 @@ $$
 
 ![image-20240702004724634](H:\workspace\mwo\assets\images\2024\image-20240702004724634.png)
 
-#### Let: 
+#### Let:
 
-#### (a) $D,E,F$ be the $A,B,C-$Intouch points
+#### (a) $$D,E,F$$ be the $$A,B,C-$$Intouch points
 
-####(b) $\Psi_{\odot{BIC}}$ be the inversion around $\odot{BIC}$
+#### (b) $$\Psi_{\odot{BIC}}$$ be the inversion around $$\odot{BIC}$$
 
-####(c) $\odot{AIFE} \cap \odot{ABC}=L$, $A'$ be the $A$-antipode of $A$ in  $\odot{ABC}$
+#### (c) $$\odot{AIFE} \cap \odot{ABC}=L$$, $$A'$$ be the $$A$$-antipode of $$A$$ in  $$\odot{ABC}$$
 
-####(d) $AI \cap BC=X, KI \cap AB=Y, KI \cap AC=Z$
+#### (d) $$AI \cap BC=X, KI \cap AB=Y, KI \cap AC=Z$$
 
-####(e) P $\in EF$  such that $DP \perp EF$
+#### (e) P $$\in EF$$  such that $$DP \perp EF$$
 
-####(f) $S= DP \cap \odot{DEF}$
+#### (f) $$S= DP \cap \odot{DEF}$$
 
 #### Then we have:
 
-####(1) $L $ lies on  $IA'$
+#### (1) $$L $$ lies on  $$IA'$$
 
-#### (2) Radical Axes Theorem on $\odot{ALFIE}, \odot{BIC}, \odot{ABC} \implies K \in LA$
+#### (2) Radical Axes Theorem on $$\odot{ALFIE}, \odot{BIC}, \odot{ABC} \implies K \in LA$$
 
 ![image-20240702221519992](H:\workspace\mwo\assets\images\2024\image-20240702005504678.png)
 
-####(3) Radical axis on $\odot{IM_A}, \odot{BIC}, \odot{ABC} \implies$ $X,Y$ are the tangency points of the $A$-Mixtilinear incircle with $AB, AC$
+#### (3) Radical axis on $$\odot{IM_A}, \odot{BIC}, \odot{ABC} \implies$$ $$X,Y$$ are the tangency points of the $$A$$-Mixtilinear incircle with $$AB, AC$$
 
-####(4) Quadrilateral similarity: $AFIE \sim M_{BC}M_AC$ 
+#### (4) Quadrilateral similarity: $$AFIE \sim M_{BC}M_AC$$
 
-####(5) $\Psi_{\odot{BIC}}(\odot{ABC})=BC$
+#### (5) $$\Psi_{\odot{BIC}}(\odot{ABC})=BC$$
 
-####(6) Shooting Lemma $\implies \Psi_{\odot{BIC}}(AI \cap BC)=\Psi_{\odot{BIC}}(X)=A$
+#### (6) Shooting Lemma $$\implies \Psi_{\odot{BIC}}(AI \cap BC)=\Psi_{\odot{BIC}}(X)=A$$
 
-####(7) $\triangle{IDX} \overset{\Psi_{\odot{BIC}}}{\mapsto}\triangle{ILA} \implies ALDX$ cyclic, $LDM_A$ collinear, which can also be proved using angle chasing:
+#### (7) $$\triangle{IDX} \overset{\Psi_{\odot{BIC}}}{\mapsto}\triangle{ILA} \implies ALDX$$ cyclic, $$LDM_A$$ collinear, which can also be proved using angle chasing:
 
 $$
 \begin{multline}
@@ -100,11 +100,11 @@ $$
 \end{multline}
 $$
 
-#### (8) Let $f$ be the spiral similarity at $L$ that sends ${F}\mapsto{B}$ and ${E}\mapsto{C} \implies f(S)=I$ (i.e., ${S} \mapsto{I} $), and since $P,D$ are the orthogonal projections of $S, I$ onto $FE, BC$ respectively  $\implies f(P)=D$
+#### (8) Let $$f$$ be the spiral similarity at $$L$$ that sends $${F}\mapsto{B}$$ and $${E}\mapsto{C} \implies f(S)=I$$ (i.e., $${S} \mapsto{I} $$), and since $$P,D$$ are the orthogonal projections of $$S, I$$ onto $$FE, BC$$ respectively  $$\implies f(P)=D$$
 
-#### (9) $I$ is the midpoint of arc $\overset{\huge\frown}{FE}$ in $\odot{ALFIE} \implies f(I)=M_A$ (i.e., ${I}\mapsto{M_A}$)
+#### (9) $$I$$ is the midpoint of arc $$\overset{\huge\frown}{FE}$$ in $$\odot{ALFIE} \implies f(I)=M_A$$ (i.e., $${I}\mapsto{M_A}$$)
 
-####(10) $PD \parallel IM_A \implies $ the spiral center $L$ carrying ${PD}\mapsto{IM_A}$ is also on $DM_A \implies LDM_A$ collinear
+#### (10) $$PD \parallel IM_A \implies $$ the spiral center $$L$$ carrying $${PD}\mapsto{IM_A}$$ is also on $$DM_A \implies LDM_A$ $collinear
 
-#### (11) $f(A)=M_{BC}$
+#### (11) $$f(A)=M_{BC}$$
 
