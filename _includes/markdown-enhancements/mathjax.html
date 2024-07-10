@@ -7,24 +7,20 @@
 
 <script type="text/x-mathjax-config">
 	var _config = {
-    tex2jax: {
+    tex: {
       inlineMath: [['$','$'], ['\\(','\\)']],
       displayMath: [['$$','$$']],
-      displayAlign: "left",
-      displayIndent: "2em",
       processEscapes: true,
-      processEnvironments: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      TeX: { equationNumbers: { autoNumber: "AMS" },
-      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      processEnvironments: true
     },
-    "HTML-CSS": {
-      fonts: ["Latin-Modern"]
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
     }
   };
 	{%- if _mathjax_autoNumber == true -%}
 		_config.TeX = { equationNumbers: { autoNumber: "all" } };
 	{%- endif -%}
-	MathJax.Hub.Config(_config);
+	// MathJax.Hub.Config(_config);
+  window.MathJax = _config;
 </script>
 <script type="text/javascript" src="{{ _sources.mathjax }}" async></script>
