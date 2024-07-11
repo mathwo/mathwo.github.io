@@ -310,36 +310,7 @@ This is to add an item in _data/navigation.yml. Do some translation for Home. I 
 
 ### Add comments to Posts
 
-**Note: This part does not work any more**
-
-Some search and shows [comments.js](https://zetabase.io/comments-js) is a good tool and some [tutorial](https://zetabase.io/blog-post/setting-up-comments-on-jekyll-github-pages).
-
-Just follow the instruction to [sign up zetabase](https://zetabase.io/new-user?ref=commentsjs), then follow the steps to login zetabase and get automatically downloaded copy of comments.html and zetabase-identity-key.json.
-
-Then create a new file named commentjs.html (because there is existing comments.html) in _includes folder. Copy the content of comments.html file that is just downloaded into this new file. Add a line in article-footer.html:
-
-```html
-{% include commentjs.html %}
-<footer class="article__footer">
-```
-
-To clear the format in mobile view, add styles to zp-main, and hide <p> inside div with class zp-inputs as following:
-
-```html
-<div id="comments" class="zp-main" style="border:0em; margin-top: 0px; padding-top: 0px">
-  <div class="zp-inputs">
-      <p style="display:none">
-```
-
-Add a border on top:
-
-```html
-<div style="max-width: 1024px; margin: auto; border-top: 1px solid #cccccc; margin-top: 60px">
-```
-
-**Note: This part does not work any more**
-
-And comments can be managed with instruction at [here](https://zetabase.io/docs/#/comments-js-setup?id=moderation).
+The simple free comment system [Utteranc](https://utteranc.es/) is used. Visitors need login Github to post comments.
 
 ---
 
