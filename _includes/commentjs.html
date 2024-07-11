@@ -1,6 +1,6 @@
 <script>
-  var url = "https://github.com/dwilliamson/donw.io/issues/" + {{ $.Params.ghcommentid }}
-  var api_url = "https://api.github.com/repos/dwilliamson/donw.io/issues/" + {{ $.Params.ghcommentid }} + "/comments"
+  var url = "https://github.com/mathwo/mathwo.github.io/issues/" + {{ $.Params.ghcommentid }}
+  var api_url = "https://api.github.com/repos/mathwo/mathwo.github.io/issues/" + {{ $.Params.ghcommentid }} + "/comments"
 
   $(document).ready(function () {
       $.ajax(api_url, {
