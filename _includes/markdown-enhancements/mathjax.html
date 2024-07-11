@@ -6,21 +6,10 @@
 {%- assign _mathjax_autoNumber = __return -%}
 
 <script type="text/x-mathjax-config">
-	var _config = {
+  MathJax = {
     tex: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      displayMath: [['$$','$$']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
     }
   };
-	{%- if _mathjax_autoNumber == true -%}
-		_config.TeX = { equationNumbers: { autoNumber: "all" } };
-	{%- endif -%}
-	// MathJax.Hub.Config(_config);
-  window.MathJax = _config;
 </script>
 <script type="text/javascript" src="{{ _sources.mathjax }}" async></script>
