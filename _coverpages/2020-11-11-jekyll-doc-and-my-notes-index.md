@@ -134,7 +134,7 @@ Then create a folder named _layouts and copy all html files from minima subfolde
 
 ### Install jekyll-TeXt theme
 
-I fork the jekyll-TeXt repo and move contents into it to rebuild this blog. I feel it worths as it's much better with quite some features I really like. Note: the MathJax.Hub.Config in jekyll-TeXt theme is not good enough. To use line-break \\ we need display math sign $$. Replace it with above code.
+I fork the jekyll-TeXt repo and move contents into it to rebuild this blog. I feel it worths as it's much better with quite some features I really like. Note: the MathJax.Hub.Config in jekyll-TeXt theme is not good enough. To use line-break \\ we need display math sign $. Replace it with above code.
 
 ---
 

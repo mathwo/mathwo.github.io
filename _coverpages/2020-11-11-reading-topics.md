@@ -261,7 +261,7 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
 | $C-Excenter(J_C)$      | $1 : 1 : -1$                                                 | $a : b : -c$            |
 
 * The equation of points on the line $P=(p : q : r)$ and $Q=(u : v : w)$ is:
-  $$
+  $
   \begin{align*}
   \begin{vmatrix}
   p & q & r\\
@@ -269,7 +269,7 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
   x & y & z
   \end{vmatrix} = 0
   \end{align*}
-  $$
+  $
 
 * The point with trilinear coordinate $(p:q:r)$ has the value $p, q, r$ being the actual perpendicular distances to the sides $a, b, c$ satisfy
 
