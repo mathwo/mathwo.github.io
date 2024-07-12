@@ -4,18 +4,6 @@ date: 2020-11-11 05:30
 tags: []
 ---
 
-
-
-### 07/25/2021
-
-[Brahmagupta's formula](https://en.wikipedia.org/wiki/Brahmagupta%27s_formula)
-
-The area $K$ of cyclic quadrilateral whose sides have lengths $a,b,c,d$ is
-
-$K=\sqrt{(s-a)(s-b)(s-c)(s-d)}, s=\dfrac{a+b+c+d}{2}$
-
----
-
 ### 07/02/2024
 
 There is a series of 6-post writing on AOPS community blog containing quite a lot lemmas and conclusions. The posts just list them out without the details on proving. Also there are some related docs on [Evan Chen's page](https://web.evanchen.cc/olympiad.html) which can be listed here too:
@@ -56,6 +44,16 @@ I.M. Gelfand quotes:
 > I would like to make one comment here. Some of my American colleagues have been explained to me that American students are not really accustomed to thinking and working hard, and for this reason we must make the material as attractive as possible. Permit me to not completely agree with this opinion. From my long experience with young students all over the world, I know that they are curious and inquisitive and I believe that if they have some clear material presented in a simple form, they will prefer this to all artificial means of attracting their attention - much as one buys books for their content and not for their dazzling jacket designs that engage only for the moment. The most important thing a student can get from the study of mathematics is the attainment of a higher intellectual level.
 
 `reading`{:.info}
+
+---
+
+### 07/25/2021
+
+[Brahmagupta's formula](https://en.wikipedia.org/wiki/Brahmagupta%27s_formula)
+
+The area $K$ of cyclic quadrilateral whose sides have lengths $a,b,c,d$ is
+
+$K=\sqrt{(s-a)(s-b)(s-c)(s-d)}, s=\dfrac{a+b+c+d}{2}$
 
 ---
 
