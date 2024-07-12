@@ -71,7 +71,7 @@ There are various English-language editions of Euclid available at archive.org. 
 
 - Euclid, tr. Heath. *The Elements*. Dover. ([Vol I / Books 1-2](https://smile.amazon.com/dp/0486600882), [Vol II / Books 3-9](https://smile.amazon.com/dp/0486600890), [Vol III / Books 10-13](https://smile.amazon.com/Euclid-Thirteen-Books-Elements-10-13/dp/0486600904))
 - Euclid, tr. Heath. *The Elements* Green Lion Press. ([Single volume](https://smile.amazon.com/dp/1888009195))
-- Euclid books 1-6, tr. Byrne. This one is neat because the diagrams have colors. Archive.org links: https://archive.org/details/firstsixbooksofe00eucl |  https://archive.org/details/firstsixbooksel00byrn | https://archive.org/details/firstsixbooksofe00byrn
+- Euclid books 1-6, tr. Byrne. This one is neat because the diagrams have colors. Archive.org links: [link 1](https://archive.org/details/firstsixbooksofe00eucl) | [Link 2](https://archive.org/details/firstsixbooksel00byrn) | [Link 3](https://archive.org/details/firstsixbooksofe00byrn)
 - Lang and Murrow. *Geometry: A High School Course* ([2e](https://smile.amazon.com/dp/0387966544), [Solutions manual](https://smile.amazon.com/dp/0387941819))
 - Kiselev and Givental. *Kiselev's Geometry* (Vol I: [Sumizdat 1e](https://smile.amazon.com/dp/0977985202); Vol II: [Sumizdat 1e](https://smile.amazon.com/dp/0977985210)) - Look for seller "sumizdat_dot_org", that's the publisher.
 - Coxeter. *Introduction to Geometry* ([Wiley 2e](https://smile.amazon.com/dp/0471504580/), [2e HC [OOP]](https://smile.amazon.com/gp/product/0471182834))
@@ -79,9 +79,9 @@ There are various English-language editions of Euclid available at archive.org. 
 - Brannan, Esplen, Gray. *Geometry* (2014, ISBN 978-1118679197, [Worldcat](https://www.worldcat.org/isbn/9781118679197), [Amazon](https://smile.amazon.com/dp/1118679199))
 - Meyer. *Geometry and Its Applications* (2e, 2006: ISBN 978-0123694270, [Worldcat](https://www.worldcat.org/oclc/212425111), [Amazon](https://smile.amazon.com/dp/0123694272))
 - Augros. The Arts of Liberty, *Introductory Geometry and Arithmetic*. ([Web page](https://artsofliberty.udallas.edu/geometry-and-arithmetic/), [PDF](https://artsofliberty.udallas.edu/wp-content/uploads/2017/04/Introductory-Geometry-and-Arithmetic.pdf))
-- Harpur. 1894 interpretation of Euclid. https://www.google.com/books/edition/_/PkHP78BglQMC?hl=en&gbpv=0
-- Africk, Elementary College Geometry.  This is a typewritten, hand-illustrated text. It introduces two-dimensional geometry, with a focus on finding numerical solutions rather than proving theorems. https://open.umn.edu/opentextbooks/textbooks/elementary-college-geometry
-- Lozanovski, A Beautiful Journey Through Olympiad Geometry. Free PDF, form asks for information before downloading. https://www.olympiadgeometry.com/the-book.html
+- Harpur. [1894 interpretation of Euclid](https://www.google.com/books/edition/_/PkHP78BglQMC?hl=en&gbpv=0).
+- Africk, [Elementary College Geometry](https://open.umn.edu/opentextbooks/textbooks/elementary-college-geometry). This is a typewritten, hand-illustrated text. It introduces two-dimensional geometry, with a focus on finding numerical solutions rather than proving theorems.
+- Lozanovski, [A Beautiful Journey Through Olympiad Geometry](https://www.olympiadgeometry.com/the-book.html). Free PDF, form asks for information before downloading.
 
 #### Beyond introductory
 
@@ -90,7 +90,7 @@ There are various English-language editions of Euclid available at archive.org. 
 - Casey, 1886. *A Sequel to the First Six Books of the Elements of Euclid* ([At archive.org](https://archive.org/details/sequeltofirstsix00caserich))
 - Altshiller-Court. *College Geometry: An Introduction to the Modern Geometry of the Triangle and the Circle* ([2e Dover](https://smile.amazon.com/dp/0486458059/))
 - Coxeter. *Regular Polytopes* ([3e](https://smile.amazon.com/Regular-Polytopes-H-S-Coxeter/dp/0486614808/))
-- Petrunin. *Euclidean plane and its relatives; a minimalist introduction* (https://arxiv.org/abs/1302.1630) - covers elementary geometry and beyond, assumes knowledge up to basic calculus
+- Petrunin. [*Euclidean plane and its relatives; a minimalist introduction*](https://arxiv.org/abs/1302.1630) - covers elementary geometry and beyond, assumes knowledge up to basic calculus
 
 ### Euclidean and non-euclidean
 
@@ -255,6 +255,7 @@ Reference:
 #### Shoelace Theorem
 
 Suppose the polygon $P$ has vertices $(a_1, b_1), (a_2, b_2),...(a_n, b_n)$ listed in clockwise order. Then the area of $P$ is
+
 $$
 \begin{align*}
 S_P = \dfrac{1}{2} \left| (a_1b_2 + a_2b_3 + ... + a_nb_1)-(b_1a_2 + b_2a_3 + ... + b_na_1) \right| = \dfrac{1}{2} \left| \displaystyle\sum_{i=1}^{n}{(x_{i+1}+x_i)(y_{i+1}-y_i)} \right| = \dfrac{1}{2} \left| \displaystyle\sum_{i=1}^{n}{det \left( \begin{vmatrix}x_i & x_{i+1} \\ y_i & y_{i+1}\end{vmatrix} \right)} \right|
@@ -274,11 +275,11 @@ Reference:
 
 ![image-20210226030930850](/assets/images/2021/image-20210226030930850.png){:class="image--x4l"}
 
-$a : b : c = sinA : sinB : sinC$
+$$a : b : c = sinA : sinB : sinC$$
 
-$(X : Y : Z)_T = (aX : bY : cZ)_B$
+$$(X : Y : Z)_T = (aX : bY : cZ)_B$$
 
-$(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y+Z}:\dfrac{Y}{X+Y+Z}:\dfrac{Z}{X+Y+Z}\right)$
+$$(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y+Z}:\dfrac{Y}{X+Y+Z}:\dfrac{Z}{X+Y+Z}\right)$$
 
 |                        | Trilinear Coordinates                                        | Barycentric Coordinates |
 | ---------------------- | ------------------------------------------------------------ | ----------------------- |
@@ -296,6 +297,7 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
 | $C-Excenter(J_C)$      | $1 : 1 : -1$                                                 | $a : b : -c$            |
 
 - The equation of points on the line $P=(p : q : r)$ and $Q=(u : v : w)$ is:
+
   $$
   \begin{align*}
   \begin{vmatrix}
@@ -384,12 +386,11 @@ For Math Lovers in Seattle
 
 If you are in Seattle this Saturday, March 22, join Daniel Finkel and his Math for Love teammate Katherine Cook at Seattle’s third annual Julia Robinson Festival! The mission of the Julia Robinson Mathematics Festival is to inspire students to explore the richness and beauty of mathematics through activities that encourage collaborative, creative problem-solving. Entry is by donation but advance registration is required. Click here to register your 4th-12th grader for the festival.
 
-That concludes week’s challenge. As always, use Gary Hewitt’s Enhancer for an optimal Numberplay experience. And send your favorite puzzles to gary.antonick@NYTimes.com.
+That concludes week’s challenge. As always, use Gary Hewitt’s Enhancer for an optimal Numberplay experience. And send your favorite puzzles to [Gary](gary.antonick@NYTimes.com).
 
 Solution
 
 Here’s Dr. Finkel with the complete solution and recap:
-
 
 This is Dan with the solution to this week’s puzzle. Solutions, I should say, since commenters offered a slew of answers to this week’s problem. This “official” solution will be my reckoning of reader solutions, and what they show us about this problem.
 
