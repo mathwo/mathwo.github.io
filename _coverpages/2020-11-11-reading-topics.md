@@ -296,7 +296,7 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
 | $C-Excenter(J_C)$      | $1 : 1 : -1$                                                 | $a : b : -c$            |
 
 - The equation of points on the line $P=(p : q : r)$ and $Q=(u : v : w)$ is:
-  $
+  $$
   \begin{align*}
   \begin{vmatrix}
   p & q & r\\
@@ -304,15 +304,16 @@ $(X : Y : Z)\xrightarrow[\text{homogenize}]{\text{normalize}}\left(\dfrac{X}{X+Y
   x & y & z
   \end{vmatrix} = 0
   \end{align*}
-  $
+  $$
 
 - The point with trilinear coordinate $(p:q:r)$ has the value $p, q, r$ being the actual perpendicular distances to the sides $a, b, c$ satisfy
 
-  $pa+qb+rc=2S_{\triangle{ABC}}$
+  $$pa+qb+rc=2S_{\triangle{ABC}}$$
 
 - EFFT(Evan's Favorite Forgotten Trick): Consider displacement vectors $\overrightarrow{MN}=(x_1 : y_1 : z_1)$ and $\overrightarrow{PQ}=(x_2 : y_2 : z_2)$. Then $MN \perp PQ$ iff $0=a^2(y_1z_2+y_2z_1)+b^2(x_1z_2+x_2z_1)+c^2(x_1y_2+x_2y_1)$
 
 - The area of a triangle with vertices $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ is
+
 $$
 \begin{align*}
   S_{\triangle{PQR}} = S_{\triangle{ABC}} \times \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix}
@@ -320,6 +321,7 @@ $$
 $$
 
 - First Collinearity Criteria: The points $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ are collinear iff
+
 $$
 \begin{align*}
   \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \end{vmatrix} = 0
@@ -327,6 +329,7 @@ $$
 $$
 
 - When the coordinates are normalized, points $P=(x_1 : y_1 : z_1), Q=(x_2 : y_2 : z_2) and R=(x_3 : y_3 : z_3)$ are collinear iff
+
 $$
 \begin{align*}
   \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} = 0
@@ -334,6 +337,7 @@ $$
 $$
 
 - The equation of a line through the points  $P=(x_1 : y_1 : z_1)$ and $Q=(x_2 : y_2 : z_2)$ is
+
 $$
 \begin{align*}
   \begin{vmatrix} x_1 & y_1 & z_1 \\ x_2 & y_2 & z_2 \\ x & y & z \end{vmatrix} = 0
