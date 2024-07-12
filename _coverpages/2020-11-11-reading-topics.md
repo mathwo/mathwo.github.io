@@ -547,3 +547,29 @@ Here are some of the tips I got when I started teaching primary math using AOPS 
 2. $\dfrac{a}{b} = \dfrac{c}{d} \implies ad=bc$. This trick should be taught as early as possible to save a lot of calculation work.
 
 3. After getting solutions of an equation, always check them. You can easily bring new solutions to an equation like $x^2+x+1=0 \implies x + 1 + \dfrac{1}{x} = 0, 1 + x = -x^2 \implies x^2 = \dfrac{1}{x} \implies  x^3=1 \implies x=1, x=\dfrac{-1 \pm \sqrt{3}i}{2}$. By checking the solutions, we know that $x=1$ should be excluded.
+
+---
+
+### 07/02/2024
+
+There is a series of 6-post writing on AOPS community blog containing quite a lot lemmas and conclusions. The posts just list them out without the details on proving. Also there are some related docs on [Evan Chen's page](https://web.evanchen.cc/olympiad.html) which can be listed here too:
+
+- [The Incenter/Excenter Lemma](https://web.evanchen.cc/handouts/Fact5/Fact5.pdf)
+
+- [Part 1](https://artofproblemsolving.com/community/c776104h1953548_incenterrelated_configurations_part_i)
+
+- [Part 2](https://artofproblemsolving.com/community/c776104h1954097_incenterrelated_configurations_part_2_feat_sharky_devil_lemma)
+
+- [Part 3](https://artofproblemsolving.com/community/c776104h1954115)
+
+- [Part 4](https://artofproblemsolving.com/community/c776104h1954382_incenterrelated_configurations_part_iv)
+
+- [Part 5](https://artofproblemsolving.com/community/c776104h1954527_incenterrelated_configurations_part_v)
+
+- [Part 6](https://artofproblemsolving.com/community/c776104h1955343)
+
+- [Lemmas in AoPS Geometry](https://web.evanchen.cc/handouts/GeoSlang/GeoSlang.pdf)
+
+At the end of above PDF, [an AOPS forum link](https://artofproblemsolving.com/community/c6h2456133p20459825) is mentioned about some other handouts:
+
+- [Collected Muricaaaaaaa PDF](/assets/files/Muricaaaaaaa-Olympiad_Triangle_Gemoetry_Configurations.pdf) and its [solution](/assets/files/i3435_Geometry-Murica_Solutions.pdf)
