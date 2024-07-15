@@ -1,4 +1,4 @@
-# Self-Contained Incenter-Related Configurations
+### Self-Contained Incenter-Related Configurations
 
 #### Let's start off from the **Incenter-Excenter Lemma**:
 
@@ -45,17 +45,49 @@ $$
 
 #### (1) It is a well-known Lemma in the Mixtilinear Configuration that: $T$ is the $A$-Mixtilinear Point.
 
-####(2) The Antipode fact $\implies \angle{M_{BC}TM_A}=90^{\circ} \implies T$ is the midpoint of $IJ$
+#### (2) The Antipode fact $\implies \angle{M_{BC}TM_A}=90^{\circ} \implies T$ is the midpoint of $IJ$
 
-#### Let $K$ be the intersection of tangents at $I, J$ to $\odot{BIC}$
+#### Let $K$ be the intersection of tangents at $I, J$ to $\odot{BIC}$, [here](/assets/files/poles_and_polars.pdf) is a handout on topic of Polar and Pole.
 
-#### (3) La-Hire's Theorem $\implies I, J $ are the polar of $K$ with reference to $\odot{BIC}$
+![image-20240713092614227](H:\workspace\mwo\assets\images\2024\image-20240713092614227.png)
+
+#### Let $T$ be a point inside $\odot{M_A}$, other than $M_A$ and $K$ is its **inverse** around $\odot{M_A}$, then the tangency points $I,J$ of the tangents from $K$ to $\odot{M_A}$ are collinear with $T$. The line $IJ$ is called the polar of $K$ with reference to $\odot{M_A}$. $K$ is called the pole of $IJ$ with reference to $\odot{M_A}$.
+
+![image-20240714002843524](H:\workspace\mwo\assets\images\2024\image-20240714002843524.png)
+
+#### Let $l$ be a line lies outside $\odot{M_A}$, make perpendicular line from $M_A$ to $l$ and let the foot be point $K$, let $I,J$ be the tangency points of the tangents from $K$ to $\odot{M_A}$ , $IJ \cap KM_A=T$, then $T$ is the pole of line $l$ with reference to $\odot{M_A}$, line $l$ is the polar of $T$ with reference to $\odot{M_A}$.
+
+#### Or we start from point $T$ which is outside 
+
+$$
+\begin{multline}
+\shoveleft \boxed{\pmb{\text{La Hire's Theorem}}}\\
+\shoveleft \text{A point }X \text{ lives on the polar of a point }Y \text{ iff }Y \text{ lies on the polar of }X.
+\end{multline}
+$$
+
+![image-20240714011006907](H:\workspace\mwo\assets\images\2024\image-20240714010506295.png)
+
+**Prove:**
+$$
+\begin{multline}
+\shoveleft \text{Let line }IJ \text{ is the polar of point }K \text{ with reference to }\odot{M_A}, IM_A=R\\
+\shoveleft \implies KM_A \perp IJ, KI \perp IM_A \implies \angle{TKI}=\angle{M_AIT}\implies KT \cdot KM_A=R^2\\
+\shoveleft \text{Let }T' \text{ is a point on }IJ, \text{ to find polar of }T', \text{ we make } I',J' \text{ on }\odot{M_A} \text{ such that }I'J' \perp T'M_A\\
+\shoveleft \text{From }I',J' \text{ we make tangents and they meet at }K' \implies K'I' \perp I'M_A \\
+\shoveleft  \implies \angle{I'K'M_A}=\angle{T'I'M_A}\implies K'T'\cdot K'M_A=I'M_A^2=R^2=KT\cdot KM_A\\
+\shoveleft \implies \dfrac{KT}{K'T'}=\dfrac{K'M_A}{KM_A} \implies \triangle{TT'M_A}\sim\triangle{K'KM_A}\implies \angle{KK'M_A}=\angle{T'TM_A}=90^{\circ}\\
+\shoveleft \implies KK' \perp K'M_A \implies l \text{ is the polar of point }T' \text{ with reference to }\odot{M_A}\\
+\shoveleft \implies K \text{ lies on the polar of }T'. \text{ The reverse backward is similar.} \blacksquare 
+\end{multline}
+$$
+
+
+#### (3) La-Hire's Theorem $\implies$ line  $IJ$ are the polar of $K$ with reference to $\odot{BIC}$
 
 #### $\implies K $ lies on the polar of $M_{BC}$ with reference to $\odot{BIC}$, i.e., $K \in BC$
 
 #### (4) $K, T, M_A$ are collinear
-
-
 
 #### We can use harmonic quadrilateral instead of La-Hire's Theorem here:
 
