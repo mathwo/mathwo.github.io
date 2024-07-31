@@ -33,7 +33,7 @@ $$
 $$
 \begin{multline}
 \shoveleft \dfrac{BE}{CE}=\dfrac{[ABE]}{[ACE]}=\dfrac{d(B, AE)}{d(C, AE)}==\dfrac{d(B, AD)}{d(C, AD)}=\dfrac{[ABD]}{[ACD]}\\
-\shoveleft =\dfrac{\dfrac{1}{2} \cdot AB \cdot BD \cdot sin{\angle{ABD}}}{\dfrac{1}{2} \cdot AC \cdot CD \cdot sin{\angle{ACD}}}=\dfrac{AB}{AC} \cdot \dfrac{BD}{CD}\\
+\shoveleft =\dfrac{\dfrac{1}{2} \cdot AB \cdot BD \cdot sin{\angle{ABD}}}{\dfrac{1}{2} \cdot AC \cdot CD \cdot sin{\angle{ACD}}}=\dfrac{AB}{AC} \cdot \dfrac{BD}{CD}\blacksquare\\
 \end{multline}
 $$
 
@@ -81,12 +81,18 @@ $$
 
 #### We will start from $\boxed{symmedian}$: 
 
-#### Symmedian is the reflection of median over the corresponding angle bisector of a triangle (isogonal of the median).
+$$
+\begin{multline}
+\shoveleft \pmb{\text{Symmedian }}\text{ is the reflection of median over the corresponding angle bisector of a triangle (isogonal of the median).}\\
+\end{multline}
+$$
+
+
 
 ![image-20240716042808826](H:\workspace\mwo\assets\images\2024\image-20240716042234802.png)
 $$
 \begin{multline}
-\shoveleft  \boxed{\pmb{\text{Lemma 1}}}\\
+\shoveleft  \boxed{\pmb{\text{Symmedian Lemma 1}}}\\
 \shoveleft \text{In }\triangle{ABC}, P \text{ is a point on } BC \text{ such that }\dfrac{BP}{PC}=\dfrac{AB^2}{AC^2} \text{ iff }AP \text{ is a symmedian}.
 \end{multline}
 $$
@@ -101,7 +107,7 @@ $$
 
 $$
 \begin{multline}
-\shoveleft \boxed{\pmb{\text{Lemma 2}}}\\
+\shoveleft \boxed{\pmb{\text{Symmedian Lemma 2}}}\\
 \shoveleft \text{If the tangents at }B \text{ and } C \text{ to circumcircle of }\triangle{ABC} \text{ intersect at }K, \text{ then the line } AK \text{ is a symmedian}.\\
 \end{multline}
 $$
@@ -121,7 +127,7 @@ $$
 
 $$
 \begin{multline}
-\shoveleft \boxed{\pmb{\text{Lemma 3}}}\\
+\shoveleft \boxed{\pmb{\text{Symmedian Lemma 3}}}\\
 \shoveleft AP \text{ is the A-symmedian of }\triangle{ABC} \text{ with } P \text{ on }BC. AP \cap \odot(ABC) = X, \text{ then } \dfrac{AB}{AC}=\dfrac{BX}{CX}\\
 \end{multline}
 $$
@@ -135,12 +141,44 @@ $$
 \end{multline}
 $$
 
-#### Now we will introduce $\boxed{\text{Cross Ratios}}$  from Projective Geometry:
+#### Now we will introduce $\boxed{\text{Cross Ratios}}$ ,$\boxed{\text{Pencil}}$ and $\boxed{\text{Perspectivity}}$ from Projective Geometry:
 
 $$
 \begin{multline}
 \shoveleft \text{For any given four collinear points }A,B,X,Y, \text{ the cross ratio is}\\
 \shoveleft (A,B;X,Y) = \dfrac{XA}{XB} {\div} \dfrac{YA}{YB}\\
+\shoveleft \text{When four lines }a,b,c,d \text{ are concurrent at some point }P, \text{ the cross ratio will be}\\
+\shoveleft (a,b;c,d)=\dfrac{sin\angle(c,a)}{sin\angle(c,b)} \div \dfrac{sin\angle(d,a)}{sin\angle(d.b)}\\
+\shoveleft \text{If }A,B,X,Y \text{ are collinear points on lines }a,b,x,y \text{ (respectively) concurrent at }K\\
+\shoveleft K(A,B;X,Y)=(a,b;x,y) \text{ is called a }\pmb{\text{pencil}}\text{ of lines}\\
+\end{multline}
+$$
+
+$$
+\begin{multline}
+\shoveleft  \boxed{\pmb{\text{Cross Ratio Lemma 1}}}\\
+\shoveleft \text{If }P(A,B;X,Y) \text{ is a pencil of lines and } A,B,X,Y \text{ are collinear then }\\
+\shoveleft P(A,B;X,Y)=(A,B;X,Y)\\
+\shoveleft \text{(Apply Sine laws on the corresponding triangles will prove this)}
+\end{multline}
+$$
+
+$$
+\begin{multline}
+\shoveleft  \boxed{\pmb{\text{Cross Ratio Lemma 2}}}\\
+\shoveleft \text{If }A,B,X,Y \text{ are concyclic and } P \text{ is any point on the circumcircle, then }\\
+\shoveleft P(A,B;X,Y)=\pm\dfrac{XA}{XB} \div \dfrac{YA}{YB}\\
+\shoveleft \text{(This means } P(A,B;X,Y) \text{ does not depend on }P \text{ )}
+\end{multline}
+$$
+
+$$
+\begin{multline}
+\shoveleft  \pmb{\text{Perspectivity at }P}\\
+\shoveleft \text{If two lines }s, t\text{ are given such that points } A,B,C,D \text{ lies on } s.\\
+\shoveleft \text{Let }P \text{ be a point and the intersection points of }PA,PB,PC,PD \text{ with line }t \text{ are }A',B',C',D' \text{ respectively, then}\\
+\shoveleft P(A,B;C,D)=P(A',B';C',D')=(A,B;C,D)=(A',B',C',D')\\
+\shoveleft \text{This is called } \pmb{\text{perspectivity}} \text{ at }P. \text{ This is donated by} (A,B;C,D)\overset{P}{=}(A',B';C',D')\\
 \end{multline}
 $$
 
