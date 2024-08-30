@@ -1,6 +1,6 @@
 ---
 title: Geometry Summary Sheet
-date: 2024-08-029 07:43
+date: 2024-08-29 07:43
 tags: []
 ---
 
