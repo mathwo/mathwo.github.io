@@ -4,8 +4,6 @@ date: 2024-08-29 07:43
 tags: []
 ---
 
-## Geometry Summary Sheet
-
 ![image-20240828124158928](/assets/images/2024/image-20240828122357390.png)
 
 ![image-20240828120559337](/assets/images/2024/image-20240828115143418.png)
