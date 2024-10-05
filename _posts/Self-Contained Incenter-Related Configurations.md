@@ -2,7 +2,7 @@
 
 #### Let's start from Ratio Lemma:
 
-![image-20240716082337165](H:\workspace\mwo\assets\images\2024\image-20240716082310459.png)
+![image-20240716082337165](/assets/images/2024/image-20240716082310459.png)
 $$
 \begin{multline}
 \shoveleft \boxed{\pmb{\text{Boring Ratio Lemma}}}\\
@@ -27,7 +27,7 @@ $$
 \end{multline}
 $$
 
-![image-20240716083508836](H:\workspace\mwo\assets\images\2024\image-20240716083508836.png)
+![image-20240716083508836](/assets/images/2024/image-20240716083508836.png)
 
 **Prove:**
 $$
@@ -48,7 +48,7 @@ $$
 \end{multline}
 $$
 
-![image-20240703203831106](H:\workspace\mwo\assets\images\2024\image-20240702000925430.png)
+![image-20240703203831106](/assets/images/2024/image-20240702000925430.png)
 
 **Prove:**
 $$
@@ -67,7 +67,7 @@ $$
 
 #### Let $M_{BC}$ be midpoint of arc $\overset{\huge\frown}{BAC}$, easy to see that:
 
-![image-20240702002022547](H:\workspace\mwo\assets\images\2024\image-20240702001939003.png)
+![image-20240702002022547](/assets/images/2024/image-20240702001939003.png)
 
 #### (1) $M_A$ is the center of $\odot{BIC}$
 
@@ -79,7 +79,7 @@ $$
 
 
 
-#### We will start from $\boxed{symmedian}$: 
+#### We will start from $\boxed{symmedian}$:
 
 $$
 \begin{multline}
@@ -89,7 +89,7 @@ $$
 
 
 
-![image-20240716042808826](H:\workspace\mwo\assets\images\2024\image-20240716042234802.png)
+![image-20240716042808826](/assets/images/2024/image-20240716042234802.png)
 $$
 \begin{multline}
 \shoveleft  \boxed{\pmb{\text{Symmedian Lemma 1}}}\\
@@ -112,13 +112,13 @@ $$
 \end{multline}
 $$
 
-![image-20240716203829494](H:\workspace\mwo\assets\images\2024\image-20240716203829494.png)
+![image-20240716203829494](/assets/images/2024/image-20240716203829494.png)
 
 **Prove:**
 $$
 \begin{multline}
 \shoveleft \text{Let }AK \cap BC=P, \text{easy to see }BK=CK, \angle{CBK}=\angle{BCK}=\angle{A}\\
-\shoveleft \text{from Lmma 1 } \implies \dfrac{BP}{CP}=\dfrac{BK}{CK}\dfrac{sin\angle{BKP}}{sin\angle{CKP}}=\dfrac{sin\angle{BKP}}{sin\angle{CKP}}\\ 
+\shoveleft \text{from Lmma 1 } \implies \dfrac{BP}{CP}=\dfrac{BK}{CK}\dfrac{sin\angle{BKP}}{sin\angle{CKP}}=\dfrac{sin\angle{BKP}}{sin\angle{CKP}}\\
 \shoveleft \text{Apply Sine laws in }\triangle{ABK} \implies \dfrac{AB}{sin\angle{BKP}}=\dfrac{AK}{sin\angle{ABK}}=\dfrac{AK}{sin(\angle{A}+\angle{B})}=\dfrac{AK}{sin{\angle{C}}}\\
 \shoveleft \text{Apple Sine laws in }\triangle{ACK} \implies  \dfrac{AC}{sin\angle{CKP}}=\dfrac{AK}{sin\angle{ACK}}=\dfrac{AK}{sin(\angle{A}+\angle{C})}=\dfrac{AK}{sin\angle{B}}\\
 \shoveleft \implies \dfrac{sin\angle{BKP}}{sin\angle{CKP}}=\dfrac{AB}{AC}\cdot \dfrac{sin\angle{C}}{sin\angle{B}}=\dfrac{AB}{AC}\cdot \dfrac{AB}{AC} \implies AK \text{ is a symmedian of }\triangle{ABC}\blacksquare\\
@@ -132,12 +132,12 @@ $$
 \end{multline}
 $$
 
-![image-20240716210334241](H:\workspace\mwo\assets\images\2024\image-20240716210334241.png)
+![image-20240716210334241](/assets/images/2024/image-20240716210334241.png)
 
 **Prove:**
 $$
 \begin{multline}
-\shoveleft \text{By Ratio Lemma }\implies \dfrac{BX}{CX}\cdot\dfrac{sin\angle{BXA}}{sin\angle{CXA}}= \dfrac{BX}{CX}\cdot\dfrac{sin\angle{C}}{sin\angle{B}}= \dfrac{BX}{CX}\cdot\dfrac{AB}{AC}=\dfrac{BP}{CP}=\dfrac{AB^2}{AC^2}\implies\dfrac{AB}{AC}=\dfrac{BX}{CX}\blacksquare 
+\shoveleft \text{By Ratio Lemma }\implies \dfrac{BX}{CX}\cdot\dfrac{sin\angle{BXA}}{sin\angle{CXA}}= \dfrac{BX}{CX}\cdot\dfrac{sin\angle{C}}{sin\angle{B}}= \dfrac{BX}{CX}\cdot\dfrac{AB}{AC}=\dfrac{BP}{CP}=\dfrac{AB^2}{AC^2}\implies\dfrac{AB}{AC}=\dfrac{BX}{CX}\blacksquare
 \end{multline}
 $$
 
@@ -186,15 +186,15 @@ $$
 
 #### [Here](/assets/files/poles_and_polars.pdf) is a handout on topic of Polar and Pole.
 
-![image-20240713092614227](H:\workspace\mwo\assets\images\2024\image-20240713092614227.png)
+![image-20240713092614227](/assets/images/2024/image-20240713092614227.png)
 
 #### Let $T$ be a point inside $\odot{M_A}$, other than $M_A$ and $K$ is its **inverse** around $\odot{M_A}$, then the tangency points $I,J$ of the tangents from $K$ to $\odot{M_A}$ are collinear with $T$. The line $IJ$ is called the polar of $K$ with reference to $\odot{M_A}$. $K$ is called the pole of $IJ$ with reference to $\odot{M_A}$.
 
-![image-20240714002843524](H:\workspace\mwo\assets\images\2024\image-20240714002843524.png)
+![image-20240714002843524](/assets/images/2024/image-20240714002843524.png)
 
 #### Let $l$ be a line lies outside $\odot{M_A}$, make perpendicular line from $M_A$ to $l$ and let the foot be point $K$, let $I,J$ be the tangency points of the tangents from $K$ to $\odot{M_A}$ , $IJ \cap KM_A=T$, then $T$ is the pole of line $l$ with reference to $\odot{M_A}$, line $l$ is the polar of $T$ with reference to $\odot{M_A}$.
 
-#### Or we start from point $T$ which is outside 
+#### Or we start from point $T$ which is outside
 
 $$
 \begin{multline}
@@ -203,7 +203,7 @@ $$
 \end{multline}
 $$
 
-![image-20240714011006907](H:\workspace\mwo\assets\images\2024\image-20240714010506295.png)
+![image-20240714011006907](/assets/images/2024/image-20240714010506295.png)
 
 **Prove:**
 $$
@@ -215,7 +215,7 @@ $$
 \shoveleft  \implies \angle{I'K'M_A}=\angle{T'I'M_A}\implies K'T'\cdot K'M_A=I'M_A^2=R^2=KT\cdot KM_A\\
 \shoveleft \implies \dfrac{KT}{K'T'}=\dfrac{K'M_A}{KM_A} \implies \triangle{TT'M_A}\sim\triangle{K'KM_A}\implies \angle{KK'M_A}=\angle{T'TM_A}=90^{\circ}\\
 \shoveleft \implies KK' \perp K'M_A \implies l \text{ is the polar of point }T' \text{ with reference to }\odot{M_A}\\
-\shoveleft \implies K \text{ lies on the polar of }T'. \text{ The reverse backward is similar.} \blacksquare 
+\shoveleft \implies K \text{ lies on the polar of }T'. \text{ The reverse backward is similar.} \blacksquare
 \end{multline}
 $$
 
@@ -230,7 +230,7 @@ $$
 \end{multline}
 $$
 
-#### Some references including [Proof 1](https://tomrocksmaths.com/wp-content/uploads/2022/06/essay-3.pdf), [Proof 2](https://imomath.com/index.cgi?page=polePolarBrianchonBrokard) and [Proof 3](/assetc/files/Proof_of_Brocards_Theorem_Shounak_Kar.pdf) provides proof of this theorem. 
+#### Some references including [Proof 1](https://tomrocksmaths.com/wp-content/uploads/2022/06/essay-3.pdf), [Proof 2](https://imomath.com/index.cgi?page=polePolarBrianchonBrokard) and [Proof 3](/assetc/files/Proof_of_Brocards_Theorem_Shounak_Kar.pdf) provides proof of this theorem.
 
 #### (3) La-Hire's Theorem $\implies$ line  $IJ$ are the polar of $K$ with reference to $\odot{BIC}$
 
@@ -240,7 +240,7 @@ $$
 
 #### Then we introduce Harmonic Quadrilateral:
 
-![image-20240702003447325](H:\workspace\mwo\assets\images\2024\image-20240702002845027.png)
+![image-20240702003447325](/assets/images/2024/image-20240702002845027.png)
 
 #### (1) It is a well-known Lemma in the Mixtilinear Configuration that: $T$ is the $A$-Mixtilinear Point.
 
@@ -248,7 +248,7 @@ $$
 
 #### We can use harmonic quadrilateral instead of La-Hire's Theorem here:
 
-![image-20240702004724634](H:\workspace\mwo\assets\images\2024\image-20240702004724634.png)
+![image-20240702004724634](/assets/images/2024/image-20240702004724634.png)
 
 #### Let:
 
@@ -270,7 +270,7 @@ $$
 
 #### (2) Radical Axes Theorem on $\odot{ALFIE}, \odot{BIC}, \odot{ABC} \implies K \in LA$
 
-![image-20240702221519992](H:\workspace\mwo\assets\images\2024\image-20240702005504678.png)
+![image-20240702221519992](/assets/images/2024/image-20240702005504678.png)
 
 #### (3) Radical axis on $\odot{IM_A}, \odot{BIC}, \odot{ABC} \implies$ $X,Y$ are the tangency points of the $A$-Mixtilinear incircle with $AB, AC$
 
