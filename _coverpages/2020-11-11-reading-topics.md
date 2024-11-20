@@ -4,6 +4,34 @@ date: 2020-11-11 05:30
 tags: []
 ---
 
+### 11/20/2024
+
+#### Some unknown theorems that blow my mind away
+
+##### Chord length and diameter:
+
+![image-20241120034305468](H:\workspace\mwo\assets\images\2024\image-20241120034305468.png)
+$$
+\begin{multline}
+\shoveleft \dfrac{CD}{sin\angle{CBD}}=\dfrac{BC}{sin\angle{BDC}}=\dfrac{BC}{sin\angle{BAC}}=\dfrac{BC}{BC/AB}=AB\\
+\shoveleft \implies CD=ABsin\angle{CBD}=ABsin\angle{CAD}\\
+\shoveleft \text{The length of a chord (CD) equals the diameter (AB) times the sine of the angle}\\
+\shoveleft \text{formed by its endpoints and any point on the circle}
+\end{multline}
+$$
+
+##### Sine of triangle sides
+
+![image-20241120040804085](H:\workspace\mwo\assets\images\2024\image-20241120040507946.png)
+$$
+\begin{multline}
+\shoveleft \dfrac{sin\angle{ADC}}{AE}=\dfrac{sin\angle{AED}}{AD} \implies sin\angle{ADC}=\dfrac{AE}{AD}sin\angle{AED}\\
+\shoveleft \dfrac{sin\angle{CDB}}{BE}=\dfrac{sin\angle{AED}}{BD} \implies sin\angle{CDB}=\dfrac{BE}{BD}sin\angle{AED}\\
+\shoveleft \implies \dfrac{sin\angle{ADC}}{sin\angle{CDB}}=\dfrac{AE \cdot BD}{BE \cdot AD}
+\end{multline}
+$$
+**Note:** this fraction is often used in Ceva's Theorem in trigonometric form.
+
 ### 07/02/2024
 
 There is a series of 6-post writing on AOPS community blog containing quite a lot lemmas and conclusions. The posts just list them out without the details on proving. Also there are some related docs on [Evan Chen's page](https://web.evanchen.cc/olympiad.html) which can be listed here too:
