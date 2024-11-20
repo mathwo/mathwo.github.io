@@ -10,7 +10,7 @@ tags: []
 
 ##### Chord length and diameter:
 
-![image-20241120034305468](H:\workspace\mwo\assets\images\2024\image-20241120034305468.png)
+![image-20241120034305468](/assets/images/2024/image-20241120034305468.png)
 $$
 \begin{multline}
 \shoveleft \dfrac{CD}{sin\angle{CBD}}=\dfrac{BC}{sin\angle{BDC}}=\dfrac{BC}{sin\angle{BAC}}=\dfrac{BC}{BC/AB}=AB\\
@@ -22,7 +22,7 @@ $$
 
 ##### Sine of triangle sides
 
-![image-20241120040804085](H:\workspace\mwo\assets\images\2024\image-20241120040507946.png)
+![image-20241120040804085](/assets/images/2024/image-20241120040507946.png)
 $$
 \begin{multline}
 \shoveleft \dfrac{sin\angle{ADC}}{AE}=\dfrac{sin\angle{AED}}{AD} \implies sin\angle{ADC}=\dfrac{AE}{AD}sin\angle{AED}\\
