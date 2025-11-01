@@ -15,6 +15,12 @@
 
 #### Permutations
 
+Permutation: the number of permutations of size $r$ from a group of $n$ objects
+
+$P(n, r) = \dfrac{n!}{(n-r)!} = n \cdot (n-1) \cdot (n-2) \dots (n-r+1) $ where $n \ge r$
+
+$P(n, n)=n!, P(n, 1)=n$
+
 * The number of permutations of size $r$ from a group of $n$ objects: $P(n, r)=\dfrac{n!}{(n-r)!}$
 
 * Property: $P(n, k)  \cdot P(n-k, j)=P(n, k_j)$
