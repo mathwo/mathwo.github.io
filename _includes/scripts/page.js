@@ -39,7 +39,12 @@
         });
       }
 
-      if (window.innerWidth <= 640) {
+      var left = tableContentRect.right + gap;
+      if (left + popupWidth > window.innerWidth - gap) {
+        left = tableContentRect.left - popupWidth - gap;
+      }
+
+      if (window.innerWidth <= 640 || left < gap) {
         popup.style.position = 'absolute';
         popup.style.left = Math.max(gap, tableContentRect.left + window.pageXOffset) + 'px';
         popup.style.top = (tableRect.bottom + window.pageYOffset + gap) + 'px';
@@ -47,16 +52,7 @@
       }
 
       popup.style.position = 'fixed';
-      var left = tableContentRect.right + gap;
       var top = previewRect.top + (previewRect.height / 2) - (popupHeight / 2);
-
-      if (left + popupWidth > window.innerWidth - gap) {
-        left = tableContentRect.left - popupWidth - gap;
-      }
-      if (left < gap) {
-        left = gap;
-      }
-
       top = Math.max(gap, Math.min(top, window.innerHeight - popupHeight - gap));
       popup.style.left = left + 'px';
       popup.style.top = top + 'px';
