@@ -1,0 +1,39 @@
+{%- assign target_post = nil -%}
+{%- for post in site.posts -%}
+  {%- if post.path contains include.post -%}
+    {%- assign target_post = post -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- capture preview -%}
+  {%- if target_post -%}
+    <span class="monthly-problem-preview">
+      <a href="{{ target_post.url | relative_url }}">{{ include.label }}</a>
+      <span class="monthly-problem-preview__panel" role="tooltip" aria-label="{{ target_post.title }} thumbnails">
+        <span class="monthly-problem-preview__title">{{ target_post.title }}</span>
+        <span class="monthly-problem-preview__images">
+          {%- assign shown = 0 -%}
+          {%- assign problem_sections = target_post.content | split: '<h4 id="' -%}
+          {%- for problem_section in problem_sections offset: 1 -%}
+            {%- assign problem_heading_id = problem_section | split: '"' | first -%}
+            {%- assign image_parts = problem_section | split: 'src="' -%}
+            {%- for image_part in image_parts offset: 1 limit: 1 -%}
+              {%- assign image_url = image_part | split: '"' | first -%}
+              <a class="monthly-problem-preview__image-link" href="{{ target_post.url | append: '#' | append: problem_heading_id | relative_url }}">
+                <img src="{{ image_url | relative_url }}" alt="" loading="lazy">
+              </a>
+              {%- assign shown = shown | plus: 1 -%}
+            {%- endfor -%}
+          {%- endfor -%}
+          {%- if shown == 0 -%}
+            <a class="monthly-problem-preview__empty" href="{{ target_post.url | relative_url }}">Open {{ target_post.title }}</a>
+          {%- endif -%}
+        </span>
+      </span>
+    </span>
+  {%- else -%}
+    {{ include.label }}
+  {%- endif -%}
+{%- endcapture -%}
+{{- preview | strip_newlines -}}
