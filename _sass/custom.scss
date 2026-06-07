@@ -17,11 +17,11 @@
   position: fixed;
   z-index: 1000;
   display: none;
+  flex-direction: column;
   width: 38rem;
   max-width: calc(100vw - 2rem);
   max-height: 78vh;
-  padding: 1rem 2.75rem 1rem 1rem;
-  overflow: auto;
+  overflow: hidden;
   pointer-events: auto;
   color: #202124;
   background: #fff;
@@ -31,13 +31,27 @@
 }
 
 .monthly-problem-preview-popup.is-open {
-  display: block;
+  display: flex;
+}
+
+.monthly-problem-preview-popup__header {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  padding: .75rem 1rem .75rem 1rem;
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .07);
+}
+
+.monthly-problem-preview-popup__body {
+  overflow: auto;
+  padding: .75rem 1rem 1rem;
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 .monthly-problem-preview-popup__close {
-  position: absolute;
-  top: .45rem;
-  right: .55rem;
+  flex-shrink: 0;
   width: 1.75rem;
   height: 1.75rem;
   padding: 0;
@@ -59,11 +73,13 @@
 
 .monthly-problem-preview__title {
   display: block;
-  margin-bottom: .75rem;
+  flex: 1 1 auto;
+  overflow: hidden;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.2;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .monthly-problem-preview__images {

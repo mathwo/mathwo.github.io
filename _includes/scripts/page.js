@@ -9,16 +9,22 @@
     var pinnedPreview = null;
     var hideTimer;
     var popup = document.createElement('div');
+    var popupHeader = document.createElement('div');
+    var popupTitle = document.createElement('span');
     var closeButton = document.createElement('button');
-    var popupContent = document.createElement('div');
+    var popupBody = document.createElement('div');
     popup.className = 'monthly-problem-preview-popup';
+    popupHeader.className = 'monthly-problem-preview-popup__header';
+    popupTitle.className = 'monthly-problem-preview__title';
     closeButton.className = 'monthly-problem-preview-popup__close';
     closeButton.type = 'button';
     closeButton.setAttribute('aria-label', 'Close thumbnails');
     closeButton.textContent = '×';
-    popupContent.className = 'monthly-problem-preview-popup__content';
-    popup.appendChild(closeButton);
-    popup.appendChild(popupContent);
+    popupBody.className = 'monthly-problem-preview-popup__body';
+    popupHeader.appendChild(popupTitle);
+    popupHeader.appendChild(closeButton);
+    popup.appendChild(popupHeader);
+    popup.appendChild(popupBody);
     document.body.appendChild(popup);
 
     function positionPopup(preview) {
@@ -63,7 +69,7 @@
       pinnedPreview = null;
       window.clearTimeout(hideTimer);
       popup.classList.remove('is-open');
-      popupContent.innerHTML = '';
+      popupBody.innerHTML = '';
     }
 
     function show(preview) {
@@ -73,7 +79,10 @@
       }
 
       activePreview = preview;
-      popupContent.innerHTML = panel.innerHTML;
+      var titleEl = panel.querySelector('.monthly-problem-preview__title');
+      var imagesEl = panel.querySelector('.monthly-problem-preview__images');
+      popupTitle.innerHTML = titleEl ? titleEl.innerHTML : '';
+      popupBody.innerHTML = imagesEl ? imagesEl.outerHTML : '';
       popup.classList.add('is-open');
       positionPopup(preview);
     }
@@ -87,10 +96,21 @@
         if (!pinnedPreview) {
           activePreview = null;
           popup.classList.remove('is-open');
-          popupContent.innerHTML = '';
+          popupBody.innerHTML = '';
         }
       }, 350);
     }
+
+    var isTouching = false;
+    var touchEndTimer;
+    document.addEventListener('touchstart', function () {
+      isTouching = true;
+      clearTimeout(touchEndTimer);
+    }, { passive: true });
+    document.addEventListener('touchend', function () {
+      clearTimeout(touchEndTimer);
+      touchEndTimer = setTimeout(function () { isTouching = false; }, 500);
+    }, { passive: true });
 
     Array.prototype.forEach.call(previews, function (preview) {
       var panel = preview.querySelector('.monthly-problem-preview__panel');
@@ -100,17 +120,15 @@
       }
 
       preview.addEventListener('mouseenter', function () {
-        if (!pinnedPreview) {
-          window.clearTimeout(hideTimer);
-          show(preview);
-        }
+        if (isTouching || pinnedPreview) return;
+        window.clearTimeout(hideTimer);
+        show(preview);
       });
       preview.addEventListener('mouseleave', scheduleHoverHide);
       preview.addEventListener('focusin', function () {
-        if (!pinnedPreview) {
-          window.clearTimeout(hideTimer);
-          show(preview);
-        }
+        if (isTouching || pinnedPreview) return;
+        window.clearTimeout(hideTimer);
+        show(preview);
       });
       preview.addEventListener('focusout', scheduleHoverHide);
       monthLink.addEventListener('click', function (event) {
