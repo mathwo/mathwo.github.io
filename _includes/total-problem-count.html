@@ -1,0 +1,11 @@
+{%- assign tpc_total = 0 -%}
+{%- for tpc_post in site.posts -%}
+  {%- if tpc_post.path contains '-wo.' -%}
+    {%- assign tpc_sections = tpc_post.content | split: '<h4 id="' -%}
+    {%- assign tpc_count = tpc_sections.size | minus: 1 -%}
+    {%- if tpc_count > 0 -%}
+      {%- assign tpc_total = tpc_total | plus: tpc_count -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- tpc_total -}}

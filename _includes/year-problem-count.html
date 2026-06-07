@@ -1,0 +1,12 @@
+{%- assign ypc_total = 0 -%}
+{%- for ypc_post in site.posts -%}
+  {%- assign ypc_year = ypc_post.date | date: "%Y" -%}
+  {%- if ypc_year == include.year and ypc_post.path contains '-wo.' -%}
+    {%- assign ypc_sections = ypc_post.content | split: '<h4 id="' -%}
+    {%- assign ypc_count = ypc_sections.size | minus: 1 -%}
+    {%- if ypc_count > 0 -%}
+      {%- assign ypc_total = ypc_total | plus: ypc_count -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- ypc_total -}}
