@@ -29,7 +29,35 @@
               {%- else -%}
                 {%- assign text_tile = problem_heading_text | replace: '…', '...' -%}
                 {%- if text_tile.size > 120 -%}
-                  {%- assign text_tile = text_tile | truncate: 120, '&#46;&#46;&#46;' -%}
+                  {%- assign dollar_parts = text_tile | split: '$' -%}
+                  {%- assign safe_text = '' -%}
+                  {%- assign char_count = 0 -%}
+                  {%- for part in dollar_parts -%}
+                    {%- assign in_math = forloop.index0 | modulo: 2 -%}
+                    {%- if in_math == 0 -%}
+                      {%- if char_count >= 120 -%}
+                        {%- break -%}
+                      {%- endif -%}
+                      {%- assign new_count = char_count | plus: part.size -%}
+                      {%- if new_count > 120 -%}
+                        {%- assign remaining = 120 | minus: char_count -%}
+                        {%- assign part_truncated = part | truncate: remaining, '' -%}
+                        {%- assign safe_text = safe_text | append: part_truncated -%}
+                        {%- break -%}
+                      {%- else -%}
+                        {%- assign safe_text = safe_text | append: part -%}
+                        {%- assign char_count = new_count -%}
+                      {%- endif -%}
+                    {%- else -%}
+                      {%- assign math_expr = '$' | append: part | append: '$' -%}
+                      {%- assign safe_text = safe_text | append: math_expr -%}
+                      {%- assign char_count = char_count | plus: math_expr.size -%}
+                      {%- if char_count > 120 -%}
+                        {%- break -%}
+                      {%- endif -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                  {%- assign text_tile = safe_text | append: '&#46;&#46;&#46;' -%}
                 {%- endif -%}
                 <span class="monthly-problem-preview__text-tile">{{ text_tile }}</span>
               {%- endif -%}
