@@ -37,7 +37,10 @@
             {%- assign shown = shown | plus: 1 -%}
           {%- endfor -%}
           {%- if shown == 0 -%}
-            <a class="monthly-problem-preview__empty" href="{{ target_post.url | relative_url }}">Open {{ target_post.title }}</a>
+            <span class="monthly-problem-preview__empty">
+              <span>Empty.</span>
+              <a href="{{ target_post.url | relative_url }}">Open {{ target_post.title }}</a>
+            </span>
           {%- endif -%}
         </span>
       </span>
