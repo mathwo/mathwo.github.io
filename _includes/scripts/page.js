@@ -81,7 +81,12 @@
       activePreview = preview;
       var titleEl = panel.querySelector('.monthly-problem-preview__title');
       var imagesEl = panel.querySelector('.monthly-problem-preview__images');
-      popupTitle.innerHTML = titleEl ? titleEl.innerHTML : '';
+      var count = imagesEl ? imagesEl.querySelectorAll('.monthly-problem-preview__image-link').length : 0;
+      var titleHtml = titleEl ? titleEl.innerHTML : '';
+      if (count > 0) {
+        titleHtml += ' - ' + count + ' Problem' + (count !== 1 ? 's' : '');
+      }
+      popupTitle.innerHTML = titleHtml;
       popupBody.innerHTML = imagesEl ? imagesEl.outerHTML : '';
       popup.classList.add('is-open');
       positionPopup(preview);
