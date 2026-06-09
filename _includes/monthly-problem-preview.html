@@ -17,7 +17,7 @@
           {%- assign problem_sections = target_post.content | split: '<h4 id="' -%}
           {%- for problem_section in problem_sections offset: 1 -%}
             {%- assign problem_heading_id = problem_section | split: '"' | first -%}
-            {%- assign problem_heading_text = problem_section | split: '</h4>' | first | split: '>' | last | strip_html | strip -%}
+            {%- assign problem_heading_text = problem_section | split: '</h4>' | first | remove_first: problem_heading_id | remove_first: '">' | strip_html | strip -%}
             {%- assign image_parts = problem_section | split: 'src="' -%}
             {%- assign image_url = nil -%}
             {%- if image_parts.size > 1 -%}
