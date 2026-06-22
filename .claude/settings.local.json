@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(xargs grep -l \"strip_html\")",
-      "Bash(xargs head -20)"
+      "Bash(xargs head -20)",
+      "Bash(claude *)",
+      "Bash(npm show *)"
     ]
   }
 }

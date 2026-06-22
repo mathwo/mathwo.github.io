@@ -18,7 +18,8 @@
           {%- for problem_section in problem_sections offset: 1 -%}
             {%- assign problem_heading_id = problem_section | split: '"' | first -%}
             {%- assign problem_heading_text = problem_section | split: '</h4>' | first | remove_first: problem_heading_id | remove_first: '">' | strip_html | strip -%}
-            {%- assign image_parts = problem_section | split: 'src="' -%}
+            {%- assign problem_section_before_solve = problem_section | split: '<strong>Solve' | first -%}
+            {%- assign image_parts = problem_section_before_solve | split: 'src="' -%}
             {%- assign image_url = nil -%}
             {%- if image_parts.size > 1 -%}
               {%- assign image_url = image_parts[1] | split: '"' | first -%}
