@@ -31,9 +31,17 @@
     padding: 0.35rem 0.5rem;
   }
   #board-wrap {
+    position: relative;
     width: 100%;
     max-width: 560px;
     margin: 0 auto;
+  }
+  #board-frame {
+    position: absolute;
+    box-sizing: border-box;
+    border-style: solid;
+    pointer-events: none;
+    display: none;
   }
   #board .buttons {
     height: auto !important;
@@ -53,6 +61,10 @@
     align-items: center;
     justify-content: center;
   }
+  #board.brown cg-board,
+  #board .brown cg-board {
+    background-image: url('img/board/wood-brown.png') !important;
+  }
 </style>
 </head>
 <body>
@@ -67,15 +79,25 @@
     <option value="zeit">Zeit</option>
   </select>
 </div>
-<div id="board-wrap"><div id="board"></div></div>
+<div id="board-wrap"><div id="board"></div><div id="board-frame"></div></div>
 <script>
   var wrapEl = document.getElementById('board-wrap');
   var boardEl = document.getElementById('board');
+  var frameEl = document.getElementById('board-frame');
   var themeSelect = document.getElementById('theme-select');
   var pgnText = null;
   var resizeTimer = null;
   var lastWidth = null;
   var lastTheme = null;
+  var FRAME_BORDER = 14; // visual thickness of the frame
+  var FRAME_OVERLAP = 2; // extra px the border eats into the board, to
+                          // hide the ~1px subpixel gap that can appear on
+                          // the far (right/bottom) edges from fractional
+                          // layout rounding
+  var THEME_COLORS = {
+    brown: '#5c3924'
+  };
+  var DEFAULT_FRAME_COLOR = '#ffffff';
 
   function computedBoardWidth() {
     // pgnView sets an inline width directly on #board, so measure the
@@ -84,6 +106,53 @@
     var w = Math.floor(wrapEl.clientWidth) || window.innerWidth - 32;
     return Math.max(240, Math.min(560, w));
   }
+
+  // pgnView sizes its internal chessground elements itself, in pixels,
+  // independent of any CSS we add to them - a border added directly there
+  // fights that sizing and clips. Instead, position an absolutely-placed
+  // overlay frame around the rendered board's actual bounding box, so it
+  // can't conflict with pgnView's own layout math.
+  function positionFrame() {
+    var cgWrap = boardEl.querySelector('.cg-wrap');
+    if (!cgWrap) {
+      frameEl.style.display = 'none';
+      return;
+    }
+    var wrapRect = wrapEl.getBoundingClientRect();
+    var boardRect = cgWrap.getBoundingClientRect();
+    frameEl.style.display = 'block';
+    frameEl.style.borderColor = THEME_COLORS[themeSelect.value] || DEFAULT_FRAME_COLOR;
+    // Position/size the frame using the visual border thickness, but make
+    // the actual CSS border a bit thicker (FRAME_OVERLAP more) so it eats
+    // slightly into the board on every side - covering any subpixel gap
+    // without changing how thick the frame looks from outside.
+    frameEl.style.borderWidth = (FRAME_BORDER + FRAME_OVERLAP) + 'px';
+    frameEl.style.left = (boardRect.left - wrapRect.left - FRAME_BORDER) + 'px';
+    frameEl.style.top = (boardRect.top - wrapRect.top - FRAME_BORDER) + 'px';
+    frameEl.style.width = (boardRect.width + FRAME_BORDER * 2) + 'px';
+    frameEl.style.height = (boardRect.height + FRAME_BORDER * 2) + 'px';
+  }
+
+  // chessground sometimes computes cg-container/cg-board's inline size
+  // from a stale (pre-layout) reading of cg-wrap's rect, baking in a
+  // wrong - occasionally zero-height - size and leaving a gap between the
+  // board and its frame. It also reapplies this on its own (e.g. on a
+  // native window resize) independent of our render() calls, so a
+  // one-time fix isn't enough. Its base CSS already defines both elements
+  // as 100% of cg-wrap (always sized correctly) - watch for it clobbering
+  // that and strip the bad inline override back out every time.
+  function clearBadSize(el) {
+    if (el.style.width || el.style.height) {
+      el.style.removeProperty('width');
+      el.style.removeProperty('height');
+    }
+  }
+  var sizeGuard = new MutationObserver(function (mutations) {
+    mutations.forEach(function (m) {
+      clearBadSize(m.target);
+    });
+    positionFrame();
+  });
 
   function render() {
     var width = computedBoardWidth();
@@ -101,6 +170,12 @@
       showCoords: false,
       width: width + 'px'
     });
+    sizeGuard.disconnect();
+    boardEl.querySelectorAll('cg-container, cg-board').forEach(function (el) {
+      clearBadSize(el);
+      sizeGuard.observe(el, { attributes: true, attributeFilter: ['style'] });
+    });
+    positionFrame();
   }
 
   fetch('games.pgn')
