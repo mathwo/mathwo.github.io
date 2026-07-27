@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chess Games</title>
+<script src="https://cdn.jsdelivr.net/npm/@mliebelt/pgn-viewer@1.6.11/lib/dist.js"></script>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  #board-wrap {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  #board .buttons {
+    height: auto !important;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0;
+  }
+  #board .pgnvbutton {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 26px !important;
+    line-height: 44px !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<h1>Chess Games</h1>
+<div id="board-wrap"><div id="board"></div></div>
+<script>
+  var wrapEl = document.getElementById('board-wrap');
+  var boardEl = document.getElementById('board');
+  var pgnText = null;
+  var resizeTimer = null;
+  var lastWidth = null;
+
+  function computedBoardWidth() {
+    // pgnView sets an inline width directly on #board, so measure the
+    // untouched wrapper instead to get the space actually available at
+    // the current viewport size.
+    var w = Math.floor(wrapEl.clientWidth) || window.innerWidth - 32;
+    return Math.max(240, Math.min(560, w));
+  }
+
+  function render() {
+    var width = computedBoardWidth();
+    if (width === lastWidth) {
+      return;
+    }
+    lastWidth = width;
+    boardEl.innerHTML = '';
+    PGNV.pgnView('board', {
+      pgn: pgnText,
+      manyGames: true,
+      theme: 'sportverlag',
+      showCoords: false,
+      width: width + 'px'
+    });
+  }
+
+  fetch('games.pgn')
+    .then(function (response) {
+      if (!response.ok) {
+        throw new Error('HTTP ' + response.status);
+      }
+      return response.text();
+    })
+    .then(function (pgn) {
+      pgnText = pgn;
+      render();
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(render, 250);
+      });
+      window.addEventListener('orientationchange', function () {
+        setTimeout(render, 250);
+      });
+    })
+    .catch(function (err) {
+      boardEl.textContent = 'Failed to load games.pgn: ' + err;
+    });
+</script>
+</body>
+</html>
