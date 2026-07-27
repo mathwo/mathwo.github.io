@@ -15,8 +15,20 @@
     margin: 2rem auto;
     padding: 0 1rem;
   }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
   h1 {
     font-size: 1.4rem;
+    margin: 0.5rem 0;
+  }
+  #theme-select {
+    font-size: 1rem;
+    padding: 0.35rem 0.5rem;
   }
   #board-wrap {
     width: 100%;
@@ -44,14 +56,26 @@
 </style>
 </head>
 <body>
-<h1>Chess Games</h1>
+<div class="header-row">
+  <h1>Chess Games</h1>
+  <select id="theme-select">
+    <option value="blue">Blue</option>
+    <option value="brown">Brown</option>
+    <option value="falken">Falken</option>
+    <option value="informator">Informator</option>
+    <option value="sportverlag" selected>Sportverlag</option>
+    <option value="zeit">Zeit</option>
+  </select>
+</div>
 <div id="board-wrap"><div id="board"></div></div>
 <script>
   var wrapEl = document.getElementById('board-wrap');
   var boardEl = document.getElementById('board');
+  var themeSelect = document.getElementById('theme-select');
   var pgnText = null;
   var resizeTimer = null;
   var lastWidth = null;
+  var lastTheme = null;
 
   function computedBoardWidth() {
     // pgnView sets an inline width directly on #board, so measure the
@@ -63,15 +87,17 @@
 
   function render() {
     var width = computedBoardWidth();
-    if (width === lastWidth) {
+    var theme = themeSelect.value;
+    if (width === lastWidth && theme === lastTheme) {
       return;
     }
     lastWidth = width;
+    lastTheme = theme;
     boardEl.innerHTML = '';
     PGNV.pgnView('board', {
       pgn: pgnText,
       manyGames: true,
-      theme: 'sportverlag',
+      theme: theme,
       showCoords: false,
       width: width + 'px'
     });
@@ -94,6 +120,7 @@
       window.addEventListener('orientationchange', function () {
         setTimeout(render, 250);
       });
+      themeSelect.addEventListener('change', render);
     })
     .catch(function (err) {
       boardEl.textContent = 'Failed to load games.pgn: ' + err;
