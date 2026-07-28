@@ -80,19 +80,50 @@
     padding: 0.35rem 0.5rem;
     margin-bottom: 12px;
   }
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #copy-link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    flex: none;
+  }
+  #copy-link-btn:hover {
+    background: #f2f2f2;
+  }
+  #copy-link-btn.copied {
+    color: #1a7f37;
+    border-color: #1a7f37;
+  }
 </style>
 </head>
 <body>
 <div class="header-row">
   <h1>Brady's Games</h1>
-  <select id="theme-select">
-    <option value="blue">Blue</option>
-    <option value="brown" selected>Brown</option>
-    <option value="falken">Falken</option>
-    <option value="informator">Informator</option>
-    <option value="sportverlag">Sportverlag</option>
-    <option value="zeit">Zeit</option>
-  </select>
+  <div class="controls">
+    <select id="theme-select">
+      <option value="blue">Blue</option>
+      <option value="brown" selected>Brown</option>
+      <option value="falken">Falken</option>
+      <option value="informator">Informator</option>
+      <option value="sportverlag">Sportverlag</option>
+      <option value="zeit">Zeit</option>
+    </select>
+    <button id="copy-link-btn" type="button" title="Copy link to this game" aria-label="Copy link to this game">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+    </button>
+  </div>
 </div>
 <div id="board-wrap"><div id="board"></div><div id="board-frame"></div></div>
 <script>
@@ -100,10 +131,12 @@
   var boardEl = document.getElementById('board');
   var frameEl = document.getElementById('board-frame');
   var themeSelect = document.getElementById('theme-select');
+  var copyBtn = document.getElementById('copy-link-btn');
   var pgnText = null;
   var resizeTimer = null;
   var lastWidth = null;
   var lastTheme = null;
+  var currentGameIndex = 0;
   var FRAME_BORDER = 14; // visual thickness of the frame
   var FRAME_OVERLAP = 2; // extra px the border eats into the board, to
                           // hide the ~1px subpixel gap that can appear on
@@ -169,6 +202,34 @@
     positionFrame();
   });
 
+  function getIndexFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    var idx = parseInt(params.get('index'), 10);
+    return isNaN(idx) || idx < 0 ? 0 : idx;
+  }
+
+  // The games <select> pgnView builds (id "boardGames") is recreated from
+  // scratch on every render() call, so any selection we set on it has to be
+  // reapplied each time - this both restores currentGameIndex after a
+  // rebuild and re-wires the listener that keeps currentGameIndex in sync
+  // with the user manually switching games.
+  function applyGameSelection() {
+    var gamesSelect = document.getElementById('boardGames');
+    if (!gamesSelect || !gamesSelect.options.length) {
+      return;
+    }
+    var maxIndex = gamesSelect.options.length - 1;
+    var idx = Math.min(Math.max(currentGameIndex, 0), maxIndex);
+    if (parseInt(gamesSelect.value, 10) !== idx) {
+      gamesSelect.value = String(idx);
+      gamesSelect.dispatchEvent(new Event('change'));
+    }
+    currentGameIndex = idx;
+    gamesSelect.addEventListener('change', function () {
+      currentGameIndex = parseInt(gamesSelect.value, 10) || 0;
+    });
+  }
+
   function render() {
     var width = computedBoardWidth();
     var theme = themeSelect.value;
@@ -191,6 +252,7 @@
       sizeGuard.observe(el, { attributes: true, attributeFilter: ['style'] });
     });
     positionFrame();
+    applyGameSelection();
   }
 
   fetch('games.pgn')
@@ -202,6 +264,7 @@
     })
     .then(function (pgn) {
       pgnText = pgn;
+      currentGameIndex = getIndexFromUrl();
       render();
       window.addEventListener('resize', function () {
         clearTimeout(resizeTimer);
@@ -215,6 +278,34 @@
     .catch(function (err) {
       boardEl.textContent = 'Failed to load games.pgn: ' + err;
     });
+
+  var COPY_ICON = copyBtn.innerHTML;
+  var CHECK_ICON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+  var copyResetTimer = null;
+
+  copyBtn.addEventListener('click', function () {
+    var url = new URL(window.location.href);
+    url.searchParams.set('index', currentGameIndex);
+    var text = url.toString();
+
+    function showCopied() {
+      copyBtn.innerHTML = CHECK_ICON;
+      copyBtn.classList.add('copied');
+      clearTimeout(copyResetTimer);
+      copyResetTimer = setTimeout(function () {
+        copyBtn.innerHTML = COPY_ICON;
+        copyBtn.classList.remove('copied');
+      }, 1200);
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(showCopied).catch(function () {
+        window.prompt('Copy this link:', text);
+      });
+    } else {
+      window.prompt('Copy this link:', text);
+    }
+  });
 </script>
 </body>
 </html>
