@@ -605,3 +605,27 @@ I found this is a favorite topic to Indians, not sure why.
 - An Intro series with Chinese subtitles - [1](https://www.youtube.com/watch?v=vvCqhg9lsAA) - [2](https://www.youtube.com/watch?v=NtRyzvKdD6k)
 
 ---
+
+### 09/27/2026
+
+There is a new approach to solve any cubic equation in general form:
+$$
+\begin{multline}
+\shoveleft \text{Equation }ax^3+bx^2+cx+d=0\\
+\shoveleft \text{Let } \bbox[5px, border: 1px solid red]{p=\dfrac{c}{a}-\dfrac{b^2}{3a^2}}, \bbox[5px, border: 1px solid red]{q=\dfrac{2b^3}{27a^3}-\dfrac{bc}{3a^2}+\dfrac{d}{a}}, x=y-\dfrac{b}{3a}\\
+\shoveleft \text{The equation is transferred to } y^3 + py+q=0\\
+\shoveleft \text{Let }\bbox[5px, border: 1px solid red]{k^2=-\dfrac{p}{3}}, \bbox[5px, border: 1px solid red]{r=\dfrac{q}{k^3}}, z=\dfrac{y}{k}\\
+\shoveleft \text{The equation is transffered to } z^3-3z+r=0\\
+\shoveleft \text{Let } r=2sin\phi \implies \bbox[5px, border: 1px solid red]{\phi=sin^{-1}(\dfrac{r}{2})}, z=2sin\theta, \text{ where } \theta, \phi \in \mathbb{C}\\
+\shoveleft \implies z^3-3z=8sin^3\theta-6sin\theta=-2sin3\theta\\
+\shoveleft \text{The equation is transferred to } -2sin3\theta+2sin\phi=0\\
+\shoveleft \implies sin3\theta=sin\phi \implies 3\theta=\phi +2k\pi \text{ or }\pi-\phi+2k\pi\\
+\shoveleft \implies \theta_1=\dfrac{\phi}{3}, \theta_2=\dfrac{\pi}{3}-\dfrac{\phi}{3}, \theta_3=\dfrac{2\pi}{3}-\dfrac{\phi}{3}\\
+\shoveleft \implies z_1=2sin\dfrac{\phi}{3}, z_2=2sin(\dfrac{\pi}{3}-\dfrac{\phi}{3}), z_3=2sin(\dfrac{2\pi}{3}-\dfrac{\phi}{3})\\
+\shoveleft \implies y_1=2ksin\dfrac{\phi}{3}, y_2=2ksin(\dfrac{\pi}{3}-\dfrac{\phi}{3}), y_3=2ksin(\dfrac{2\pi}{3}-\dfrac{\phi}{3})\\
+\shoveleft \implies \bbox[5px, border: 1px solid red]{x_1=y_1-\dfrac{b}{3a}, x_2=y_2-\dfrac{b}{3a}, x_3=y_3-\dfrac{b}{3a}}
+\end{multline}
+$$
+
+---
+
