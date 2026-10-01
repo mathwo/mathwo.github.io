@@ -11,6 +11,7 @@
 .history/**
 
 /.vscode/
+/tmp/
 
 node_modules/
 .sass-cache/
