@@ -627,5 +627,20 @@ $$
 \end{multline}
 $$
 
----
+And another approach close to Cardano's Method:
+$$
+\begin{multline}
+\shoveleft \text{Equation }ax^3+bx^2+cx+d=0\\
+\shoveleft \text{Let } \bbox[5px, border: 1px solid red]{p=\dfrac{c}{a}-\dfrac{b^2}{3a^2}}, \bbox[5px, border: 1px solid red]{q=\dfrac{2b^3}{27a^3}-\dfrac{bc}{3a^2}+\dfrac{d}{a}}, x=y-\dfrac{b}{3a}\\
+\shoveleft \text{The equation is transferred to } y^3 + py+q=0\\
+\shoveleft \text{Let }y=z-\dfrac{p}{3z}, \text{ the equation is transferred to}\\
+\shoveleft (z-\dfrac{p}{3z})^3+pz-\dfrac{p^2}{3z}+q=z^3-pz+\dfrac{p^2}{3z}+pz-\dfrac{p^2}{3z}-\dfrac{p^3}{27z^3}+q=0\\
+\shoveleft \implies z^6+qz^3-\dfrac{p^3}{27}=0 \implies z^3=-\dfrac{q}{2}\pm\sqrt{(\dfrac{q}{2})^2+(\dfrac{p}{3})^3}\\
+\shoveleft \text{Let }u=\sqrt[3]{-\dfrac{q}{2}+\sqrt{(\dfrac{q}{2})^2+(\dfrac{p}{3})^3}},v=\sqrt[3]{-\dfrac{q}{2}-\sqrt{(\dfrac{q}{2})^2+(\dfrac{p}{3})^3}}\\
+\shoveleft \omega = -\dfrac{1}{2} +\dfrac{\sqrt{3}}{2}i, \omega^2=-\dfrac{1}{2} - \dfrac{\sqrt{3}}{2}i\\
+\shoveleft \implies \bbox[5px, border: 1px solid red]{x_1=u+v-\dfrac{b}{3a}, x_2=\omega u+\omega^2v-\dfrac{b}{3a}, x_3=\omega^2u+\omega v-\dfrac{b}{3a}}
+\end{multline}
+$$
+
+
 
