@@ -649,6 +649,8 @@ $$
 #### Length of Angle Bisector:  $AD$ is the bisector of $\angle{BAC}$ in $\triangle{ABC}$, show that $AD^2=AB \cdot AC - BD \cdot CD$
 
 ![image-20261010123524272](/assets/images/2026/image-20261010123524272.png)
+
+**Prove 1:**
 $$
 \begin{multline}
 \shoveleft \text{Let }AB=c, AC=b, AD=d, BD=a_1, CD=a_2\\
@@ -658,6 +660,21 @@ $$
 \shoveleft =\dfrac{a_1bc+a_2bc}{a_1+a_2}-a_1a_2=bc-a_1a_2\implies AD^2=AB \cdot AC-BD \cdot CD\blacksquare
 \end{multline}
 $$
+**Prove 2:**
+
+![image-20261010131932777](/assets/images/2026/image-20261010131932777.png)
+$$
+\begin{multline}
+\shoveleft \text{Extend }AD \text{ and meet the circumcircle of }\triangle{ABC} \text{ at }E\\
+\shoveleft \implies \angle{BAD}=\angle{EAC}, \angle{ABC}=\angle{AEC}=\angle{BCE}\\
+\shoveleft \implies \triangle{ABD} \sim \triangle{AEC} \sim \triangle{CED}\\
+\shoveleft \implies \dfrac{AB}{AD}=\dfrac{AE}{AC}, \dfrac{AD}{BD}=\dfrac{CD}{DE}\\
+\shoveleft \implies AB \cdot AC=AD\cdot AE=AD \cdot DE + AD^2=BD \cdot CD+AD^2\\
+\shoveleft \implies AD^2=AB\cdot AC - BD \cdot CD \blacksquare
+\end{multline}
+$$
+
+
 **Note:**
 
 - This theorem is called [Schooten Theorem](https://zh.wikipedia.org/wiki/%E8%A7%92%E5%B9%B3%E5%88%86%E7%BA%BF%E9%95%BF%E5%85%AC%E5%BC%8F) in Chinese
