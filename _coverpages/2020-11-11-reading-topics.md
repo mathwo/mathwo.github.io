@@ -642,5 +642,25 @@ $$
 \end{multline}
 $$
 
+---
 
+### 10/10/2026
+
+#### Length of Angle Bisector:  $AD$ is the bisector of $\angle{BAC}$ in $\triangle{ABC}$, show that $AD^2=AB \cdot AC - BD \cdot CD$
+
+![image-20261010123524272](/assets/images/2026/image-20261010123524272.png)
+$$
+\begin{multline}
+\shoveleft \text{Let }AB=c, AC=b, AD=d, BD=a_1, CD=a_2\\
+\shoveleft \text{Angle Bisector Theorem }\implies \dfrac{AB}{BC}=\dfrac{BD}{CD} \implies \dfrac{c}{b}=\dfrac{a_1}{a_2}\\
+\shoveleft \text{Stewart's Theorem }\implies AB^2\cdot CD + AC^2 \cdot BD = BC(AD^2+BD \cdot CD)\\
+\shoveleft \implies a_2c^2+a_1b^2=(a_1+a_2)(d^2+a_1a_2)\implies d^2=\dfrac{a_2c^2+a_1b^2}{a_1+a_2}-a_1a_2\\
+\shoveleft =\dfrac{a_1bc+a_2bc}{a_1+a_2}-a_1a_2=bc-a_1a_2\implies AD^2=AB \cdot AC-BD \cdot CD\blacksquare
+\end{multline}
+$$
+**Note:**
+
+- This theorem is called [Schooten Theorem](https://zh.wikipedia.org/wiki/%E8%A7%92%E5%B9%B3%E5%88%86%E7%BA%BF%E9%95%BF%E5%85%AC%E5%BC%8F) in Chinese
+
+---
 
